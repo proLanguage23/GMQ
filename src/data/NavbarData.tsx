@@ -295,7 +295,7 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu1',
                             text:'PR Pathways in Australia',
-                            href:'/migration-services'
+                            href:'/migration-services/permanent-residency-pathways-in-australia'
                         },
                     ]
                 },

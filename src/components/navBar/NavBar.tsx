@@ -11,7 +11,7 @@ function NavBar() {
   const { Logo, Menus } = NavbarDummyData;
 
   return (
-    <div className="">
+    <div className="sticky top-0 left-0 w-full bg-white border-b z-10">
       <Container fullWidth isContainer={false} class_name="lg:!px-9">
         <div className="flex justify-between items-center gap-2 py-1 flex-wrap">
           {/* logo  */}

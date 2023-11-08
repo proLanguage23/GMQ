@@ -15,4 +15,7 @@
   .NewCommonBtnStyle {
     @apply block w-fit bg-primary hover:bg-white hover:text-secondary text-white border-2 border-secondary transition-all rounded-full p-2 text-center font-medium capitalize px-9 py-3;
   }
+  .appTitle {
+    @apply lg:text-[45px] text-[30px] text-primary text-center md:text-left;
+  }
 }
