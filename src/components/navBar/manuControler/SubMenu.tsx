@@ -16,7 +16,7 @@ function SubMenu({
     <div className="w-full">
       <div className="relative block">
         <div
-          className="flex items-center justify-between flex-wrap text-white hover:text-secondary transition-all group"
+          className="flex items-center justify-between flex-wrap px-3 text-white hover:text-secondary transition-all group"
           onMouseOver={() => {
             MegaSubMenuStateHandler(text);
             allCloseCondolerHandler({ two: true });

@@ -12,7 +12,7 @@ function NavBar() {
 
   return (
     <div className="">
-      <Container fullWidth isContainer={false}>
+      <Container fullWidth isContainer={false} class_name="lg:!px-9">
         <div className="flex justify-between items-center gap-2 py-1 flex-wrap">
           {/* logo  */}
           <div className="flex-wrap">

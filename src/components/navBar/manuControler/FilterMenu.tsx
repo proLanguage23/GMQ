@@ -68,7 +68,7 @@ function FilterMenu({
         </div>
         {/* sub menu  */}
         {SubMenuStateName === text && (
-          <div className="subMenu absolute top-[95%] -right-5 md:w-[250px] min-w-full bg-primary rounded px-3 border shadow-md">
+          <div className="subMenu absolute top-[95%] -right-5 md:w-[250px] min-w-full bg-primary rounded border shadow-md">
             {subMenuData?.map((subItem: any, key: any) => (
               <SubMenu
                 key={key}
