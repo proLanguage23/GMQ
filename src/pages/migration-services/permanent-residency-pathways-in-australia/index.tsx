@@ -1,4 +1,5 @@
 import PermanentResidencyPathwaysInAustraliaBody from "@/components/migration-services/permanent-residency-pathways-in-australia/PermanentResidencyPathwaysInAustraliaBody";
+import PermanentResidencyPathwaysInAustraliaFAQ from "@/components/migration-services/permanent-residency-pathways-in-australia/PermanentResidencyPathwaysInAustraliaFAQ";
 import { DynamicHead } from "@/components/share";
 import AppBannerImg from "@/components/share/AppBannerImg";
 import { PermanentResidencyPathwaysInAustraliaDummyData } from "@/data/ServiceMigrationServicesData";
@@ -14,6 +15,7 @@ function PermanentResidencyPathwaysInAustraliaPage() {
         text="Australia Permanent residency pathways -GMQ Global"
       />
       <PermanentResidencyPathwaysInAustraliaBody />
+      <PermanentResidencyPathwaysInAustraliaFAQ />
     </>
   );
 }

@@ -17,7 +17,7 @@ function MigrationServicesPage() {
       <AppBannerImg img={banner} text='Migration Services-GMQ' />
       <MigrationServicesSectionOne />
       <MigrationServicesSectionTwo />
-      <MigrationServicesSectionFour />
+      {/* <MigrationServicesSectionFour /> */}
       <MigrationServicesSectionThree />
       <CommonForm />
       <TestimonialSection />

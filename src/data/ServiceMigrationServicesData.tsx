@@ -512,5 +512,38 @@ export const PermanentResidencyPathwaysInAustraliaDummyData = {
       },
     ],
   },
+  faq: {
+    title: "Frequently Asked Questions",
+    faqData: [
+      {
+        id: 1,
+        title: "What is Permanent Residency and Why is It Important?",
+        text: "Permanent residency (PR) is a status granting foreign nationals the right to live, work, and study indefinitely in Australia. It is crucial as it offers stability access to benefits, and serves as a path to Australian citizenship.",
+      },
+      {
+        id: 2,
+        title:
+          "What are the Different Pathways to Permanent Residency in Australia?",
+        text: "Australia offers PR through skilled migration, family sponsorship, and business migration. Each pathway has specific criteria, allowing individuals from diverse backgrounds and with circumstances to obtain PR.",
+      },
+      {
+        id: 3,
+        title:
+          "What are the Benefits of Obtaining Permanent Residency in Australia?",
+        text: "PR provides access to healthcare, education, social security, and job opportunities. It enables you to live anywhere in Australia, sponsor eligible family members, and eventually apply for citizenship.",
+      },
+      {
+        id: 4,
+        title: "How can I Apply for Permanent Residency in Australia?",
+        text: "Apply by submitting an Expression of Interest (EOI) through the relevant system, receiving an invitation to apply, gathering required documents, and lodging a complete application. You may seek an AECC expert’s help to streamline your application.",
+      },
+      {
+        id: 5,
+        title:
+          "How Long does It Take to Process a Permanent Residency application?",
+        text: "Processing times vary based on factors like the pathway, application volume, and completeness. Generally, PR visa application processing can take several months to even over a year.",
+      },
+    ],
+  },
   right: `<iframe src="https://form.jotform.com/232981505164053" class="contactFormOfHome iframeClass"></iframe>`,
 };
