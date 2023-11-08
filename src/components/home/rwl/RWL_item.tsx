@@ -7,11 +7,11 @@ function RWL_item({ id, title, description, btn }: any) {
     <div
       className={`${
         id === 3 ? "border-none" : "md:border-r"
-      } border-secondary p-3 flex flex-col justify-end items-end flex-wrap`}
+      } border-secondary p-3 flex flex-col justify-end items-center md:items-end flex-wrap`}
     >
       <AppDescriptionWithDangerouslySetInnerHTML
         text={description}
-        class_name="text-white text-right"
+        class_name="text-white text-center md:text-right "
       />
       <PageLink
         {...btn}
@@ -19,7 +19,7 @@ function RWL_item({ id, title, description, btn }: any) {
       />
       <AppTitle
         text={title}
-        class_name="manropeFont md:!text-[70px] md:!text-[85px] text-white "
+        class_name="manropeFont lg:!text-[85px] text-white "
       />
     </div>
   );
