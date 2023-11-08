@@ -6,7 +6,7 @@ export default function DynamicHead({
   viewport,
   icon,
 }: any) {
-  const staticText = "GMQ";
+  const staticText = "GMQ Global";
   const staticDescription =
     "GMQ Description";
   const staticViewport = "width=device-width, initial-scale=1";

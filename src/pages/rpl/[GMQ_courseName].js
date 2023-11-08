@@ -32,7 +32,7 @@ function GMQ_coursePage() {
 
   return (
     <>
-      <DynamicHead title={`${pageData?.content?.title}-GMQ`} />
+      <DynamicHead title={`${pageData?.content?.title}-GMQ Global`} />
       <AppCourseBanner text={pageData?.content?.title} />
       <Courses data={pageData?.content?.link} />
     </>

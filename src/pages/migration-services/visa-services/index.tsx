@@ -12,8 +12,8 @@ function VisaServicesPage() {
   const { banner } = ServiceMigrationServicesDummyData;
   return (
     <>
-      <DynamicHead title="Visa Services | Migration Services-GMQ" />
-      <AppBannerImg img={banner} text="Visa Services | Migration Services-GMQ" />
+      <DynamicHead title="Visa Services | Migration Services-GMQ Global" />
+      <AppBannerImg img={banner} text="Visa Services | Migration Services-GMQ Global" />
       <VisaServicesSectionTwo />
       <VisaServicesSectionThree />
       <VisaServicesSectionFour />

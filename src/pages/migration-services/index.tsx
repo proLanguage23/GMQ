@@ -13,7 +13,7 @@ function MigrationServicesPage() {
     const {banner} = ServiceMigrationServicesDummyData
   return (
     <>
-      <DynamicHead title="Migration Services-GMQ" />
+      <DynamicHead title="Migration Services-GMQ Global" />
       <AppBannerImg img={banner} text='Migration Services-GMQ' />
       <MigrationServicesSectionOne />
       <MigrationServicesSectionTwo />

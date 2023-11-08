@@ -241,8 +241,8 @@ ul{
 .swiper-button-next:after {
   font-size: 35px !important;
 }
-.swiper.HomeBannerSwipeWrap {
-  /* z-index: -20 !important; */
+.swiper.HomeBannerSwipeWrap .swiper-button-prev, .swiper.HomeBannerSwipeWrap .swiper-button-next {
+  display: none;
 }
 .swiper-button-prev,
 .swiper-button-next {

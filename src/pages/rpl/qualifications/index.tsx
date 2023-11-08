@@ -6,7 +6,7 @@ import React from 'react'
 function Qualifications() {
   return (
     <>
-      <DynamicHead title="RPL Qualifications-GMQ" />
+      <DynamicHead title="RPL Qualifications-GMQ Global" />
       <AppCourseBanner text={"RPL Qualifications"} />
       <RPL_AllQualificationsList />
     </>
