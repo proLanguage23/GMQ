@@ -11,6 +11,15 @@ import MARACodeOfConduct from "@/assets/migration-services/visa-services/MARACod
 import OurVisaMigrationCounsellorsareleadingtheindustry from "@/assets/migration-services/visa-services/OurVisaMigrationCounsellorsareleadingtheindustry.png";
 import WhichVisaIsRightForMeBanner from "@/assets/migration-services/WhichVisaIsRightForMe/WhichVisaIsRightForMeBanner.png";
 import TemporaryGraduateVisa from "@/assets/migration-services/WhichVisaIsRightForMe/TemporaryGraduateVisa.png";
+import HowdoIknowwhichAustraliaVisaIneed from "@/assets/migration-services/WhichVisaIsRightForMe/HowdoIknowwhichAustraliaVisaIneed.png";
+import EverythingYouWanttoKnowAboutEmployerNominationSchemeVisa_186 from "@/assets/migration-services/WhichVisaIsRightForMe/EverythingYouWanttoKnowAboutEmployerNominationSchemeVisa_186.png";
+import ParentVisa_Onshore_And_Offshore from "@/assets/migration-services/WhichVisaIsRightForMe/ParentVisa_Onshore_And_Offshore.png";
+import EverythingYouWanttoKnowAboutEmployerNominationSchemeVisa_590 from "@/assets/migration-services/WhichVisaIsRightForMe/EverythingYouWanttoKnowAboutEmployerNominationSchemeVisa_590.png";
+import ADetailedGuidetoStudentVisaSubclass_500 from "@/assets/migration-services/WhichVisaIsRightForMe/ADetailedGuidetoStudentVisaSubclass_500.png";
+import EverythingYouWanttoKnowaboutSkilledIndependentVisaSubclass_189 from "@/assets/migration-services/WhichVisaIsRightForMe/EverythingYouWanttoKnowaboutSkilledIndependentVisaSubclass_189.png";
+import SkilledNominatedvisasubclass_190 from "@/assets/migration-services/WhichVisaIsRightForMe/SkilledNominatedvisasubclass_190.png";
+import PartnerVisas_OnshoreAndOffshore from "@/assets/migration-services/WhichVisaIsRightForMe/PartnerVisas_OnshoreAndOffshore.png";
+import VisitorVisaSubclass_600 from "@/assets/migration-services/WhichVisaIsRightForMe/VisitorVisaSubclass_600.png";
 
 export const ServiceMigrationServicesDummyData = {
   banner: MigrationServicesBanner,
@@ -145,7 +154,7 @@ export const WhichVisaIsRightForMeDummyData = {
   },
   sectionTwo: {
     left: {
-      img: MARACodeOfConduct,
+      img: HowdoIknowwhichAustraliaVisaIneed,
     },
     right: {
       title: "How do I know which Australia Visa I need?",
@@ -164,7 +173,7 @@ export const WhichVisaIsRightForMeDummyData = {
   sectionFour: {
     title: 'Here are the different types of Australia Visas that we can help with',
     left: {
-      img: MARACodeOfConduct,
+      img: EverythingYouWanttoKnowAboutEmployerNominationSchemeVisa_186,
     },
     right: {
       title: "Everything You Want to Know About Employer Nomination Scheme Visa(186)",
@@ -186,7 +195,105 @@ export const WhichVisaIsRightForMeDummyData = {
       text: `<p>Are you an international student who studied in Australia for 2 years and got graduated and wants to stay further here? If so, you can apply for a Temporary Graduate Visa&nbsp;<strong><a href="#" target="_blank" rel="noopener noreferrer">(Subclass 485)</a>.</strong>&nbsp;It is a transitory visa that allows onshore international students to reside, study, and get employment after their education in Australia. Depending on your educational qualification and citizenship or nationality, you can stay in Australia for two or five years and get work experience with the visa.</p>
       <p><br />All you need to know about the 485 visa, processing time, eligibility and estimated fees.Take a look&nbsp;<strong>latest cost of 485 visa here</strong>..</p>`,
       btn:{
-        text: 'Read more about 186 visa', 
+        text: 'Read more about 485 visa',
+        href: '#',
+      }
+    },
+  },
+  sectionSeven: {
+    left: {
+      img: ParentVisa_Onshore_And_Offshore,
+    },
+    right: {
+      title: "Parent Visa (Onshore And Offshore)",
+      text: `<p>This visa 103 lets parents live temporarily /permanently in Australia if their child is an Australian citizen, permanent resident or an eligible New Zealand citizen who is settled in Australia.</p>
+      <p><br />Ready to get started now? Visit our nearest<br />AECC Global australia or book an appointment now!</p>`,
+      btn:{
+        text: 'Read more about parent visa',
+        href: '#',
+      }
+    },
+  },
+  sectionEight: {
+    left: {
+      img: EverythingYouWanttoKnowAboutEmployerNominationSchemeVisa_590,
+    },
+    right: {
+      title: "Everything You Want to Know About Employer Nomination Scheme Visa(590)",
+      text: `<ul>
+      <li>The&nbsp;<strong>Student Guardian Visa (Subclass 590)</strong>&nbsp;usually lets a legal guardian visit Australia to offer support and care for a person with a student visa who is aged less than 18 years. In exceptional situations, however, it allows a legal guardian to do the aforesaid things for a student visa holder aged over 18 years. The visa will not allow you to work in Australia as a parent or another form of a&nbsp;<strong>legal guardian</strong>, but there are certain things you can do with it. Keep reading to know what the student guardian visa subclass 590 allows, requires and more.<br />Do you know more about&nbsp;Subclass 590 Conditions?<a href="#" target="_blank" rel="noopener noreferrer">&nbsp;GMQ global australia&nbsp;</a>will help you!<br /><strong>Conditions:</strong></li>
+      <li>Student Guardian Visa does not allow you to bring your family members dependants.Check any other visas in our&nbsp;<strong><a href="#" target="_blank" rel="noopener noreferrer">migration team.</a></strong></li>
+      <li>If you intent to be the Guardian for more than one student in Australia, you need to notify the department for which student you would like your visa linked to.</li>
+      </ul>`,
+      btn:{
+        text: 'Read more about 590 visa',
+        href: '#',
+      }
+    },
+  },
+  sectionNine: {
+    left: {
+      img: ADetailedGuidetoStudentVisaSubclass_500,
+    },
+    right: {
+      title: "A Detailed Guide to Student Visa (Subclass 500)",
+      text: `<p>With Student Visa (Subclass 500), you can take part in a&nbsp;<a href="#" target="_blank" rel="noopener noreferrer"><strong>qualifying course in Australia</strong></a>&nbsp;for as many as five years and according to your enrollment. The form of course that you choose will dictate how long you can stay with it in Australia. Keep reading to learn more about the subclass 500 visa.</p>
+      <p><br /><strong>Latest Processing cost for 500 visa:</strong></p>`,
+      btn:{
+        text: 'Read more about 500 visa',
+        href: '#',
+      }
+    },
+  },
+  sectionTen: {
+    left: {
+      img: EverythingYouWanttoKnowaboutSkilledIndependentVisaSubclass_189,
+    },
+    right: {
+      title: "Everything You Want to Know about Skilled Independent Visa (Subclass 189)",
+      text: `<p>Australia is an excellent destination for anyone who wishes to start their life over again. Foreign nationals migrate to Australia for the great work opportunities it provides as well as the quality of goods and services available here. The Skilled Independent Visa (Subclass 189) is an excellent option for skilled foreign nationals who wish to reside and get employment permanently in Australia. It is among the best-known visa streams in Australia, which comes with three streams:&nbsp;<strong>Points-Tested, New Zealand, and Hong Kong.</strong></p>
+      <p><br /><strong>189 Visa&nbsp;:</strong><br />&bull; be in or outside Australia when making the application<br />&bull; work and study anywhere in Australia<br />&bull; sponsor eligible relatives for permanent residence</p>`,
+      btn:{
+        text: 'Read more about 189 visa',
+        href: '#',
+      }
+    },
+  },
+  sectionEleven: {
+    left: {
+      img: SkilledNominatedvisasubclass_190,
+    },
+    right: {
+      title: "Skilled Nominated visa (subclass 190)",
+      text: `<p>The Skilled Nominated visa (Subclass 190) allows nominated skilled employees to stay as long as they want in Australia, besides studying and working here. When the Department of Home Affairs grants you the subclass 190 visa, you will be a permanent resident. There is a component in the visa that allows travelling from and to Australia for five years any number of times. After five years, you can only re-enter Australia with a Resident Return visa (RVV) subclass 155 or subclass 157 in the capacity of a permanent resident. Read on for more information about the 190 skilled visa.</p>`,
+      btn:{
+        text: 'Read more about 190 visa',
+        href: '#',
+      }
+    },
+  },
+  sectionTwelve: {
+    left: {
+      img: PartnerVisas_OnshoreAndOffshore,
+    },
+    right: {
+      title: "Partner Visas (Onshore And Offshore)",
+      text: `<p>This visa allows the spouse or de facto partner of an Australian citizen, permanent resident or eligible New Zealand citizen to live in Australia.</p>`,
+      btn:{
+        text: 'Read more about Partner visa',
+        href: '#',
+      }
+    },
+  },
+  sectionThirteen: {
+    left: {
+      img: VisitorVisaSubclass_600,
+    },
+    right: {
+      title: "Visitor Visa (Subclass 600)",
+      text: `<p>As its name implies, the Visitor Visa (Subclass 600) is a temporary visa that allows you to come to Australia to explore the land, as part of a cruise, and/or for certain business purposes. There are six visitor visa subclass 600 types with different rights: Tourist stream (apply in Australia), Tourist stream (apply outside Australia), Sponsored Family stream, Business Visitor stream, Frequent Traveller stream, and Approved Destination Status stream. The visa comes with a stay period of three, six or twelve months.</p>`,
+      btn:{
+        text: 'Read more about 600 visa',
         href: '#',
       }
     },
