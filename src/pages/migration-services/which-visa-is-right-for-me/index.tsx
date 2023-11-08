@@ -1,5 +1,7 @@
 import CommonForm from '@/components/contactForm/CommonForm';
+import WhichVisaIsRightForMeSectionFive from '@/components/migration-services/which-visa-is-right-for-me/WhichVisaIsRightForMeSectionFive';
 import WhichVisaIsRightForMeSectionFour from '@/components/migration-services/which-visa-is-right-for-me/WhichVisaIsRightForMeSectionFour';
+import WhichVisaIsRightForMeSectionSix from '@/components/migration-services/which-visa-is-right-for-me/WhichVisaIsRightForMeSectionSix';
 import WhichVisaIsRightForMeSectionThree from '@/components/migration-services/which-visa-is-right-for-me/WhichVisaIsRightForMeSectionThree';
 import WhichVisaIsRightForMeSectionTwo from '@/components/migration-services/which-visa-is-right-for-me/WhichVisaIsRightForMeSectionTwo';
 import { DynamicHead } from '@/components/share';
@@ -17,6 +19,9 @@ function WhichVisaIsRightForMePage() {
       <WhichVisaIsRightForMeSectionTwo />
       <WhichVisaIsRightForMeSectionThree />
       <WhichVisaIsRightForMeSectionFour />
+      <WhichVisaIsRightForMeSectionFive />
+      <WhichVisaIsRightForMeSectionSix />
+      {/* <WhichVisaIsRightForMeSectionSaven /> */}
       <CommonForm />
       <TestimonialSection />
     </>

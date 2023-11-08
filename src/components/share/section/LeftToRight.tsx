@@ -30,7 +30,7 @@ function LeftToRight({
         />
       </div>
       <div className="">
-        <AppTitle text={title} />
+        <AppTitle text={title} class_name="font-medium" />
         <div className="mt-5 flex flex-col gap-2">
           {description &&
             description?.map((item: any, key: any) => (
@@ -49,7 +49,7 @@ function LeftToRight({
             )}
             {
               isBtn && (
-                <PageLink {...btn} class_name="commonBtnStyle mt-2" />
+                <PageLink {...btn} class_name="commonBtnStyle mt-5" />
               )
             }
           </div>
