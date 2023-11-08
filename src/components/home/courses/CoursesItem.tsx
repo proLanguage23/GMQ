@@ -13,7 +13,7 @@ function CoursesItem({ img, title, description, btn, class_name = "" }: any) {
         quality={100}
         width={400}
         priority={true}
-        className="object-cover h-56 -mb-5 mx-auto rounded-lg"
+        className="object-contain h-56 -mb-5 mx-auto rounded-lg"
       />
       <div className="bg-secondary md:p-5 p-3 !pb-0 flex-1 flex flex-col justify-between rounded-2xl relative">
         <div className="df">

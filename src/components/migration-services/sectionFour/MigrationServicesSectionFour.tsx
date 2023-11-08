@@ -7,7 +7,7 @@ function MigrationServicesSectionFour() {
   const { sectionFour } = ServiceMigrationServicesDummyData;
   const { courses } = sectionFour;
   return (
-    <div className="py-16 bg-grayCustom">
+    <div className="py-16">
       <Container>
         <div className="flex justify-center flex-wrap gap-5 mt-8 w-full">
           {courses?.map((item, key) => (

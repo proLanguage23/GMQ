@@ -207,7 +207,7 @@ export const WhichVisaIsRightForMeDummyData = {
     right: {
       title: "Parent Visa (Onshore And Offshore)",
       text: `<p>This visa 103 lets parents live temporarily /permanently in Australia if their child is an Australian citizen, permanent resident or an eligible New Zealand citizen who is settled in Australia.</p>
-      <p><br />Ready to get started now? Visit our nearest<br />AECC Global australia or book an appointment now!</p>`,
+      <p><br />Ready to get started now? Visit our nearest<br />GMQ Global australia or book an appointment now!</p>`,
       btn:{
         text: 'Read more about parent visa',
         href: '#',
