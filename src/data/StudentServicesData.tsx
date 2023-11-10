@@ -14,7 +14,7 @@ export const StudentServicesDummyData = {
             <p class="part">As an international student, choosing the right course of study for you in Australia is an important decision. It&rsquo;s not only money, it&rsquo;s also time that you can&rsquo;t get back if you choose a course or institution here that doesn&rsquo;t meet your study or long term career objectives.</p>
 
 
-<p class="part">Talking with an Education Counsellor from AECC Global can help. You can tell us your career goals and we&rsquo;ll give you expert guidance on the study choices that will get you there.</p>
+<p class="part">Talking with an Education Counsellor from GMQ Global can help. You can tell us your career goals and we&rsquo;ll give you expert guidance on the study choices that will get you there.</p>
 
 <p>We can help, whichever stage you&rsquo;re at:</p>
 
@@ -36,7 +36,7 @@ export const StudentServicesDummyData = {
   StudentServicesSectionTwo: {
     left: {
       title: `Seek advice from an education industry-leader`,
-      text: `<p class="part">With almost 10 years&rsquo; experience and a wonderful team of QEAC Certified Education Counsellors, AECC Global can give you all the guidance and services you need to study in Australia. From course selection and managing your study application to visa advice and application services through our in-house migration agents to extensive support for health cover, taxation, accommodation and more, we are here for international students.</p>
+      text: `<p class="part">With almost 10 years&rsquo; experience and a wonderful team of QEAC Certified Education Counsellors, GMQ Global can give you all the guidance and services you need to study in Australia. From course selection and managing your study application to visa advice and application services through our in-house migration agents to extensive support for health cover, taxation, accommodation and more, we are here for international students.</p>
 
       <p class="part">We will start with learning about you and your goals, then our friendly Education Counsellors will help you find a fantastic course at an institution that gets you where you want to go.</p>
       

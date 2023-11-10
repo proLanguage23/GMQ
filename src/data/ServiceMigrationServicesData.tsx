@@ -535,7 +535,7 @@ export const PermanentResidencyPathwaysInAustraliaDummyData = {
       {
         id: 4,
         title: "How can I Apply for Permanent Residency in Australia?",
-        text: "Apply by submitting an Expression of Interest (EOI) through the relevant system, receiving an invitation to apply, gathering required documents, and lodging a complete application. You may seek an AECC expert’s help to streamline your application.",
+        text: "Apply by submitting an Expression of Interest (EOI) through the relevant system, receiving an invitation to apply, gathering required documents, and lodging a complete application. You may seek an GMQ expert’s help to streamline your application.",
       },
       {
         id: 5,
