@@ -306,7 +306,7 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu6',
                             text:'Assessment Test',
-                            href:'/student-services/'
+                            href:'/student-services/gmq-career-and-personality-assessment-test'
                         },
                         {
                             id: 'megaMenu7',
