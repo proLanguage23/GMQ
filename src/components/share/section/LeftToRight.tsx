@@ -28,11 +28,12 @@ function LeftToRight({
         <Image
           src={sideImg}
           alt={title || "img"}
-          width={350}
+          // width={350}
           quality={100}
           // priority={true}
           loading="lazy"
           blurDataURL="true"
+          className="w-full p-3"
         />
       </div>
       <div className="">
