@@ -9,8 +9,8 @@ function VisaAndMigrationCounsellingSectionOne() {
   return (
     <div className="py-16">
       <Container>
-        <div className="dfd">
-          <AppTitle text={title} class_name="text-center" />
+        <div className="">
+          <AppTitle text={title} class_name="text-center mb-9" />
           <AppDescriptionWithDangerouslySetInnerHTML text={text} />
         </div>
       </Container>

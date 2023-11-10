@@ -20,15 +20,15 @@ export const VisaAndMigrationCounsellingDummyData = {
     title: `Here’s how it works`,
     description: `Our registered migration agents will learn about your career goals and lifestyle aspirations so that we can offer tailored advice.`,
     left: {
-      text: `<h2>Step 1 &ndash; We learn about your situation</h2>
+      text: `<h2 class="titleOfParagraph">Step 1 &ndash; We learn about your situation</h2>
 
-            <p class="part">Tell us about your education, skills, and goals in our consultation, and we&rsquo;ll ask some questions to establish your best chance of eligibility. Migration can be based on your health, skills, age, financial resources, English language ability, and family and business background.</p>
-            
-            <h2>Step 2 &ndash; Begin the application process</h2>
+            <p>Tell us about your education, skills, and goals in our consultation, and we&rsquo;ll ask some questions to establish your best chance of eligibility. Migration can be based on your health, skills, age, financial resources, English language ability, and family and business background.</p>
+            <br />
+            <h2 class="titleOfParagraph">Step 2 &ndash; Begin the application process</h2>
             
             <p class="part">Once we&rsquo;ve worked out which visa applies to your situation, we&rsquo;ll go through the entire application process with you from start to finish. We&rsquo;ll carefully check your application before submitting it and follow up with the authorities to ensure it&rsquo;s still moving forward.</p>
-            
-            <h2>Step 3 &ndash; Strengthen your case</h2>
+            <br />
+            <h2 class="titleOfParagraph">Step 3 &ndash; Strengthen your case</h2>
             
             <p class="part">Immigration laws change all the time and also vary depending on your nationality.&nbsp; So, we&rsquo;ll use our extensive experience to do our best to guide you in staying well-positioned for Visa compliance.</p>
             `,
