@@ -286,7 +286,7 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu2',
                             text:'Visa and Migration Counselling',
-                            href:'/student-services/'
+                            href:'/student-services/visa-and-migration-counselling'
                         },
                         {
                             id: 'megaMenu3',
