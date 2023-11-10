@@ -18,7 +18,7 @@ function LeftToRight({
 }: any) {
   return (
     <div
-      className={`grid grid-cols-1 md:grid-cols-2 justify-center items-center ${class_name}`}
+      className={`grid grid-cols-1 md:grid-cols-2 md:gap-2 gap-9 justify-center items-center ${class_name}`}
     >
       <div
         className={`flex justify-center items-center ${

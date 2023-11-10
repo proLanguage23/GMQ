@@ -291,7 +291,7 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu3',
                             text:'Scholarships',
-                            href:'/student-services/'
+                            href:'/student-services/scholarships'
                         },
                         {
                             id: 'megaMenu4',
