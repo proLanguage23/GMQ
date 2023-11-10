@@ -8,7 +8,7 @@ function VisaAndMigrationCounsellingSectionTwo() {
       VisaAndMigrationCounsellingDummyData;
     const { title, right, left, description } = VisaAndMigrationCounsellingSectionTwo;
     return (
-      <div className="py-16">
+      <div className="py-16 bg-grayCustom">
         <Container>
         <div className="flex justify-center items-center flex-col mb-7 gap-4">
           <AppTitle text={title} class_name="text-center" />

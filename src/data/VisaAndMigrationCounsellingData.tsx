@@ -42,12 +42,12 @@ export const VisaAndMigrationCounsellingDummyData = {
       img: VisaAndMigrationCounsellingSectionThreeOne1,
     },
     right: {
-      text: `<h2>Everyone&rsquo;s case is different</h2>
-<br />
+      text: `<h2 class="titleOfParagraph">Everyone&rsquo;s case is different</h2>
             <p>This is why it&rsquo;s important to choose a Migration agent with the right experience to know what you need to do. Our team thoroughly understands the latest Australian visa and migration laws and processes and manages hundreds of visa cases every year with an exceptionally high success rate of visa grants. So no matter your background or position, we&rsquo;ll work with you for the highest chance of success.</p>
             <br />
-            <h2>We&rsquo;ll handle everything for you</h2>
             <br />
+            <h2 class="titleOfParagraph">We&rsquo;ll handle everything for you</h2>
+
             <p class="part">Your course selection and visa application are important, but it&rsquo;s also vital that you take care of the other things, like insurance, any English language requirements and financial aid.</p>
             
             <p class="part">We can explain all of this and more (including an application for Permanent Residency if that is the path you choose). We&rsquo;ll cover everything in your initial consultation.</p>
