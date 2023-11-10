@@ -8,9 +8,10 @@ function AppBannerImg({ img, text }: any) {
         src={img}
         alt={text || "AppBannerImg"}
         quality={100}
-        priority={true}
         className="w-full"
         placeholder="blur"
+        loading="lazy"
+        blurDataURL="true"
       />
     </div>
   );

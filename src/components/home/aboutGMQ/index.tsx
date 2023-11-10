@@ -15,8 +15,10 @@ function HomeAboutGMQ() {
               src={left?.image}
               alt={"logo"}
               quality={100}
-              priority={true}
+              // priority={true}
               className="w-full h-auto p-5 md:p-0"
+              loading="lazy"
+              blurDataURL="true"
             />
           </div>
           <div className="flex flex-col gap-3 md:p-6 px-3 lg:flex-1 text-justify items-center md:items-start flex-wrap">

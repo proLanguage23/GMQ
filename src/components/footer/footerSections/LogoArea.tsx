@@ -11,7 +11,9 @@ function LogoArea({ whiteLogo, text, abn }: any) {
           alt={"logo"}
           width={180}
           quality={100}
-          priority={true}
+          // priority={true}
+          loading="lazy"
+          blurDataURL="true"
         />
       </div>
       <AppDescriptionWithDangerouslySetInnerHTML

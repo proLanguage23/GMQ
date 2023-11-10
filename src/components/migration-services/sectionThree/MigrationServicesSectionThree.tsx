@@ -32,7 +32,9 @@ function MigrationServicesSectionThree() {
               alt={left?.title}
               width={300}
               quality={100}
-              priority={true}
+              // priority={true}
+              loading="lazy"
+              blurDataURL="true"
             />
           </div>
         </div>

@@ -27,6 +27,8 @@ function ThreeStep_State({
         placeholder="blur"
         src={img}
         alt={text}
+        loading="lazy"
+        blurDataURL="true"
       />
       <AppSubTitle
         text={text}

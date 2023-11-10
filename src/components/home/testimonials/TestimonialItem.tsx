@@ -25,7 +25,9 @@ function TestimonialItem({
             width={50}
             height={50}
             quality={100}
-            priority={true}
+            // priority={true}
+              loading="lazy"
+              blurDataURL="true"
             className="border-4 rounded-full border-secondary"
           />
           <div className="">
@@ -38,7 +40,9 @@ function TestimonialItem({
           alt={"logo"}
           width={80}
           quality={100}
-          priority={true}
+          // priority={true}
+              loading="lazy"
+              blurDataURL="true"
         />
       </div>
     </div>

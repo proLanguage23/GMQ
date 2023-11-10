@@ -30,11 +30,14 @@ function LeftToRight({
           alt={title || "img"}
           width={350}
           quality={100}
-          priority={true}
+          // priority={true}
+          loading="lazy"
+          blurDataURL="true"
         />
       </div>
       <div className="">
-        <AppTitle text={title} class_name="font-medium" />
+        {title && <AppTitle text={title} class_name="!font-medium" />}
+
         <div className="mt-5 flex flex-col gap-2">
           {description &&
             description?.map((item: any, key: any) => (

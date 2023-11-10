@@ -24,7 +24,9 @@ function HomeContactForm() {
               alt={"logo"}
               width={360}
               quality={100}
-              priority={true}
+              // priority={true}
+              loading="lazy"
+              blurDataURL="true"
               className="mx-auto mt-6"
             />
           </div>

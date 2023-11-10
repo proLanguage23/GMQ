@@ -12,8 +12,8 @@ function StudentServicesPage() {
     const { banner } = StudentServicesDummyData;
     return (
       <>
-        <DynamicHead title="PTE - GMQ Global" />
-        <AppBannerImg img={banner} text="PTE - GMQ" />
+        <DynamicHead title="Student Services - GMQ Global" />
+        <AppBannerImg img={banner} text="Student Services - GMQ Global" />
         <StudentServicesSectionOne />
         <StudentServicesSectionTwo />
         <StudentServicesSectionThree />

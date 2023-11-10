@@ -41,6 +41,8 @@ function RPL_QualificationItem({
             width={30}
             height={30}
             className="absolute top-1 right-1"
+            loading="lazy"
+            blurDataURL="true"
           />
         </div>
 

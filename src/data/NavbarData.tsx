@@ -281,37 +281,37 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu1',
                             text:'Education Counselling',
-                            href:'#'
+                            href:'/student-services/education-counselling'
                         },
                         {
                             id: 'megaMenu2',
                             text:'Visa and Migration Counselling',
-                            href:'#'
+                            href:'/student-services/'
                         },
                         {
                             id: 'megaMenu3',
                             text:'Scholarships',
-                            href:'#'
+                            href:'/student-services/'
                         },
                         {
                             id: 'megaMenu4',
                             text:'Insurance',
-                            href:'#'
+                            href:'/student-services/'
                         },
                         {
                             id: 'megaMenu5',
                             text:'Student Accommodation',
-                            href:'#'
+                            href:'/student-services/'
                         },
                         {
                             id: 'megaMenu6',
                             text:'Assessment Test',
-                            href:'#'
+                            href:'/student-services/'
                         },
                         {
                             id: 'megaMenu7',
                             text:'Program Refer and Earn',
-                            href:'#'
+                            href:'/student-services/'
                         },
                     ]
                 },

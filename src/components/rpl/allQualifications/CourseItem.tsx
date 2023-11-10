@@ -26,6 +26,8 @@ function CourseItem({ text, img, description }: any) {
             width={250}
             height={150}
             className="rounded object-cover h-[150px]"
+            loading="lazy"
+            blurDataURL="true"
           />
         </div>
         <div className="md:flex-1">

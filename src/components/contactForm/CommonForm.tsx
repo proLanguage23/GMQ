@@ -30,8 +30,10 @@ function CommonForm() {
               alt={"logo"}
               width={360}
               quality={100}
-              priority={true}
+              // priority={true}
               className="mx-auto mt-6 md:mt-16"
+              loading="lazy"
+              blurDataURL="true"
             />
           </div>
         </div>

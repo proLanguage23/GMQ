@@ -11,7 +11,9 @@ function ReferralJoinProgram() {
           src={referralJoinProgram}
           alt={"logo"}
           quality={100}
-          priority={true}
+          // priority={true}
+              loading="lazy"
+              blurDataURL="true"
           className="w-full h-auto"
         />
       </Link>

@@ -11,7 +11,9 @@ function MigrationServicesSectionOneItem({ img, description }: any) {
         width={200}
         height={200}
         quality={100}
-        priority={true}
+        // priority={true}
+              loading="lazy"
+              blurDataURL="true"
       />
       <AppDescriptionWithDangerouslySetInnerHTML text={description} class_name="text-center" />
     </div>

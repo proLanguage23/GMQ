@@ -12,7 +12,9 @@ function CoursesItem({ img, title, description, btn, class_name = "" }: any) {
         alt={"logo"}
         quality={100}
         width={400}
-        priority={true}
+        // priority={true}
+        loading="lazy"
+        blurDataURL="true"
         className="object-contain h-56 -mb-5 mx-auto rounded-lg"
       />
       <div className="bg-secondary md:p-5 p-3 !pb-0 flex-1 flex flex-col justify-between rounded-2xl relative">

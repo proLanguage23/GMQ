@@ -44,7 +44,9 @@ function HomeBanner() {
                   src={item?.img}
                   alt={"Home Banner SwipeWrap slider img"}
                   quality={100}
-                  priority={true}
+                  // priority={true}
+              loading="lazy"
+              blurDataURL="true"
                   className="HomeBannerSwipeWrapSliderImg"
                 />
               </Link>

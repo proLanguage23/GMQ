@@ -11,7 +11,9 @@ function WhyGMQFetusesItem({ icon_img, text }: any) {
         alt={text}
         width={60}
         quality={100}
-        priority={true}
+        // priority={true}
+              loading="lazy"
+              blurDataURL="true"
         className="p-1 group-hover:scale-100 scale-75 transition duration-150 ease-out hover:ease-in"
       />
       </div>

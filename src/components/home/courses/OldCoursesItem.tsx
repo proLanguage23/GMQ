@@ -19,7 +19,9 @@ function OldCoursesItem({
           src={img}
           alt={"logo"}
           quality={100}
-          priority={true}
+          // priority={true}
+              loading="lazy"
+              blurDataURL="true"
           className="w-full object-cover rounded h-56"
         />
         <PageLink

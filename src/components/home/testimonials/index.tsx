@@ -60,7 +60,9 @@ function HomeTestimonials() {
                 alt={"logo"}
                 quality={100}
                 width={350}
-                priority={true}
+                // priority={true}
+              loading="lazy"
+              blurDataURL="true"
                 className="h-auto"
               />
             </div>
