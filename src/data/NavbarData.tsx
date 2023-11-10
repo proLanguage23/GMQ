@@ -199,84 +199,57 @@ export const NavbarDummyData = {
         },
         {
             id: '2',
-            text: 'Visa',
+            text: 'Migration and Visas',
             href:'#',
             submenu: true,
             subMenuData:[
                 {
                     id: 'subMenu1',
-                    text:"Student Visa Subclass 500",
-                    href:'#',
+                    text:"skilled migration visa",
+                    href:'https://mjlegal.com.au/immigration-lawyers-melbourne/skilled-migration-visa',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu2',
-                    text:"Temporary Graduate Visa Subclass 485",
-                    href:'#',
+                    text:"work visa",
+                    href:'https://mjlegal.com.au/immigration-lawyers-melbourne/employer-sponsored-work-visa',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu3',
-                    text:"Skilled Independent Visa Subclass 189",
-                    href:'#',
+                    text:"partner visa",
+                    href:'https://mjlegal.com.au/immigration-lawyers-melbourne/partner-visa',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu4',
-                    text:"Skilled Nominated Visa Subclass 190",
-                    href:'#',
+                    text:"business visa",
+                    href:'https://mjlegal.com.au/immigration-lawyers-melbourne/business-investment-visa',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu5',
-                    text:"Skilled Work Regional Provisional Visa Subclass 491",
-                    href:'#',
+                    text:"Student Visa",
+                    href:'https://mjlegal.com.au/immigration-lawyers-melbourne/student-visa-sc500',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu6',
-                    text:"Partner Visas Onshore and Offshore",
-                    href:'#',
+                    text:"Temporary Graduate Visa",
+                    href:'https://mjlegal.com.au/immigration-lawyers-melbourne/temporary-graduate-visa-485',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu7',
-                    text:"Visitor Visa (Subclass 600) ",
-                    href:'#',
+                    text:"Australian Citizenship",
+                    href:'https://mjlegal.com.au/immigration-lawyers-melbourne/australian-citizenship',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu7',
-                    text:"Other Visas",
-                    href:'#',
-                    megaMenu: true,
-                    megaMenuData:[
-                        {
-                            id: 'megaMenu1',
-                            text:'Employer Nomination Scheme Visa Subclass 186',
-                            href:'#'
-                        },
-                        {
-                            id: 'megaMenu2',
-                            text:'Student Guardian Visa Subclass 590',
-                            href:'#'
-                        },
-                        {
-                            id: 'megaMenu3',
-                            text:'Working Holiday Visas Australia Guide',
-                            href:'#'
-                        },
-                        {
-                            id: 'megaMenu4',
-                            text:'Bridging Visa A ',
-                            href:'#'
-                        },
-                        {
-                            id: 'megaMenu5',
-                            text:'Bridging Visa B',
-                            href:'#'
-                        },
-                    ]
+                    text:"Parent Visa",
+                    href:'https://mjlegal.com.au/immigration-lawyers-melbourne/parent-visa-australia',
+                    megaMenu: false,
                 },
             ]
         },
@@ -302,7 +275,7 @@ export const NavbarDummyData = {
                 {
                     id: 'subMenu2',
                     text:"Student Services",
-                    href:'#',
+                    href:'/student-services',
                     megaMenu: true,
                     megaMenuData:[
                         {
@@ -371,33 +344,33 @@ export const NavbarDummyData = {
                 {
                     id: 'subMenu1',
                     text:"PTE",
-                    href:'#',
+                    href:'/english-proficiency-test/pte',
                     megaMenu: true,
                     megaMenuData:[
                         {
                             id: 'megaMenu1',
                             text:'PTE Eligibility',
-                            href:'#'
+                            href:'/english-proficiency-test/pte'
                         },
                         {
                             id: 'megaMenu2',
                             text:'PTE Pattern & Syllabus ',
-                            href:'#'
+                            href:'/english-proficiency-test/pte'
                         },
                         {
                             id: 'megaMenu3',
                             text:'PTE Preparation',
-                            href:'#'
+                            href:'/english-proficiency-test/pte'
                         },
                         {
                             id: 'megaMenu4',
                             text:'PTE Result & Scores',
-                            href:'#'
+                            href:'/english-proficiency-test/pte'
                         },
                         {
                             id: 'megaMenu5',
                             text:'PTE FAQs',
-                            href:'#'
+                            href:'/english-proficiency-test/pte'
                         },
                     ]
                 },

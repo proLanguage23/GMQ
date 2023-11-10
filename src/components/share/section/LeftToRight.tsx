@@ -1,5 +1,9 @@
 import React from "react";
-import { AppDescriptionWithDangerouslySetInnerHTML, AppTitle, PageLink } from "..";
+import {
+  AppDescriptionWithDangerouslySetInnerHTML,
+  AppTitle,
+  PageLink,
+} from "..";
 import Image from "next/image";
 
 function LeftToRight({
@@ -47,11 +51,7 @@ function LeftToRight({
                 class_name="text-justify md:text-left"
               />
             )}
-            {
-              isBtn && (
-                <PageLink {...btn} class_name="commonBtnStyle mt-5" />
-              )
-            }
+            {isBtn && <PageLink {...btn} class_name="commonBtnStyle mt-5" />}
           </div>
         </div>
       </div>
