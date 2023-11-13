@@ -315,26 +315,35 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
     title: 'Steps to take up the GMQ Skills FREE Personality Test',
     data: [
         {
-            title: 'Step 1:',
+            id: 1,
+            title: 'Step 1',
             text: 'Fill up the form'
         },
         {
-            title: 'Step 2:',
+            id: 2,
+            title: 'Step 2',
             text: 'Receive the link for the test via email'
         },
         {
-            title: 'Step 3:',
+            id: 3,
+            title: 'Step 3',
             text: 'Click on the link to take up the test'
         },
         {
-            title: 'Step 4:',
+            id: 4,
+            title: 'Step 4',
             text: 'Take up the test and answer the questionnaire '
         },
         {
-            title: 'Step 5:',
+            id: 5,
+            title: 'Step 5',
             text: 'After the completion of the test, you will receive your results via email'
         },
-    ]
+    ],
+    btn:{
+        text: 'Take Free Personality Test',
+        href: '#'
+    }
   },
   
 };
