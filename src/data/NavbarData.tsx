@@ -24,7 +24,7 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu1',
                             text:'Nursing',
-                            href:'#'
+                            href:'/popular-courses/health-and-allied-health/nursing'
                         },
                         {
                             id: 'megaMenu2',
