@@ -1,6 +1,5 @@
 import {
   AppDescriptionWithDangerouslySetInnerHTML,
-  AppSubTitle,
   AppTitle,
   Container,
 } from "@/components/share";
@@ -21,7 +20,7 @@ function PermanentResidencyPathwaysInAustraliaFAQ() {
   return (
     <div className="py-16">
       <Container>
-        <div className="sd">
+        <div>
           <AppTitle text={faq?.title} class_name="text-center" />
           <div className="mt-16">
             <Accordion>
