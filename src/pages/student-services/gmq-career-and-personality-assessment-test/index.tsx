@@ -1,5 +1,6 @@
 import { DynamicHead } from '@/components/share';
 import AppBannerImg from '@/components/share/AppBannerImg';
+import GMQ_CareerAndPersonalityAssessmentTestSectionFive from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionFive';
 import GMQ_CareerAndPersonalityAssessmentTestSectionFour from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionFour';
 import GMQ_CareerAndPersonalityAssessmentTestSectionOne from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionOne';
 import GMQ_CareerAndPersonalityAssessmentTestSectionThree from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionThree';
@@ -17,6 +18,7 @@ function GMQ_CareerAndPersonalityAssessmentTestPage() {
       <GMQ_CareerAndPersonalityAssessmentTestSectionTwo />
       <GMQ_CareerAndPersonalityAssessmentTestSectionThree />
       <GMQ_CareerAndPersonalityAssessmentTestSectionFour />
+      <GMQ_CareerAndPersonalityAssessmentTestSectionFive />
     </>
   );
 }

@@ -218,51 +218,51 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
   GMQ_CareerAndPersonalityAssessmentTestSectionFive:{
     title: `10 Common Personalities`,
     table:`
-    <table cellpadding="5" cellspacing="5">
-	<tbody border="1">
-		<tr>
-			<td>Personality Type</td>
-			<td>Global Population Frequency</td>
+    <table cellpadding="15" cellspacing="10" width="100%">
+	<tbody>
+		<tr style="border: 1px solid ">
+			<td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%; color: '#fff'">Personality Type</td>
+			<td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%;">Global Population Frequency</td>
 		</tr>
 		<tr>
-			<td>ISFJ</td>
-			<td>13.8%</td>
+			<td style="border: 1px solid #ddd">ISFJ</td>
+			<td style="border: 1px solid #ddd">13.8%</td>
 		</tr>
 		<tr>
-			<td>ESFJ</td>
-			<td>12.3%</td>
+			<td style="border: 1px solid #ddd">ESFJ</td>
+			<td style="border: 1px solid #ddd">12.3%</td>
 		</tr>
 		<tr>
-			<td>ISTJ</td>
-			<td>11.6%</td>
+			<td style="border: 1px solid #ddd">ISTJ</td>
+			<td style="border: 1px solid #ddd">11.6%</td>
 		</tr>
 		<tr>
-			<td>ISFP</td>
-			<td>8.8%</td>
+			<td style="border: 1px solid #ddd">ISFP</td>
+			<td style="border: 1px solid #ddd">8.8%</td>
 		</tr>
 		<tr>
-			<td>ESTJ</td>
-			<td>8.7%</td>
+			<td style="border: 1px solid #ddd">ESTJ</td>
+			<td style="border: 1px solid #ddd">8.7%</td>
 		</tr>
 		<tr>
-			<td>ESFP</td>
-			<td>8.5%</td>
+			<td style="border: 1px solid #ddd">ESFP</td>
+			<td style="border: 1px solid #ddd">8.5%</td>
 		</tr>
 		<tr>
-			<td>ENFP</td>
-			<td>8.1%</td>
+			<td style="border: 1px solid #ddd">ENFP</td>
+			<td style="border: 1px solid #ddd">8.1%</td>
 		</tr>
 		<tr>
-			<td>ISTP</td>
-			<td>5.4%</td>
+			<td style="border: 1px solid #ddd">ISTP</td>
+			<td style="border: 1px solid #ddd">5.4%</td>
 		</tr>
 		<tr>
-			<td>INFP</td>
-			<td>4.4%</td>
+			<td style="border: 1px solid #ddd">INFP</td>
+			<td style="border: 1px solid #ddd">4.4%</td>
 		</tr>
 		<tr>
-			<td>ESTP</td>
-			<td>4.3%</td>
+			<td style="border: 1px solid #ddd">ESTP</td>
+			<td style="border: 1px solid #ddd">4.3%</td>
 		</tr>
 	</tbody>
 </table>
