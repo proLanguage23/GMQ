@@ -22,9 +22,9 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
   banner: GMQ_CareerAndPersonalityAssessmentTestBanner,
   GMQ_CareerAndPersonalityAssessmentTestSectionOne: {
     text: `
-    <h2 class="titleOfParagraph">What is the AECC Skills Personality Assessment?</h2>
+    <h2 class="titleOfParagraph">What is the GMQ Skills Personality Assessment?</h2>
 
-    <p class="part">The FREE Personality Assessment Test from AECC&nbsp; is a personalised, interactive, career-focused skills assessment test.</p>
+    <p class="part">The FREE Personality Assessment Test from GMQ&nbsp; is a personalised, interactive, career-focused skills assessment test.</p>
 
     <p class="part">This test is exclusively designed for students to understand their strengths and passions that helps them in turn identify a suitable career choice, and find the right course at a university of their choice.</p>
     <br />
@@ -44,7 +44,7 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
     left:{
         text:`<h2 class="titleOfParagraph">What is a personality test?</h2>
 
-        <p class="part">The AECC Skills Personality Assessment is based on a core theory that explains how behavioural traits differ from person to person in different situations, thus resulting in various personality types. The&nbsp; test&#39;s concept is based on the assumption that the world&#39;s population is made up of these 16 different sorts of people.</p>
+        <p class="part">The GMQ Skills Personality Assessment is based on a core theory that explains how behavioural traits differ from person to person in different situations, thus resulting in various personality types. The&nbsp; test&#39;s concept is based on the assumption that the world&#39;s population is made up of these 16 different sorts of people.</p>
         
         <br />>
         
@@ -147,6 +147,7 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
     ]
   },
   GMQ_CareerAndPersonalityAssessmentTestSectionFour:{
+    title: '16 Different types of Personality',
     data:[
         {
             title: 'INFJ - The architect',
@@ -281,7 +282,7 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
         },
         {
             title: '3.How to test my personality type?',
-            text: `You can take up the AECC Skills FREE personality test, respond honestly to the questionnaire to test your personality type.   `,
+            text: `You can take up the GMQ Skills FREE personality test, respond honestly to the questionnaire to test your personality type.   `,
         },
         {
             title: '4. How accurate are personality tests?',
@@ -303,7 +304,7 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
     ]
   },
   GMQ_CareerAndPersonalityAssessmentTestSectionSeven:{
-    title: 'Steps to take up the AECC Skills FREE Personality Test',
+    title: 'Steps to take up the GMQ Skills FREE Personality Test',
     data: [
         {
             title: 'Step 1:',

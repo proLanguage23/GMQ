@@ -8,7 +8,7 @@ export const VisaAndMigrationCounsellingDummyData = {
     title: "We’re here to support you",
     text: `<p class="part">When it comes to visas and migration, the process and outcomes can be very daunting for a lot of people. You need a team you can trust to give you correct and unbiased advice.</p>
 
-        <p class="part">At AECC Global, we&rsquo;ve got years of experience in handling most types and classes of visa. If you are managing your own application our counsellors can guide you on the general documents required. However, our in-house migration agents are there to help you with the visa application process.</p>
+        <p class="part">At GMQ Global, we&rsquo;ve got years of experience in handling most types and classes of visa. If you are managing your own application our counsellors can guide you on the general documents required. However, our in-house migration agents are there to help you with the visa application process.</p>
         
         <ul>
             <li>Our team of Registered Migration Agents can help with most types of visas including student visas, partner visas and skilled independent visas</li>
