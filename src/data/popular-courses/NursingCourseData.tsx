@@ -164,7 +164,7 @@ export const NursingCourseDummyData = {
                 
                 <br />
                 
-                <p>Talk to our friendly AECC Global consultants and start building your future today.</p>`,
+                <p>Talk to our friendly GMQ Global consultants and start building your future today.</p>`,
       },
       {
         title: `What is Nursing?`,
@@ -177,7 +177,7 @@ export const NursingCourseDummyData = {
       },
       {
         title: `Courses Available by Providers`,
-        text: `<p>AECC Global proudly represents the best Australian education providers, assisting students with visa and migrations processes, making personalised education pathway and worry free experience. Sample of the Nursing degrees and qualifications offered:</p>
+        text: `<p>GMQ Global proudly represents the best Australian education providers, assisting students with visa and migrations processes, making personalised education pathway and worry free experience. Sample of the Nursing degrees and qualifications offered:</p>
                 <br />
                 <ul>
                     <li>Diploma of Nursing</li>
@@ -207,7 +207,7 @@ export const NursingCourseDummyData = {
       },
       {
         title: `Further Nursing Study Pathways to PR for International Students`,
-        text: `Students of Nursing depending on their study goals, are able to design the pathway depending on their academic achievements. From Certificates to Diplomas (and Advanced Diplomas), to Bachelor Degrees and to Master and Doctoral, our AECC Global Consultants are committed to outline your pathway to success.`,
+        text: `Students of Nursing depending on their study goals, are able to design the pathway depending on their academic achievements. From Certificates to Diplomas (and Advanced Diplomas), to Bachelor Degrees and to Master and Doctoral, our GMQ Global Consultants are committed to outline your pathway to success.`,
       },
       {
         title: `Employment Opportunities`,

@@ -274,7 +274,7 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
   },
   GMQ_CareerAndPersonalityAssessmentTestSectionSix:{
     title: 'Want to know your personality type?',
-    description:`Now that you’re read all about these personality types, we’re sure you’re intrigued and eager to find out what your personality type is among the 16. Take up the AECC Free Career and Personality Assessment test worth $20 for FREE and understand yourself better! This test is tailored specially for students like you who are keen on tracing their strengths and skills so they can make the best decisions for their future.`
+    description:`Now that you’re read all about these personality types, we’re sure you’re intrigued and eager to find out what your personality type is among the 16. Take up the GMQ Free Career and Personality Assessment test worth $20 for FREE and understand yourself better! This test is tailored specially for students like you who are keen on tracing their strengths and skills so they can make the best decisions for their future.`
   },
   GMQ_CareerAndPersonalityAssessmentTestSectionSeven:{
     title: 'FAQ’S',
