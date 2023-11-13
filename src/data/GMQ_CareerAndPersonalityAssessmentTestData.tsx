@@ -221,8 +221,8 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
     <table cellpadding="15" cellspacing="10" width="100%">
 	<tbody>
 		<tr style="border: 1px solid ">
-			<td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%; color: '#fff'">Personality Type</td>
-			<td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%;">Global Population Frequency</td>
+			<td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%;"><b style="color: #fff;"> Personality Type </b></td>
+			<td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%;"><b style="color: #fff;"> Global Population Frequency </b></td>
 		</tr>
 		<tr>
 			<td style="border: 1px solid #ddd">ISFJ</td>
@@ -266,9 +266,17 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
 		</tr>
 	</tbody>
 </table>
-    `
+    `,
+    btn: {
+        text: 'Take Free Personality Test',
+        href: '#',
+    }
   },
   GMQ_CareerAndPersonalityAssessmentTestSectionSix:{
+    title: 'Want to know your personality type?',
+    description:`Now that you’re read all about these personality types, we’re sure you’re intrigued and eager to find out what your personality type is among the 16. Take up the AECC Free Career and Personality Assessment test worth $20 for FREE and understand yourself better! This test is tailored specially for students like you who are keen on tracing their strengths and skills so they can make the best decisions for their future.`
+  },
+  GMQ_CareerAndPersonalityAssessmentTestSectionSeven:{
     title: 'FAQ’S',
     data:[
         {
@@ -303,7 +311,7 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
         },
     ]
   },
-  GMQ_CareerAndPersonalityAssessmentTestSectionSeven:{
+  GMQ_CareerAndPersonalityAssessmentTestSectionEight:{
     title: 'Steps to take up the GMQ Skills FREE Personality Test',
     data: [
         {
@@ -327,5 +335,6 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
             text: 'After the completion of the test, you will receive your results via email'
         },
     ]
-  }
+  },
+  
 };

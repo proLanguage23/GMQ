@@ -3,6 +3,7 @@ import AppBannerImg from '@/components/share/AppBannerImg';
 import GMQ_CareerAndPersonalityAssessmentTestSectionFive from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionFive';
 import GMQ_CareerAndPersonalityAssessmentTestSectionFour from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionFour';
 import GMQ_CareerAndPersonalityAssessmentTestSectionOne from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionOne';
+import GMQ_CareerAndPersonalityAssessmentTestSectionSix from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionSix';
 import GMQ_CareerAndPersonalityAssessmentTestSectionThree from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionThree';
 import GMQ_CareerAndPersonalityAssessmentTestSectionTwo from '@/components/student-services/gmq-career-and-personality-assessment-test/GMQ_CareerAndPersonalityAssessmentTestSectionTwo';
 import { GMQ_CareerAndPersonalityAssessmentTestDummyData } from '@/data/GMQ_CareerAndPersonalityAssessmentTestData';
@@ -19,6 +20,7 @@ function GMQ_CareerAndPersonalityAssessmentTestPage() {
       <GMQ_CareerAndPersonalityAssessmentTestSectionThree />
       <GMQ_CareerAndPersonalityAssessmentTestSectionFour />
       <GMQ_CareerAndPersonalityAssessmentTestSectionFive />
+      <GMQ_CareerAndPersonalityAssessmentTestSectionSix />
     </>
   );
 }
