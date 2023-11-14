@@ -1,10 +1,10 @@
 import { Container } from "@/components/share";
 import LeftToRight from "@/components/share/section/LeftToRight";
-import { NursingCourseDummyData } from "@/data/popular-courses/NursingCourseData";
+import { NursingCourseDummyDataOld } from "@/data/popular-courses/NursingCourseData";
 import React from "react";
 
 function NursingSectionOne() {
-  const { NursingSectionOne } = NursingCourseDummyData;
+  const { NursingSectionOne } = NursingCourseDummyDataOld;
   const { left, right } = NursingSectionOne;
   return (
     <div className="py-16">

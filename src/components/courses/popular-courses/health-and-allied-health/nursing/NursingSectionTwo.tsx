@@ -1,11 +1,11 @@
 import React from 'react'
-import { NursingCourseDummyData } from './NursingCourseData';
-import { Container, PageLink } from '@/components/share';
+import { NursingCourseDummyDataOld } from '../../../../../data/popular-courses/NursingCourseData';
+import { Container } from '@/components/share';
 import LeftToRight from '@/components/share/section/LeftToRight';
 
-function NursingSectionFive() {
-    const { NursingSectionFive } = NursingCourseDummyData;
-    const { left, right } = NursingSectionFive;
+function NursingSectionTwo() {
+    const { NursingSectionTwo } = NursingCourseDummyDataOld;
+    const { left, right } = NursingSectionTwo;
   return (
     <div className="py-16">
       <Container>
@@ -15,8 +15,6 @@ function NursingSectionFive() {
             tiny_mceEditor={right?.text}
             sideImg={left?.img}
             leftImageToRight
-            btn={right?.btn}
-            isBtn
           />
         </div>
       </Container>
@@ -24,4 +22,4 @@ function NursingSectionFive() {
   )
 }
 
-export default NursingSectionFive
+export default NursingSectionTwo

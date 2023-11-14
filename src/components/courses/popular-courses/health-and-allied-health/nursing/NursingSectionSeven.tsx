@@ -1,5 +1,5 @@
 import React from "react";
-import { NursingCourseDummyData } from "./NursingCourseData";
+import { NursingCourseDummyDataOld } from "../../../../../data/popular-courses/NursingCourseData";
 import {
   AppDescriptionWithDangerouslySetInnerHTML,
   AppTitle,
@@ -15,7 +15,7 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 
 function NursingSectionSeven() {
-  const { NursingSectionSeven } = NursingCourseDummyData;
+  const { NursingSectionSeven } = NursingCourseDummyDataOld;
   const { title, data } = NursingSectionSeven;
   return (
     <div className="py-16">

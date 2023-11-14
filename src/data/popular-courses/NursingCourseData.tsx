@@ -5,7 +5,14 @@ import NursingFour1 from "@/assets/course/NursingFour1.png";
 import NursingFive1 from "@/assets/course/NursingFive1.png";
 import NursingSix1 from "@/assets/course/NursingSix1.png";
 
-export const NursingCourseDummyData = {
+// new data collect start 
+import diplomaOfNursing from "@/assets/course/new/nursing/diploma-of-nursing.png";
+import bachelorOfNursing from "@/assets/course/new/nursing/bachelor-of-nursing.png";
+import MasterOfNursing from "@/assets/course/new/nursing/master-of-nursing.png";
+import OBA_Program from "@/assets/course/new/nursing/OBA-program.png";
+import nursingPathways from "@/assets/course/new/nursing/nursing-pathways.svg";
+// new data collect end 
+export const NursingCourseDummyDataOld = {
   banner: NursingBanner,
   NursingSectionOne: {
     left: {
@@ -228,4 +235,81 @@ export const NursingCourseDummyData = {
       },
     ],
   },
+};
+
+export const NursingCourseDummyData = {
+  NursingCourseSectionOne: {
+    data: [
+      {
+        id: 1,
+        asserts: "df",
+        title: "Nursing In Australia",
+        text: "With more than 240 days of sunshine, multiculturalism, accessible visas, diversity in work and high pay scale, Australia has always been the most appealing destination for nurses to build a successful career.",
+      },
+      {
+        id: 2,
+        asserts: "df",
+        title: "Noble Profession",
+        text: "The country always provided ample of opportunities to be a part of the most trusted group of working professionals in the world and make a real difference in the life of vulnerable people.",
+      },
+      {
+        id: 3,
+        asserts: "df",
+        title: "Career Prospects",
+        text: "To meet the high demand in different specialisations, Australian employers always hunt for overseas nurses with right skills or expertise to serve the health care sector.",
+      },
+    ],
+    description: `For aspiring nurses in Australia, complying with Australia nursing requirements is imperative for career advancement. Educational qualifications for nursing in Australia range from diplomas to advanced degrees and may vary by jurisdiction and speciality.
+<br />
+    Aussizz Group endeavour to assist all those aspiring nurses who wish to study in Australia for higher education and willing to secure permanent residency. Our highly qualified team of education counsellors provide with most comprehensive and personalised career counselling that focuses on individual’s skills and ambitions. Our registered immigration consultants never fail to make sure that eligible, qualifying applicants can migrate to Australia as a nurse successfully with an appropriate visa. They offer detailed assistance on the best migration pathways, help meet visa requirements and guide on processing times.`
+  },
+  NursingCourseSectionTwo:{
+    title: `We Can Help You With`,
+    data:[
+      {
+        img: diplomaOfNursing,
+        title: ` Diploma of Nursing`,
+        text:` Diploma of Nursing covers the essential skills and knowledge required to work as Enrolled Nurse in Australia or under the supervision of a Registered nurse.`,
+        btn:{
+          text:'contact us',
+          href: '/contact'
+        },
+      },
+      {
+        img: bachelorOfNursing,
+        title: ` Bachelor of Nursing`,
+        text:` This qualification helps you get armed with broad set of skills and start working as a Registered Nurse alongside expert clinicians on successful completion.`,
+        btn:{
+          text:'contact us',
+          href: '/contact'
+        },
+      },
+      {
+        img: MasterOfNursing,
+        title: ` Master  of Nursing`,
+        text:` Graduation in Master of Nursing helps to broaden the career prospects by extending understanding of evidence based practise and being eligible for senior roles across...`,
+        btn:{
+          text:'contact us',
+          href: '/contact'
+        },
+      },
+      {
+        img: OBA_Program,
+        title: ` OBA Program`,
+        text:` It is a new two staged assessment process used by NMBA to assess the skills and knowledge of IQNMs whose overseas qualifications are deemed substantially...`,
+        btn:{
+          text:'contact us',
+          href: '/contact'
+        },
+      },
+    ],
+    contactBTN:{
+      text: 'inquire now',
+      href:"#"
+    }
+  },
+  NursingCourseSectionThree:{
+    title: `Pathways to Permanent Residency`,
+    img: nursingPathways
+  }
 };

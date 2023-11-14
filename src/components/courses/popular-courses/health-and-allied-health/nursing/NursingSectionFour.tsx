@@ -1,11 +1,11 @@
-import { Container } from '@/components/share';
 import React from 'react'
-import { NursingCourseDummyData } from './NursingCourseData';
+import { NursingCourseDummyDataOld } from '../../../../../data/popular-courses/NursingCourseData';
+import { Container } from '@/components/share';
 import LeftToRight from '@/components/share/section/LeftToRight';
 
-function NursingSectionSix() {
-    const { NursingSectionSix } = NursingCourseDummyData;
-    const { left, right } = NursingSectionSix;
+function NursingSectionFour() {
+  const { NursingSectionFour } = NursingCourseDummyDataOld;
+  const { left, right } = NursingSectionFour;
   return (
     <div className="py-16 bg-grayCustom">
       <Container>
@@ -14,6 +14,7 @@ function NursingSectionSix() {
             title={right?.title}
             tiny_mceEditor={right?.text}
             sideImg={left?.img}
+            
           />
         </div>
       </Container>
@@ -21,4 +22,4 @@ function NursingSectionSix() {
   )
 }
 
-export default NursingSectionSix
+export default NursingSectionFour

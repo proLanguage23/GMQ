@@ -1,9 +1,9 @@
 import { AppDescriptionWithDangerouslySetInnerHTML, AppTitle, Container } from '@/components/share'
 import React from 'react'
-import { NursingCourseDummyData } from './NursingCourseData';
+import { NursingCourseDummyDataOld } from '../../../../../data/popular-courses/NursingCourseData';
 
 function NursingSectionThree() {
-    const { NursingSectionThree } = NursingCourseDummyData;
+    const { NursingSectionThree } = NursingCourseDummyDataOld;
     const { title, text } = NursingSectionThree;
   return (
     <div className='py-16'>
