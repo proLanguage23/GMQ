@@ -1,8 +1,17 @@
-import { AppDescription, PageLink } from "@/components/share";
+import { AppBtn, AppDescription, PageLink } from "@/components/share";
 import Image from "next/image";
 import React from "react";
 
-function CoursesItem({ img, title, description, btn, class_name = "" }: any) {
+function CoursesItem({
+  img,
+  title,
+  description,
+  btn,
+  iSPageLink = true,
+  handleClick = () => {alert("I am Click")},
+  class_name = "",
+  btn_Class_name = "",
+}: any) {
   return (
     <div
       className={`w-full rounded my-5 flex flex-col justify-between flex-wrap ${class_name}`}
@@ -31,7 +40,11 @@ function CoursesItem({ img, title, description, btn, class_name = "" }: any) {
           />
         </div>
         <div className="mt-5 flex -mb-5">
-          <PageLink {...btn} class_name="NewCommonBtnStyle" />
+          {iSPageLink ? (
+            <PageLink {...btn} class_name="NewCommonBtnStyle" />
+          ) : (
+            <AppBtn text={btn?.text} handleClick={handleClick} class_name={`NewCommonBtnStyle ${btn_Class_name}`} />
+          )}
         </div>
       </div>
     </div>

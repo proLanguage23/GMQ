@@ -8,7 +8,7 @@ function NursingCourseSectionOneItem({assert, title, text, bgImg}:any) {
       <AppImg src={assert} width="90" class_name="border-4 rounded-full p-1 bg-secondary group-hover:scale-110 transition-all" />
       <div className="col-span-1">
         <AppSubTitle text={title} class_name="font-medium" />
-        <AppDescriptionWithDangerouslySetInnerHTML text={text} class_name=" !text-[14px] mt-2" />
+        <AppDescriptionWithDangerouslySetInnerHTML text={text} class_name=" mt-2" />
       </div>
       <AppBgImg BgImg={bgImg} class_name="opacity-5 group-hover:opacity-20 transition-all" />
     </div>

@@ -270,6 +270,7 @@ export const NursingCourseDummyData = {
     ],
     description: `For aspiring nurses in Australia, complying with Australia nursing requirements is imperative for career advancement. Educational qualifications for nursing in Australia range from diplomas to advanced degrees and may vary by jurisdiction and speciality.
 <br />
+<br />
     Aussizz Group endeavour to assist all those aspiring nurses who wish to study in Australia for higher education and willing to secure permanent residency. Our highly qualified team of education counsellors provide with most comprehensive and personalised career counselling that focuses on individual’s skills and ambitions. Our registered immigration consultants never fail to make sure that eligible, qualifying applicants can migrate to Australia as a nurse successfully with an appropriate visa. They offer detailed assistance on the best migration pathways, help meet visa requirements and guide on processing times.`,
   },
   NursingCourseSectionTwo: {
@@ -280,7 +281,7 @@ export const NursingCourseDummyData = {
         title: ` Diploma of Nursing`,
         text: ` Diploma of Nursing covers the essential skills and knowledge required to work as Enrolled Nurse in Australia or under the supervision of a Registered nurse.`,
         btn: {
-          text: "contact us",
+          text: "inquire now",
           href: "/contact",
         },
       },
@@ -289,7 +290,7 @@ export const NursingCourseDummyData = {
         title: ` Bachelor of Nursing`,
         text: ` This qualification helps you get armed with broad set of skills and start working as a Registered Nurse alongside expert clinicians on successful completion.`,
         btn: {
-          text: "contact us",
+          text: "inquire now",
           href: "/contact",
         },
       },
@@ -298,7 +299,7 @@ export const NursingCourseDummyData = {
         title: ` Master  of Nursing`,
         text: ` Graduation in Master of Nursing helps to broaden the career prospects by extending understanding of evidence based practise and being eligible for senior roles across...`,
         btn: {
-          text: "contact us",
+          text: "inquire now",
           href: "/contact",
         },
       },
@@ -307,7 +308,7 @@ export const NursingCourseDummyData = {
         title: ` OBA Program`,
         text: ` It is a new two staged assessment process used by NMBA to assess the skills and knowledge of IQNMs whose overseas qualifications are deemed substantially...`,
         btn: {
-          text: "contact us",
+          text: "inquire now",
           href: "/contact",
         },
       },

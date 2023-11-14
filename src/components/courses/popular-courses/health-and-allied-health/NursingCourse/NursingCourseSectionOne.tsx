@@ -1,4 +1,4 @@
-import { Container } from "@/components/share";
+import { AppDescriptionWithDangerouslySetInnerHTML, Container } from "@/components/share";
 import { NursingCourseDummyData } from "@/data/popular-courses/NursingCourseData";
 import React from "react";
 import NursingCourseSectionOneItem from "./subSectionItem/NursingCourseSectionOneItem";
@@ -14,6 +14,7 @@ function NursingCourseSectionOne() {
             <NursingCourseSectionOneItem key={key} {...item} />
           ))}
         </div>
+        <AppDescriptionWithDangerouslySetInnerHTML text={description} class_name="text-center my-14" />
       </Container>
     </div>
   );

@@ -4,7 +4,7 @@ function AppBtn({ handleClick, text, class_name, disable = false }: any) {
     <>
       <button
         disabled={disable}
-        className={`block w-fit rounded ${class_name} appBtn`}
+        className={`block w-fit rounded appBtn ${class_name}`}
         onClick={handleClick}
       >
         {text}

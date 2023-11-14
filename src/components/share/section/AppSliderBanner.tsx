@@ -12,13 +12,12 @@ import {
   Keyboard,
   Autoplay,
 } from "swiper/modules";
-import { HomeBannerData } from "@/data/BannerData";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
-function HomeBanner() {
+function AppSliderBanner({ data }: any) {
   return (
-    <div className="">
+    <div>
       <Swiper
         slidesPerView={1}
         cssMode={true}
@@ -37,24 +36,24 @@ function HomeBanner() {
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         className="HomeBannerSwipeWrap"
       >
-        {HomeBannerData?.map((item, key) => (
-            <SwiperSlide key={key}>
-              <Link href={item?.btn?.href}>
-                <Image
-                  src={item?.img}
-                  alt={"Home Banner SwipeWrap slider img"}
-                  quality={100}
-                  // priority={true}
-              loading="lazy"
-              blurDataURL="true"
-                  className="HomeBannerSwipeWrapSliderImg"
-                />
-              </Link>
-            </SwiperSlide>
+        {data?.map((item:any, key:any) => (
+          <SwiperSlide key={key}>
+            <Link href={item?.btn?.href}>
+              <Image
+                src={item?.img}
+                alt={"Home Banner SwipeWrap slider img"}
+                quality={100}
+                // priority={true}
+                loading="lazy"
+                blurDataURL="true"
+                className="HomeBannerSwipeWrapSliderImg"
+              />
+            </Link>
+          </SwiperSlide>
         ))}
       </Swiper>
     </div>
   );
 }
 
-export default HomeBanner;
+export default AppSliderBanner;
