@@ -53,7 +53,7 @@ export const NavbarDummyData = {
         {
             id: '2',
             text: 'RPL',
-            href:'#',
+            href:'/rpl',
             submenu: false,
         },
         {
