@@ -1,30 +1,19 @@
 import CommonForm from '@/components/contactForm/CommonForm';
+import NursingCourseSectionOne from '@/components/courses/popular-courses/health-and-allied-health/NursingCourse/NursingCourseSectionOne';
 import NursingSectionOne from '@/components/courses/popular-courses/health-and-allied-health/nursing/NursingSectionOne';
 import { DynamicHead } from '@/components/share'
 import AppBannerImg from '@/components/share/AppBannerImg'
 import TestimonialSection from '@/components/testimonial';
-import NursingSectionFive from '@/components/courses/popular-courses/health-and-allied-health/nursing/NursingSectionFive';
-import NursingSectionFour from '@/components/courses/popular-courses/health-and-allied-health/nursing/NursingSectionFour';
-import NursingSectionSeven from '@/components/courses/popular-courses/health-and-allied-health/nursing/NursingSectionSeven';
-import NursingSectionSix from '@/components/courses/popular-courses/health-and-allied-health/nursing/NursingSectionSix';
-import NursingSectionThree from '@/components/courses/popular-courses/health-and-allied-health/nursing/NursingSectionThree';
-import NursingSectionTwo from '@/components/courses/popular-courses/health-and-allied-health/nursing/NursingSectionTwo';
+import { NursingCourseDummyData } from '@/data/popular-courses/NursingCourseData';
 import React from 'react'
-import { NursingCourseDummyDataOld } from '@/data/popular-courses/NursingCourseData';
 
 function NursingPage() {
-    const { banner } = NursingCourseDummyDataOld;
+    const { banner } = NursingCourseDummyData;
   return (
     <>
-      <DynamicHead title="ENursing in Australia: Structure, Exams - GMQ Global" />
-      <AppBannerImg img={banner} text="Nursing in Australia: Structure, Exams - GMQ Global" />
-      <NursingSectionOne />
-      <NursingSectionTwo />
-      <NursingSectionThree />
-      <NursingSectionFour />
-      <NursingSectionFive />
-      <NursingSectionSix />
-      <NursingSectionSeven />
+      <DynamicHead title="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" />
+      <AppBannerImg img={banner} text="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" />
+      <NursingCourseSectionOne />
       <CommonForm />
       <TestimonialSection />
     </>

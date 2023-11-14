@@ -1,0 +1,22 @@
+import { Container } from "@/components/share";
+import { NursingCourseDummyData } from "@/data/popular-courses/NursingCourseData";
+import React from "react";
+import NursingCourseSectionOneItem from "./subSectionItem/NursingCourseSectionOneItem";
+
+function NursingCourseSectionOne() {
+  const { NursingCourseSectionOne } = NursingCourseDummyData;
+  const { data, description } = NursingCourseSectionOne;
+  return (
+    <div className="py-6 relative ">
+      <Container>
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7 flex-wrap">
+          {data?.map((item, key) => (
+            <NursingCourseSectionOneItem key={key} {...item} />
+          ))}
+        </div>
+      </Container>
+    </div>
+  );
+}
+
+export default NursingCourseSectionOne;
