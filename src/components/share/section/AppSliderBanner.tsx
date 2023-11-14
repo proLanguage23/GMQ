@@ -15,7 +15,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 
-function AppSliderBanner({ data }: any) {
+function AppSliderBanner({ data, class_name, ...rest }: any) {
   return (
     <div>
       <Swiper
@@ -34,7 +34,8 @@ function AppSliderBanner({ data }: any) {
         }}
         centeredSlides={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-        className="HomeBannerSwipeWrap"
+        {...rest}
+        className={`HomeBannerSwipeWrap ${class_name}`}
       >
         {data?.map((item:any, key:any) => (
           <SwiperSlide key={key}>

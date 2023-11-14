@@ -16,7 +16,7 @@ function NursingCourseSectionTwo() {
       <Container>
         <div className="flex flex-col justify-center items-center">
           <AppTitle text={title} class_name="text-center text-white" />
-          <div className="w-full grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-2 mt-6">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-2 mt-6">
             {data?.map((item, key) => (
               <OldCoursesItem
                 key={key}
