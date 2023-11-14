@@ -42,3 +42,23 @@ export const NursingBannerData = [
         }
     }
 ]
+export const CookeryCoursesInAustraliaBannerData = [
+    {
+        id: 1,
+        text: 'nursing One',
+        img: NursingBanner,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    },
+    {
+        id: 2,
+        text: 'nursing Two',
+        img: NursingBanner,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    }
+]

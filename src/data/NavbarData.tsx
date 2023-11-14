@@ -24,12 +24,12 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu1',
                             text:'Nursing',
-                            href:'/popular-courses/health-and-allied-health/nursing'
+                            href:'/popular-courses/nursing'
                         },
                         {
                             id: 'megaMenu2',
                             text:'Hospitality & Cookery',
-                            href:'#'
+                            href:'/popular-courses/cookery-courses-in-australia'
                         },
                         {
                             id: 'megaMenu3',
