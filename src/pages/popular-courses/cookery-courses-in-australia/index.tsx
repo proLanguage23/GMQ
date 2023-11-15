@@ -1,5 +1,6 @@
 import CommonForm from "@/components/contactForm/CommonForm";
 import CookeryCoursesSectionOne from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionOne";
+import CookeryCoursesSectionThree from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionThree";
 import CookeryCoursesSectionTwo from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionTwo";
 import { DynamicHead } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
@@ -15,6 +16,7 @@ function CookeryCoursesInAustraliaPage() {
       <AppSliderBanner data={CookeryCoursesInAustraliaBannerData} />
       <CookeryCoursesSectionOne />
       <CookeryCoursesSectionTwo />
+      <CookeryCoursesSectionThree />
       <CommonForm />
       <TestimonialSection />
     </>
