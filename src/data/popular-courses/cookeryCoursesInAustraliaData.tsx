@@ -427,12 +427,12 @@ export const CookeryCoursesInAustraliaDummyData = {
     </br>
     `,
   },
-  CookeryCoursesSectionFour:{
+  CookeryCoursesSectionFour: {
     title: `FAQs for Cookery Courses in Australia`,
     data: [
       {
         title: `What are the benefits of studying cookery courses in Australia for international students?`,
-        text: `Studying cookery courses in Australia offers a blend of quality education, diverse culinary exposure, and a chance to experience Australian culture.`
+        text: `Studying cookery courses in Australia offers a blend of quality education, diverse culinary exposure, and a chance to experience Australian culture.`,
       },
       {
         title: `Are there specific entry requirements for international students interested in cookery courses in Australia? `,
@@ -450,6 +450,6 @@ export const CookeryCoursesInAustraliaDummyData = {
         title: `Can international students work while studying cookery courses in Australia?`,
         text: `Yes, international students on a valid student visa can work up to 40 hours per fortnight during their course and full-time during scheduled breaks.`,
       },
-    ]
-  }
+    ],
+  },
 };

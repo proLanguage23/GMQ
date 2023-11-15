@@ -1,4 +1,5 @@
 import CommonForm from "@/components/contactForm/CommonForm";
+import CookeryCoursesSectionFour from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionFour";
 import CookeryCoursesSectionOne from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionOne";
 import CookeryCoursesSectionThree from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionThree";
 import CookeryCoursesSectionTwo from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionTwo";
@@ -17,6 +18,7 @@ function CookeryCoursesInAustraliaPage() {
       <CookeryCoursesSectionOne />
       <CookeryCoursesSectionTwo />
       <CookeryCoursesSectionThree />
+      <CookeryCoursesSectionFour />
       <CommonForm />
       <TestimonialSection />
     </>
