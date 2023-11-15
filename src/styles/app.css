@@ -338,10 +338,10 @@ ul{
     z-index: -1;
     border-top-color: #00aaac;
 }
-/* .overflowScroll{
-  width: 500px;
-  overflow: scroll !important;
-} */
+.accordion__button:hover{
+  background-color: #00aaac !important;
+  color: #fff;
+}
 
 @media only screen and (max-width: 1100px) {
   .menu-berar-icon {
@@ -351,3 +351,9 @@ ul{
     display: none;
   }
 }
+
+
+
+
+
+

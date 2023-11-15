@@ -11,7 +11,7 @@ function CookeryCoursesSectionFour() {
       <Container>
         <div className="flex flex-col flex-wrap justify-center items-center">
           <AppTitle text={title} class_name="text-center" />
-          <div className="w-full">
+          <div className="w-full mt-9">
             <AppAccordion data={data} />
           </div>
         </div>
