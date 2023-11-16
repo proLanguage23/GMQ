@@ -15,7 +15,7 @@ function SectionThreeOfTeaching() {
     <div className="py-9">
       <Container>
         <AppTitle text={title} class_name="text-center w-full" />
-        <div className="mt-9 grid md:grid-cols-2 grid-cols-1 justify-center ">
+        <div className="mt-9 grid md:grid-cols-2 grid-cols-1 justify-center gap-5">
           <div className="flex justify-center items-start flex-wrap">
             <AppImg src={img} class_name="rounded" />
           </div>

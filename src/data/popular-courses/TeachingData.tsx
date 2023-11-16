@@ -1,5 +1,6 @@
 import teacingAbout from "@/assets/course/new/teaching/teacingAbout.png";
 import CareerPathways from "@/assets/course/new/teaching/CareerPathways.png";
+import educationBGImg from "@/assets/course/new/teaching/educationBGImg.png";
 import bgiocnImg from "@/assets/bgiocn.png";
 
 export const TeachingDummyData = {
@@ -81,6 +82,7 @@ export const TeachingDummyData = {
       text: `contact now`,
       href: `#`,
     },
+    secondaryImg: educationBGImg
   },
   SectionFiveOfTeaching: {
     title: `Frequently Asked Questions`,
