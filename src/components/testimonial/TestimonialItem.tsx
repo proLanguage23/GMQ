@@ -22,7 +22,7 @@ function TestimonialItem({ text, name, review }: any) {
 
             <div className="text-error flex gap-1 mt-2">
               {review?.map((_: any, key: any) => (
-                <AiTwotoneStar key={key} size={22} />
+                <AiTwotoneStar key={key} size={22} color="#ff6d39" />
               ))}
             </div>
           </div>

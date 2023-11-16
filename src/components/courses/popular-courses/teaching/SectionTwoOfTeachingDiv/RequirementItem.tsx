@@ -6,9 +6,9 @@ import React from "react";
 
 function RequirementItem({ title, requirementData }: any) {
   return (
-    <div className="shadow p-5 rounded border bg-white">
-      <AppSubTitle text={title} class_name="border-b p-2 text-[22px] text-secondary" />
-      <div className="mt-3 md:p-5">
+    <div className="shadow rounded border bg-white border-secondary">
+      <AppSubTitle text={title} class_name="border-b p-5 text-[22px] text-white bg-secondary" />
+      <div className=" md:p-5">
         {requirementData?.map((item: any, key: any) => (
           <AppDescriptionWithDangerouslySetInnerHTML
             key={key}

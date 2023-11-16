@@ -9,7 +9,7 @@ function AppImg({ src, alt, class_name, ...rest }: any) {
       quality={100}
       loading="lazy"
       blurDataURL="true"
-      className={`${class_name}`}
+      className={`max-w-full ${class_name}`}
       {...rest}
     />
   );

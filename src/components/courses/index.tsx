@@ -10,3 +10,4 @@ export { default as NursingCourseSectionThree } from './popular-courses/NursingC
 
 export { default as SectionOneOfTeaching } from './popular-courses/teaching/SectionOneOfTeaching'
 export { default as SectionTwoOfTeaching } from './popular-courses/teaching/SectionTwoOfTeaching'
+export { default as SectionThreeOfTeaching } from './popular-courses/teaching/SectionThreeOfTeaching'
