@@ -128,3 +128,25 @@ export const TradeCoursesBannerData = [
         }
     }
 ]
+
+
+export const ProfessionalYearProgramData = [
+    {
+        id: 1,
+        text: 'nursing One',
+        img: informationTechnologyBannerOne,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    },
+    {
+        id: 2,
+        text: 'nursing Two',
+        img: NursingBanner,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    }
+]

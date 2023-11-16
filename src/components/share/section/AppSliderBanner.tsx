@@ -37,7 +37,7 @@ function AppSliderBanner({ data, class_name, ...rest }: any) {
         {...rest}
         className={`HomeBannerSwipeWrap ${class_name}`}
       >
-        {data?.map((item:any, key:any) => (
+        {data?.map((item: any, key: any) => (
           <SwiperSlide key={key}>
             <Link href={item?.btn?.href}>
               <Image
@@ -46,7 +46,8 @@ function AppSliderBanner({ data, class_name, ...rest }: any) {
                 quality={100}
                 // priority={true}
                 loading="lazy"
-                blurDataURL="true"
+                // blurDataURL="true"
+                placeholder="blur"
                 className="HomeBannerSwipeWrapSliderImg"
               />
             </Link>

@@ -25,16 +25,16 @@ function LeftToRight({
           leftImageToRight ? "order-last" : "order-first"
         }`}
       >
-        <Image
-          src={sideImg}
-          alt={title || "img"}
-          // width={350}
-          quality={100}
-          // priority={true}
-          loading="lazy"
-          blurDataURL="true"
-          className="w-full p-3 rounded"
-        />
+        {sideImg && (
+          <Image
+            src={sideImg}
+            alt={title || "img"}
+            quality={100}
+            loading="lazy"
+            placeholder="blur"
+            className="w-full p-3 rounded"
+          />
+        )}
       </div>
       <div className="">
         {title && <AppTitle text={title} class_name="!font-medium" />}

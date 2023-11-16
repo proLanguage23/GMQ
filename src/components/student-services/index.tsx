@@ -1,0 +1,7 @@
+
+export { default as TradeCourseSectionFour } from './education-counselling/EducationCounsellingSectionOne'
+export { default as EducationCounsellingSectionTwo } from './education-counselling/EducationCounsellingSectionTwo'
+export { default as EducationCounsellingSectionThree } from './education-counselling/EducationCounsellingSectionThree'
+
+export { default as ProfessionalYearProgramSectionOne } from './professional-year-program/ProfessionalYearProgramSectionOne'
+export { default as ProfessionalYearProgramSectionTwo } from './professional-year-program/ProfessionalYearProgramSectionTwo'

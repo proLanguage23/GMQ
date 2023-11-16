@@ -219,52 +219,52 @@ export const GMQ_CareerAndPersonalityAssessmentTestDummyData = {
     title: `10 Common Personalities`,
     table:`
     <table cellpadding="15" cellspacing="10" width="100%">
-	<tbody>
-		<tr style="border: 1px solid ">
-			<td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%;"><b style="color: #fff;"> Personality Type </b></td>
-			<td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%;"><b style="color: #fff;"> Global Population Frequency </b></td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">ISFJ</td>
-			<td style="border: 1px solid #ddd">13.8%</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">ESFJ</td>
-			<td style="border: 1px solid #ddd">12.3%</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">ISTJ</td>
-			<td style="border: 1px solid #ddd">11.6%</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">ISFP</td>
-			<td style="border: 1px solid #ddd">8.8%</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">ESTJ</td>
-			<td style="border: 1px solid #ddd">8.7%</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">ESFP</td>
-			<td style="border: 1px solid #ddd">8.5%</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">ENFP</td>
-			<td style="border: 1px solid #ddd">8.1%</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">ISTP</td>
-			<td style="border: 1px solid #ddd">5.4%</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">INFP</td>
-			<td style="border: 1px solid #ddd">4.4%</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #ddd">ESTP</td>
-			<td style="border: 1px solid #ddd">4.3%</td>
-		</tr>
-	</tbody>
+    <tbody>
+        <tr style="border: 1px solid ">
+            <td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%;"><b style="color: #fff;"> Personality Type </b></td>
+            <td bgcolor='#22d1ee' style="border: 1px solid #ddd; width: 50%;"><b style="color: #fff;"> Global Population Frequency </b></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">ISFJ</td>
+            <td style="border: 1px solid #ddd">13.8%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">ESFJ</td>
+            <td style="border: 1px solid #ddd">12.3%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">ISTJ</td>
+            <td style="border: 1px solid #ddd">11.6%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">ISFP</td>
+            <td style="border: 1px solid #ddd">8.8%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">ESTJ</td>
+            <td style="border: 1px solid #ddd">8.7%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">ESFP</td>
+            <td style="border: 1px solid #ddd">8.5%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">ENFP</td>
+            <td style="border: 1px solid #ddd">8.1%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">ISTP</td>
+            <td style="border: 1px solid #ddd">5.4%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">INFP</td>
+            <td style="border: 1px solid #ddd">4.4%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd">ESTP</td>
+            <td style="border: 1px solid #ddd">4.3%</td>
+        </tr>
+    </tbody>
 </table>
     `,
     btn: {

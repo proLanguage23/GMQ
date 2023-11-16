@@ -65,13 +65,13 @@ export const NavbarDummyData = {
                 {
                     id: 'subMenu1',
                     text:"Education Counselling",
-                    href:'/migration-services',
+                    href:'/student/education-counselling',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu2',
                     text:"Professional Year Program",
-                    href:'/student-services',
+                    href:'/student/professional-year-program',
                     megaMenu: false,
                 },
                 {
