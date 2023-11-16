@@ -16,3 +16,5 @@ export { default as SectionFiveOfTeaching } from './popular-courses/teaching/Sec
 export { default as InformationTechnologySectionOne } from './popular-courses/information-technology/InformationTechnologySectionOne'
 export { default as InformationTechnologySectionTwo } from './popular-courses/information-technology/InformationTechnologySectionTwo'
 export { default as InformationTechnologySectionThree } from './popular-courses/information-technology/InformationTechnologySectionThree'
+
+export { default as TradeCourseSectionOne } from './popular-courses/trade-course/TradeCourseSectionOne'
