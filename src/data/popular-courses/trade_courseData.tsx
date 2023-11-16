@@ -1,13 +1,13 @@
-import DiplomaOfInformationTechnology from "@/assets/course/new/information-technology/DiplomaOfInformationTechnology.png";
-import InformationTechnologyCoursesGlobal from "@/assets/course/new/information-technology/InformationTechnologyCoursesGlobal.jpeg";
+import Certificate_III_in_Carpentry from "@/assets/course/new/trade_course/Certificate_III_in_Carpentry.png";
+import Trade_CoursesTwo1 from "@/assets/course/new/trade_course/Trade_CoursesTwo1.jpg";
 
-export const InformationTechnologyDummyData = {
-  InformationTechnologySectionOne: {
-    title: `Available Courses`,
+export const TradeCourseDummyData = {
+  TradeCourseSectionOne: {
+    title: `Popular trade courses include`,
     data: [
       {
-        img: DiplomaOfInformationTechnology,
-        title: `Diploma of Information Technology`,
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Carpentry`,
         text: ``,
         btn: {
           text: "inquire now",
@@ -15,8 +15,8 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
-        title: `Associate Degree in Information Technology`,
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Wall and Floor Tiling`,
         text: ``,
         btn: {
           text: "inquire now",
@@ -24,8 +24,8 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
-        title: `Advanced Diploma of Information Technology`,
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Painting & Decorating `,
         text: ``,
         btn: {
           text: "inquire now",
@@ -33,8 +33,8 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
-        title: `Graduate Diploma in Information Technology`,
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Solid Plastering `,
         text: ``,
         btn: {
           text: "inquire now",
@@ -42,8 +42,8 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
-        title: `Graduate Certificate in Information Technology `,
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Bricklaying / Blocklaying`,
         text: ``,
         btn: {
           text: "inquire now",
@@ -51,8 +51,8 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
-        title: `Bachelor of Information Technology`,
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Instrumentation and Control  `,
         text: ``,
         btn: {
           text: "inquire now",
@@ -60,8 +60,8 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
-        title: `Master of Information Technology`,
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Automotive Electrical Technology `,
         text: ``,
         btn: {
           text: "inquire now",
@@ -69,8 +69,8 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
-        title: `Certificate III in Information Technology`,
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Commercial Cookery`,
         text: ``,
         btn: {
           text: "inquire now",
@@ -78,8 +78,35 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
-        title: `Certificate IV in Information Technology`,
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Engineering (Fabrication Trade) Boilermaker/Welder/Fabricator `,
+        text: ``,
+        btn: {
+          text: "inquire now",
+          href: "/contact",
+        },
+      },
+      {
+        img: Certificate_III_in_Carpentry,
+        title: `Advanced Diploma of Engineering Technology`,
+        text: ``,
+        btn: {
+          text: "inquire now",
+          href: "/contact",
+        },
+      },
+      {
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Joinery `,
+        text: ``,
+        btn: {
+          text: "inquire now",
+          href: "/contact",
+        },
+      },
+      {
+        img: Certificate_III_in_Carpentry,
+        title: `Certificate III in Automotive Mechanical Technology (Heavy)    `,
         text: ``,
         btn: {
           text: "inquire now",
@@ -88,32 +115,20 @@ export const InformationTechnologyDummyData = {
       },
     ],
   },
-  InformationTechnologySectionTwo: {
+  TradeCourseSectionTwo: {
     left: {
-      title: "Information Technology Courses in Australia",
-      text: `<p class="part">With the economic insecurity these days, ensuring a career commitment is difficult in any field. However, Information Technology (IT) is one diverse sector that encompasses several jobs and career opportunities.</p>
+      title: "Trade Courses in Australia for International Students",
+      text: `<p class="part">Choosing the right trade courses in Australia for PR can boost your skilled migration points and job prospects. With the right trade qualifications in Australia, you’re well-positioned for both career growth and potential PR. Discover a variety of trade courses in Australia designed for international students, offering practical training and essential skills for a prosperous career path.</p>
 
-      <p class="part">In Australia, you can find a variety of Information Technology courses that combine modern learning with practical skills. These courses cover topics like software development, artificial intelligence (AI), telecommunications, machine learning (ML), internet of things(IOT), database programming, computing & mobile computing, network engineering, cybersecurity, and data science, offering international students a great opportunity to prepare for a dynamic IT career.</p>
-      </br >
-      <h3>Eligibility Criteria</h3>
-
-      <ul>
-          <li>To get a student visa for Australia, you must:</li>
-          <li>Hold a valid passport for the duration of your study in Australia</li>
-          <li>Have an offer letter from the selected university or institution</li>
-          <li>Have an IELTS score 6.5 overall (with no score lower than 6.0 in each component) and PTE Academic score 58 (with no score less than 50 in each component)</li>
-          <li>Proof of sufficient funds</li>
-          <li>Have acceptable Overseas Students Health Cover (OSHC)</li>
-          <li>Have all other legal documents listed on the Department of Home Affairs checklists</li>
-          <li>Eligibility requirements may vary depending upon the profile of the candidate</li>
-      </ul>`,
+      <p class="part">Australian trade courses often include a mix of theory and practical training, and many courses offer work placements or apprenticeships to provide real-world experience. Upon successful completion, students receive nationally recognised qualifications that can improve their employability in their chosen trade.</p>
+      `,
     },
     right: {
-      img: InformationTechnologyCoursesGlobal,
+      img: Trade_CoursesTwo1,
     },
   },
-  InformationTechnologySectionThree: {
-    text: `<h1 class="titleOfParagraph">Benefits of Studying Information Technology in Australia</h1>
+  TradeCourseSectionThree: {
+    text: `<h1 class="titleOfParagraph">Eligibility Criteria for Trade Courses</h1>
     <p class="part">
         Today, information technology is one of the most demanded industries in Australia, and with a career in this field, students are able to empower themselves with advancement in all aspects including business, health, entertainment, and community. It has 8 of the top 100 universities in the world that offer a world-class learning experience and scholarship options for international students.</p>
     

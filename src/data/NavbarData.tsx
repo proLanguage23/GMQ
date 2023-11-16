@@ -44,7 +44,7 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu4',
                             text:'Trade Courses',
-                            href:'/popular-courses/teaching'
+                            href:'/popular-courses/trade-courses'
                         },
                     ]
                 },

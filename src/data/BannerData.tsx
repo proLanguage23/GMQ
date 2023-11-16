@@ -107,3 +107,24 @@ export const informationTechnologyBannerData = [
         }
     }
 ]
+
+export const TradeCoursesBannerData = [
+    {
+        id: 1,
+        text: 'nursing One',
+        img: informationTechnologyBannerOne,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    },
+    {
+        id: 2,
+        text: 'nursing Two',
+        img: NursingBanner,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    }
+]
