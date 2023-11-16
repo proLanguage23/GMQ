@@ -1,10 +1,10 @@
 import { AppTitle, Container } from "@/components/share";
 import AppAccordion from "@/components/share/section/AppAccordion";
-import { CookeryCoursesInAustraliaDummyData } from "@/data/popular-courses/cookeryCoursesInAustraliaData";
+import { hospitality_and_cookeryDummyData } from "@/data/popular-courses/hospitality_and_cookeryData";
 import React from "react";
 
 function CookeryCoursesSectionFour() {
-  const { CookeryCoursesSectionFour } = CookeryCoursesInAustraliaDummyData;
+  const { CookeryCoursesSectionFour } = hospitality_and_cookeryDummyData;
   const { title, data } = CookeryCoursesSectionFour;
   return (
     <div className="py-9">

@@ -39,12 +39,12 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu4',
                             text:'Information Technology ',
-                            href:'#'
+                            href:'/popular-courses/information-technology'
                         },
                         {
                             id: 'megaMenu4',
                             text:'Trade Courses',
-                            href:'#'
+                            href:'/popular-courses/teaching'
                         },
                     ]
                 },

@@ -1,9 +1,8 @@
-import diplomaOfNursing from "@/assets/course/new/nursing/diploma-of-nursing.png";
 import AdvancedDiplomaOfHospitality from "@/assets/course/new/Cookery/AdvancedDiplomaOfHospitality.png";
 import BachelorOfTourismAndHospitalityManagement from "@/assets/course/new/Cookery/AdvancedDiplomaOfHospitality.png";
 import cookImg from "@/assets/course/new/Cookery/cookImg.jpg";
 
-export const CookeryCoursesInAustraliaDummyData = {
+export const hospitality_and_cookeryDummyData = {
   CookeryCoursesSectionOne: {
     title: `Available Courses:`,
     data: [

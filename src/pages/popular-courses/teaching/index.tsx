@@ -1,5 +1,5 @@
 import CommonForm from "@/components/contactForm/CommonForm";
-import { SectionFourOfTeaching, SectionOneOfTeaching, SectionThreeOfTeaching, SectionTwoOfTeaching } from "@/components/courses";
+import { SectionFiveOfTeaching, SectionFourOfTeaching, SectionOneOfTeaching, SectionThreeOfTeaching, SectionTwoOfTeaching } from "@/components/courses";
 import { DynamicHead } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
@@ -15,6 +15,7 @@ function teaching() {
       <SectionTwoOfTeaching />
       <SectionThreeOfTeaching />
       <SectionFourOfTeaching />
+      <SectionFiveOfTeaching />
       <CommonForm />
       <TestimonialSection />
     </>
