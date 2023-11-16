@@ -1,5 +1,6 @@
 import teacingAbout from "@/assets/course/new/teaching/teacingAbout.png";
 import CareerPathways from "@/assets/course/new/teaching/CareerPathways.png";
+import bgiocnImg from "@/assets/bgiocn.png";
 
 export const TeachingDummyData = {
   SectionOneOfTeaching: {
@@ -55,6 +56,7 @@ export const TeachingDummyData = {
         ],
       },
     ],
+    secondaryImg: bgiocnImg
   },
   SectionThreeOfTeaching: {
     title: `Career Pathways`,
