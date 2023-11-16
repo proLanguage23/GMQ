@@ -19,3 +19,5 @@ export { default as InformationTechnologySectionThree } from './popular-courses/
 
 export { default as TradeCourseSectionOne } from './popular-courses/trade-course/TradeCourseSectionOne'
 export { default as TradeCourseSectionTwo } from './popular-courses/trade-course/TradeCourseSectionTwo'
+export { default as TradeCourseSectionThree } from './popular-courses/trade-course/TradeCourseSectionThree'
+export { default as TradeCourseSectionFour } from './popular-courses/trade-course/TradeCourseSectionFour'

@@ -16,7 +16,7 @@ function AppAccordionItem({ obj, app_accordionHandler, value }: any) {
           <div className="flex-1 text-white">
             <strong>{obj[Object.keys(obj)[0]]}</strong>
           </div>
-          <div className="icon w-9 h-9 rounded-full bg-slate-100 flex justify-center items-center group-hover:bg-primary group-hover:text-white transition-all border-2">
+          <div className={`icon w-9 h-9 rounded-full flex justify-center items-center group-hover:bg-primary group-hover:text-white transition-all border-2 ${value === obj[Object.keys(obj)[0]] ? '!bg-primary text-white' : "bg-slate-100"}`}>
             {value === obj[Object.keys(obj)[0]] ? <LuMoveUp /> : <LuMoveDown />}
           </div>
         </div>

@@ -222,4 +222,29 @@ export const TradeCourseDummyData = {
     
     <p class="part"><em><strong>Disclaimer</strong></em>: Students are encouraged to verify the most current rankings and program offerings before making educational decisions.</p>`,
   },
+  TradeCourseSectionFour:{
+    title: `FAQs About Trade Courses`,
+    data:[
+      {
+        title: `Why should I consider studying trade courses in Australia?  `,
+        text: `Australia offers high-quality trade education with hands-on experience. The country has a strong job market and modern facilities for trade students.`,
+      },
+      {
+        title: `Are trade courses in Australia popular among international students?`,
+        text: `Yes, international students find Australian trade courses attractive due to their quality and the potential for job opportunities.`,
+      },
+      {
+        title: `What are the popular trade courses in Australia? `,
+        text: `Courses like plumbing, electrical, carpentry, and automotive mechanics are among the most popular trade options.`,
+      },
+      {
+        title: `Can I work part-time while studying a trade course in Australia? `,
+        text: `Yes, international students with a valid student visa can work part-time, generally up to 20 hours per week during the semester.`,
+      },
+      {
+        title: `Are there scholarships available for trade students in Australia? `,
+        text: `Some institutions and government bodies offer scholarships for trade students, although they might be less common than for other fields.`,
+      },
+    ]
+  }
 };
