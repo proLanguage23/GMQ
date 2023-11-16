@@ -18,3 +18,4 @@ export { default as InformationTechnologySectionTwo } from './popular-courses/in
 export { default as InformationTechnologySectionThree } from './popular-courses/information-technology/InformationTechnologySectionThree'
 
 export { default as TradeCourseSectionOne } from './popular-courses/trade-course/TradeCourseSectionOne'
+export { default as TradeCourseSectionTwo } from './popular-courses/trade-course/TradeCourseSectionTwo'
