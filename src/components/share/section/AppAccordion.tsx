@@ -13,9 +13,6 @@ function AppAccordion({ data }: any) {
         setApp_accordion(obj[Object.keys(obj)[0]])
     }, [data])
 
-    console.log('==app_accordion==================================');
-    console.log(app_accordion);
-    console.log('====================================');
   return (
     <>
       {data?.map((item: any, key: any) => (

@@ -29,12 +29,12 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu2',
                             text:'Hospitality & Cookery',
-                            href:'/popular-courses/cookery-courses-in-australia'
+                            href:'/popular-courses/hospitality_and_cookery'
                         },
                         {
                             id: 'megaMenu3',
                             text:'Teaching',
-                            href:'#'
+                            href:'/popular-courses/teaching'
                         },
                         {
                             id: 'megaMenu4',
