@@ -97,20 +97,20 @@ export const NavbarDummyData = {
                 {
                     id: 'subMenu1',
                     text:"blogs",
-                    href:'#',
+                    href:'/',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu2',
                     text:"news",
-                    href:'#',
+                    href:'/',
                     megaMenu: false,
 
                 },
                 {
                     id: 'subMenu3',
                     text:"events",
-                    href:'#',
+                    href:'/',
                     megaMenu: false,
                 },
             ]
@@ -118,7 +118,7 @@ export const NavbarDummyData = {
         {
             id: '6',
             text: 'contact us',
-            href:'#',
+            href:'/contact-us',
             submenu: false,
         },
     ]
