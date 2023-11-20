@@ -65,25 +65,25 @@ export const NavbarDummyData = {
                 {
                     id: 'subMenu1',
                     text:"Education Counselling",
-                    href:'/student/education-counselling',
+                    href:'/services/education-counselling',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu2',
                     text:"Professional Year Program",
-                    href:'/student/professional-year-program',
+                    href:'/services/professional-year-program',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu3',
                     text:"PTE",
-                    href:'/pte',
+                    href:'/services/pte',
                     megaMenu: false,
                 },
                 {
                     id: 'subMenu3',
                     text:"NAATI",
-                    href:'/rpl',
+                    href:'/services',
                     megaMenu: false,
                 },
             ]

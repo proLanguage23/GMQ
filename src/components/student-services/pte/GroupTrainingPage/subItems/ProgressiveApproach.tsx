@@ -7,9 +7,7 @@ import { GroupTrainingDummyData } from "@/data/services/PTE_Data";
 import React from "react";
 import { FaHandPointRight } from "react-icons/fa";
 
-function ProgressiveApproach() {
-  const { GROUP_TRAININGSectionThree } = GroupTrainingDummyData;
-  const { left } = GROUP_TRAININGSectionThree;
+function ProgressiveApproach({ left = {} }: any) {
   return (
     <div className=" border-4 border-error rounded bg-white pb-5 shadow-lg">
       <AppTitle

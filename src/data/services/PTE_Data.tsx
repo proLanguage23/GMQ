@@ -9,6 +9,8 @@ import two from "@/assets/student-services/pte/two.png";
 import three from "@/assets/student-services/pte/three.png";
 import four from "@/assets/student-services/pte/four.png";
 
+import OneToOneTrainingOne1 from "@/assets/student-services/pte/OneToOneTrainingOne1.jpg";
+
 export const PTE_Dummy_data = {
   PTE_SectionOne: {
     title: `PTE`,
@@ -19,7 +21,7 @@ export const PTE_Dummy_data = {
         title: `PTE - GROUP TRAINING`,
         btn: {
           text: "Read More",
-          href: "/pte/group-training",
+          href: "/services/pte/group-training",
         },
       },
       {
@@ -27,7 +29,7 @@ export const PTE_Dummy_data = {
         title: `PTE - ONE TO ONE TRAINING`,
         btn: {
           text: "Read More",
-          href: "#",
+          href: "/services/pte/one-to-one-training",
         },
       },
       {
@@ -35,7 +37,7 @@ export const PTE_Dummy_data = {
         title: `PTE - MOCK TEST`,
         btn: {
           text: "Read More",
-          href: "#",
+          href: "/services/pte/group-training",
         },
       },
     ],
@@ -128,6 +130,89 @@ export const GroupTrainingDummyData = {
     },
   },
   GROUP_TRAININGSectionThree: {
+    left: {
+      title: 'A progressive approach',
+      data: [
+        {
+          title: 'Interactive Sessions:',
+          text: `Our educators put special emphasis on each student to assist them properly. Productive interaction is our goal.`
+        },
+        {
+          title: `Affordable Fees:`,
+          text: `Our courses are budget-friendly. They are suitable for you in all aspects.`,
+        },
+        {
+          title: `A Real-Time Experience:`,
+          text: `Educators at GMQprovide you with several Mock Tests for Reading, Listening, Writing, and Speaking. `,
+        },
+        {
+          title: `Online Support:`,
+          text: `Through tough times, Educators atGMQ, with their expertise will always guide the students. `,
+        },
+      ],
+    },
+    right: {
+      title: 'We help you learn better',
+      data: [
+        {
+          title: 'Experienced Trainers:',
+          text: `Our team, assembled by the founder ofGMQ,  Mr Mmanu Bhardwaj focuses on polishing the potential of the candidates`
+        },
+        {
+          title: `Latest Resources:`,
+          text: `All our study material is current and fresh. We keep ourselves updated and informed about our industry changes.`,
+        },
+        {
+          title: `High Success Record:`,
+          text: `We do this right by making your future bright. GMQgrooms students to meet their future `,
+        },
+        {
+          title: `Online Practice Test:`,
+          text: `We make practice exams to test your interpretation capacity routinely. The tests are easily accessible on our software.`,
+        },
+      ],
+    }
+  }
+};
+
+export const OneToOneTrainingDummyData = {
+  OneToOneTrainingSectionOne: {
+    left: {
+      title: "What is PTE - ONE TO ONE TRAINING?",
+      text: `There are many institutes to facilitate PTE Course in Melbourne. We, at  GMQ  are renowned as we understand that every student comes from a different background and needs to be nurtured differently. Our One-to-One private PTE training online sessions caters to the need of private tutoring and mentoring. Keeping in mind the financial struggles of an international student in Australia and NZ, the cost is kept as low as 999 AUD inc GST and software. The coaching will be given privately by Mr Mmanu Bhardwaj, Founder,  GMQ . That simply means "You can ask more" and "You can learn more"`,
+      data: [
+        `Private sessions with the Founder`,
+        `Regular feedback and Mock Tests`,
+        `Personal Responsibility of your Success`,
+      ],
+    },
+    right: {
+      img: OneToOneTrainingOne1,
+    },
+  },
+  OneToOneTrainingSectionTwo: {
+    title: `WHAT'S FOR PTE AT GMQ`,
+    description: `Let’s make your learning meaningful and successful!`,
+    data: [
+      {
+        img: one,
+      },
+      {
+        img: two,
+      },
+      {
+        img: three,
+      },
+      {
+        img: four,
+      },
+    ],
+    btn: {
+      text: `contact Now`,
+      href: "#",
+    },
+  },
+  OneToOneTrainingSectionThree: {
     left: {
       title: 'A progressive approach',
       data: [

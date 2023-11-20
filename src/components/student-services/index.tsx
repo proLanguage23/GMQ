@@ -13,3 +13,7 @@ export { default as PTE_SectionThree } from './pte/PTE_SectionThree'
 export { default as GROUP_TRAININGSectionOne } from './pte/GroupTrainingPage/GROUP_TRAININGSectionOne'
 export { default as GROUP_TRAININGSectionTwo } from './pte/GroupTrainingPage/GROUP_TRAININGSectionTwo'
 export { default as GROUP_TRAININGSectionThree } from './pte/GroupTrainingPage/GROUP_TRAININGSectionThree'
+
+export { default as OneToOneTrainingSectionOne } from './pte/one-to-one-training-page/OneToOneTrainingSectionOne'
+export { default as OneToOneTrainingSectionTwo } from './pte/one-to-one-training-page/OneToOneTrainingSectionTwo'
+export { default as OneToOneTrainingSectionThree } from './pte/one-to-one-training-page/OneToOneTrainingSectionThree'
