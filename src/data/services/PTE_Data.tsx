@@ -3,7 +3,11 @@ import PTE_ONE_TO_ONE_TRAINING from "@/assets/student-services/pte/PTE_ONE_TO_ON
 import PTE_MOCK_TEST from "@/assets/student-services/pte/PTE_MOCK_TEST.png";
 import What_is_PTE from "@/assets/student-services/pte/What_is_PTE.jpg";
 
-import GROUPTRAININGOne1 from "@/assets/student-services/pte/GROUPTRAININGOne1.jpg";
+import GROUP_TRAININGOne1 from "@/assets/student-services/pte/GROUPTRAININGOne1.jpg";
+import one from "@/assets/student-services/pte/one.png";
+import two from "@/assets/student-services/pte/two.png";
+import three from "@/assets/student-services/pte/three.png";
+import four from "@/assets/student-services/pte/four.png";
 
 export const PTE_Dummy_data = {
   PTE_SectionOne: {
@@ -87,16 +91,84 @@ export const PTE_Dummy_data = {
 };
 
 export const GroupTrainingDummyData = {
-  left: {
-    title: 'What is PTE - GROUP TRAINING ?',
-    text: `The mission of PTEfor199 is to make PTE training or PTE Online Coaching accessible and affordable for every international student in Australia and New Zealand. The group training provides a lucrative opportunity to study collaboratively at an affordable training cost of 199 AUD. To keep the best quality training standard and help students to make it to The Wall of Fame, the maximum class size is capped at 7. That means you can train efficiently with just 6 other students in the batch. Say No to Hesitation and Yes to Success.`,
-    data: [
-      `Pocket Friendly but Quality Training`,
-      `Maximum class size of 7 students`,
-      `Unlimited QnAs and doubt clearing sessions`,
-    ]
+  GROUP_TRAININGSectionOne: {
+    left: {
+      title: "What is PTE - GROUP TRAINING ?",
+      text: `The mission ofGMQ is to make PTE training or PTE Online Coaching accessible and affordable for every international student in Australia and New Zealand. The group training provides a lucrative opportunity to study collaboratively at an affordable training cost of 199 AUD. To keep the best quality training standard and help students to make it to The Wall of Fame, the maximum class size is capped at 7. That means you can train efficiently with just 6 other students in the batch. Say No to Hesitation and Yes to Success.`,
+      data: [
+        `Pocket Friendly but Quality Training`,
+        `Maximum class size of 7 students`,
+        `Unlimited QnAs and doubt clearing sessions`,
+      ],
+    },
+    right: {
+      img: GROUP_TRAININGOne1,
+    },
   },
-  right:{
-    img: GROUPTRAININGOne1
+  GROUP_TRAININGSectionTwo: {
+    title: `WHAT'S FOR PTE AT GMQ`,
+    description: `Let’s make your learning meaningful and successful!`,
+    data: [
+      {
+        img: one,
+      },
+      {
+        img: two,
+      },
+      {
+        img: three,
+      },
+      {
+        img: four,
+      },
+    ],
+    btn: {
+      text: `contact Now`,
+      href: "#",
+    },
+  },
+  GROUP_TRAININGSectionThree: {
+    left: {
+      title: 'A progressive approach',
+      data: [
+        {
+          title: 'Interactive Sessions:',
+          text: `Our educators put special emphasis on each student to assist them properly. Productive interaction is our goal.`
+        },
+        {
+          title: `Affordable Fees:`,
+          text: `Our courses are budget-friendly. They are suitable for you in all aspects.`,
+        },
+        {
+          title: `A Real-Time Experience:`,
+          text: `Educators atGMQ provide you with several Mock Tests for Reading, Listening, Writing, and Speaking. `,
+        },
+        {
+          title: `Online Support:`,
+          text: `Through tough times, Educators atGMQ, with their expertise will always guide the students. `,
+        },
+      ],
+    },
+    right: {
+      title: 'We help you learn better',
+      data: [
+        {
+          title: 'Experienced Trainers:',
+          text: `Our team, assembled by the founder ofGMQ,  Mr Mmanu Bhardwaj focuses on polishing the potential of the candidates`
+        },
+        {
+          title: `Latest Resources:`,
+          text: `All our study material is current and fresh. We keep ourselves updated and informed about our industry changes.`,
+        },
+        {
+          title: `High Success Record:`,
+          text: `We do this right by making your future bright.GMQ grooms students to meet their future `,
+        },
+        {
+          title: `Online Practice Test:`,
+          text: `We make practice exams to test your interpretation capacity routinely. The tests are easily accessible on our software.`,
+        },
+      ],
+    }
   }
-}
+};
