@@ -227,8 +227,9 @@
 }
 /* animation button end  */
 
-ul{
-  list-style-type: square; padding:0px 30px;
+ul {
+  list-style-type: square;
+  padding: 0px 30px;
 }
 
 .subMenu {
@@ -241,7 +242,8 @@ ul{
 .swiper-button-next:after {
   font-size: 35px !important;
 }
-.swiper.HomeBannerSwipeWrap .swiper-button-prev, .swiper.HomeBannerSwipeWrap .swiper-button-next {
+.swiper.HomeBannerSwipeWrap .swiper-button-prev,
+.swiper.HomeBannerSwipeWrap .swiper-button-next {
   display: none;
 }
 .swiper-button-prev,
@@ -289,18 +291,21 @@ ul{
   backdrop-filter: blur(7px);
 }
 
-.part{
+.part {
   margin: 0 0 10px 0;
 }
-.titleOfParagraph{
+.titleOfParagraph {
   font-size: 23px;
   margin: 0 0 10px 0;
 }
-.StepItem, .StepItemBefore, .stepName{
+.StepItem,
+.StepItemBefore,
+.stepName,
+.Tir {
   position: relative;
 }
-.StepItem::after{
-  content: '';
+.StepItem::after {
+  content: "";
   display: block;
   height: 100%;
   width: 2px;
@@ -312,8 +317,8 @@ ul{
   margin: auto;
   z-index: -1;
 }
-.StepItemBefore::before{
-  content: '';
+.StepItemBefore::before {
+  content: "";
   display: block;
   height: 2px;
   width: 20px;
@@ -324,23 +329,37 @@ ul{
   margin: auto;
   z-index: -1;
 }
-.stepName::after{
-  content: '';
-    display: block;
-    width: 1px;
-    height: 1px;
-    position: absolute;
-    left: 0;
-    right: 30px;
-    top: 100%;
-    margin: auto;
-    border: 7px solid transparent;
-    z-index: -1;
-    border-top-color: #00aaac;
+.stepName::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 30px;
+  top: 100%;
+  margin: auto;
+  border: 7px solid transparent;
+  z-index: -1;
+  border-top-color: #00aaac;
 }
-.accordion__button:hover{
+.accordion__button:hover {
   background-color: #00aaac !important;
   color: #fff;
+}
+
+.Tir::after {
+  content: "";
+  display: block;
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  margin: auto;
+  border: 10px solid transparent;
+  border-right: 10px solid #00aaac;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -351,9 +370,15 @@ ul{
     display: none;
   }
 }
-
-
-
-
-
-
+@media only screen and (max-width: 767px) {
+  .Tir::after {
+    top: unset;
+    bottom: unset;
+    right: unset;
+    margin: unset;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #00aaac;
+    z-index: 10;
+    top: -19px;
+  }
+}

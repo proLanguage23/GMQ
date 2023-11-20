@@ -264,7 +264,7 @@ export const MockTestDummyData = {
   MockTestSectionOne: {
     left: {
       title: "What is PTE - MOCK TEST?",
-      text: `One must give at least 5 Mock tests before the PTE examination. With every PTE Mock Test, you increase your success chances by 15%"- Mr Mmanu Bhardwaj, Founder, PTEfor199. Mock tests are the backbone of PTE and the performance in these mock tests decides your success or failure in PTE Examination. Irrespective of your desired PTE score, be it 79+ or 65+, your destiny is decided outside of Pearson Exam Centres. Our software gives you an opportunity to analyse your strengths and weaknesses way before your exam attempt. Make mistakes in the mock tests, so that you don't make mistakes in PTE.`,
+      text: `One must give at least 5 Mock tests before the PTE examination. With every PTE Mock Test, you increase your success chances by 15%"- Mr Mmanu Bhardwaj, Founder, GMQ . Mock tests are the backbone of PTE and the performance in these mock tests decides your success or failure in PTE Examination. Irrespective of your desired PTE score, be it 79+ or 65+, your destiny is decided outside of Pearson Exam Centres. Our software gives you an opportunity to analyse your strengths and weaknesses way before your exam attempt. Make mistakes in the mock tests, so that you don't make mistakes in PTE.`,
       data: [
         `10 mock tests and 20 section-wise tests with result`,
         `PTE exam like scoring and evaluation`,

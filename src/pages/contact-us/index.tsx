@@ -1,4 +1,6 @@
-import { DynamicHead } from "@/components/share";
+import { ContactMap } from "@/components/contact";
+import CommonForm from "@/components/contactForm/CommonForm";
+import { AppCourseBanner, DynamicHead } from "@/components/share";
 import AppBannerImg from "@/components/share/AppBannerImg";
 import React from "react";
 
@@ -7,7 +9,9 @@ function ContactPage() {
     <div>
       <>
         <DynamicHead title="Contact-us - GMQ Global" />
-        <AppBannerImg text="contact-us - GMQ Global" />
+        <AppCourseBanner text={"contact us"} />
+        <ContactMap />
+        <CommonForm />
       </>
     </div>
   );
