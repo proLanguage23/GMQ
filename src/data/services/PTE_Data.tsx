@@ -3,6 +3,8 @@ import PTE_ONE_TO_ONE_TRAINING from "@/assets/student-services/pte/PTE_ONE_TO_ON
 import PTE_MOCK_TEST from "@/assets/student-services/pte/PTE_MOCK_TEST.png";
 import What_is_PTE from "@/assets/student-services/pte/What_is_PTE.jpg";
 
+import GROUPTRAININGOne1 from "@/assets/student-services/pte/GROUPTRAININGOne1.jpg";
+
 export const PTE_Dummy_data = {
   PTE_SectionOne: {
     title: `PTE`,
@@ -13,7 +15,7 @@ export const PTE_Dummy_data = {
         title: `PTE - GROUP TRAINING`,
         btn: {
           text: "Read More",
-          href: "#",
+          href: "/pte/group-training",
         },
       },
       {
@@ -56,10 +58,10 @@ export const PTE_Dummy_data = {
       ],
     },
     right: {
-      title: `Why Choose PTEfor199?`,
+      title: `Why Choose GMQ?`,
       text: `
         <p>
-    PTEfor199 delivers the best PTE coaching in Melbourne. With reference materials, PTE practice tests, we ensure candidate success with successful strategies and proven tips. The online practice materials are designed in a way that gives a real test interface to our candidates. If you need further inquiry regarding best PTE training in Melbourne, contact us to get a deeper insight.
+    GMQ delivers the best PTE coaching in Melbourne. With reference materials, PTE practice tests, we ensure candidate success with successful strategies and proven tips. The online practice materials are designed in a way that gives a real test interface to our candidates. If you need further inquiry regarding best PTE training in Melbourne, contact us to get a deeper insight.
 </p>
 
 </br>
@@ -83,3 +85,18 @@ export const PTE_Dummy_data = {
     },
   },
 };
+
+export const GroupTrainingDummyData = {
+  left: {
+    title: 'What is PTE - GROUP TRAINING ?',
+    text: `The mission of PTEfor199 is to make PTE training or PTE Online Coaching accessible and affordable for every international student in Australia and New Zealand. The group training provides a lucrative opportunity to study collaboratively at an affordable training cost of 199 AUD. To keep the best quality training standard and help students to make it to The Wall of Fame, the maximum class size is capped at 7. That means you can train efficiently with just 6 other students in the batch. Say No to Hesitation and Yes to Success.`,
+    data: [
+      `Pocket Friendly but Quality Training`,
+      `Maximum class size of 7 students`,
+      `Unlimited QnAs and doubt clearing sessions`,
+    ]
+  },
+  right:{
+    img: GROUPTRAININGOne1
+  }
+}

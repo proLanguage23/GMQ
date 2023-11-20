@@ -8,3 +8,4 @@ export { default as ProfessionalYearProgramSectionTwo } from './professional-yea
 
 export { default as PTE_SectionOne } from './pte/PTE_SectionOne'
 export { default as PTE_SectionTwo } from './pte/PTE_SectionTwo'
+export { default as PTE_SectionThree } from './pte/PTE_SectionThree'
