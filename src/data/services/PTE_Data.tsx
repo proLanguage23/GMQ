@@ -65,7 +65,7 @@ export const PTE_Dummy_data = {
       title: `Why Choose GMQ?`,
       text: `
         <p>
-    GMQ delivers the best PTE coaching in Melbourne. With reference materials, PTE practice tests, we ensure candidate success with successful strategies and proven tips. The online practice materials are designed in a way that gives a real test interface to our candidates. If you need further inquiry regarding best PTE training in Melbourne, contact us to get a deeper insight.
+     GMQdelivers the best PTE coaching in Melbourne. With reference materials, PTE practice tests, we ensure candidate success with successful strategies and proven tips. The online practice materials are designed in a way that gives a real test interface to our candidates. If you need further inquiry regarding best PTE training in Melbourne, contact us to get a deeper insight.
 </p>
 
 </br>
@@ -94,7 +94,7 @@ export const GroupTrainingDummyData = {
   GROUP_TRAININGSectionOne: {
     left: {
       title: "What is PTE - GROUP TRAINING ?",
-      text: `The mission ofGMQ is to make PTE training or PTE Online Coaching accessible and affordable for every international student in Australia and New Zealand. The group training provides a lucrative opportunity to study collaboratively at an affordable training cost of 199 AUD. To keep the best quality training standard and help students to make it to The Wall of Fame, the maximum class size is capped at 7. That means you can train efficiently with just 6 other students in the batch. Say No to Hesitation and Yes to Success.`,
+      text: `The mission of GMQ is to make PTE training or PTE Online Coaching accessible and affordable for every international student in Australia and New Zealand. The group training provides a lucrative opportunity to study collaboratively at an affordable training cost of 199 AUD. To keep the best quality training standard and help students to make it to The Wall of Fame, the maximum class size is capped at 7. That means you can train efficiently with just 6 other students in the batch. Say No to Hesitation and Yes to Success.`,
       data: [
         `Pocket Friendly but Quality Training`,
         `Maximum class size of 7 students`,
@@ -141,7 +141,7 @@ export const GroupTrainingDummyData = {
         },
         {
           title: `A Real-Time Experience:`,
-          text: `Educators atGMQ provide you with several Mock Tests for Reading, Listening, Writing, and Speaking. `,
+          text: `Educators at GMQprovide you with several Mock Tests for Reading, Listening, Writing, and Speaking. `,
         },
         {
           title: `Online Support:`,
@@ -162,7 +162,7 @@ export const GroupTrainingDummyData = {
         },
         {
           title: `High Success Record:`,
-          text: `We do this right by making your future bright.GMQ grooms students to meet their future `,
+          text: `We do this right by making your future bright. GMQgrooms students to meet their future `,
         },
         {
           title: `Online Practice Test:`,

@@ -1,7 +1,7 @@
 import Logo from '@/assets/main-logo.png'
 import WhiteLogo from '@/assets/whiteLogo.png'
 import LogoWithOutIcon from '@/assets/LogoWithOutIcon.png'
-export const email = 'gmq@getMaxListeners.com';
+export const email = 'GMQ@getMaxListeners.com';
 export const call = '1234 456 8541';
 export const logo = Logo;
 export const whiteLogo = WhiteLogo;

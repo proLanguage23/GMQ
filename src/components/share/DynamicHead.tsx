@@ -12,7 +12,7 @@ export default function DynamicHead({
   const staticViewport = "width=device-width, initial-scale=1";
   const staticIcon = "/faviconGMQ.png";
   const pageTitle = "I am a page title";
-  const DomainName = "www.gmq.com.au";
+  const DomainName = "www.GMQ.com.au";
 
   return (
     <>
@@ -34,7 +34,7 @@ export default function DynamicHead({
         <meta property="og:type" content="website" />
         <meta property="og:title" content={ title || pageTitle || staticText} />
         {/* organization page title */}
-        <meta property="og:site_name" content="gmq" />{" "}
+        <meta property="og:site_name" content="GMQ" />{" "}
         {/* organization name */}
         <meta property="og:image" content={icon || staticIcon} />{" "}
         {/* organization img */}
