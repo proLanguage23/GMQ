@@ -83,7 +83,7 @@ export const NavbarDummyData = {
                 {
                     id: 'subMenu3',
                     text:"NAATI",
-                    href:'/services',
+                    href:'/services/naati',
                     megaMenu: false,
                 },
             ]

@@ -21,3 +21,7 @@ export { default as OneToOneTrainingSectionThree } from './pte/one-to-one-traini
 export { default as MockTestSectionOne } from './pte/mock-test/MockTestSectionOne'
 export { default as MockTestSectionTwo } from './pte/mock-test/MockTestSectionTwo'
 export { default as MockTestSectionThree } from './pte/mock-test/MockTestSectionThree'
+
+export { default as NaatiSectionOne } from './naati/NaatiSectionOne'
+export { default as NaatiSectionTwo } from './naati/NaatiSectionTwo'
+export { default as NaatiSectionThree } from './naati/NaatiSectionThree'
