@@ -1,4 +1,4 @@
-import { ContactMap } from "@/components/contact";
+import { ContactForm, ContactMap } from "@/components/contact";
 import CommonForm from "@/components/contactForm/CommonForm";
 import { AppCourseBanner, DynamicHead } from "@/components/share";
 import AppBannerImg from "@/components/share/AppBannerImg";
@@ -11,7 +11,7 @@ function ContactPage() {
         <DynamicHead title="Contact-us - GMQ Global" />
         <AppCourseBanner text={"contact us"} />
         <ContactMap />
-        <CommonForm />
+        <ContactForm />
       </>
     </div>
   );

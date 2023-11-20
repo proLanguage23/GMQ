@@ -358,8 +358,8 @@ ul {
   bottom: 0;
   right: 100%;
   margin: auto;
-  border: 10px solid transparent;
-  border-right: 10px solid #00aaac;
+  border: 20px solid transparent;
+  border-right: 20px solid #00aaac;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -376,9 +376,9 @@ ul {
     bottom: unset;
     right: unset;
     margin: unset;
-    border: 10px solid transparent;
-    border-bottom: 10px solid #00aaac;
+    border: 20px solid transparent;
+    border-bottom: 20px solid #00aaac;
     z-index: 10;
-    top: -19px;
+    top: -35px;
   }
 }
