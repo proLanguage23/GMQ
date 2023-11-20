@@ -9,7 +9,7 @@ function PTE_SectionOne() {
   return (
     <section className="py-9">
       <Container>
-        <div className="df">
+        <div className="">
           <AppTitle text={title} class_name="text-center" />
           <AppSubTitle
             text={subTitle}

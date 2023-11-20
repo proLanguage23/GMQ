@@ -17,3 +17,7 @@ export { default as GROUP_TRAININGSectionThree } from './pte/GroupTrainingPage/G
 export { default as OneToOneTrainingSectionOne } from './pte/one-to-one-training-page/OneToOneTrainingSectionOne'
 export { default as OneToOneTrainingSectionTwo } from './pte/one-to-one-training-page/OneToOneTrainingSectionTwo'
 export { default as OneToOneTrainingSectionThree } from './pte/one-to-one-training-page/OneToOneTrainingSectionThree'
+
+export { default as MockTestSectionOne } from './pte/mock-test/MockTestSectionOne'
+export { default as MockTestSectionTwo } from './pte/mock-test/MockTestSectionTwo'
+export { default as MockTestSectionThree } from './pte/mock-test/MockTestSectionThree'

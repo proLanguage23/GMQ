@@ -11,6 +11,8 @@ import four from "@/assets/student-services/pte/four.png";
 
 import OneToOneTrainingOne1 from "@/assets/student-services/pte/OneToOneTrainingOne1.jpg";
 
+import MockTestOne1 from "@/assets/student-services/pte/MockTestOne1.jpg";
+
 export const PTE_Dummy_data = {
   PTE_SectionOne: {
     title: `PTE`,
@@ -37,7 +39,7 @@ export const PTE_Dummy_data = {
         title: `PTE - MOCK TEST`,
         btn: {
           text: "Read More",
-          href: "/services/pte/group-training",
+          href: "/services/pte/mock-test",
         },
       },
     ],
@@ -213,6 +215,89 @@ export const OneToOneTrainingDummyData = {
     },
   },
   OneToOneTrainingSectionThree: {
+    left: {
+      title: 'A progressive approach',
+      data: [
+        {
+          title: 'Interactive Sessions:',
+          text: `Our educators put special emphasis on each student to assist them properly. Productive interaction is our goal.`
+        },
+        {
+          title: `Affordable Fees:`,
+          text: `Our courses are budget-friendly. They are suitable for you in all aspects.`,
+        },
+        {
+          title: `A Real-Time Experience:`,
+          text: `Educators at GMQprovide you with several Mock Tests for Reading, Listening, Writing, and Speaking. `,
+        },
+        {
+          title: `Online Support:`,
+          text: `Through tough times, Educators atGMQ, with their expertise will always guide the students. `,
+        },
+      ],
+    },
+    right: {
+      title: 'We help you learn better',
+      data: [
+        {
+          title: 'Experienced Trainers:',
+          text: `Our team, assembled by the founder ofGMQ,  Mr Mmanu Bhardwaj focuses on polishing the potential of the candidates`
+        },
+        {
+          title: `Latest Resources:`,
+          text: `All our study material is current and fresh. We keep ourselves updated and informed about our industry changes.`,
+        },
+        {
+          title: `High Success Record:`,
+          text: `We do this right by making your future bright. GMQgrooms students to meet their future `,
+        },
+        {
+          title: `Online Practice Test:`,
+          text: `We make practice exams to test your interpretation capacity routinely. The tests are easily accessible on our software.`,
+        },
+      ],
+    }
+  }
+};
+
+export const MockTestDummyData = {
+  MockTestSectionOne: {
+    left: {
+      title: "What is PTE - MOCK TEST?",
+      text: `One must give at least 5 Mock tests before the PTE examination. With every PTE Mock Test, you increase your success chances by 15%"- Mr Mmanu Bhardwaj, Founder, PTEfor199. Mock tests are the backbone of PTE and the performance in these mock tests decides your success or failure in PTE Examination. Irrespective of your desired PTE score, be it 79+ or 65+, your destiny is decided outside of Pearson Exam Centres. Our software gives you an opportunity to analyse your strengths and weaknesses way before your exam attempt. Make mistakes in the mock tests, so that you don't make mistakes in PTE.`,
+      data: [
+        `10 mock tests and 20 section-wise tests with result`,
+        `PTE exam like scoring and evaluation`,
+        `Unlimited PTE practice questions`,
+      ],
+    },
+    right: {
+      img: MockTestOne1,
+    },
+  },
+  MockTestSectionTwo: {
+    title: `WHAT'S FOR PTE AT GMQ`,
+    description: `Let’s make your learning meaningful and successful!`,
+    data: [
+      {
+        img: one,
+      },
+      {
+        img: two,
+      },
+      {
+        img: three,
+      },
+      {
+        img: four,
+      },
+    ],
+    btn: {
+      text: `contact Now`,
+      href: "#",
+    },
+  },
+  MockTestSectionThree: {
     left: {
       title: 'A progressive approach',
       data: [
