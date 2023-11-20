@@ -7,7 +7,7 @@ function MockTestSectionTwo() {
     const { MockTestSectionTwo } = MockTestDummyData;
     const { title, description, data, btn } = MockTestSectionTwo;
     return (
-      <div className="py-9 bg-primary">
+      <div className="py-9 bg-secondary">
         <Container>
           <div className="flex flex-col justify-center items-center gap-5">
             <AppTitle text={title} class_name="text-center text-white" />
@@ -24,7 +24,7 @@ function MockTestSectionTwo() {
             />
             <AppBtn
               text={btn?.text}
-              class_name="commonBtnStyle rounded-full hover:bg-transparent"
+              class_name="NewCommonBtnStyle rounded-full"
             />
           </div>
         </Container>
