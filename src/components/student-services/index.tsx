@@ -5,3 +5,6 @@ export { default as EducationCounsellingSectionThree } from './education-counsel
 
 export { default as ProfessionalYearProgramSectionOne } from './professional-year-program/ProfessionalYearProgramSectionOne'
 export { default as ProfessionalYearProgramSectionTwo } from './professional-year-program/ProfessionalYearProgramSectionTwo'
+
+export { default as PTE_SectionOne } from './pte/PTE_SectionOne'
+export { default as PTE_SectionTwo } from './pte/PTE_SectionTwo'

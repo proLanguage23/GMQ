@@ -77,7 +77,7 @@ export const NavbarDummyData = {
                 {
                     id: 'subMenu3',
                     text:"PTE",
-                    href:'/rpl',
+                    href:'/pte',
                     megaMenu: false,
                 },
                 {

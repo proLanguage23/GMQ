@@ -14,7 +14,7 @@ function NursingCourseSectionOne() {
             <NursingCourseSectionOneItem key={key} {...item} />
           ))}
         </div>
-        <AppDescriptionWithDangerouslySetInnerHTML text={description} class_name="text-center my-14" />
+        <AppDescriptionWithDangerouslySetInnerHTML text={description} class_name="text-center my-14 !text-[18px]" />
       </Container>
     </div>
   );
