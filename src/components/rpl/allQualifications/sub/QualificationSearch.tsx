@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { MdOutlineSearch } from "react-icons/md";
 
-function QualificationSearch() {
-  const [searchInput, setSearchInput] = useState('')
+function QualificationSearch({searchInput, handleSearch}: any) {
   return (
     <div className="bg-white rounded p-3">
       <div className="flex justify-center items-center border border-secondary rounded">
@@ -10,9 +9,9 @@ function QualificationSearch() {
           <MdOutlineSearch size={25} />
         </div>
         <input
-          type="text"
+          type="search"
           value={searchInput}
-          // onChange={handleSearch}
+          onChange={(e)=>handleSearch(e)}
           className="p-3 flex-1 focus:none outline-none"
           placeholder="Search for Course Name..."
         />

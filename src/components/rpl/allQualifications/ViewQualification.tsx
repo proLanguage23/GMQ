@@ -14,11 +14,12 @@ function ViewQualification() {
   const { title, RPL_QualificationItems } = RPL_QualificationData;
   const [allRPL_QualificationItems, setAllRPL_QualificationItems] =
     useState<any>([]);
+  const [showQualificationItems, setShowQualificationItems] = useState<any>([]);
   const [categories, setCategories] = useState<any>([]);
   const [selectCatagory, setSelectCatagory] = useState("all");
 
-  const [searchInput, setSearchInput] = useState('')
-  
+  const [searchInput, setSearchInput] = useState("");
+
   const selectCatagoryHandler = (data: any) => {
     setSelectCatagory(data);
   };
@@ -30,16 +31,30 @@ function ViewQualification() {
       result = RPL_QualificationItems?.map((item: any, _: any) =>
         item?.content?.link?.map((mainItem: any, _: any) => mainItem)
       );
+      setSearchInput('')
     } else {
       // other category
       const selectResult = RPL_QualificationItems?.filter(
         (item) => item?.content?.title.toLowerCase() === data.toLowerCase()
       );
       result = [selectResult[0]?.content?.link];
+      setSearchInput('')
     }
 
     // End of push all items
     setAllRPL_QualificationItems(result.flat(Infinity));
+  };
+
+  const handleSearch = (e: any) => {
+    let inputValue = e.target.value;
+    inputValue = inputValue?.trim()?.toLowerCase();
+    setSearchInput(inputValue);
+
+    const search = allRPL_QualificationItems?.filter((item: any) =>
+      item?.text?.toLowerCase()?.includes(inputValue)
+    );
+
+    setShowQualificationItems(search);
   };
 
   useLayoutEffect(() => {
@@ -77,18 +92,27 @@ function ViewQualification() {
             {/* items and search  */}
             <div className="lg:col-span-7 px-3">
               {/* search  */}
-              <QualificationSearch />
+              <QualificationSearch
+                searchInput={searchInput}
+                handleSearch={handleSearch}
+              />
               {/* result item  */}
               <div className="mb-4 text-center">
                 <AppDescriptionWithDangerouslySetInnerHTML
-                  text={`${allRPL_QualificationItems?.length} Courses Found`}
+                  text={`${ searchInput ? showQualificationItems?.length : allRPL_QualificationItems?.length} Courses Found`}
                   class_name="text-center"
                 />
               </div>
               <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-5 gap-3">
-                <QualificationItemResult
-                  allRPL_QualificationItems={allRPL_QualificationItems}
-                />
+                {searchInput ? (
+                  <QualificationItemResult
+                    allRPL_QualificationItems={showQualificationItems}
+                  />
+                ) : (
+                  <QualificationItemResult
+                    allRPL_QualificationItems={allRPL_QualificationItems}
+                  />
+                )}
               </div>
             </div>
           </div>
