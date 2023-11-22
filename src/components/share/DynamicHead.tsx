@@ -26,6 +26,7 @@ export default function DynamicHead({
           httpEquiv="Content-Security-Policy"
           content="upgrade-insecure-requests"
         />
+        < meta name="robots" content="noindex" />
         <link rel="icon" href={icon || staticIcon} /> {/* fav icon */}
         <link rel="apple-touch-icon" href={icon || staticIcon} />{" "}
         {/* like apple fav icon */}

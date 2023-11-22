@@ -15,7 +15,7 @@ function RPL_Page() {
       <SkillsTest />
       <RPL_informationStep />
       <RPL_About />
-      <AllQualifications />
+      {/* <AllQualifications /> */}
       <ViewQualification />
     </>
   );
