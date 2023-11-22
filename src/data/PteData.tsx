@@ -1,4 +1,5 @@
 import pteBanner from "@/assets/pte/pteBanner.png";
+// import pteBanner from "@/assets/pte/pteBanner.png";
 
 export const PTE_DummyData = {
   banner: pteBanner,
