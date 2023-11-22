@@ -3,7 +3,7 @@ import InformationTechnologyCoursesGlobal from "@/assets/course/new/information-
 
 export const InformationTechnologyDummyData = {
   InformationTechnologySectionOne: {
-    title: `Available Courses`,
+    title: `information technology available Courses`,
     data: [
       {
         img: DiplomaOfInformationTechnology,

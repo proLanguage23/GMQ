@@ -15,6 +15,7 @@ function LeftToRight({
   leftImageToRight = false,
   isBtn = false,
   btn = {},
+  heading = false
 }: any) {
   return (
     <div
@@ -37,7 +38,7 @@ function LeftToRight({
         )}
       </div>
       <div className="">
-        {title && <AppTitle text={title} class_name="!font-medium" />}
+        {title && <AppTitle heading={heading} text={title} class_name="!font-medium" />}
 
         <div className="mt-5 flex flex-col gap-2">
           {description &&

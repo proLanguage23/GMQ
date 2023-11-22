@@ -6,7 +6,7 @@ import WhyGMQFetusesItem from "./WhyGMQFetusesItem";
 import AppBgImg from "@/components/share/AppBgImg";
 
 function HomeWhyGMQ() {
-  const { title, logo, description, whyGMQFetuses, secondaryImg } =
+  const { title, description, whyGMQFetuses, secondaryImg } =
     WhyGMQ_DummyData;
   return (
     <div className="py-24 relative">
@@ -16,6 +16,7 @@ function HomeWhyGMQ() {
             <AppTitle
               text={title + " GMQ"}
               class_name="!text-secondary md:!text-[80px] uppercase manropeFont"
+              heading
             />
           </div>
           <AppDescription

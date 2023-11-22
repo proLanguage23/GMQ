@@ -6,6 +6,7 @@ import bgiocnImg from "@/assets/bgiocn.png";
 export const TeachingDummyData = {
   SectionOneOfTeaching: {
     left: {
+      title: `Teaching`,
       text: `Education imparts information, and information imparts a balanced awareness of our surroundings. Hence, becoming an educator is perhaps the most vital skill in society to bestow knowledge and shape future generations.
     </br >
     </br >

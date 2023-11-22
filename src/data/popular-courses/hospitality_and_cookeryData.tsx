@@ -4,7 +4,7 @@ import cookImg from "@/assets/course/new/Cookery/cookImg.jpg";
 
 export const hospitality_and_cookeryDummyData = {
   CookeryCoursesSectionOne: {
-    title: `Available Courses`,
+    title: `hospitality and cookery Available Courses`,
     data: [
       {
         img: AdvancedDiplomaOfHospitality,

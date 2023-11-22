@@ -78,6 +78,7 @@ function ViewQualification() {
         <div className="flex flex-col justify-center items-center">
           <AppTitle
             text={title}
+            heading
             class_name="capitalize !text-center md:w-2/3 w-full"
           />
           <div className="w-full grid lg:grid-cols-9 mt-9 grid-cols-1 items-start gap-3">

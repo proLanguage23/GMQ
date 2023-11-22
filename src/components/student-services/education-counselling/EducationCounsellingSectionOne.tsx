@@ -10,7 +10,7 @@ function EducationCounsellingSectionOne() {
     <div className="py-16">
       <Container>
         <div className="df">
-          <AppTitle text={title} class_name="text-center" />
+          <AppTitle text={title} heading class_name="text-center" />
           <AppDescription text={description} class_name="text-center mt-4" />
           <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 mt-5">
             {item?.map((item, key) => (

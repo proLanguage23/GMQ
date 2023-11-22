@@ -15,7 +15,7 @@ function NursingCourseSectionTwo() {
     <div className="py-9 bg-primary">
       <Container>
         <div className="flex flex-col justify-center items-center">
-          <AppTitle text={title} class_name="text-center text-white" />
+          <AppTitle text={title} class_name="text-center text-white" heading />
           <div className="w-full grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-2 mt-6">
             {data?.map((item, key) => (
               <OldCoursesItem

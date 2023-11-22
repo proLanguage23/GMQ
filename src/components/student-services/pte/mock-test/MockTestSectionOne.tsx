@@ -14,6 +14,7 @@ function MockTestSectionOne() {
             tiny_mceEditor={left?.text}
             sideImg={right?.img}
             leftImageToRight
+            heading
           />
         </Container>
       </div>
