@@ -3,7 +3,6 @@ import {
   AppDescriptionWithDangerouslySetInnerHTML,
   AppTitle,
   Container
-
 } from "@/components/share";
 import { RPL_QualificationData } from "@/data/RPL_Data";
 import React, { useState, useLayoutEffect, useEffect } from "react";
