@@ -1,5 +1,6 @@
 import CoursesItem from "@/components/home/courses/CoursesItem";
 import OldCoursesItem from "@/components/home/courses/OldCoursesItem";
+import QualificationItemResult from "@/components/rpl/allQualifications/sub/QualificationItemResult";
 import { AppTitle, Container } from "@/components/share";
 import { NursingCourseDummyData } from "@/data/popular-courses/NursingCourseData";
 import React from "react";
@@ -12,23 +13,12 @@ function NursingCourseSectionTwo() {
     alert("Pop Up Contact");
   };
   return (
-    <div className="py-9 bg-primary">
+    <div className="py-9 bg-grayCustom">
       <Container>
         <div className="flex flex-col justify-center items-center">
-          <AppTitle text={title} class_name="text-center text-white" heading />
+          <AppTitle text={title} class_name="text-center text-primary" heading />
           <div className="w-full grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-2 mt-6">
-            {data?.map((item, key) => (
-              <OldCoursesItem
-                key={key}
-                img={item?.img}
-                title={item?.title}
-                description={item?.text}
-                iSPageLink={false}
-                btn={item?.btn}
-                handleClick={PopUpContact}
-                btn_Class_name="rounded-full"
-              />
-            ))}
+            <QualificationItemResult allRPL_QualificationItems={data} />
           </div>
         </div>
       </Container>

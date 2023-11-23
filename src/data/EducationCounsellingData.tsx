@@ -12,12 +12,15 @@ export const EducationCounsellingDummyData = {
     description: `Choosing a course of study in Australia can be daunting, with so many quality options available and numerous wonderful locations to live in while you do it. If you’re not sure where to start, or if you think you know where you’re going but want expert advice first, then speak with us before you apply. Our qualified and experienced education counsellors would love to hear your story and help you develop a comprehensive learning plan to get you where you want to go. And with our extensive institutional relationships, we can help you confirm if you’re looking at the right courses (or suggest alternatives if we know there’s something better)`,
     item: [
       {
+        text: 'speak one-on-one with an education counsellor',
         img: EducationCounsellingOne1,
       },
       {
+        text: 'almost all our counsellors have been an international student at some point of time',
         img: EducationCounsellingOne2,
       },
       {
+        text: 'Visa passport',
         img: EducationCounsellingOne3,
       },
     ],

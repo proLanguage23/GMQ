@@ -114,15 +114,19 @@ export const GroupTrainingDummyData = {
     description: `Let’s make your learning meaningful and successful!`,
     data: [
       {
+        text: 'all pte preparation materials',
         img: one,
       },
       {
+        text: 'mock text assessments',
         img: two,
       },
       {
+        text: 'feedback sessions',
         img: three,
       },
       {
+        text: 'unlimited practice classes',
         img: four,
       },
     ],

@@ -8,8 +8,8 @@ function AppImg({ src, alt, class_name, ...rest }: any) {
       alt={alt + ' image' || "image of GMQ Global"}
       quality={100}
       loading="lazy"
-      blurDataURL="true"
       placeholder='blur'
+      blurDataURL="true"
       className={`max-w-full ${class_name}`}
       {...rest}
     />

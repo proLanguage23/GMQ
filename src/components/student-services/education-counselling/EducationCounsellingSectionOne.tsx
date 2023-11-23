@@ -14,7 +14,7 @@ function EducationCounsellingSectionOne() {
           <AppDescription text={description} class_name="text-center mt-4" />
           <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 mt-5">
             {item?.map((item, key) => (
-              <AppImg key={key} src={item?.img} alt={title} />
+              <AppImg key={key} src={item?.img} alt={item?.text} />
             ))}
           </div>
         </div>

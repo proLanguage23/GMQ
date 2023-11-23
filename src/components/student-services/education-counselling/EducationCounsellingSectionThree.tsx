@@ -16,6 +16,7 @@ function EducationCounsellingSectionThree() {
           title={left?.title}
           tiny_mceEditor={left?.text}
           sideImg={right?.img}
+          alt={title}
         />
       </Container>
     </div>

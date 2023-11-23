@@ -17,6 +17,7 @@ function EducationCounsellingSectionTwo() {
           tiny_mceEditor={left?.text}
           sideImg={right?.img}
           leftImageToRight
+          alt={title}
         />
       </Container>
     </div>

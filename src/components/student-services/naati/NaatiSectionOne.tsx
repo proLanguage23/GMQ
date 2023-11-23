@@ -15,6 +15,7 @@ function NaatiSectionOne() {
             sideImg={right?.img}
             leftImageToRight
             heading
+            alt={left?.title}
           />
         </Container>
       </div>

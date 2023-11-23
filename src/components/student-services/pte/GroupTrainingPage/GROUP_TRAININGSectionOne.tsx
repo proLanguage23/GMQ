@@ -15,6 +15,7 @@ function GROUP_TRAININGSectionOne() {
           sideImg={right?.img}
           leftImageToRight
           heading
+          alt={left?.title}
         />
       </Container>
     </div>

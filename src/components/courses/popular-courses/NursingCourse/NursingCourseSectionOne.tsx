@@ -7,7 +7,7 @@ function NursingCourseSectionOne() {
   const { NursingCourseSectionOne } = NursingCourseDummyData;
   const { data, description } = NursingCourseSectionOne;
   return (
-    <div className="py-6 relative ">
+    <div className="py-6 relative">
       <Container>
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7 flex-wrap">
           {data?.map((item, key) => (

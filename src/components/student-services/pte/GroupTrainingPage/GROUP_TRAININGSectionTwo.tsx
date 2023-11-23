@@ -19,13 +19,13 @@ function GROUP_TRAININGSectionTwo() {
           <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
             {data?.map((item, key) => (
               <div className="border rounded bg-white" key={key}>
-                <AppImg src={item?.img} />
+                <AppImg src={item?.img} alt={item?.text} />
               </div>
             ))}
           </div>
           <AppDescriptionWithDangerouslySetInnerHTML
             text={description}
-            class_name="text-white"
+            class_name="text-white !text-[20px]"
           />
           <AppBtn
             text={btn?.text}

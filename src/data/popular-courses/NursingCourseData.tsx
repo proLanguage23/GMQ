@@ -278,8 +278,8 @@ export const NursingCourseDummyData = {
     data: [
       {
         img: diplomaOfNursing,
-        title: ` Diploma of Nursing`,
-        text: ` Diploma of Nursing covers the essential skills and knowledge required to work as Enrolled Nurse in Australia or under the supervision of a Registered nurse.`,
+        text: ` Diploma of Nursing`,
+        description: ` Diploma of Nursing covers the essential skills and knowledge required to work as Enrolled Nurse in Australia or under the supervision of a Registered nurse.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -287,8 +287,8 @@ export const NursingCourseDummyData = {
       },
       {
         img: bachelorOfNursing,
-        title: ` Bachelor of Nursing`,
-        text: ` This qualification helps you get armed with broad set of skills and start working as a Registered Nurse alongside expert clinicians on successful completion.`,
+        text: ` Bachelor of Nursing`,
+        description: ` This qualification helps you get armed with broad set of skills and start working as a Registered Nurse alongside expert clinicians on successful completion.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -296,8 +296,8 @@ export const NursingCourseDummyData = {
       },
       {
         img: MasterOfNursing,
-        title: ` Master  of Nursing`,
-        text: ` Graduation in Master of Nursing helps to broaden the career prospects by extending understanding of evidence based practise and being eligible for senior roles across...`,
+        text: ` Master  of Nursing`,
+        description: ` Graduation in Master of Nursing helps to broaden the career prospects by extending understanding of evidence based practise and being eligible for senior roles across...`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -305,8 +305,8 @@ export const NursingCourseDummyData = {
       },
       {
         img: OBA_Program,
-        title: ` OBA Program`,
-        text: ` It is a new two staged assessment process used by NMBA to assess the skills and knowledge of IQNMs whose overseas qualifications are deemed substantially...`,
+        text: ` OBA Program`,
+        description: ` It is a new two staged assessment process used by NMBA to assess the skills and knowledge of IQNMs whose overseas qualifications are deemed substantially...`,
         btn: {
           text: "inquire now",
           href: "/contact",

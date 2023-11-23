@@ -16,6 +16,7 @@ function ProfessionalYearProgramSectionOne() {
           sideImg={right?.img}
           leftImageToRight
           heading
+          alt={left?.title}
         />
       </Container>
     </section>

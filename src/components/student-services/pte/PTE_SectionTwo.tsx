@@ -15,6 +15,7 @@ function PTE_SectionTwo() {
           sideImg={right?.img}
           leftImageToRight
           heading
+          alt={title}
         />
       </Container>
     </div>

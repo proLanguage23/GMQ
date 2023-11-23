@@ -15,6 +15,7 @@ function OneToOneTrainingSectionOne() {
             sideImg={right?.img}
             leftImageToRight
             heading
+            alt={left?.title}
           />
         </Container>
       </div>
