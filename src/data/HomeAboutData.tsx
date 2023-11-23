@@ -1,8 +1,8 @@
-import homeAbout from '@/assets/homeAbout.png'
+import GMQ_About from '@/assets/about-gmq.png'
 
 export const HomeAboutDummyData = {
     left:{
-        image: homeAbout
+        image: GMQ_About
     },
     right:{
         title: 'About GMQ',

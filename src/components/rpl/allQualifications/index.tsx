@@ -4,7 +4,7 @@ import { RPL_QualificationData } from "@/data/RPL_Data";
 import React, { useState, useEffect } from "react";
 import RPL_QualificationItem from "./RPL_QualificationItem";
 
-function AllQualifications() {
+function AllQualifications({ PropsText }: any) {
   const { title, RPL_QualificationItems } = RPL_QualificationData;
   const [allRPL_QualificationItems] = useState(RPL_QualificationItems);
   const [PaginationDates, setPaginationDates] = useState([]);
@@ -26,12 +26,12 @@ function AllQualifications() {
   return (
     <div className="py-16 bg-grayCustom">
       <Container>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center ">
           <AppTitle
-            text={title}
+            text={PropsText || title}
             class_name="capitalize !text-center md:w-2/3 w-full"
           />
-          <div className="my-20 grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-1 w-full">
+          <div className="my-20 grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 w-full">
             {PaginationDates?.map((item: any, key) => (
               <RPL_QualificationItem key={key} {...item} />
             ))}

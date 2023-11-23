@@ -12,6 +12,7 @@ function PageLink({
   return (
     <>
       <Link
+        rel="canonical"
         href={href || ""}
         {...rest}
         className={`${

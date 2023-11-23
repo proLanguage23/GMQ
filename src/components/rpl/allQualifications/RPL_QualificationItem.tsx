@@ -1,6 +1,5 @@
 import {
   AppBgImg,
-  AppDescription,
   AppDescriptionWithDangerouslySetInnerHTML,
   AppModal,
   AppSubTitle,
@@ -12,7 +11,6 @@ import { BiSolidHandRight } from "react-icons/bi";
 import SkillsTestForm from "../skillsTest/SkillsTestForm";
 
 function RPL_QualificationItem({
-  id,
   brandImg,
   link,
   content,

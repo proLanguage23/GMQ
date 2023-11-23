@@ -1,37 +1,38 @@
 import BgImg from "@/assets/rpl/rpl-banner.png";
-import RPL_Img_One from "@/assets/rpl/rpl-service-one.png";
+import RPL_Img_One from "@/assets/rpl/automotive.png";
 
 import { ImCircleDown } from "react-icons/im";
 
-import RPL_Slider_BG from "@/assets/rpl/rpl-step-bg.png";
+// import RPL_Slider_BG from "@/assets/rpl/rpl-step-bg.png";
 
-import Yourequalified from "@/assets/rpl/Yourequalified.png";
-import EvidenceReview from "@/assets/rpl/EvidenceReview.png";
-import PortfolioofExperience from "@/assets/rpl/PortfolioofExperience.png";
-import FreeSkillsAssessment from "@/assets/rpl/FreeSkillsAssessment.png";
+import Yourequalified from "@/assets/rpl/you-are-qualified.png";
+import EvidenceReview from "@/assets/rpl/evidence-review.png";
 
-import RPL_Img_TWO from "@/assets/rpl/rpl-service-two.png";
+import FreeSkillsAssessment from "@/assets/rpl/free-skills-assessment.png";
+
+import RPL_Img_TWO from "@/assets/rpl/building-construction.png";
 import rpl_one_step from "@/assets/rpl/rpl_one.png";
 import rpl_two_step from "@/assets/rpl/rpl_two.png";
-import RPL_Img_THREE from "@/assets/rpl/rpl-service-three.png";
-import RPL_Img_Four from "@/assets/rpl/rpl-service-four.png";
-import RPL_Img_Five from "@/assets/rpl/rpl-service-five.png";
-import RPL_Img_Six from "@/assets/rpl/rpl-service-six.png";
-import RPL_Img_Seven from "@/assets/rpl/RPL_Img_Seven.jpg";
-import RPL_Img_eight from "@/assets/rpl/RPL_Img_eight.jpg";
-import RPL_Img_Nine from "@/assets/rpl/RPL_Img_Nine.jpg";
-import RPL_Img_Ten from "@/assets/rpl/RPL_Img_Ten.jpg";
-import RPL_Img_eleven from "@/assets/rpl/RPL_Img_eleven.jpg";
-import RPL_Img_twelve from "@/assets/rpl/RPL_Img_twelve.jpg";
-import SecurityCleaning from "@/assets/rpl/SecurityCleaning.jpg";
+import RPL_Img_THREE from "@/assets/rpl/business-finance.png";
+import RPL_Img_Four from "@/assets/rpl/civil-construction.png";
+import RPL_Img_Five from "@/assets/rpl/community-services.png";
+import RPL_Img_Six from "@/assets/rpl/commercial-cookery-hospitality.png";
+import RPL_Img_Seven from "@/assets/rpl/hair-beauty.jpg";
+import RPL_Img_eight from "@/assets/rpl/horticulture-land-management.jpg";
+import RPL_Img_Nine from "@/assets/rpl/engineering.jpg";
+import RPL_Img_Ten from "@/assets/rpl/information-technology.jpg";
+import RPL_Img_eleven from "@/assets/rpl/mining-resources.jpg";
+import RPL_Img_twelve from "@/assets/rpl/plumbing-services.jpg";
+import SecurityCleaning from "@/assets/rpl/security-cleaning.jpg";
 import Transport from "@/assets/rpl/Transport.jpg";
-import VocationalEducation from "@/assets/rpl/VocationalEducation.jpg";
-import RetailServices from "@/assets/rpl/RetailServices.jpg";
+import VocationalEducation from "@/assets/rpl/vocational-education-training.jpg";
+import RetailServices from "@/assets/rpl/retail-services.jpg";
 
-import shortLogoImg from "@/assets/rpl/short-logo.png";
-import PolygonImg from "@/assets/rpl/Polygon.png";
+import shortLogoImg from "@/assets/rpl/gmq-icon-logo.png";
 
 import RPL_AboutImg from "@/assets/rpl/rpl-about.png";
+
+import PortfolioofExperience from "@/assets/rpl/PortfolioofExperience.png";
 
 import map_ACTImg from "@/assets/rpl/map_ACT.png";
 import map_nswImg from "@/assets/rpl/map_nsw.png";
@@ -42,120 +43,124 @@ import map_TAZImg from "@/assets/rpl/map_TAZ.png";
 import map_VICImg from "@/assets/rpl/map_VIC.png";
 import map_WAImg from "@/assets/rpl/map_WA.png";
 
-import aur20520 from "@/assets/rpl/aur20520.jpeg";
-import AUR30320 from "@/assets/rpl/AUR30320.webp";
-import AUR30620 from "@/assets/rpl/AUR30620.jpeg";
-import AUR20420 from "@/assets/rpl/AUR20420.webp";
-import UEE20120 from "@/assets/rpl/UEE20120.jpeg";
-import AUR32120 from "@/assets/rpl/AUR32120.jpeg";
-import AUR31520 from "@/assets/rpl/AUR31520.webp";
-import AUR32420 from "@/assets/rpl/AUR32420.jpeg";
-import AUR31120 from "@/assets/rpl/AUR31120.jpeg";
-import AUR31220 from "@/assets/rpl/AUR31220.webp";
-import AUR30820 from "@/assets/rpl/AUR30820.jpeg";
-import AUR40720 from "@/assets/rpl/AUR40720.webp";
-import AUR40620 from "@/assets/rpl/AUR40620.jpeg";
-import AUR40216 from "@/assets/rpl/AUR40216.jpeg";
-import AUR40820 from "@/assets/rpl/AUR40820.webp";
-import AUR50116 from "@/assets/rpl/AUR50116.jpeg";
-import AUR50216 from "@/assets/rpl/AUR50216.jpeg";
+import aur20520 from "@/assets/rpl/certificate-ii-in-automotive-servicing-technology-aur20520.jpeg";
+import AUR30320 from "@/assets/rpl/certificate-iii-in-automotive-electrical-technology-aur30320.webp";
+import AUR30620 from "@/assets/rpl/certificate-iii-in-light-vehicle-mechanical-technology-aur30620.jpeg";
+import AUR20420 from "@/assets/rpl/certificate-ii-in-automotive-electrical-technology-aur20420.webp";
+import UEE20120 from "@/assets/rpl/certificate-ii-in-split-air-conditioning-and-heat-pump-systems-uee20120.jpeg";
+import AUR32120 from "@/assets/rpl/certificate-iii-in-automotive-body-repair-technology-aur32120.jpeg";
+import AUR31520 from "@/assets/rpl/certificate-iii-in-automotive-diesel-engine-technology-aur31520.webp";
+import AUR32420 from "@/assets/rpl/certificate-iii-in-automotive-refinishing-technology-aur32420.jpeg";
+import AUR31120 from "@/assets/rpl/certificate-iii-in-heavy-commercial-vehicle-mechanical-technology-aur31120.jpeg";
+import AUR31220 from "@/assets/rpl/certificate-iii-in-mobile-plant-technology-aur31220.webp";
+import AUR30820 from "@/assets/rpl/certificate-iii-in-motorcycle-mechanical-technology-aur30820.jpeg";
+import AUR40720 from "@/assets/rpl/certificate-iv-in-automotive-body-repair-technology-aur40720.webp";
+import AUR40620 from "@/assets/rpl/certificate-iv-in-automotive-electrical-technology-aur40620.jpeg";
+import AUR40216 from "@/assets/rpl/certificate-iv-in-automotive-mechanical-diagnosis-aur40216.jpeg";
+import AUR40820 from "@/assets/rpl/certificate-iv-in-automotive-mechanical-overhauling-aur40820.webp";
+import AUR50116 from "@/assets/rpl/diploma-of-automotive-management-aur50116.jpeg";
+import AUR50216 from "@/assets/rpl/diploma-of-automotive-technology-aur50216.jpeg";
 
-import SHB20216 from "@/assets/rpl/SHB20216.jpg";
-import SHB30516 from "@/assets/rpl/SHB30516.jpg";
-import SHB30121 from "@/assets/rpl/SHB30121.jpg";
-import SHB30416 from "@/assets/rpl/SHB30416.jpg";
-import SHB30221 from "@/assets/rpl/SHB30221.jpg";
-import SHB30321 from "@/assets/rpl/SHB30321.jpg";
-import SHB40121 from "@/assets/rpl/SHB40121.jpg";
-import SHB40216 from "@/assets/rpl/SHB40216.jpg";
-import SHB50121 from "@/assets/rpl/SHB50121.jpg";
-import SHB50216 from "@/assets/rpl/SHB50216.jpg";
-import SHB80116 from "@/assets/rpl/SHB80116.jpg";
+import SHB20216 from "@/assets/rpl/certificate-ii-in-salon-assistant-shb20216.jpg";
+import SHB30516 from "@/assets/rpl/certificate-iii-in-barbering-shb30516.jpg";
+import SHB30121 from "@/assets/rpl/certificate-iii-in-beauty-services-shb30121.jpg";
+import SHB30416 from "@/assets/rpl/certificate-iii-in-hairdressing-shb30416.jpg";
+import SHB30221 from "@/assets/rpl/certificate-iii-in-make-up-shb30221.jpg";
+import SHB30321 from "@/assets/rpl/certificate-iii-in-nail-technology-shb30321.jpg";
+import SHB40121 from "@/assets/rpl/certificate-iv-in-beauty-therapy-shb40121.jpg";
+import SHB40216 from "@/assets/rpl/certificate-iv-in-hairdressing-shb40216.jpg";
+import SHB50121 from "@/assets/rpl/diploma-of-beauty-therapy-shb50121.jpg";
+import SHB50216 from "@/assets/rpl/diploma-of-salon-management-shb50216.jpg";
+import SHB80116 from "@/assets/rpl/graduate-certificate-in-hairdressing-creative-leadership-shb80116.jpg";
 
-import AHC30716 from "@/assets/rpl/AHC30716.jpg";
+import AHC30716 from "@/assets/rpl/certificate-iii-in-horticulture-ahc30716.jpg";
 
-import ICT60220 from "@/assets/rpl/ICT60220.jpg";
-import ICT50220 from "@/assets/rpl/ICT50220.jpg";
+import ICT60220 from "@/assets/rpl/advanced-diploma-of-information-technology-ict60220.jpg";
+import ICT50220 from "@/assets/rpl/diploma-of-information-technology-ict50220.jpg";
 
-import MEM60112 from "@/assets/rpl/MEM60112.jpg";
-import MEM40119 from "@/assets/rpl/MEM40119.jpg";
-import MEM50119 from "@/assets/rpl/MEM50119.jpg";
-import MEM50212 from "@/assets/rpl/MEM50212.jpg";
+import MEM60112 from "@/assets/rpl/advanced-diploma-of-engineering-mem60112.jpg";
+import MEM40119 from "@/assets/rpl/certificate-iv-in-engineering-mem40119.jpg";
+import MEM50119 from "@/assets/rpl/diploma-of-engineering-advanced-trade-mem50119.jpg";
+import MEM50212 from "@/assets/rpl/diploma-of-engineering-technical-mem50212.jpg";
 
-import RII30120 from "@/assets/rpl/RII30120.jpg";
+import RII30120 from "@/assets/rpl/certificate-iii-in-surface-extraction-operations-rii30120.jpg";
 
-import PlumbingCPC32420 from "@/assets/rpl/PlumbingCPC32420.jpg";
-import CPCrnd from "@/assets/rpl/CPCrnd.jpg";
+import CPCrnd from "@/assets/rpl/certificate-iii-in-plumbing-is-open-to-plumbers.jpg";
 
-import CPP41519 from "@/assets/rpl/CPP41519.jpg";
-import CPP50619 from "@/assets/rpl/CPP50619.jpg";
-import CPP40719 from "@/assets/rpl/CPP40719.jpg";
+import CPP41519 from "@/assets/rpl/certificate-iv-in-security-risk-analysis-cpp41519.jpg";
+// import CPP50619 from "@/assets/rpl/CPP50619.jpg";
+import CPP40719 from "@/assets/rpl/certificate-iv-in-security-management-cpp40719.jpg";
 
-import TLI50221 from "@/assets/rpl/TLI50221.jpg";
+import TLI50221 from "@/assets/rpl/diploma-of-logistics-tli50221.jpg";
 
-import BSB80120 from "@/assets/rpl/BSB80120.jpg";
+import BSB80120 from "@/assets/rpl/graduate-diploma-of-management-learning.jpg";
 
-import SHB20116 from "@/assets/rpl/SHB20116.jpg";
-import SIR50116 from "@/assets/rpl/SIR50116.jpg";
+import SHB20116 from "@/assets/rpl/certificate-ii-in-retail-cosmetics-shb20116.jpg";
+import SIR50116 from "@/assets/rpl/diploma-of-retail-leadership-sir50116.jpg";
 
-import BSB40415 from "@/assets/rpl/BSB40415.webp";
-import BSB30115 from "@/assets/rpl/BSB30115.webp";
-import BSB40420 from "@/assets/rpl/BSB40420.webp";
-import BSB60215 from "@/assets/rpl/BSB60215.webp";
-import BSB60520 from "@/assets/rpl/BSB60520.webp";
-import BSB60720 from "@/assets/rpl/BSB60720.webp";
-import BSB60915 from "@/assets/rpl/BSB60915.webp";
+import BSB50620 from "@/assets/rpl/diploma-of-marketing-and-communication-bsb50620.webp";
+import BSB30115 from "@/assets/rpl/advanced-diploma-of-business-bsb60120.webp";
+import BSB40420 from "@/assets/rpl/graduate-diploma-of-strategic-leadership-bsb80320.jpg";
+import BSB60215 from "@/assets/rpl/financial-services-leadership-and-management-entrepreneurship-and-new-business.webp";
+import BSB60520 from "@/assets/rpl/certificate-iv-in-entrepreneurship-and-new-business-bsb40320.jpg";
+import BSB60720 from "@/assets/rpl/advanced-diploma-of-program-management-and-business.webp";
+import BSB60915 from "@/assets/rpl/advanced-diploma-of-human-resource-management-marketing-and-communication-business.webp";
 
-import RII30820 from "@/assets/rpl/RII30820.webp";
-import RII30913 from "@/assets/rpl/RII30913.webp";
-import RII40720 from "@/assets/rpl/RII40720.webp";
+import bsb40420 from "@/assets/rpl/certificate-iv-in-human-resource-management-bsb40420.webp";
+import bsb40520 from "@/assets/rpl/certificate-iv-in-leadership-and-management-bsb40520.webp";
 
-import CHC62015 from "@/assets/rpl/5_1.webp";
-import CHC32015 from "@/assets/rpl/5_2.webp";
-import CHC33015 from "@/assets/rpl/5_3.webp";
-import CHC30121 from "@/assets/rpl/5_4.webp";
-import CHC43015 from "@/assets/rpl/5_5.webp";
+import RII30820 from "@/assets/rpl/certificate-iii-in-civil-construction-plant-operations-rii30820.webp";
+import RII30913 from "@/assets/rpl/certificate-iii-in-civil-construction-general-rii30920.webp";
+import RII40720 from "@/assets/rpl/certificate-iv-in-civil-construction-rii40720.webp";
 
-import img1 from "@/assets/rpl/6_1.webp";
-import img2 from "@/assets/rpl/6_2.webp";
-import img3 from "@/assets/rpl/6_3.webp";
-import img4 from "@/assets/rpl/6_4.webp";
-import img5 from "@/assets/rpl/6_5.webp";
-import img6 from "@/assets/rpl/6_6.webp";
-import img7 from "@/assets/rpl/6_7.webp";
-import img8 from "@/assets/rpl/6_9.webp";
-import img9 from "@/assets/rpl/6_10.webp";
+import CHC62015 from "@/assets/rpl/advanced-diploma-of-community-sector-management-chc62015.webp";
+import CHC32015 from "@/assets/rpl/certificate-iii-in-community-services-chc32015.webp";
+import CHC33015 from "@/assets/rpl/certificate-iii-in-individual-support-chc33015.webp";
+import CHC30121 from "@/assets/rpl/certificate-iii-in-early-childhood-education-and-care-chc30121.webp";
+import CHC43015 from "@/assets/rpl/certificate-iv-in-ageing-support-chc43015.webp";
 
-import BSB50820 from "@/assets/rpl/BSB50820.jpg";
-import CPC50220 from "@/assets/rpl/CPC50220.jpg";
-import BSB41419 from "@/assets/rpl/BSB41419.jpg";
-import CPC40920 from "@/assets/rpl/CPC40920.jpg";
-import CPC41020 from "@/assets/rpl/CPC41020.jpg";
-import CPC40120 from "@/assets/rpl/CPC40120.jpg";
-import BSB30719 from "@/assets/rpl/BSB30719.jpg";
-import CPC31320 from "@/assets/rpl/CPC31320.jpg";
-import CPC31220 from "@/assets/rpl/CPC31220.jpg";
-import CPC32320 from "@/assets/rpl/CPC32320.jpg";
-import CPC31020 from "@/assets/rpl/CPC31020.jpg";
-import CPC30120 from "@/assets/rpl/CPC30120.jpg";
-import CPC32620 from "@/assets/rpl/CPC32620.jpg";
-import CPC32420 from "@/assets/rpl/CPC32420.jpg";
-import AHC30921 from "@/assets/rpl/AHC30921.jpg";
-import MSF30422 from "@/assets/rpl/MSF30422.jpg";
-import MEM30319 from "@/assets/rpl/MEM30319.jpg";
-import UEE30820 from "@/assets/rpl/UEE30820.jpg";
-import CPC30420 from "@/assets/rpl/CPC30420.jpg";
-import CPC31420 from "@/assets/rpl/CPC31420.jpg";
-import CPC30320 from "@/assets/rpl/CPC30320.jpg";
-import MSF31113 from "@/assets/rpl/MSF31113.jpg";
-import CPC33020 from "@/assets/rpl/CPC33020.jpg";
-import UEE32220 from "@/assets/rpl/UEE32220.jpg";
-import CPC10120 from "@/assets/rpl/CPC10120.jpg";
-import CPC60220 from "@/assets/rpl/CPC60220.jpg";
-import CPC30620 from "@/assets/rpl/CPC30620.jpg";
-import MEM30219 from "@/assets/rpl/MEM30219.jpg";
-import CPC30220 from "@/assets/rpl/CPC30220.webp";
-import CPC31920 from "@/assets/rpl/CPC31920.jpg";
+import certificate_iii_in_patisserie_sit31016 from "@/assets/rpl/certificate-iii-in-patisserie-sit31016.webp";
+import certificate_iv_in_commercial_cookery_sit40516 from "@/assets/rpl/certificate-iv-in-commercial-cookery-sit40516.webp";
+import certificate_iv_in_hospitality_sit40416 from "@/assets/rpl/certificate-iv-in-hospitality-sit40416.webp";
+import certificate_iv_in_kitchen_management_sit40521 from "@/assets/rpl/certificate-iv-in-kitchen-management-sit40521.webp";
+import certificate_iv_in_patisserie_sit40716 from "@/assets/rpl/certificate-iv-in-patisserie-sit40716.webp";
+// import certificate_iii_in_patisserie_sit31016 from "@/assets/rpl/certificate-iii-in-patisserie-sit31016.webp";
+// import img7 from "@/assets/rpl/6_7.webp";
+// import img8 from "@/assets/rpl/6_9.webp";
+// import img9 from "@/assets/rpl/6_10.webp";
+
+import BSB40415 from "@/assets/rpl/certificate-iv-in-marketing-and-communication-bsb40820.jpg";
+
+import BSB50820 from "@/assets/rpl/diploma-of-project-management-bsb50820.jpg";
+import CPC50220 from "@/assets/rpl/diploma-of-building-and-construction-building-cpc50220.jpg";
+import BSB41419 from "@/assets/rpl/certificate-iv-in-work-health-and-safety-bsb41419.jpg";
+import CPC40920 from "@/assets/rpl/certificate-iv-in-plumbing-and-services-cpc40920.jpg";
+import CPC41020 from "@/assets/rpl/certificate-iv-in-demolition-cpc41020.jpg";
+import CPC40120 from "@/assets/rpl/certificate-iv-in-building-and-construction-cpc40120.jpg";
+import BSB30719 from "@/assets/rpl/certificate-iii-in-work-health-and-safety-bsb30719.jpg";
+import CPC31320 from "@/assets/rpl/certificate-iii-in-wall-and-floor-tiling-cpc31320.jpg";
+import CPC31220 from "@/assets/rpl/certificate-iii-in-wall-and-ceiling-lining-cpc31220.jpg";
+import CPC32320 from "@/assets/rpl/certificate-iii-in-stonemasonry-cpc32320.jpg";
+import CPC31020 from "@/assets/rpl/certificate-iii-in-solid-plastering-cpc31020.jpg";
+import CPC30120 from "@/assets/rpl/certificate-iii-in-shopfitting-cpc30120.jpg";
+import CPC32620 from "@/assets/rpl/certificate-iii-in-roof-plumbing-cpc32620.jpg";
+import CPC32420 from "@/assets/rpl/certificate-iii-in-plumbing-cpc32420.jpg";
+import AHC30921 from "@/assets/rpl/certificate-iii-in-landscape-construction-ahc30921.jpg";
+import MSF30422 from "@/assets/rpl/certificate-iii-in-glass-and-glazing-msf30422.jpg";
+import MEM30319 from "@/assets/rpl/certificate-iii-in-engineering-fabrication-trade-mem30319.jpg";
+import UEE30820 from "@/assets/rpl/certificate-iii-in-electrotechnology-electrician-uee30820.jpg";
+import CPC30420 from "@/assets/rpl/certificate-iii-in-demolition-cpc30420.jpg";
+import CPC31420 from "@/assets/rpl/certificate-iii-in-construction-waterproofing-cpc31420.jpg";
+import CPC30320 from "@/assets/rpl/certificate-iii-in-concreting-cpc30320.jpg";
+import MSF31113 from "@/assets/rpl/certificate-iii-in-cabinet-making-msf31113.jpg";
+import CPC33020 from "@/assets/rpl/certificate-iii-in-bricklaying-and-blocklaying-cpc33020.jpg";
+import UEE32220 from "@/assets/rpl/certificate-iii-in-air-conditioning-and-refrigeration-uee32220.jpg";
+import CPC10120 from "@/assets/rpl/certificate-i-in-construction-cpc10120.jpg";
+import CPC60220 from "@/assets/rpl/advanced-diploma-of-building-and-construction-management-cpc60220.jpg";
+import CPC30620 from "@/assets/rpl/certificate-iii-in-painting-and-decorating-cpc30620.jpg";
+import MEM30219 from "@/assets/rpl/certificate-iii-in-engineering-mechanical-trade-mem30219.jpg";
+import CPC30220 from "@/assets/rpl/certificate-iii-in-carpentry-cpc30220.webp";
+import CPC31920 from "@/assets/rpl/certificate-iii-in-joinery-cpc31920.jpg";
 
 import { FaTimes } from "react-icons/fa";
 import { AiOutlineCheck } from "react-icons/ai";
@@ -209,12 +214,12 @@ export const RPL_AboutData = {
     "An initial assessment could help you achieve a nationally recognized qualification through GMQ Australia and its partner RTOs.",
     "There are so many benefits to having your skills recognized including increased career opportunities, avoiding unnecessary training and much more.",
   ],
-  Polygon: PolygonImg,
+  // Polygon: PolygonImg,
   img: RPL_AboutImg,
 };
 
 export const RPL_SliderData = {
-  BG_Img: RPL_Slider_BG,
+  // BG_Img: RPL_Slider_BG,
   items: [
     {
       id: 1,
@@ -307,7 +312,7 @@ export const RPL_QualificationData = {
           },
           {
             id: 3,
-            text: "certificate iii in light vehicle mechanical technology - AUR30620 ",
+            text: "certificate iii in light vehicle mechanical technology - AUR30620",
             img: AUR30620,
             description:
               "This qualification of a certificate iii in light vehicle mechanical technology provides the knowledge and skills required by an individual who wishes to work in the light vehicle automotive repair and....",
@@ -778,7 +783,7 @@ export const RPL_QualificationData = {
           {
             id: 11,
             text: "Diploma of Marketing and Communication - BSB50620",
-            img: BSB40415,
+            img: BSB50620,
             description:
               "The Diploma of Marketing and Communication qualification is aimed at individuals who possess sound theoretical communications and marketing knowledge",
             href: "#",
@@ -794,7 +799,7 @@ export const RPL_QualificationData = {
           {
             id: 13,
             text: "Diploma of Work Health and Safety - BSB51319",
-            img: BSB40415,
+            img: BSB50620,
             description:
               "The Diploma of Work Health and Safety is recommended for individuals who coordinate and facilitate Work Health and Safety programs within their organisations.",
             href: "#",
@@ -834,7 +839,8 @@ export const RPL_QualificationData = {
           {
             id: 18,
             text: "Certificate IV in Human Resource Management - BSB40420",
-            img: BSB60520,
+            // img: BSB60520,
+            img: bsb40420,
             description:
               "The Certificate IV in Human Resource Management is applicable to individuals who work in human resources management positions, including payroll officers, HR administrators, HR coordinators ",
             href: "#",
@@ -842,7 +848,8 @@ export const RPL_QualificationData = {
           {
             id: 19,
             text: "Certificate IV in Leadership and Management - BSB40520",
-            img: BSB40420,
+            // img: BSB40420,
+            img: bsb40520,
             description:
               "The Certificate IV in Leadership and Management reflects the role of an emerging or developing leader or manager across a range of industry and enterprise contexts.",
             href: "#",
@@ -967,7 +974,7 @@ export const RPL_QualificationData = {
           {
             id: 1,
             text: "Certificate III in Patisserie - SIT31016",
-            img: img1,
+            img: certificate_iii_in_patisserie_sit31016,
             description:
               "The Certificate III in Patisserie covers the role of pastry chefs who use discretion, judgment and patisserie skills.",
             href: "#",
@@ -975,7 +982,7 @@ export const RPL_QualificationData = {
           {
             id: 2,
             text: "Certificate IV in Commercial Cookery - SIT40516",
-            img: img2,
+            img: certificate_iv_in_commercial_cookery_sit40516,
             description:
               "he Certificate IV in Commercial Cookery reflects the skills and knowledge of an individual working as a commercial cook, and provides supervision and team leading and guidance in the kitchen",
             href: "#",
@@ -983,7 +990,7 @@ export const RPL_QualificationData = {
           {
             id: 3,
             text: "Certificate IV in Hospitality - SIT40416",
-            img: img3,
+            img: certificate_iv_in_hospitality_sit40416,
             description:
               "The Certificate IV in Hospitality qualification is applicable to skilled operators who apply a broad range fo operational skills in the hospitality service and sales.",
             href: "#",
@@ -991,7 +998,7 @@ export const RPL_QualificationData = {
           {
             id: 4,
             text: "Certificate IV in Kitchen Management - SIT40521",
-            img: img4,
+            img: certificate_iv_in_kitchen_management_sit40521,
             description:
               "The Certificate IV in Kitchen Management (SIT40521) covers a variety of units of competency that are relevant to the food industry, including managing finances, leading teams, and implementing food",
             href: "#",
@@ -999,7 +1006,7 @@ export const RPL_QualificationData = {
           {
             id: 5,
             text: "Certificate IV in Patisserie - SIT40716",
-            img: img5,
+            img: certificate_iv_in_patisserie_sit40716,
             description:
               "The Certificate IV in Patisserie qualification covers the role and responsibilities of pastry chefs with a team leading or supervisory role in the kitchen.",
             href: "#",
@@ -1007,7 +1014,7 @@ export const RPL_QualificationData = {
           {
             id: 6,
             text: "Certificate III in Patisserie - SIT31016",
-            img: img6,
+            img: certificate_iii_in_patisserie_sit31016,
             description:
               "The Certificate III in Patisserie covers the role of pastry chefs who use discretion, judgment and patisserie skills.",
             href: "#",
@@ -1015,7 +1022,7 @@ export const RPL_QualificationData = {
           {
             id: 7,
             text: "Certificate IV in Commercial Cookery - SIT40516",
-            img: img7,
+            img: certificate_iv_in_commercial_cookery_sit40516,
             description:
               "The Certificate IV in Commercial Cookery reflects the skills and knowledge of an individual working as a commercial cook, and provides supervision and team leading and guidance in the kitchen",
             href: "#",
@@ -1023,27 +1030,27 @@ export const RPL_QualificationData = {
           {
             id: 8,
             text: "Certificate IV in Hospitality - SIT40416",
-            img: img1,
+            img: certificate_iii_in_patisserie_sit31016,
             description:
               "The Certificate IV in Hospitality qualification is applicable to skilled operators who apply a broad range fo operational skills in the hospitality service and sales.",
             href: "#",
           },
-          {
-            id: 9,
-            text: "Certificate IV in Kitchen Management - SIT40521",
-            img: img8,
-            description:
-              "The Certificate IV in Kitchen Management (SIT40521) covers a variety of units of competency that are relevant to the food industry, including managing finances, leading teams, and implementing food ",
-            href: "#",
-          },
-          {
-            id: 10,
-            text: "Certificate IV in Patisserie - SIT40716",
-            img: img9,
-            description:
-              "The Certificate IV in Patisserie qualification covers the role and responsibilities of pastry chefs with a team leading or supervisory role in the kitchen. The individual operates independently",
-            href: "#",
-          },
+          // {
+          //   id: 9,
+          //   text: "Certificate IV in Kitchen Management - SIT40521",
+          //   img: img8,
+          //   description:
+          //     "The Certificate IV in Kitchen Management (SIT40521) covers a variety of units of competency that are relevant to the food industry, including managing finances, leading teams, and implementing food ",
+          //   href: "#",
+          // },
+          // {
+          //   id: 10,
+          //   text: "Certificate IV in Patisserie - SIT40716",
+          //   img: img9,
+          //   description:
+          //     "The Certificate IV in Patisserie qualification covers the role and responsibilities of pastry chefs with a team leading or supervisory role in the kitchen. The individual operates independently",
+          //   href: "#",
+          // },
         ],
       },
       RPL_Img: RPL_Img_Six,
@@ -1310,7 +1317,7 @@ export const RPL_QualificationData = {
           {
             id: 1,
             text: "Certificate III in Plumbing - CPC32420",
-            img: PlumbingCPC32420,
+            img: CPC32420,
             description:
               "This particular course of a certificate iii in plumbing is open to plumbers who have at least 5 years related local experience, as well as local students who have completed part of their studies in Au....",
             href: "#",
@@ -1366,7 +1373,7 @@ export const RPL_QualificationData = {
           {
             id: 4,
             text: "Diploma of Security and Risk Management - CPP50619",
-            img: CPP50619,
+            img: CPP41519,
             description:
               "The Diploma of Security and Risk Management provides the skills required for Security Risk Assessment consultation, monitoring and implementation according to the Australian Security Risk Management S....",
             href: "#",
@@ -1454,7 +1461,7 @@ export const RPL_QualificationData = {
           {
             id: 3,
             text: "Diploma of Retail Leadership - SIR50116",
-            img: BSB80120,
+            img: SIR50116,
             description: "",
             href: "#",
           },

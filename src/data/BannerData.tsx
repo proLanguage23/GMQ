@@ -1,4 +1,4 @@
-import homeBannerOne from '@/assets/home-banner1.png'
+import homeBannerOne from '@/assets/join-our-student-referral-program.png'
 import NursingBanner from "@/assets/course/NursingBanner.png";
 import teachingBannerOne from "@/assets/course/new/teaching/teachingBannerOne.jpg";
 import informationTechnologyBannerOne from "@/assets/course/new/information-technology/informationTechnologyBannerOne.jpg";
@@ -6,7 +6,7 @@ import informationTechnologyBannerOne from "@/assets/course/new/information-tech
 export const HomeBannerData = [
     {
         id: 1,
-        text: 'homeBannerOne',
+        text: 'join our student referral program',
         img: homeBannerOne,
         btn:{
             text: 'learn more',
@@ -15,7 +15,7 @@ export const HomeBannerData = [
     },
     {
         id: 2,
-        text: 'homeBannerTwo',
+        text: 'join our student referral program',
         img: homeBannerOne,
         btn:{
             text: 'learn more',

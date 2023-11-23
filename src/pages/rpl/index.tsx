@@ -1,6 +1,5 @@
 import { ViewQualification } from "@/components/rpl";
 import RPL_About from "@/components/rpl/about";
-import AllQualifications from "@/components/rpl/allQualifications";
 import RPLBanner from "@/components/rpl/banner";
 import RPL_informationStep from "@/components/rpl/rplInformationStep";
 import SkillsTest from "@/components/rpl/skillsTest";
