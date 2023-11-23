@@ -101,7 +101,7 @@ function FiveStep({ submitHandle }: any) {
             value={contactForm.first_name}
             onChange={(e) => inputChangeHandler(e)}
             placeholder="First Name*"
-            className={`w-full p-3 border  rounded m-1  outline-none bg-customWhite ${
+            className={`w-full p-3 border  rounded-full m-1  outline-none bg-customWhite ${
               contactError.first_name ? "border-error" : "border-customWhite"
             }`}
             name="first_name"
@@ -112,7 +112,7 @@ function FiveStep({ submitHandle }: any) {
             value={contactForm.last_name}
             onChange={(e) => inputChangeHandler(e)}
             placeholder="Last Name*"
-            className={`w-full p-3 border  rounded m-1  outline-none bg-customWhite ${
+            className={`w-full p-3 border rounded-full m-1  outline-none bg-customWhite ${
               contactError.last_name ? "border-error" : "border-customWhite"
             }`}
             name="last_name"
@@ -123,7 +123,7 @@ function FiveStep({ submitHandle }: any) {
             value={contactForm.contact_number}
             onChange={(e) => inputChangeHandler(e)}
             placeholder="Contact Number*"
-            className={`w-full p-3 border  rounded m-1  outline-none bg-customWhite ${
+            className={`w-full p-3 border  rounded-full m-1  outline-none bg-customWhite ${
               contactError.contact_number
                 ? "border-error"
                 : "border-customWhite"
@@ -136,14 +136,14 @@ function FiveStep({ submitHandle }: any) {
             value={contactForm.email}
             onChange={(e) => inputChangeHandler(e)}
             placeholder="Email*"
-            className={`w-full p-3 border rounded m-1  outline-none bg-customWhite ${
+            className={`w-full p-3 border rounded-full m-1  outline-none bg-customWhite ${
               contactError.email ? "border-error" : "border-customWhite"
             }`}
             name="email"
             required
           />
           <textarea
-            className="w-full h-28 p-3 border border-customWhite bg-customWhite rounded m-1  outline-none"
+            className="w-full h-28 p-3 border border-customWhite bg-customWhite rounded-2xl m-1  outline-none"
             placeholder="Any questions for us?"
             name="message"
             value={contactForm.message}
@@ -161,11 +161,12 @@ function FiveStep({ submitHandle }: any) {
             />
             <AppDescriptionWithDangerouslySetInnerHTML
               text={terms_and_contrition}
+              
             />
           </div>
           <input
             type="submit"
-            className="w-full p-3 border border-customWhite rounded m-1  outline-none bg-primary hover:bg-primaryOpacity text-white cursor-pointer"
+            className="w-full p-3 border border-customWhite rounded-full m-1  outline-none bg-primary hover:bg-primaryOpacity text-white cursor-pointer"
           />
         </form>
       </div>

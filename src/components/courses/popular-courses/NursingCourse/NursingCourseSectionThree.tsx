@@ -1,6 +1,6 @@
 import { AppTitle, Container } from "@/components/share";
+import AppImg from "@/components/share/AppImg";
 import { NursingCourseDummyData } from "@/data/popular-courses/NursingCourseData";
-import Image from "next/image";
 import React from "react";
 
 function NursingCourseSectionThree() {
@@ -11,14 +11,7 @@ function NursingCourseSectionThree() {
       <Container>
         <div className="flex flex-col justify-center items-center gap-5">
           <AppTitle text={title} />
-          <Image
-            src={img}
-            alt={"logo"}
-            quality={100}
-            loading="lazy"
-            blurDataURL="true"
-            className="w-full mt-6"
-          />
+          <AppImg src={img} alt={title + ' image'} className="w-full mt-6" />
         </div>
       </Container>
     </div>

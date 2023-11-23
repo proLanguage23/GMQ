@@ -82,7 +82,7 @@ function OneStep({ submitHandle, value }: any) {
     <div className="md:px-9 px-3 flex flex-col justify-center items-center">
       <AppTitle text={title} class_name="text-center p-3 !text-[25px]" />
       <select
-        className={`w-full border border-customWhite p-3 rounded ${
+        className={`w-full border border-customWhite p-3 rounded-full ${
           errorExperienceResult && "border-error"
         }`}
         onChange={(e) => setOneStepSelectValueResult(e.target.value)}
@@ -97,7 +97,7 @@ function OneStep({ submitHandle, value }: any) {
       <AppTitle text={title_two} class_name="text-center p-3 !text-[25px]" />
 
       <select
-        className={`w-full  border border-customWhite p-3 rounded ${
+        className={`w-full  border border-customWhite p-3 rounded-full ${
           errorQualificationResult && "border-error"
         }`}
         onChange={(e) => setTwoStepSelectValueResult(e.target.value)}
@@ -115,7 +115,7 @@ function OneStep({ submitHandle, value }: any) {
 
       <AppBtn
         text={"Next"}
-        class_name="py-3 w-full text-center bg-primary text-white my-4 hover:opacity-75 transition-all"
+        class_name="py-3 w-full text-center rounded-full bg-primary text-white my-4 hover:opacity-75 transition-all"
         handleClick={() => next_handle()}
       />
     </div>

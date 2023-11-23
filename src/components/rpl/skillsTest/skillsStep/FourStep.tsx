@@ -156,7 +156,7 @@ function FourStep({ submitHandle, value }: any) {
           />
           <input
             type="text"
-            className="w-full p-3 border border-customWhite rounded m-1 outline-none"
+            className="w-full p-3 border border-customWhite rounded-full m-1 outline-none"
             placeholder="I'll type (Optional)"
             value={do_you_have_formal_qualification_Send?.what_qualification}
             onChange={(e) => handle_whatQualifications(e)}
@@ -176,7 +176,7 @@ function FourStep({ submitHandle, value }: any) {
               <input
                 type="file"
                 name="file"
-                className="w-full p-3 border border-customWhite rounded m-1"
+                className="w-full p-3 border border-customWhite rounded-full m-1"
                 placeholder="I'll type (Optional)"
                 id="fileID"
               />

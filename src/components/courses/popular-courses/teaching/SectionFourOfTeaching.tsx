@@ -26,7 +26,7 @@ function SectionFourOfTeaching() {
           />
         </div>
       </Container>
-      <AppBgImg BgImg={secondaryImg} class_name="blur-[0px]" />
+      <AppBgImg BgImg={secondaryImg} alt={title + " background"} class_name="blur-[0px]" />
     </div>
   );
 }

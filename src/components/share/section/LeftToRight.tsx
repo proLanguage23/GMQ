@@ -5,6 +5,7 @@ import {
   PageLink,
 } from "..";
 import Image from "next/image";
+import AppImg from "../AppImg";
 
 function LeftToRight({
   title,
@@ -15,30 +16,26 @@ function LeftToRight({
   leftImageToRight = false,
   isBtn = false,
   btn = {},
-  heading = false
+  heading = false,
+  alt
 }: any) {
   return (
     <div
       className={`grid grid-cols-1 md:grid-cols-2 md:gap-2 gap-9 justify-center items-center ${class_name}`}
     >
       <div
-        className={`flex justify-center items-center  ${
+        className={`flex justify-center items-center ${
           leftImageToRight ? "order-last" : "order-first"
         }`}
       >
         {sideImg && (
-          <Image
-            src={sideImg}
-            alt={title || "img"}
-            quality={100}
-            loading="lazy"
-            placeholder="blur"
-            className="w-full p-3 rounded"
-          />
+          <AppImg src={sideImg} alt={alt || title } class_name="w-full p-3 rounded" />
         )}
       </div>
       <div className="">
-        {title && <AppTitle heading={heading} text={title} class_name="!font-medium" />}
+        {title && (
+          <AppTitle heading={heading} text={title} class_name="!font-medium" />
+        )}
 
         <div className="mt-5 flex flex-col gap-2">
           {description &&

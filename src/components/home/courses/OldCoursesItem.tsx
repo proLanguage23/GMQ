@@ -1,4 +1,5 @@
 import { AppBtn, AppDescription, PageLink } from "@/components/share";
+import AppImg from "@/components/share/AppImg";
 import Image from "next/image";
 import React from "react";
 
@@ -8,7 +9,9 @@ function OldCoursesItem({
   description,
   btn,
   iSPageLink = true,
-  handleClick = () => {alert("I am Click")},
+  handleClick = () => {
+    alert("I am Click");
+  },
   class_name = "",
   btn_Class_name = "",
 }: any) {
@@ -17,15 +20,13 @@ function OldCoursesItem({
       className={`w-full bg-white rounded my-3 p-3 border shadow flex flex-col justify-between flex-wrap ${class_name}`}
     >
       <div className="">
-        <Image
+        <AppImg
           src={img}
-          alt={"logo"}
+          alt={title || " image of gmq of popular-courses nursing"}
           quality={100}
-          // priority={true}
-          loading="lazy"
-          blurDataURL="true"
-          className="w-full object-cover rounded"
+          class_name="w-full object-cover rounded"
         />
+
         <PageLink
           href={btn?.href}
           text={title}
@@ -36,10 +37,14 @@ function OldCoursesItem({
       </div>
       <div className="mt-5 flex md:justify-end">
         {iSPageLink ? (
-            <PageLink {...btn} class_name="commonBtnStyle" />
-          ) : (
-            <AppBtn text={btn?.text} handleClick={handleClick} class_name={`commonBtnStyle ${btn_Class_name}`} />
-          )}
+          <PageLink {...btn} class_name="commonBtnStyle" />
+        ) : (
+          <AppBtn
+            text={btn?.text}
+            handleClick={handleClick}
+            class_name={`commonBtnStyle ${btn_Class_name}`}
+          />
+        )}
       </div>
     </div>
   );

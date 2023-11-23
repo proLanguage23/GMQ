@@ -14,6 +14,7 @@ function TradeCourseSectionTwo() {
           tiny_mceEditor={left?.text}
           sideImg={right?.img}
           leftImageToRight
+          alt={left?.title}
         />
       </Container>
     </div>

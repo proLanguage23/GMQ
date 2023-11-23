@@ -42,7 +42,7 @@ function AppSliderBanner({ data, class_name, ...rest }: any) {
             <Link href={item?.btn?.href}>
               <Image
                 src={item?.img}
-                alt={"Home Banner SwipeWrap slider img"}
+                alt={item?.text || "GMQ slider img"}
                 quality={100}
                 // priority={true}
                 loading="lazy"

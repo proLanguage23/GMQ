@@ -17,7 +17,7 @@ function SectionThreeOfTeaching() {
         <AppTitle text={title} class_name="text-center w-full" />
         <div className="mt-9 grid md:grid-cols-2 grid-cols-1 justify-center gap-5">
           <div className="flex justify-center items-start flex-wrap">
-            <AppImg src={img} class_name="rounded" />
+            <AppImg src={img} alt={title} class_name="rounded" />
           </div>
           <div className="mt-14">
             <AppSubTitle text={data?.title} class_name="text-[25px] mb-4 bg-primary text-white p-2 rounded " />

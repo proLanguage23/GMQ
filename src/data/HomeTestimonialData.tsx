@@ -1,5 +1,5 @@
-import happyStudent from '@/assets/happyStudent.png'
-import avatarOne from '@/assets/avatarOne.png'
+import happyStudent from '@/assets/testimonials.png'
+import avatarOne from '@/assets/stedunt-of-testimonials.png'
 import quotation from '@/assets/quotation.png'
 
 export const HomeTestimonialDummyData = {

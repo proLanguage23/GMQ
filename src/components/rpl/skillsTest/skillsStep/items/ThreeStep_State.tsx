@@ -17,7 +17,7 @@ function ThreeStep_State({
 
   return (
     <div
-      className={`flex flex-col justify-center items-center hover:bg-secondary hover:text-white cursor-pointer  border border-secondary p-2 rounded-md ${
+      className={`flex flex-col justify-center items-center hover:bg-secondary hover:text-white cursor-pointer  border border-secondary p-2 rounded-2xl group transition-all ${
         activeItem === String(id) ? "bg-secondary text-white" : "bg-white"
       }`}
       onClick={() => handlerClick()}
@@ -32,7 +32,7 @@ function ThreeStep_State({
       />
       <AppSubTitle
         text={text}
-        class_name={`text-center uppercase font-bold my-1 ${
+        class_name={`text-center uppercase font-bold my-1 group-hover:text-white transition-all ${
           activeItem === String(id) ? "text-white" : " "
         }`}
       />

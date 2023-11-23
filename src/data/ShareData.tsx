@@ -1,5 +1,5 @@
 import Logo from '@/assets/main-logo.png'
-import WhiteLogo from '@/assets/whiteLogo.png'
+import WhiteLogo from '@/assets/gmq-white-logo.png'
 import LogoWithOutIcon from '@/assets/LogoWithOutIcon.png'
 export const email = 'GMQ@getMaxListeners.com';
 export const call = '1234 456 8541';

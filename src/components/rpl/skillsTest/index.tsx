@@ -22,7 +22,7 @@ function SkillsTest() {
         <Container>
           <div className="flex justify-center items-center py-2 pb-4 ">
             <AppLoader class_name='w-[70px]' />
-            <AppSubTitle text={skillsTest?.text} class_name="text-[24px] text-white" />
+            <AppSubTitle text={skillsTest?.text} class_name="text-[24px] text-white text-center" />
             <AppLoader class_name='w-[70px]' />
           </div>
         </Container>

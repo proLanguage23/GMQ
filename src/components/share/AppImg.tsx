@@ -5,7 +5,7 @@ function AppImg({ src, alt, class_name, ...rest }: any) {
   return (
     <Image
       src={src}
-      alt={alt || "GMQ Global Image"}
+      alt={alt + ' image' || "image of GMQ Global"}
       quality={100}
       loading="lazy"
       blurDataURL="true"

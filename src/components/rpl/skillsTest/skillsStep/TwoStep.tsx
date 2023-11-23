@@ -105,12 +105,12 @@ function TwoStep({ submitHandle, value }: any) {
       <div className="flex justify-between items-center gap-2 md:w-2/3 w-full mt-3">
         <AppBtn
           text={"Preview"}
-          class_name=" py-3 w-full text-center bg-customWhite border my-4 bg-slate-100 hover:opacity-75"
+          class_name=" py-3 rounded-full w-full text-center bg-grayCustom shadow border my-4 hover:opacity-75"
           handleClick={() => next_handle("pre")}
         />
         <AppBtn
           text={"Next"}
-          class_name=" py-3 w-full text-center bg-primary hover:bg-primaryOpacity text-white my-4 hover:opacity-75"
+          class_name=" py-3 rounded-full w-full text-center bg-primary shadow hover:bg-primaryOpacity text-white my-4 hover:opacity-75"
           handleClick={() => next_handle("next")}
         />
       </div>

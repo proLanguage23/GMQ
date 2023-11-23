@@ -1,5 +1,5 @@
 import { contactFormOfHome } from "./ShareData";
-import contactFormOfHomeImg from '@/assets/contactFormOfHomeImg.png'
+import contactFormOfHomeImg from '@/assets/contact-form.png'
 
 export const CommonFormDummyData = {
     left:{

@@ -66,7 +66,7 @@ function RPLBanner() {
           ))}
         </div>
       </Container>
-      <AppBgImg BgImg={bgImg} />
+      <AppBgImg BgImg={bgImg} alt={title[0]?.text_one + title[0]?.text_two} />
     </div>
   );
 }

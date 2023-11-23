@@ -17,15 +17,15 @@ function Four_formal_qualification({
 
   return (
     <div
-      className={`flex flex-col justify-center items-center flex-wrap hover:bg-secondary hover:text-white cursor-pointer border border-secondary p-2 rounded-md w-24 h-20 ${
-        activeItem === String(id) ? "bg-secondary" : "bg-white"
+      className={`flex flex-col justify-center items-center flex-wrap hover:bg-secondary hover:text-white cursor-pointer border border-secondary p-2 rounded-2xl w-24 h-20 group transition-all ${
+        activeItem === String(id) ? "bg-secondary text-white" : "bg-white"
       }`}
       onClick={() => handlerClick()}
     >
-      <span>{assert}</span>
+      <span className="">{assert}</span>
       <AppSubTitle
         text={text}
-        class_name={`text-center uppercase font-bold my-1 ${
+        class_name={`text-center uppercase font-bold my-1 group-hover:text-white ${
           activeItem === String(id) ? "text-white" : ""
         }`}
       />

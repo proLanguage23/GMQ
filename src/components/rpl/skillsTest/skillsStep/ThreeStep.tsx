@@ -71,7 +71,7 @@ function ThreeStep({ submitHandle, value }: any) {
       </div>
 
       {error && (
-        <div className="text-center mt-3 bg-error p-2">
+        <div className="text-center mt-3 bg-error p-2 rounded-full">
           <AppSubTitle text={error} class_name=" text-white" />
         </div>
       )}
@@ -79,12 +79,12 @@ function ThreeStep({ submitHandle, value }: any) {
       <div className="flex justify-between items-center gap-2">
         <AppBtn
           text={"Preview"}
-          class_name="animationBtn py-3 w-full text-center bg-customWhite border my-4  hover:opacity-75 transition-all"
+          class_name="animationBtn py-3 w-full text-center bg-grayCustom rounded-full border my-4  hover:opacity-75 transition-all"
           handleClick={() => next_handle("pre")}
         />
         <AppBtn
           text={"Next"}
-          class_name="animationBtn py-3 w-full text-center bg-primary hover:bg-primaryOpacity text-white my-4  hover:opacity-75 transition-all"
+          class_name="animationBtn py-3 w-full text-center bg-primary rounded-full hover:bg-primaryOpacity text-white my-4  hover:opacity-75 transition-all"
           handleClick={() => next_handle("next")}
         />
       </div>
