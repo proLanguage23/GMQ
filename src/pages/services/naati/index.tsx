@@ -1,5 +1,5 @@
 import CommonForm from "@/components/contactForm/CommonForm";
-import { DynamicHead } from "@/components/share";
+import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import { NaatiSectionOne, NaatiSectionThree, NaatiSectionTwo } from "@/components/student-services";
 import TestimonialSection from "@/components/testimonial";
@@ -16,6 +16,7 @@ function NAATI_PAGE() {
       <NaatiSectionThree />
       <CommonForm />
       <TestimonialSection />
+      <VisitedForm />
     </>
   );
 }

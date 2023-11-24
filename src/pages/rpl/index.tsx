@@ -3,7 +3,7 @@ import RPL_About from "@/components/rpl/about";
 import RPLBanner from "@/components/rpl/banner";
 import RPL_informationStep from "@/components/rpl/rplInformationStep";
 import SkillsTest from "@/components/rpl/skillsTest";
-import { DynamicHead } from "@/components/share";
+import { DynamicHead, VisitedForm } from "@/components/share";
 import React from "react";
 
 function RPL_Page() {
@@ -16,6 +16,7 @@ function RPL_Page() {
       <RPL_About />
       {/* <AllQualifications /> */}
       <ViewQualification />
+      <VisitedForm />
     </>
   );
 }

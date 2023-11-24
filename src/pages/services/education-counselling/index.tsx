@@ -1,5 +1,5 @@
 import CommonForm from "@/components/contactForm/CommonForm";
-import { DynamicHead } from "@/components/share";
+import { DynamicHead, VisitedForm } from "@/components/share";
 import AppBannerImg from "@/components/share/AppBannerImg";
 import { EducationCounsellingSectionThree, EducationCounsellingSectionTwo } from "@/components/student-services";
 import EducationCounsellingSectionOne from "@/components/student-services/education-counselling/EducationCounsellingSectionOne";
@@ -18,6 +18,7 @@ function EducationCounsellingPage() {
       <EducationCounsellingSectionThree />
       <CommonForm />
       <TestimonialSection />
+      <VisitedForm />
     </>
   );
 }

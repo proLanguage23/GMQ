@@ -1,6 +1,6 @@
 import CommonForm from "@/components/contactForm/CommonForm";
 import { TradeCourseSectionFour, TradeCourseSectionOne, TradeCourseSectionThree, TradeCourseSectionTwo } from "@/components/courses";
-import { DynamicHead } from "@/components/share";
+import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
 import { TradeCoursesBannerData } from "@/data/BannerData";
@@ -17,6 +17,7 @@ function TradeCoursesPage() {
       <TradeCourseSectionFour />
       <CommonForm />
       <TestimonialSection />
+      <VisitedForm />
     </>
   );
 }

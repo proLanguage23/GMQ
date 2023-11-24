@@ -2,7 +2,7 @@
 import {
   AppDescriptionWithDangerouslySetInnerHTML,
   AppTitle,
-  Container
+  Container,
 } from "@/components/share";
 import { RPL_QualificationData } from "@/data/RPL_Data";
 import React, { useState, useLayoutEffect, useEffect } from "react";
@@ -20,6 +20,8 @@ function ViewQualification() {
 
   const [searchInput, setSearchInput] = useState("");
 
+  // const [dem_search_result, setDem_search_result] = useState<any>([]);
+
   const selectCatagoryHandler = (data: any) => {
     setSelectCatagory(data);
   };
@@ -31,14 +33,14 @@ function ViewQualification() {
       result = RPL_QualificationItems?.map((item: any, _: any) =>
         item?.content?.link?.map((mainItem: any, _: any) => mainItem)
       );
-      setSearchInput('')
+      setSearchInput("");
     } else {
       // other category
       const selectResult = RPL_QualificationItems?.filter(
         (item) => item?.content?.title.toLowerCase() === data.toLowerCase()
       );
       result = [selectResult[0]?.content?.link];
-      setSearchInput('')
+      setSearchInput("");
     }
 
     // End of push all items
@@ -47,15 +49,28 @@ function ViewQualification() {
 
   const handleSearch = (e: any) => {
     let inputValue = e.target.value;
-    inputValue = inputValue?.trim()?.toLowerCase();
+    inputValue = inputValue?.toLowerCase();
     setSearchInput(inputValue);
 
     const search = allRPL_QualificationItems?.filter((item: any) =>
-      item?.text?.toLowerCase()?.includes(inputValue)
+      item?.text?.toLowerCase()?.includes(inputValue?.toLowerCase()?.trim())
     );
 
     setShowQualificationItems(search);
+
+    // const dm_arrayInput = inputValue.split(" ");
+
+    // for (let i = 0; i < dm_arrayInput.length; i++) {
+    //   let dmR = allRPL_QualificationItems?.filter((item: any) =>
+    //     item?.text
+    //       ?.toLowerCase()
+    //       ?.includes(dm_arrayInput[i]?.toLowerCase()?.trim())
+    //   );
+    //   setDem_search_result((dem_search_result:any) => [...dem_search_result, ...dmR]);
+    // }
+
   };
+
 
   useLayoutEffect(() => {
     const result = [
@@ -100,7 +115,11 @@ function ViewQualification() {
               {/* result item  */}
               <div className="mb-4 text-center">
                 <AppDescriptionWithDangerouslySetInnerHTML
-                  text={`${ searchInput ? showQualificationItems?.length : allRPL_QualificationItems?.length} Courses Found`}
+                  text={`${
+                    searchInput
+                      ? showQualificationItems?.length
+                      : allRPL_QualificationItems?.length
+                  } Courses Found`}
                   class_name="text-center"
                 />
               </div>

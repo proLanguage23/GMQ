@@ -6,7 +6,7 @@ import {
   SectionThreeOfTeaching,
   SectionTwoOfTeaching,
 } from "@/components/courses";
-import { DynamicHead } from "@/components/share";
+import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
 import { teachingBannerData } from "@/data/BannerData";
@@ -24,6 +24,7 @@ function teaching() {
       <SectionFiveOfTeaching />
       <CommonForm />
       <TestimonialSection />
+      <VisitedForm />
     </>
   );
 }

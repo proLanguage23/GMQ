@@ -7,6 +7,7 @@ import Footer from '@/components/footer/Footer'
 import NextTopLoader from 'nextjs-toploader';
 
 export default function App({ Component, pageProps }: AppProps) {
+
   return (
     <>
       <style jsx global>{`

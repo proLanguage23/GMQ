@@ -4,7 +4,7 @@ import { AppCourseBanner } from "@/components/share";
 import Courses from "@/components/rpl/allQualifications/Courses";
 import { useLayoutEffect } from "react";
 import { RPL_QualificationData } from "@/data/RPL_Data";
-import { DynamicHead } from "@/components/share";
+import { DynamicHead,VisitedForm } from "@/components/share";
 
 function GMQ_coursePage() {
   const [pageData, setPageData] = useState();
@@ -35,6 +35,7 @@ function GMQ_coursePage() {
       <DynamicHead title={`${pageData?.content?.title}-GMQ Global`} />
       <AppCourseBanner text={pageData?.content?.title} />
       <Courses data={pageData?.content?.link} />
+      <VisitedForm />
     </>
   );
 }

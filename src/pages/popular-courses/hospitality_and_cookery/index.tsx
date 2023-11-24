@@ -3,7 +3,7 @@ import CookeryCoursesSectionFour from "@/components/courses/popular-courses/Cook
 import CookeryCoursesSectionOne from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionOne";
 import CookeryCoursesSectionThree from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionThree";
 import CookeryCoursesSectionTwo from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesSectionTwo";
-import { DynamicHead } from "@/components/share";
+import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
 import { CookeryCoursesInAustraliaBannerData } from "@/data/BannerData";
@@ -21,6 +21,7 @@ function CookeryCoursesInAustraliaPage() {
       <CookeryCoursesSectionFour />
       <CommonForm />
       <TestimonialSection />
+      <VisitedForm />
     </>
   );
 }

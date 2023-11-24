@@ -1,5 +1,5 @@
 import CommonForm from '@/components/contactForm/CommonForm';
-import { DynamicHead } from '@/components/share';
+import { DynamicHead, VisitedForm } from '@/components/share';
 import AppSliderBanner from '@/components/share/section/AppSliderBanner';
 import { PTE_SectionOne, PTE_SectionThree, PTE_SectionTwo } from '@/components/student-services';
 import TestimonialSection from '@/components/testimonial';
@@ -16,6 +16,7 @@ function PTE_Page() {
       <PTE_SectionThree />
       <CommonForm />
       <TestimonialSection />
+      <VisitedForm />
     </>
   )
 }

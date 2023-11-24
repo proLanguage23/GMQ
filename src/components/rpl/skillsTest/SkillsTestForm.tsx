@@ -161,7 +161,7 @@ function SkillsTestForm() {
   };
 
   return (
-    <div className="p-3 ">
+    <div className="p-3">
       <div className="contact-form bg-white border-8 border-secondaryLight border-x-secondary md:w-[750px] w-full  shadow p-3 flex flex-col justify-between items-center flex-wrap gap-3 rounded">
         <div className="progressArea my-3 w-full px-6">
           <ProgressBar completed={ProgressNumber} bgColor="#22d1ee" />

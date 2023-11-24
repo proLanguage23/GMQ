@@ -6,8 +6,7 @@ import HomeBanner from "@/components/home/homeHero";
 import HomeRWL from "@/components/home/rwl";
 import HomeTestimonials from "@/components/home/testimonials";
 import HomeWhyGMQ from "@/components/home/whyGMQ";
-import { DynamicHead } from "@/components/share";
-import PageLinkAnimation from "@/components/share/PageLinkAnimation";
+import { DynamicHead, VisitedForm } from "@/components/share";
 
 
 export default function Home() {
@@ -23,6 +22,7 @@ export default function Home() {
       <HomeHelpOfGMQ />
       <HomeTestimonials />
       <HomeRWL />
+      <VisitedForm />
     </>
   );
 }

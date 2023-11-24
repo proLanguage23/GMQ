@@ -2,7 +2,7 @@ import CommonForm from "@/components/contactForm/CommonForm";
 import NursingCourseSectionOne from "@/components/courses/popular-courses/NursingCourse/NursingCourseSectionOne";
 import NursingCourseSectionThree from "@/components/courses/popular-courses/NursingCourse/NursingCourseSectionThree";
 import NursingCourseSectionTwo from "@/components/courses/popular-courses/NursingCourse/NursingCourseSectionTwo";
-import { DynamicHead } from "@/components/share";
+import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
 import { NursingBannerData } from "@/data/BannerData";
@@ -18,6 +18,7 @@ function NursingPage() {
       <NursingCourseSectionThree />
       <CommonForm />
       <TestimonialSection />
+      <VisitedForm />
     </>
   );
 }
