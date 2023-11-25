@@ -2,7 +2,7 @@ import { RPL_SkillsTextData } from "@/data/RPL_Data";
 import { useEffect, useState } from "react";
 import Two_workExperience from "./items/Two_workExperience";
 import Two_workExperience_Area from "./items/Two_workExperience_Area";
-import { AppTitle } from "@/components/share";
+import { AppSubTitle } from "@/components/share";
 import AppBtn from "@/components/share/AppBtn";
 
 function TwoStep({ submitHandle, value }: any) {
@@ -71,9 +71,9 @@ function TwoStep({ submitHandle, value }: any) {
   return (
     <div className="flex flex-col justify-center items-center flex-wrap">
       <div className="my-3">
-        <AppTitle
+        <AppSubTitle
           text={title}
-          class_name="!text-center p-3 md:px-16 !text-[25px]"
+          class_name="!text-center p-3 md:px-16 md:!text-[22px]"
         />
         <div className="flex justify-center items-center gap-2 flex-wrap">
           {workExperience?.map((item, key) => (
@@ -87,9 +87,9 @@ function TwoStep({ submitHandle, value }: any) {
         </div>
       </div>
       <div className="my-3">
-        <AppTitle
+        <AppSubTitle
           text={title_two}
-          class_name="text-center p-3 md:px-16 !text-[25px]"
+          class_name="text-center p-3 md:px-16 md:!text-[22px]"
         />
         <div className="flex justify-center items-center gap-2 flex-wrap">
           {workExperience_Area?.map((item, key) => (

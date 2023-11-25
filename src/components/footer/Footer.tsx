@@ -5,6 +5,7 @@ import AppBgImg from "../share/AppBgImg";
 import LogoArea from "./footerSections/LogoArea";
 import FooterLinkArea from "./footerSections/FooterLinkArea";
 import CopyRightArea from "./footerSections/CopyRightArea";
+import { motion } from "framer-motion";
 
 function Footer() {
   const {
@@ -16,6 +17,17 @@ function Footer() {
     secondaryImg,
   } = HomeFooterDummyData;
   return (
+    <motion.div
+      className=""
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
     <div className="pt-24 relative">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-9 lg:gap-1">
@@ -37,7 +49,7 @@ function Footer() {
         </div>
       <CopyRightArea text={copyRight} socialLinkData={socialLinks} />
       <AppBgImg BgImg={secondaryImg} />
-    </div>
+    </div></motion.div>
   );
 }
 

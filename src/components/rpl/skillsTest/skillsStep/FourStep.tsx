@@ -4,7 +4,7 @@ import { useState } from "react";
 import Four_formal_qualification from "./items/Four_formal_qualification";
 import { motion } from "framer-motion";
 import { Circles } from "react-loader-spinner";
-import { AppBtn, AppDescription, AppSubTitle, AppTitle } from "@/components/share";
+import { AppBtn, AppDescription, AppSubTitle } from "@/components/share";
 
 function FourStep({ submitHandle, value }: any) {
   const { four } = RPL_SkillsTextData;
@@ -129,7 +129,7 @@ function FourStep({ submitHandle, value }: any) {
 
   return (
     <div>
-      <AppTitle text={title} class_name="text-center p-3 !text-[25px]" />
+      <AppSubTitle text={title} class_name="text-center p-3 !text-[25px]" />
       <div className="flex justify-center items-center flex-wrap gap-3 p-3">
         {formal_qualification?.map((item, key) => (
           <Four_formal_qualification
@@ -150,13 +150,13 @@ function FourStep({ submitHandle, value }: any) {
             damping: 20,
           }}
         >
-          <AppTitle
+          <AppSubTitle
             text={what_qualifications?.title}
-            class_name="text-center p-3 !text-[25px]"
+            class_name="text-center p-3"
           />
           <input
             type="text"
-            className="w-full p-3 border border-customWhite rounded-full m-1 outline-none"
+            className="w-full p-3 px-5 border border-customWhite rounded-full m-1 outline-none"
             placeholder="I'll type (Optional)"
             value={do_you_have_formal_qualification_Send?.what_qualification}
             onChange={(e) => handle_whatQualifications(e)}
@@ -213,12 +213,12 @@ function FourStep({ submitHandle, value }: any) {
         <div className="flex justify-between items-center gap-2">
           <AppBtn
             text={"Preview"}
-            class_name="animationBtn py-3 w-full text-center bg-customWhite border my-4"
+            class_name="py-3 w-full text-center bg-customWhite border my-4"
             handleClick={() => next_handle("pre")}
           />
           <AppBtn
             text={"Next"}
-            class_name="animationBtn py-3 w-full text-center bg-primary hover:bg-primaryOpacity text-white my-4"
+            class_name="py-3 w-full text-center bg-primary hover:bg-primaryOpacity text-white my-4"
             handleClick={() => next_handle("next")}
           />
         </div>

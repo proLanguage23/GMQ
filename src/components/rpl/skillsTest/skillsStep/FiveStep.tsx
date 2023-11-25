@@ -1,7 +1,7 @@
 import {
   AppDescription,
   AppDescriptionWithDangerouslySetInnerHTML,
-  AppTitle,
+  AppSubTitle,
 } from "@/components/share";
 import { RPL_SkillsTextData } from "@/data/RPL_Data";
 import { useState } from "react";
@@ -93,7 +93,7 @@ function FiveStep({ submitHandle }: any) {
 
   return (
     <div className="md:px-9">
-      <AppTitle text={title} class_name="!text-center p-3 !text-[25px]" />
+      <AppSubTitle text={title} class_name="!text-center p-3" />
       <div>
         <form onSubmit={(e) => form_handler(e)}>
           <input
@@ -161,7 +161,6 @@ function FiveStep({ submitHandle }: any) {
             />
             <AppDescriptionWithDangerouslySetInnerHTML
               text={terms_and_contrition}
-              
             />
           </div>
           <input

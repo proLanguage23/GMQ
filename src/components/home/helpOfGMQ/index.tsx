@@ -1,15 +1,24 @@
-import { AppTitle, Container } from "@/components/share";
 import { HomeHelpOfGMQData } from "@/data/HomeHelpOfGMQData";
 import React from "react";
-import HelpOfGMQItem from "./HelpOfGMQItem";
 import { AllQualifications } from "@/components/rpl";
+import { motion } from "framer-motion";
 
 function HomeHelpOfGMQ() {
   const { title, HelpOfGMQ } = HomeHelpOfGMQData;
   return (
-    <>
+    <motion.div
+      className=""
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
       <AllQualifications PropsText={title} />
-    </>
+    </motion.div>
   );
 }
 

@@ -6,6 +6,7 @@ import FourStep from "./skillsStep/FourStep";
 import FiveStep from "./skillsStep/FiveStep";
 import SuccessStep from "./skillsStep/SuccessStep";
 import ProgressBar from "@ramonak/react-progress-bar";
+import { motion } from "framer-motion";
 
 function SkillsTestForm() {
   const [ProgressNumber, setProgressNumber] = useState(5);
@@ -161,8 +162,16 @@ function SkillsTestForm() {
   };
 
   return (
-    <div className="p-3">
-      <div className="contact-form bg-white border-8 border-secondaryLight border-x-secondary md:w-[750px] w-full  shadow p-3 flex flex-col justify-between items-center flex-wrap gap-3 rounded">
+    <motion.div
+      className="md:p-3 w-full md:h-screen  md:flex md:justify-center md:items-center p-2"
+      initial={{ opacity: 0, y: 80 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 0.5,
+        delay: 0.3,
+      }}
+    >
+      <div className="contact-form bg-white w-full md:w-[750px]  shadow p-3 flex flex-col justify-between items-center flex-wrap gap-3 rounded">
         <div className="progressArea my-3 w-full px-6">
           <ProgressBar completed={ProgressNumber} bgColor="#22d1ee" />
         </div>
@@ -186,7 +195,7 @@ function SkillsTestForm() {
         )}
         {visitableSuccess && <SuccessStep value={allValue} />}
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -3,16 +3,25 @@ import {
   AppDescriptionWithDangerouslySetInnerHTML,
 } from "@/components/share";
 import AppImg from "@/components/share/AppImg";
-import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 function QualificationItemResult({ allRPL_QualificationItems }: any) {
   return (
     <>
       {allRPL_QualificationItems?.map((item: any, key: any) => (
-        <div
+        <motion.div
           className="p-2 bg-white rounded-[24px] flex flex-col shadow border border-secondary/30 hover:border-secondary transition-all"
           key={key}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 0.10 * key,
+          }}
+          viewport={{
+            once: true,
+          }}
+          custom={key}
         >
           <AppImg
             src={item?.img}
@@ -35,7 +44,7 @@ function QualificationItemResult({ allRPL_QualificationItems }: any) {
             text={"Contact Now"}
             class_name="commonBtnStyle w-full rounded-2xl mt-4"
           />
-        </div>
+        </motion.div>
       ))}
     </>
   );

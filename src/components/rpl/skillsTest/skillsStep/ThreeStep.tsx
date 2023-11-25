@@ -1,4 +1,4 @@
-import { AppBtn, AppSubTitle, AppTitle } from "@/components/share";
+import { AppBtn, AppSubTitle } from "@/components/share";
 import { RPL_SkillsTextData } from "@/data/RPL_Data";
 import { useEffect, useState } from "react";
 import ThreeStep_State from "./items/ThreeStep_State";
@@ -55,7 +55,7 @@ function ThreeStep({ submitHandle, value }: any) {
 
   return (
     <div>
-      <AppTitle
+      <AppSubTitle
         text={title}
         class_name="text-center p-3 md:px-16 !text-[25px]"
       />

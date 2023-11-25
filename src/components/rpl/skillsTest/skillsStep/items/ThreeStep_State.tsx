@@ -29,10 +29,11 @@ function ThreeStep_State({
         alt={text}
         loading="lazy"
         blurDataURL="true"
+        width={50}
       />
       <AppSubTitle
         text={text}
-        class_name={`text-center uppercase font-bold my-1 group-hover:text-white transition-all ${
+        class_name={`text-center uppercase my-1 group-hover:text-white transition-all ${
           activeItem === String(id) ? "text-white" : " "
         }`}
       />

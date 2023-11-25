@@ -15,11 +15,11 @@ function RWL_item({ id, title, description, btn }: any) {
       />
       <PageLink
         {...btn}
-        class_name="bg-secondary p-2 rounded-full block mt-5 w-fit capitalize text-white md:px-9 px-4"
+        class_name="commonBtnStyle mt-2 py-2 hover:bg-transparent"
       />
       <AppTitle
         text={title}
-        class_name="manropeFont lg:!text-[85px] text-white "
+        class_name="manropeFont lg:!text-[85px] text-white"
       />
     </div>
   );

@@ -1,4 +1,4 @@
-import { AppTitle } from "@/components/share";
+import { AppSubTitle } from "@/components/share";
 import AppBtn from "@/components/share/AppBtn";
 import { RPL_SkillsTextData } from "@/data/RPL_Data";
 import { useEffect, useState } from "react";
@@ -80,38 +80,46 @@ function OneStep({ submitHandle, value }: any) {
 
   return (
     <div className="md:px-9 px-3 flex flex-col justify-center items-center">
-      <AppTitle text={title} class_name="text-center p-3 !text-[25px]" />
-      <select
+      <AppSubTitle text={title} class_name="text-center p-3 md:!text-[22px]" />
+      <div
         className={`w-full border border-customWhite p-3 rounded-full ${
           errorExperienceResult && "border-error"
         }`}
-        onChange={(e) => setOneStepSelectValueResult(e.target.value)}
-        value={oneStepSelectValueResult}
       >
-        {selection?.map((item, key) => (
-          <option key={key} value={`${item?.selection}`}>
-            {item?.selection}
-          </option>
-        ))}
-      </select>
-      <AppTitle text={title_two} class_name="text-center p-3 !text-[25px]" />
+        <select
+          className="w-full outline-none"
+          onChange={(e) => setOneStepSelectValueResult(e.target.value)}
+          value={oneStepSelectValueResult}
+        >
+          {selection?.map((item, key) => (
+            <option key={key} value={`${item?.selection}`}>
+              {item?.selection}
+            </option>
+          ))}
+        </select>
+      </div>
+      <AppSubTitle text={title_two} class_name="text-center p-3 md:!text-[22px]" />
 
-      <select
+      <div
         className={`w-full  border border-customWhite p-3 rounded-full ${
           errorQualificationResult && "border-error"
         }`}
-        onChange={(e) => setTwoStepSelectValueResult(e.target.value)}
-        value={TwoStepSelectValueResult}
       >
-        {one_One &&
-          oneStepSuggesterValue?.map(
-            (item: any, key: React.Key | null | undefined) => (
-              <option key={key} value={`${item?.value}`}>
-                {item?.text}
-              </option>
-            )
-          )}
-      </select>
+        <select
+          className="w-full outline-none"
+          onChange={(e) => setTwoStepSelectValueResult(e.target.value)}
+          value={TwoStepSelectValueResult}
+        >
+          {one_One &&
+            oneStepSuggesterValue?.map(
+              (item: any, key: React.Key | null | undefined) => (
+                <option key={key} value={`${item?.value}`}>
+                  {item?.text}
+                </option>
+              )
+            )}
+        </select>
+      </div>
 
       <AppBtn
         text={"Next"}

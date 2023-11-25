@@ -1,5 +1,5 @@
 import { AppSubTitle } from "@/components/share";
- 
+
 function Four_formal_qualification({
   id,
   assert,
@@ -7,7 +7,6 @@ function Four_formal_qualification({
   activeItem,
   onClicked,
 }: any) {
-    
   const handlerClick = () => {
     onClicked({
       selectArea: String(id),
@@ -25,7 +24,7 @@ function Four_formal_qualification({
       <span className="">{assert}</span>
       <AppSubTitle
         text={text}
-        class_name={`text-center uppercase font-bold my-1 group-hover:text-white ${
+        class_name={`text-center uppercase my-1 group-hover:text-white ${
           activeItem === String(id) ? "text-white" : ""
         }`}
       />
