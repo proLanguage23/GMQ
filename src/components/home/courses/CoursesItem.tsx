@@ -1,6 +1,7 @@
 import { AppBtn, AppDescription, PageLink } from "@/components/share";
 import Image from "next/image";
 import React from "react";
+import { motion, Variants } from "framer-motion";
 
 function CoursesItem({
   img,
@@ -8,13 +9,18 @@ function CoursesItem({
   description,
   btn,
   iSPageLink = true,
-  handleClick = () => {alert("I am Click")},
+  handleClick = () => {
+    alert("I am Click");
+  },
   class_name = "",
   btn_Class_name = "",
+  index = 1,
+  ...rest
 }: any) {
   return (
-    <div
+    <motion.div
       className={`w-full rounded my-5 flex flex-col justify-between flex-wrap ${class_name}`}
+      {...rest}
     >
       <Image
         src={img}
@@ -39,15 +45,31 @@ function CoursesItem({
             class_name="line-clamp-4 text-white"
           />
         </div>
-        <div className="mt-5 flex -mb-5">
+        <motion.div
+          className="mt-5 flex -mb-5"
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            delay: (index / 100) * 50,
+            duration: 0.5,
+            staggerChildren: 0.1,
+          }}
+          viewport={{
+            once: true,
+          }}
+        >
           {iSPageLink ? (
             <PageLink {...btn} class_name="NewCommonBtnStyle" />
           ) : (
-            <AppBtn text={btn?.text} handleClick={handleClick} class_name={`NewCommonBtnStyle ${btn_Class_name}`} />
+            <AppBtn
+              text={btn?.text}
+              handleClick={handleClick}
+              class_name={`NewCommonBtnStyle ${btn_Class_name}`}
+            />
           )}
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
