@@ -2,6 +2,7 @@ import { PageLink } from "@/components/share";
 import React, { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import SubMenu from "./SubMenu";
+import { motion } from "framer-motion";
 
 function FilterMenu({
   data,
@@ -9,6 +10,7 @@ function FilterMenu({
   SubMenuStateNameHandler,
   allCloseCondoler,
   allCloseCondolerHandler,
+  ...rest
 }: any) {
   const [MegaSubMenuState, setMegaSubMenuState] = useState("");
 
@@ -26,11 +28,12 @@ function FilterMenu({
   if (!submenu) {
     return (
       // menu without submenu
-      <div
+      <motion.div
         className="menu"
         onMouseOver={() => subMenuHandler(text)}
         onBlur={() => subMenuHandler(text)}
         onFocus={() => subMenuHandler(text)}
+        {...rest}
       >
         <PageLink
           href={href}
@@ -38,11 +41,11 @@ function FilterMenu({
           isIcon={false}
           class_name="capitalize text-primary font-medium text-[18px] px-3 hover:text-secondary "
         />
-      </div>
+      </motion.div>
     );
   } else {
     return (
-      <div className="relative menu">
+      <motion.div className="relative menu" {...rest}>
         {/* menu with submenu  */}
         <div
           className="flex items-center flex-wrap group hover:text-secondary"
@@ -60,15 +63,25 @@ function FilterMenu({
               SubMenuStateName === text ? "text-secondary" : "text-primary"
             }`}
           />
-          <div className={`group-hover:rotate-180 transition-all ${
+          <div
+            className={`group-hover:rotate-180 transition-all ease-in duration-300 ${
               SubMenuStateName === text ? "rotate-180 text-secondary" : ""
-            }`}>
+            }`}
+          >
             <BsChevronDown size={16} />
           </div>
         </div>
         {/* sub menu  */}
         {SubMenuStateName === text && (
-          <div className="subMenu absolute top-[95%] -right-5 md:w-[250px] min-w-full bg-primary rounded border shadow-md">
+          <motion.div
+            className="subMenu absolute top-[95%] -right-5 md:w-[250px] min-w-full bg-primary rounded border shadow-md"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              delay: 0.05,
+              duration: 0.3,
+            }}
+          >
             {subMenuData?.map((subItem: any, key: any) => (
               <SubMenu
                 key={key}
@@ -76,11 +89,16 @@ function FilterMenu({
                 MegaSubMenuState={MegaSubMenuState}
                 MegaSubMenuStateHandler={MegaSubMenuStateHandler}
                 allCloseCondolerHandler={allCloseCondolerHandler}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{
+                  delay: 0.15 * key,
+                }}
               />
             ))}
-          </div>
+          </motion.div>
         )}
-      </div>
+      </motion.div>
     );
   }
 }

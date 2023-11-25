@@ -9,29 +9,27 @@ function Menu({ menuData }: any) {
     three: false,
   });
   const [menus, setMenus] = useState([]);
-  const [SubMenuStateName, setSubMenuStateName] = useState('');
+  const [SubMenuStateName, setSubMenuStateName] = useState("");
 
-  const SubMenuStateNameHandler = (name:any) => {
-    setSubMenuStateName(name)
-  }
+  const SubMenuStateNameHandler = (name: any) => {
+    setSubMenuStateName(name);
+  };
 
-  const allCloseCondolerHandler = (data:any) => {
-    setAllCloseCondoler({...allCloseCondoler, ...data})
-  }
+  const allCloseCondolerHandler = (data: any) => {
+    setAllCloseCondoler({ ...allCloseCondoler, ...data });
+  };
 
   useLayoutEffect(() => {
     setMenus(menuData);
   }, [menuData, setMenus]);
 
   useEffect(() => {
-    const { one, two, three } = allCloseCondoler
+    const { one, two, three } = allCloseCondoler;
 
-    if(!one && !two && !three) {
-      setSubMenuStateName('')
+    if (!one && !two && !three) {
+      setSubMenuStateName("");
     }
-
-  }, [allCloseCondoler])
-  
+  }, [allCloseCondoler]);
 
   return (
     <div className="flex items-center justify-end gap-3 flex-wrap">
@@ -43,6 +41,11 @@ function Menu({ menuData }: any) {
           SubMenuStateNameHandler={SubMenuStateNameHandler}
           allCloseCondoler={allCloseCondoler}
           allCloseCondolerHandler={allCloseCondolerHandler}
+          initial={{ opacity: 0, x: -20, scale: 1.5 }}
+          animate={{ opacity: 1, x: 0, scale: 1}}
+          transition={{
+            delay: 0.05 * key,
+          }}
         />
       ))}
     </div>

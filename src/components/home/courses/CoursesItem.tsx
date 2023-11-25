@@ -1,7 +1,7 @@
 import { AppBtn, AppDescription, PageLink } from "@/components/share";
 import Image from "next/image";
 import React from "react";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 
 function CoursesItem({
   img,
@@ -52,7 +52,6 @@ function CoursesItem({
           transition={{
             delay: (index / 100) * 50,
             duration: 0.5,
-            staggerChildren: 0.1,
           }}
           viewport={{
             once: true,

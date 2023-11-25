@@ -6,6 +6,7 @@ import Menu from "./manuControler/Menu";
 import { FiMenu } from "react-icons/fi";
 import MobileNavbar from "./mobileMenuControler/MobileNavbar";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 function NavBar() {
   const [MobileNavbarState, setMobileNavbarState] = useState(false);
@@ -14,9 +15,17 @@ function NavBar() {
   return (
     <div className="sticky top-0 left-0 w-full bg-white border-b z-10">
       <Container fullWidth isContainer={false} class_name="lg:!px-9">
-        <div className="flex justify-between items-center gap-2 py-1 flex-wrap">
+        <div className="flex justify-between items-center gap-2 flex-wrap">
           {/* logo  */}
-          <div className="flex-wrap">
+          <motion.div
+            className="flex-wrap"
+            initial={{ opacity: 0, x: -10 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{
+              delay: 0.3,
+              duration: 0.3,
+            }}
+          >
             <Link rel="canonical" href="./">
               <Image
                 src={Logo}
@@ -26,7 +35,7 @@ function NavBar() {
                 priority={true}
               />
             </Link>
-          </div>
+          </motion.div>
 
           {/* menu  */}
           <div className="flex justify-center items-center flex-wrap">
@@ -49,7 +58,7 @@ function NavBar() {
               )}
             </div>
             {/* NAVBAR  */}
-            <div className="NAVBAR">
+            <div className="NAVBAR desktop-menu">
               <Menu menuData={Menus} />
             </div>
           </div>

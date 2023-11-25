@@ -2,6 +2,7 @@ import { PageLink } from "@/components/share";
 import React, { useState } from "react";
 import { BsFillCaretRightFill, BsDot, BsChevronDown } from "react-icons/bs";
 import MegaSubMenu from "./MegaSubMenu";
+import { motion } from "framer-motion";
 
 function SubMenu({
   href,
@@ -11,9 +12,10 @@ function SubMenu({
   MegaSubMenuState,
   MegaSubMenuStateHandler,
   allCloseCondolerHandler,
+  ...rest
 }: any) {
   return (
-    <div className="w-full">
+    <motion.div className="w-full" {...rest}>
       <div className="relative block">
         <div
           className="flex items-center justify-between flex-wrap px-3 text-white hover:text-secondary transition-all group"
@@ -38,7 +40,7 @@ function SubMenu({
           />
           {megaMenu && (
             <div
-              className={`group-hover:-rotate-90 transition-all ${
+              className={`group-hover:-rotate-90 transition-all ease-in duration-300 ${
                 MegaSubMenuState === text ? "-rotate-90 text-secondary" : ""
               }`}
             >
@@ -57,7 +59,7 @@ function SubMenu({
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
