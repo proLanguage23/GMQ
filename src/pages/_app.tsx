@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
           font-family: ${manrope.style.fontFamily};
         }
       `}</style>
-      <NextTopLoader />
+      <NextTopLoader showSpinner={false} />
       <NavBar />
       <Component {...pageProps} />
       <Footer />
