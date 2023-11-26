@@ -134,7 +134,7 @@ function ViewQualification() {
                     class_name="text-center"
                   />
                 </div>
-                <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-5 gap-3 h-[980px] overflow-auto RPL_Scroll_CSS_Effect pr-1">
+                <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-5 gap-3">
                   {searchInput ? (
                     <QualificationItemResult
                       allRPL_QualificationItems={showQualificationItems}
