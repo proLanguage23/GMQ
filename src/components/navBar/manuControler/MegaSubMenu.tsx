@@ -16,7 +16,7 @@ function MegaSubMenu({ megaMenuData, allCloseCondolerHandler }: any) {
           initial={{ opacity: 0, x: -20, }}
           animate={{ opacity: 1, x: 0,}}
           transition={{
-            delay: 0.05 * key,
+            delay: 0.15 * key,
           }}
           >
             <BsDot size={16} color="#fff" />

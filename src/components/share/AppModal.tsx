@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Modal({ handelModal, content }: any) {
   return (
     <motion.div
-      className="fixed top-0 left-0 w-screen h-screen z-50 modal overflow-x-auto "
+      className="fixed top-0 left-0 w-screen h-screen z-50 modal overflow-x-hidden overflow-y-auto"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{

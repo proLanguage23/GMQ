@@ -401,6 +401,18 @@ ul {
   margin-top: -50px;
 } */
 
+.RPL_Scroll_CSS_Effect::-webkit-scrollbar {
+  width: 7px;               /* width of the entire scrollbar */
+}
+.RPL_Scroll_CSS_Effect::-webkit-scrollbar-track {
+  background: #0000001c;        /* color of the tracking area */
+}
+.RPL_Scroll_CSS_Effect::-webkit-scrollbar-thumb {
+  background-color: #333;    /* color of the scroll thumb */
+  border-radius: 20px;     /* creates padding around scroll thumb */
+}
+
+
 @media only screen and (max-width: 1100px) {
   .menu-berar-icon {
     display: block;

@@ -1,12 +1,20 @@
 import {
   AppBtn,
   AppDescriptionWithDangerouslySetInnerHTML,
+  AppModal,
+  EntryForm,
 } from "@/components/share";
 import AppImg from "@/components/share/AppImg";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 function QualificationItemResult({ allRPL_QualificationItems }: any) {
+  const [modalShow, setModalShow] = useState(false);
+
+  const handelModal = () => {
+    setModalShow(!modalShow);
+  };
+
   return (
     <>
       {allRPL_QualificationItems?.map((item: any, key: any) => (
@@ -16,7 +24,7 @@ function QualificationItemResult({ allRPL_QualificationItems }: any) {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
-            delay: 0.10 * key,
+            delay: 0.1 * key,
           }}
           viewport={{
             once: true,
@@ -43,9 +51,14 @@ function QualificationItemResult({ allRPL_QualificationItems }: any) {
           <AppBtn
             text={"Contact Now"}
             class_name="commonBtnStyle w-full rounded-2xl mt-4"
+            handleClick={handelModal}
           />
         </motion.div>
       ))}
+
+      {modalShow && (
+        <AppModal handelModal={handelModal} content={<EntryForm />} />
+      )}
     </>
   );
 }

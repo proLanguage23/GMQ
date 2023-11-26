@@ -5,6 +5,21 @@ import WhyGMQFetusesItem from "./WhyGMQFetusesItem";
 import AppBgImg from "@/components/share/AppBgImg";
 import { motion } from "framer-motion";
 
+const defaultVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (key: any) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.1 * key,
+      duration: 0.5 * key,
+    },
+  }),
+};
+
 function HomeWhyGMQ() {
   const { title, description, whyGMQFetuses, secondaryImg } = WhyGMQ_DummyData;
   return (
@@ -35,7 +50,17 @@ function HomeWhyGMQ() {
             />
             <div className="flex flex-wrap w-full items-center gap-2 md:gap-6 justify-center md:justify-start">
               {whyGMQFetuses?.map((item, key) => (
-                <WhyGMQFetusesItem key={key} {...item} />
+                <WhyGMQFetusesItem
+                  key={key}
+                  {...item}
+                  variants={defaultVariants}
+                  initial="initial"
+                  whileInView="animate"
+                  viewport={{
+                    once: true,
+                  }}
+                  custom={key}
+                />
               ))}
             </div>
           </div>
