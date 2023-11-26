@@ -4,6 +4,7 @@ import { AppModal, AppSubTitle, Container } from "../../share";
 import AppLoader from "@/components/share/AppLoader";
 import SkillsTestForm from "./SkillsTestForm";
 // import SkillsTestForm from "./SkillsTestForm";
+import { motion } from "framer-motion";
 
 function SkillsTest() {
   const [modalShow, setModalShow] = useState(false);
@@ -14,7 +15,17 @@ function SkillsTest() {
   const { skillsTest } = RPL_BannerData;
 
   return (
-    <>
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+        delay: 0.5
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
       <div
         className="bg-error cursor-pointer"
         onClick={() => handelModal()}
@@ -30,7 +41,7 @@ function SkillsTest() {
       {modalShow && (
         <AppModal handelModal={handelModal} content={<SkillsTestForm />} />
       )}
-    </>
+    </motion.section>
   );
 }
 

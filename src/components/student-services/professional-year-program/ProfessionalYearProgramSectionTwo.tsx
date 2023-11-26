@@ -1,17 +1,33 @@
-import { AppDescriptionWithDangerouslySetInnerHTML, Container } from '@/components/share';
-import { ProfessionalYearProgramDummyData } from '@/data/services/ProfessionalYearProgramData';
-import React from 'react'
+import {
+  AppDescriptionWithDangerouslySetInnerHTML,
+  Container,
+} from "@/components/share";
+import { ProfessionalYearProgramDummyData } from "@/data/services/ProfessionalYearProgramData";
+import React from "react";
+
+import { motion } from "framer-motion";
 
 function ProfessionalYearProgramSectionTwo() {
-    const { ProfessionalYearProgramSectionTwo } = ProfessionalYearProgramDummyData;
-    const { text } = ProfessionalYearProgramSectionTwo;
+  const { ProfessionalYearProgramSectionTwo } =
+    ProfessionalYearProgramDummyData;
+  const { text } = ProfessionalYearProgramSectionTwo;
   return (
-    <section className='py-9'>
+    <motion.section
+      className="py-9"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
       <Container>
         <AppDescriptionWithDangerouslySetInnerHTML text={text} />
       </Container>
-    </section>
-  )
+    </motion.section>
+  );
 }
 
-export default ProfessionalYearProgramSectionTwo
+export default ProfessionalYearProgramSectionTwo;

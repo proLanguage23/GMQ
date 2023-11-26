@@ -1,12 +1,28 @@
-import { AppBtn, AppDescriptionWithDangerouslySetInnerHTML, AppTitle, Container } from '@/components/share';
-import AppImg from '@/components/share/AppImg';
-import { OneToOneTrainingDummyData } from '@/data/services/PTE_Data';
-import React from 'react'
+import {
+  AppBtn,
+  AppDescriptionWithDangerouslySetInnerHTML,
+  AppTitle,
+  Container,
+} from "@/components/share";
+import AppImg from "@/components/share/AppImg";
+import { OneToOneTrainingDummyData } from "@/data/services/PTE_Data";
+import React from "react";
+import { motion } from "framer-motion";
 
 function OneToOneTrainingSectionTwo() {
-    const { OneToOneTrainingSectionTwo } = OneToOneTrainingDummyData;
-    const { title, description, data, btn } = OneToOneTrainingSectionTwo;
-    return (
+  const { OneToOneTrainingSectionTwo } = OneToOneTrainingDummyData;
+  const { title, description, data, btn } = OneToOneTrainingSectionTwo;
+  return (
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
       <div className="py-9 bg-secondary">
         <Container>
           <div className="flex flex-col justify-center items-center gap-5">
@@ -29,7 +45,8 @@ function OneToOneTrainingSectionTwo() {
           </div>
         </Container>
       </div>
-    );
+    </motion.section>
+  );
 }
 
-export default OneToOneTrainingSectionTwo
+export default OneToOneTrainingSectionTwo;

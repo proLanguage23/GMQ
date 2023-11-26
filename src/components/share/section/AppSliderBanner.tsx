@@ -14,47 +14,59 @@ import {
 } from "swiper/modules";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 function AppSliderBanner({ data, class_name, ...rest }: any) {
   return (
-    <div>
-      <Swiper
-        slidesPerView={1}
-        cssMode={true}
-        navigation={true}
-        mousewheel={true}
-        keyboard={true}
-        loop={true}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        centeredSlides={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-        {...rest}
-        className={`HomeBannerSwipeWrap ${class_name}`}
-      >
-        {data?.map((item: any, key: any) => (
-          <SwiperSlide key={key}>
-            <Link href={item?.btn?.href}>
-              <Image
-                src={item?.img}
-                alt={item?.text || "GMQ slider img"}
-                quality={100}
-                // priority={true}
-                loading="lazy"
-                // blurDataURL="true"
-                placeholder="blur"
-                className="HomeBannerSwipeWrapSliderImg"
-              />
-            </Link>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
+      <div>
+        <Swiper
+          slidesPerView={1}
+          cssMode={true}
+          navigation={true}
+          mousewheel={true}
+          keyboard={true}
+          loop={true}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          centeredSlides={true}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
+          {...rest}
+          className={`HomeBannerSwipeWrap ${class_name}`}
+        >
+          {data?.map((item: any, key: any) => (
+            <SwiperSlide key={key}>
+              <Link href={item?.btn?.href}>
+                <Image
+                  src={item?.img}
+                  alt={item?.text || "GMQ slider img"}
+                  quality={100}
+                  // priority={true}
+                  loading="lazy"
+                  // blurDataURL="true"
+                  placeholder="blur"
+                  className="HomeBannerSwipeWrapSliderImg"
+                />
+              </Link>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </motion.section>
   );
 }
 

@@ -7,31 +7,46 @@ import {
 import AppImg from "@/components/share/AppImg";
 import { TeachingDummyData } from "@/data/popular-courses/TeachingData";
 import React from "react";
+import { motion } from "framer-motion";
 
 function SectionThreeOfTeaching() {
   const { SectionThreeOfTeaching } = TeachingDummyData;
   const { title, img, data } = SectionThreeOfTeaching;
   return (
-    <div className="py-9">
-      <Container>
-        <AppTitle text={title} class_name="text-center w-full" />
-        <div className="mt-9 grid md:grid-cols-2 grid-cols-1 justify-center gap-5">
-          <div className="flex justify-center items-start flex-wrap">
-            <AppImg src={img} alt={title} class_name="rounded" />
-          </div>
-          <div className="mt-14">
-            <AppSubTitle text={data?.title} class_name="text-[25px] mb-4 bg-primary text-white p-2 rounded " />
-            {data?.CareerOutcomeText?.map((item: any, key: any) => (
-              <AppDescriptionWithDangerouslySetInnerHTML
-                key={key}
-                text={key + 1 + ". " + item}
-                class_name="mb-2 p-1"
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
+      <div className="py-9">
+        <Container>
+          <AppTitle text={title} class_name="text-center w-full" />
+          <div className="mt-9 grid md:grid-cols-2 grid-cols-1 justify-center gap-5">
+            <div className="flex justify-center items-start flex-wrap">
+              <AppImg src={img} alt={title} class_name="rounded" />
+            </div>
+            <div className="mt-14">
+              <AppSubTitle
+                text={data?.title}
+                class_name="text-[25px] mb-4 bg-primary text-white p-2 rounded "
               />
-            ))}
+              {data?.CareerOutcomeText?.map((item: any, key: any) => (
+                <AppDescriptionWithDangerouslySetInnerHTML
+                  key={key}
+                  text={key + 1 + ". " + item}
+                  class_name="mb-2 p-1"
+                />
+              ))}
+            </div>
           </div>
-        </div>
-      </Container>
-    </div>
+        </Container>
+      </div>
+    </motion.section>
   );
 }
 

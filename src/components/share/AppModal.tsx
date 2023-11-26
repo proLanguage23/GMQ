@@ -18,7 +18,7 @@ function Modal({ handelModal, content }: any) {
       <motion.div
         className="absolute top-3 right-[3%] bg-black rounded z-50"
         initial={{ opacity: 0, x: 50 }}
-        whileInView={{ opacity: 1, x: 0  }}
+        animate={{ opacity: 1, x: 0  }}
         transition={{
           duration: 0.5,
           delay: 1

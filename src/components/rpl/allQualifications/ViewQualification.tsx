@@ -9,6 +9,7 @@ import React, { useState, useLayoutEffect, useEffect } from "react";
 import QualificationCategory from "./sub/QualificationCategory";
 import QualificationSearch from "./sub/QualificationSearch";
 import QualificationItemResult from "./sub/QualificationItemResult";
+import { motion } from "framer-motion";
 
 function ViewQualification() {
   const { title, RPL_QualificationItems } = RPL_QualificationData;
@@ -27,24 +28,26 @@ function ViewQualification() {
   };
 
   const getAllQualificationItems = (data: any) => {
-    let result: any = [];
+    // let result: any = [];
     // all category
     if (data == "all") {
-      result = RPL_QualificationItems?.map((item: any, _: any) =>
+      let result = RPL_QualificationItems?.map((item: any, _: any) =>
         item?.content?.link?.map((mainItem: any, _: any) => mainItem)
       );
       setSearchInput("");
+      setAllRPL_QualificationItems(result.flat(Infinity));
     } else {
       // other category
       const selectResult = RPL_QualificationItems?.filter(
         (item) => item?.content?.title.toLowerCase() === data.toLowerCase()
       );
-      result = [selectResult[0]?.content?.link];
+      let result = [selectResult[0]?.content?.link];
       setSearchInput("");
+      setAllRPL_QualificationItems(result.flat(Infinity));
     }
 
     // End of push all items
-    setAllRPL_QualificationItems(result.flat(Infinity));
+    // setAllRPL_QualificationItems(result.flat(Infinity));
   };
 
   const handleSearch = (e: any) => {
@@ -68,9 +71,7 @@ function ViewQualification() {
     //   );
     //   setDem_search_result((dem_search_result:any) => [...dem_search_result, ...dmR]);
     // }
-
   };
-
 
   useLayoutEffect(() => {
     const result = [
@@ -88,57 +89,68 @@ function ViewQualification() {
   }, [selectCatagory, RPL_QualificationItems]);
 
   return (
-    <div className="py-9 bg-white">
-      <Container fullWidth>
-        <div className="flex flex-col justify-center items-center">
-          <AppTitle
-            text={title}
-            heading
-            class_name="capitalize !text-center md:w-2/3 w-full"
-          />
-          <div className="w-full grid lg:grid-cols-9 mt-9 grid-cols-1 items-start gap-3">
-            {/* .category  */}
-            <div className="lg:col-span-2 p-3 mb-5 rounded-2xl bg-white shadow">
-              <QualificationCategory
-                categories={categories}
-                selectCatagoryHandler={selectCatagoryHandler}
-                selectCatagory={selectCatagory}
-              />
-            </div>
-            {/* items and search  */}
-            <div className="lg:col-span-7 px-3">
-              {/* search  */}
-              <QualificationSearch
-                searchInput={searchInput}
-                handleSearch={handleSearch}
-              />
-              {/* result item  */}
-              <div className="mb-4 text-center">
-                <AppDescriptionWithDangerouslySetInnerHTML
-                  text={`${
-                    searchInput
-                      ? showQualificationItems?.length
-                      : allRPL_QualificationItems?.length
-                  } Courses Found`}
-                  class_name="text-center"
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
+      <div className="py-9 bg-white">
+        <Container fullWidth>
+          <div className="flex flex-col justify-center items-center">
+            <AppTitle
+              text={title}
+              heading
+              class_name="capitalize !text-center md:w-2/3 w-full"
+            />
+            <div className="w-full grid lg:grid-cols-9 mt-9 grid-cols-1 items-start gap-3">
+              {/* .category  */}
+              <div className="lg:col-span-2 p-3 mb-5 rounded-2xl bg-white shadow">
+                <QualificationCategory
+                  categories={categories}
+                  selectCatagoryHandler={selectCatagoryHandler}
+                  selectCatagory={selectCatagory}
                 />
               </div>
-              <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-5 gap-3">
-                {searchInput ? (
-                  <QualificationItemResult
-                    allRPL_QualificationItems={showQualificationItems}
+              {/* items and search  */}
+              <div className="lg:col-span-7 px-3">
+                {/* search  */}
+                <QualificationSearch
+                  searchInput={searchInput}
+                  handleSearch={handleSearch}
+                />
+                {/* result item  */}
+                <div className="mb-4 text-center">
+                  <AppDescriptionWithDangerouslySetInnerHTML
+                    text={`${
+                      searchInput
+                        ? showQualificationItems?.length
+                        : allRPL_QualificationItems?.length
+                    } Courses Found`}
+                    class_name="text-center"
                   />
-                ) : (
-                  <QualificationItemResult
-                    allRPL_QualificationItems={allRPL_QualificationItems}
-                  />
-                )}
+                </div>
+                <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-5 gap-3">
+                  {searchInput ? (
+                    <QualificationItemResult
+                      allRPL_QualificationItems={showQualificationItems}
+                    />
+                  ) : (
+                    <QualificationItemResult
+                      allRPL_QualificationItems={allRPL_QualificationItems}
+                    />
+                  )}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </Container>
-    </div>
+        </Container>
+      </div>
+    </motion.section>
   );
 }
 

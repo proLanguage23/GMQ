@@ -2,12 +2,22 @@ import React from "react";
 import { Container } from "../share";
 import LeftToRight from "../share/section/LeftToRight";
 import { StudentServicesDummyData } from "@/data/StudentServicesData";
+import { motion } from "framer-motion";
 
 function StudentServicesSectionTwo() {
   const { StudentServicesSectionTwo } = StudentServicesDummyData;
   const { left, right } = StudentServicesSectionTwo;
   return (
-    <div className="py-16">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+      }}
+      viewport={{
+        once: true,
+      }}
+    ><div className="py-16">
       <Container>
         <LeftToRight
           title={left?.title}
@@ -15,7 +25,8 @@ function StudentServicesSectionTwo() {
           sideImg={right?.img}
         />
       </Container>
-    </div>
+    </div></motion.div>
+    
   );
 }
 
