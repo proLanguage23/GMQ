@@ -35,6 +35,8 @@ function CoursesItem({
       <div className="bg-secondary md:p-5 p-3 !pb-0 flex-1 flex flex-col justify-between rounded-2xl relative">
         <div className="df">
           <PageLink
+            isAnimation
+            animationSpeed={0.15}
             href={btn?.href}
             text={title}
             isIcon={false}
@@ -43,6 +45,8 @@ function CoursesItem({
           <AppDescription
             text={description}
             class_name="line-clamp-4 text-white"
+            isAnimation
+            animationSpeed={0.02}
           />
         </div>
         <motion.div

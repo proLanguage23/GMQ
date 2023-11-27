@@ -1,12 +1,21 @@
+import { motion } from "framer-motion";
 import React from "react";
-import { capitalizeSentences } from "./lib";
 
 function AppDescriptionWithDangerouslySetInnerHTML({ text, class_name }: any) {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, }}
+      whileInView={{ opacity:1, }}
+      transition={{
+        delay: 0.05,
+        duration: 0.1,
+      }}
+      viewport={{
+        once: true,
+      }}
       className={`text-base text-text ${class_name} `}
       dangerouslySetInnerHTML={{ __html: text }}
-    ></div>
+    ></motion.div>
   );
 }
 

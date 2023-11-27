@@ -1,4 +1,4 @@
-import { AppTitle, Container } from "@/components/share";
+import { AppDescription, AppTitle, Container } from "@/components/share";
 import AppDescriptionWithDangerouslySetInnerHTML from "@/components/share/AppDescriptionWithDangerouslySetInnerHTML";
 import { ContactFormDummyData } from "@/data/HomeContactForm";
 import Image from "next/image";
@@ -25,10 +25,12 @@ function HomeContactForm() {
               <AppDescriptionWithDangerouslySetInnerHTML text={left?.form} />
             </div>
             <div className="">
-              <AppTitle text={right?.title} class_name="!text-white " />
-              <AppDescriptionWithDangerouslySetInnerHTML
+              <AppTitle text={right?.title} class_name="!text-white " isAnimation />
+              <AppDescription
                 text={right?.description}
                 class_name="!text-white mt-3 md:text-left text-center md:p-0 p-3"
+                isAnimation
+                animationSpeed = {0.005}
               />
               <Image
                 src={right?.secondaryImg}

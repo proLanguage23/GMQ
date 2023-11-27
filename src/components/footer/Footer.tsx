@@ -28,15 +28,15 @@ function Footer() {
         once: true,
       }}
     >
-    <div className="pt-24 relative">
-      <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-9 lg:gap-1">
-          <LogoArea {...generalData} />
-          <div className="lg:col-span-2">
-            <FooterLinkArea footerLinkGP={footerLinkGP} />
+      <div className="pt-24 relative">
+        <Container>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-9 lg:gap-1">
+            <LogoArea {...generalData} />
+            <div className="lg:col-span-2">
+              <FooterLinkArea footerLinkGP={footerLinkGP} />
+            </div>
           </div>
-        </div>
-      </Container>
+        </Container>
         <div className="p-2 py-4 flex justify-center items-center gap-2 flex-wrap bg-secondary">
           {countries?.map((item, key) => (
             <PageLink
@@ -44,12 +44,14 @@ function Footer() {
               {...item}
               isIcon={false}
               class_name="px-2 text-white capitalize"
+              isAnimation
             />
           ))}
         </div>
-      <CopyRightArea text={copyRight} socialLinkData={socialLinks} />
-      <AppBgImg BgImg={secondaryImg} />
-    </div></motion.div>
+        <CopyRightArea text={copyRight} socialLinkData={socialLinks} />
+        <AppBgImg BgImg={secondaryImg} />
+      </div>
+    </motion.div>
   );
 }
 

@@ -20,6 +20,8 @@ function RWL_item({ id, title, description, btn }: any) {
       <AppTitle
         text={title}
         class_name="manropeFont lg:!text-[85px] text-white"
+        isAnimation
+        animationSpeed = {0.1}
       />
     </div>
   );

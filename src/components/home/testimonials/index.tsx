@@ -31,7 +31,7 @@ function HomeTestimonials() {
       <div className="pt-8">
         <Container class_name="!py-0">
           <div className="flex justify-center items-center flex-col gap-9 flex-wrap">
-            <AppTitle text={title} class_name="md:my-8" />
+            <AppTitle text={title} class_name="md:my-8" isAnimation />
             <div className="w-full grid lg:grid-cols-2 grid-cols-1">
               <div className="p-5 md:p-3">
                 <Swiper

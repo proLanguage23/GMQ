@@ -1,3 +1,4 @@
+import { AppDescription } from "@/components/share";
 import AppDescriptionWithDangerouslySetInnerHTML from "@/components/share/AppDescriptionWithDangerouslySetInnerHTML";
 import Image from "next/image";
 import React from "react";
@@ -16,13 +17,17 @@ function LogoArea({ whiteLogo, text, abn }: any) {
           blurDataURL="true"
         />
       </div>
-      <AppDescriptionWithDangerouslySetInnerHTML
+      <AppDescription
         text={abn}
         class_name="text-white lg:text-left text-center w-full"
+        isAnimation
+        animationSpeed={0.01}
       />
-      <AppDescriptionWithDangerouslySetInnerHTML
+      <AppDescription
         text={text}
         class_name="text-white lg:text-left text-center w-full"
+        isAnimation
+        animationSpeed={0.01}
       />
     </div>
   );

@@ -45,6 +45,7 @@ function AllQualifications({ PropsText }: any) {
           <AppTitle
             text={PropsText || title}
             class_name="capitalize !text-center md:w-2/3 w-full"
+            isAnimation
           />
           <div className="my-9 grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 w-full">
             {PaginationDates?.map((item: any, key) => (

@@ -38,8 +38,8 @@ function HomeIndustrialOfPartner() {
       <div className="py-9 bg-grayCustom">
         <Container>
           <div className="">
-            <AppTitle text={title} class_name="capitalize text-center" />
-            <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-2 mt-5">
+            <AppTitle text={title} class_name="capitalize text-center" isAnimation />
+            <div className="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-2 mt-5">
               {PartnersData?.map((item: any, key: any) => (
                 <PartnersItem
                   key={key}

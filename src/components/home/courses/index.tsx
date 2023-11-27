@@ -37,7 +37,7 @@ function HomeCourses() {
       <div className="bg-grayCustom py-9">
         <Container>
           <div className="flex flex-col justify-center items-center flex-wrap">
-            <AppTitle text={title} class_name="!text-center" />
+            <AppTitle text={title} class_name="!text-center" isAnimation />
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 mt-8 w-full">
               {CoursesData?.map((item, key) => (
                 <CoursesItem
