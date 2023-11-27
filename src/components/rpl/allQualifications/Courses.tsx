@@ -24,7 +24,7 @@ function Courses({ data }: any) {
             ))} */}
 
               <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 w-full sm:px-5">
-                <QualificationItemResult allRPL_QualificationItems={data} />
+                <QualificationItemResult allRPL_QualificationItems={data} class_nameOfBtn = "sm:col-span-2 col-span-1 " />
               </div>
             </div>
             <div className="form p-3 bg-slate-100">

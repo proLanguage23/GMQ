@@ -22,7 +22,7 @@ export default function Home() {
       <HomeHelpOfGMQ />
       <HomeTestimonials />
       <HomeRWL />
-      {/* <VisitedForm /> */}
+      <VisitedForm />
     </>
   );
 }

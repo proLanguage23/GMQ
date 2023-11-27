@@ -9,9 +9,9 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { createPagination } from "@/components/share/lib";
 
-function QualificationItemResult({ allRPL_QualificationItems }: any) {
+function QualificationItemResult({ allRPL_QualificationItems = [], class_nameOfBtn="lg:col-span-3 sm:col-span-2 col-span-1" }: any) {
   const [modalShow, setModalShow] = useState(false);
-  const [getData, setGetData] = useState(allRPL_QualificationItems || []);
+  const [getData, setGetData] = useState(allRPL_QualificationItems);
   const [PaginationDates, setPaginationDates] = useState([]);
 
   const handelModal = () => {
@@ -33,9 +33,6 @@ function QualificationItemResult({ allRPL_QualificationItems }: any) {
     setGetData(allRPL_QualificationItems);
   }, [allRPL_QualificationItems]);
 
-  console.log("=====PaginationDates===============================");
-  console.log(getData);
-  console.log("====================================");
 
   return (
     <>
@@ -78,7 +75,7 @@ function QualificationItemResult({ allRPL_QualificationItems }: any) {
         </motion.div>
       ))}
 
-      <div className="lg:col-span-3 sm:col-span-2 col-span-1 flex justify-center items-center">
+      <div className={`flex justify-center items-center ${class_nameOfBtn}`}>
         {PaginationDates.length != getData.length && (
           <AppBtn
             text={"View more"}
