@@ -1,14 +1,14 @@
-import '@/styles/globals.css'
-import '@/styles/app.css'
-import type { AppProps } from 'next/app'
-import { outfit, manrope } from '@/fonts'
-import { NavBar } from '@/components/navBar'
-import Footer from '@/components/footer/Footer'
-import NextTopLoader from 'nextjs-toploader';
-import { AppGoToTop, AppScrollProgress } from '@/components/share'
+import "@/styles/globals.css";
+import "@/styles/app.css";
+import type { AppProps } from "next/app";
+import { outfit, manrope } from "@/fonts";
+import { NavBar } from "@/components/navBar";
+import Footer from "@/components/footer/Footer";
+import NextTopLoader from "nextjs-toploader";
+import { AppGoToTop, AppScrollProgress } from "@/components/share";
+import { AnimatePresence } from "framer-motion";
 
-export default function App({ Component, pageProps }: AppProps) {
-
+export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <style jsx global>{`
@@ -24,16 +24,18 @@ export default function App({ Component, pageProps }: AppProps) {
           font-weight: bold;
           line-height: normal;
         }
-        .manropeFont{
+        .manropeFont {
           font-family: ${manrope.style.fontFamily};
         }
       `}</style>
-      {/* <NextTopLoader showSpinner={false} /> */}
+      <NextTopLoader showSpinner={false} />
       <AppScrollProgress />
       <NavBar />
-      <Component {...pageProps} />
+      <AnimatePresence mode={"wait"}>
+        <Component key={router.pathname} {...pageProps} />
+      </AnimatePresence>
       <AppGoToTop />
       <Footer />
     </>
-  )
+  );
 }
