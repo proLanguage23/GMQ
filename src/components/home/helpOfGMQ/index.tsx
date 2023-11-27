@@ -4,7 +4,7 @@ import { AllQualifications } from "@/components/rpl";
 import { motion } from "framer-motion";
 
 function HomeHelpOfGMQ() {
-  const { title, HelpOfGMQ } = HomeHelpOfGMQData;
+  const { title } = HomeHelpOfGMQData;
   return (
     <motion.div
       className=""

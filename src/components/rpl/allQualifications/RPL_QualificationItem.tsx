@@ -6,10 +6,8 @@ import {
   EntryForm,
   PageLink,
 } from "@/components/share";
-import Image from "next/image";
 import React, { useState } from "react";
 import { BiSolidHandRight } from "react-icons/bi";
-import SkillsTestForm from "../skillsTest/SkillsTestForm";
 import { motion } from "framer-motion";
 import AppImg from "@/components/share/AppImg";
 
@@ -45,7 +43,6 @@ function RPL_QualificationItem({
             alt="gmq brand img"
             class_name="absolute top-1 right-1"
           />
-
         </div>
 
         <div className="flex flex-col p-3 flex-wrap flex-1">

@@ -439,7 +439,7 @@ export const RPL_QualificationData = {
       brandImg: shortLogoImg,
       link: {
         text: "find more",
-        href: "/rpl/building&construction",
+        href: "/rpl/building-construction",
       },
       show: 4,
       content: {
@@ -695,7 +695,7 @@ export const RPL_QualificationData = {
       brandImg: shortLogoImg,
       link: {
         text: "find more",
-        href: "/rpl/business&finance",
+        href: "/rpl/business-finance",
       },
       show: 3,
       content: {
@@ -965,7 +965,7 @@ export const RPL_QualificationData = {
       brandImg: shortLogoImg,
       link: {
         text: "find more",
-        href: "/rpl/commercialcookery&hospitality",
+        href: "/rpl/commercial-cookery-hospitality",
       },
       show: 4,
       content: {
@@ -1061,7 +1061,7 @@ export const RPL_QualificationData = {
       brandImg: shortLogoImg,
       link: {
         text: "find more",
-        href: "/rpl/hair&beauty",
+        href: "/rpl/hair-beauty",
       },
       show: 3,
       content: {
@@ -1165,7 +1165,7 @@ export const RPL_QualificationData = {
       brandImg: shortLogoImg,
       link: {
         text: "find more",
-        href: "/rpl/horticulture&landmanagement",
+        href: "/rpl/horticulture-landmanagement",
       },
       show: 3,
       content: {
@@ -1284,7 +1284,7 @@ export const RPL_QualificationData = {
       brandImg: shortLogoImg,
       link: {
         text: "find more",
-        href: "/rpl/mining&resources",
+        href: "/rpl/mining-resources",
       },
       show: 2,
       content: {
@@ -1348,7 +1348,7 @@ export const RPL_QualificationData = {
       brandImg: shortLogoImg,
       link: {
         text: "find more",
-        href: "/rpl/security&cleaning",
+        href: "/rpl/security-cleaning",
       },
       show: 3,
       content: {
@@ -1388,7 +1388,7 @@ export const RPL_QualificationData = {
       brandImg: shortLogoImg,
       link: {
         text: "find more",
-        href: "/rpl/transport&logistics",
+        href: "/rpl/transport-logistics",
       },
       show: 3,
       content: {
@@ -1412,7 +1412,7 @@ export const RPL_QualificationData = {
       brandImg: shortLogoImg,
       link: {
         text: "find more",
-        href: "/rpl/vocationaleducation&training",
+        href: "/rpl/vocational-education-training",
       },
       show: 3,
       content: {

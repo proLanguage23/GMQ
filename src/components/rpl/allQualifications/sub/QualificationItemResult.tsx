@@ -42,9 +42,9 @@ function QualificationItemResult({ allRPL_QualificationItems = [], class_nameOfB
           key={key}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            delay: 0.1 * key,
-          }}
+          // transition={{
+          //   delay: 0.1 * key,
+          // }}
           viewport={{
             once: true,
           }}

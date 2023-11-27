@@ -3,7 +3,7 @@ import { Container } from "@/components/share";
 import QualificationItemResult from "./sub/QualificationItemResult";
 import { motion } from "framer-motion";
 
-function Courses({ data }: any) {
+function Courses({ data = [] }: any) {
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -19,10 +19,6 @@ function Courses({ data }: any) {
         <Container>
           <div className="grid md:grid-cols-3 grid-cols-1">
             <div className="col-span-2">
-              {/* {data?.map((item: any, key: any) => (
-              <CourseItem key={key} {...item} />
-            ))} */}
-
               <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 w-full sm:px-5">
                 <QualificationItemResult allRPL_QualificationItems={data} class_nameOfBtn = "sm:col-span-2 col-span-1 " />
               </div>

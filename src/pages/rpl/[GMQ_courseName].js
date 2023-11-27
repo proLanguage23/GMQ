@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { AppCourseBanner } from "@/components/share";
-import Courses from "@/components/rpl/allQualifications/Courses";
-import { useLayoutEffect } from "react";
+import {Courses} from "@/components/rpl";
+import { useEffect } from "react";
 import { RPL_QualificationData } from "@/data/RPL_Data";
 import { DynamicHead,VisitedForm } from "@/components/share";
 
@@ -12,7 +12,7 @@ function GMQ_coursePage() {
   // GET SERVICE NAME FROM URL
   const { GMQ_courseName } = router.query;
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (GMQ_courseName) {
       const { RPL_QualificationItems } = RPL_QualificationData;
       const getPageItem = RPL_QualificationItems?.filter((item) => {
@@ -32,10 +32,10 @@ function GMQ_coursePage() {
 
   return (
     <>
-      <DynamicHead title={`${pageData?.content?.title}-GMQ Global`} />
+      <DynamicHead title={`${pageData?.content?.title || "RPL"} | GMQ Global`} />
       <AppCourseBanner text={pageData?.content?.title} />
       <Courses data={pageData?.content?.link} />
-      <VisitedForm />
+      {/* <VisitedForm /> */}
     </>
   );
 }

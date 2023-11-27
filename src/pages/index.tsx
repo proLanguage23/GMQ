@@ -1,3 +1,4 @@
+import HomeIndustrialOfPartner from "@/components/home/IndustrialOfPartner";
 import HomeAboutGMQ from "@/components/home/aboutGMQ";
 import HomeContactForm from "@/components/home/contactForm";
 import HomeCourses from "@/components/home/courses";
@@ -17,7 +18,8 @@ export default function Home() {
       <HomeCourses />
       {/* <ReferralJoinProgram /> */}
       <HomeWhyGMQ />
-      <HomeAboutGMQ />
+      {/* <HomeAboutGMQ /> */}
+      <HomeIndustrialOfPartner />
       <HomeContactForm />
       <HomeHelpOfGMQ />
       <HomeTestimonials />
