@@ -403,7 +403,7 @@ ul {
 
 .progress-bar {
   position: fixed;
-  height: 7px;
+  height: 10px;
   background: #00AAAC;
   transform-origin: 0%;
   display: block;
@@ -411,6 +411,7 @@ ul {
   left: 0;
   right: 0;
   z-index: 1;
+  opacity: 0.7;
 }
 
 
