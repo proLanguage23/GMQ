@@ -401,15 +401,16 @@ ul {
   margin-top: -50px;
 } */
 
-.RPL_Scroll_CSS_Effect::-webkit-scrollbar {
-  width: 7px;               /* width of the entire scrollbar */
-}
-.RPL_Scroll_CSS_Effect::-webkit-scrollbar-track {
-  background: #0000001c;        /* color of the tracking area */
-}
-.RPL_Scroll_CSS_Effect::-webkit-scrollbar-thumb {
-  background-color: #333;    /* color of the scroll thumb */
-  border-radius: 20px;     /* creates padding around scroll thumb */
+.progress-bar {
+  position: fixed;
+  height: 7px;
+  background: #00AAAC;
+  transform-origin: 0%;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 

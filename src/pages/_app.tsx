@@ -5,6 +5,7 @@ import { outfit, manrope } from '@/fonts'
 import { NavBar } from '@/components/navBar'
 import Footer from '@/components/footer/Footer'
 import NextTopLoader from 'nextjs-toploader';
+import { AppGoToTop, AppScrollProgress } from '@/components/share'
 
 export default function App({ Component, pageProps }: AppProps) {
 
@@ -27,9 +28,11 @@ export default function App({ Component, pageProps }: AppProps) {
           font-family: ${manrope.style.fontFamily};
         }
       `}</style>
-      <NextTopLoader showSpinner={false} />
+      {/* <NextTopLoader showSpinner={false} /> */}
+      <AppScrollProgress />
       <NavBar />
       <Component {...pageProps} />
+      <AppGoToTop />
       <Footer />
     </>
   )
