@@ -5,19 +5,41 @@ import {
   EntryForm,
 } from "@/components/share";
 import AppImg from "@/components/share/AppImg";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { createPagination } from "@/components/share/lib";
 
 function QualificationItemResult({ allRPL_QualificationItems }: any) {
   const [modalShow, setModalShow] = useState(false);
+  const [getData, setGetData] = useState(allRPL_QualificationItems || []);
+  const [PaginationDates, setPaginationDates] = useState([]);
 
   const handelModal = () => {
     setModalShow(!modalShow);
   };
 
+  const loadMore = () => {
+    if (PaginationDates.length === getData.length) return;
+    const newProducts = createPagination(getData, 6, PaginationDates.length);
+    const newItems: any = [...PaginationDates, ...newProducts];
+    setPaginationDates(newItems);
+  };
+
+  useEffect(() => {
+    setPaginationDates(createPagination(getData, 6, 0));
+  }, [getData]);
+
+  useEffect(() => {
+    setGetData(allRPL_QualificationItems);
+  }, [allRPL_QualificationItems]);
+
+  console.log("=====PaginationDates===============================");
+  console.log(getData);
+  console.log("====================================");
+
   return (
     <>
-      {allRPL_QualificationItems?.map((item: any, key: any) => (
+      {PaginationDates?.map((item: any, key: any) => (
         <motion.div
           className="p-2 bg-white rounded-[24px] flex flex-col shadow border border-secondary/30 hover:border-secondary transition-all"
           key={key}
@@ -55,6 +77,16 @@ function QualificationItemResult({ allRPL_QualificationItems }: any) {
           />
         </motion.div>
       ))}
+
+      <div className="lg:col-span-3 sm:col-span-2 col-span-1 flex justify-center items-center">
+        {PaginationDates.length != getData.length && (
+          <AppBtn
+            text={"View more"}
+            class_name="commonBtnStyle rounded-full"
+            handleClick={loadMore}
+          />
+        )}
+      </div>
 
       {modalShow && (
         <AppModal handelModal={handelModal} content={<EntryForm />} />
