@@ -3,14 +3,14 @@ import { DynamicHead, VisitedForm } from '@/components/share'
 import AppSliderBanner from '@/components/share/section/AppSliderBanner'
 import { GROUP_TRAININGSectionOne, GROUP_TRAININGSectionThree, GROUP_TRAININGSectionTwo } from '@/components/student-services'
 import TestimonialSection from '@/components/testimonial'
-import { ProfessionalYearProgramData } from '@/data/BannerData'
+import { ProfessionalYearProgramBannerData } from '@/data/BannerData'
 import React from 'react'
 
 function GroupTrainingPage() {
   return (
     <>
       <DynamicHead title="PTE Online Group Coaching |  - GMQ Global" />
-      <AppSliderBanner data={ProfessionalYearProgramData} />
+      <AppSliderBanner data={ProfessionalYearProgramBannerData} />
       <GROUP_TRAININGSectionOne />
       <GROUP_TRAININGSectionTwo />
       <GROUP_TRAININGSectionThree />
