@@ -23,7 +23,7 @@ import Victorian_Institute_of_Technology from "@/assets/Partner/Victorian-Instit
 
 export const IndustrialOfPartner = {
   one: {
-    title: "our value and industrial partner",
+    title: "Our valuable industry partner",
     PartnersData: [
       {
         id: "1",
