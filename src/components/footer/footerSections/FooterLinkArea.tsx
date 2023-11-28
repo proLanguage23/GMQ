@@ -28,6 +28,7 @@ function FooterLinkArea({ footerLinkGP }: any) {
                   viewport={{
                     once: true,
                   }}
+                  className="text-center md:text-left"
                 >
                   <PageLink
                     {...link}
