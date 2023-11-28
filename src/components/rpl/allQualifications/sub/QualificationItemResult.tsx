@@ -38,7 +38,7 @@ function QualificationItemResult({ allRPL_QualificationItems = [], class_nameOfB
     <>
       {PaginationDates?.map((item: any, key: any) => (
         <motion.div
-          className="p-2 bg-white rounded-[24px] flex flex-col shadow border border-secondary/30 hover:border-secondary transition-all"
+          className="p-2 bg-white rounded-[24px] flex flex-col shadow border border-secondary/30 hover:border-secondary transition-all hover:!scale-[1.02] ease-in duration-200"
           key={key}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -16,7 +16,7 @@ function HomeBanner() {
         once: true,
       }}
     >
-      <AppSliderBanner data={HomeBannerData} />
+      <AppSliderBanner data={HomeBannerData} img_class_name="md:max-h-[500px]" />
     </motion.div>
   );
 }

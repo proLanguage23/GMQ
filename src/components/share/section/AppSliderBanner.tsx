@@ -16,7 +16,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-function AppSliderBanner({ data, class_name, ...rest }: any) {
+function AppSliderBanner({ data, class_name, img_class_name ="md:max-h-[450px]", ...rest }: any) {
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -46,11 +46,11 @@ function AppSliderBanner({ data, class_name, ...rest }: any) {
           centeredSlides={true}
           modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
           {...rest}
-          className={`HomeBannerSwipeWrap ${class_name}`}
+          className={`HomeBannerSwipeWrap overflow-hidden object-cover  ${class_name}`}
         >
           {data?.map((item: any, key: any) => (
             <SwiperSlide key={key}>
-              <Link href={item?.btn?.href}>
+              <Link href={item?.btn?.href} className="flex justify-center items-center">
                 <Image
                   src={item?.img}
                   alt={item?.text || "GMQ slider img"}
@@ -59,7 +59,8 @@ function AppSliderBanner({ data, class_name, ...rest }: any) {
                   loading="lazy"
                   // blurDataURL="true"
                   placeholder="blur"
-                  className="HomeBannerSwipeWrapSliderImg"
+                  className={`HomeBannerSwipeWrapSliderImg ${img_class_name}`}
+                  
                 />
               </Link>
             </SwiperSlide>
