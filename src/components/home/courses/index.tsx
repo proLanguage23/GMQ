@@ -66,7 +66,7 @@ function HomeCourses() {
                     once: true,
                   }}
                   custom={key}
-                  class_name="rounded-2xl md:w-[32%] sm:w-[48%] w-[300px]"
+                  class_name="rounded-2xl md:w-[32%] sm:w-[48%] w-[320px] max-w-full"
                 />
               ))}
             </div>
