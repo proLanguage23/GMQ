@@ -23,6 +23,17 @@ import EducationCounsellingBannerTwo from "@/assets/student-services/education-c
 import ProfessionalYearProgramBannerOne from "@/assets/student-services/professional_year_programImg/banner/banner-one-of-professional-year-program.png";
 import ProfessionalYearProgramBannerTwo from "@/assets/student-services/professional_year_programImg/banner/banner-two-of-professional-year-program.png";
 
+import PTEBannerOne from "@/assets/student-services/pte/banner/banner-one-of-pte.png";
+import PTEBannerTwo from "@/assets/student-services/pte/banner/banner-two-of-pte.png";
+
+import PTEGroupTrainingBannerOne from "@/assets/student-services/pte/banner/banner-one-of-pte-group-training.png";
+
+import PTEOneToOneTrainingOne from "@/assets/student-services/pte/banner/banner-one-of-pte-one-to-one-training.png";
+
+import PTEMockTestOne from "@/assets/student-services/pte/banner/banner-one-of-pte-mock-text.png";
+
+import NAATIOne from "@/assets/student-services/naati/banner/banner-one-of-naati.png";
+
 
 export const HomeBannerData = [
     {
@@ -150,7 +161,6 @@ export const TradeCoursesBannerData = [
     // }
 ]
 
-
 export const ProfessionalYearProgramBannerData = [
     {
         id: 1,
@@ -191,4 +201,73 @@ export const EducationCounsellingBannerData = [
             href: '#'
         }
     }
+]
+
+export const PTEBannerData = [
+    {
+        id: 1,
+        text: 'PTE One',
+        img: PTEBannerOne,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    },
+    {
+        id: 2,
+        text: 'PTE Two',
+        img: PTEBannerTwo,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    }
+]
+
+export const PTEGroupTrainingBannerData = [
+    {
+        id: 1,
+        text: 'PTE Group Training One',
+        img: PTEGroupTrainingBannerOne,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    },
+]
+
+export const PTEOneToOneTrainingBannerData = [
+    {
+        id: 1,
+        text: 'PTE Group Training One',
+        img: PTEOneToOneTrainingOne,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    },
+]
+
+export const PTEMockTestBannerData = [
+    {
+        id: 1,
+        text: 'PTE Group Training One',
+        img: PTEMockTestOne,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    },
+]
+
+export const NAATIBannerData = [
+    {
+        id: 1,
+        text: 'PTE Group Training One',
+        img: NAATIOne,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    },
 ]

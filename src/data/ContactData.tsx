@@ -10,7 +10,7 @@ export const ContactDummyData = {
             {
                 asserts: <MdAddCall size={32} color="#fff" />,
                 title: `Call Us`,
-                text: `012 1235 154` 
+                text: `+61416310688` 
             },
             {
                 asserts: <MdOutlineMailOutline size={32} color="#fff" />,

@@ -72,7 +72,7 @@ function ContactMap() {
                 />
                 <a
                   target="__blank"
-                  href="https://www.google.com/maps/dir//5%2F6+Bromham+Pl,+Richmond+VIC+3121,+Australia/@-37.8138338,144.9975629,20.02z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6ad642fa43b6d789:0x96955f74e7157239!2m2!1d144.997913!2d-37.813717?entry=ttu"
+                  href="https://www.google.com/maps/dir//GMQ+Global,+5%2F6+Bromham+Pl,+Richmond+VIC+3121,+Australia/@-37.8141804,144.9922426,15.6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2760f689b19da547:0x8fe7cbbeb2c67a50!2m2!1d144.997913!2d-37.813717?hl=en&entry=ttu"
                   className="hover:opacity-90 transition-all w-full p-5 text-center capitalize bg-primary rounded-b-3xl mt-5 text-white"
                 >
                   get Direction
