@@ -8,8 +8,14 @@ import AppImg from "@/components/share/AppImg";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { createPagination } from "@/components/share/lib";
+import { contactFormOfHome } from "@/data/ShareData";
 
-function QualificationItemResult({ allRPL_QualificationItems = [], class_nameOfBtn="lg:col-span-3 sm:col-span-2 col-span-1" }: any) {
+function QualificationItemResult({
+  allRPL_QualificationItems = [],
+  class_nameOfBtn = "lg:col-span-3 sm:col-span-2 col-span-1",
+  outPutItemNumber = 6,
+  class_name
+}: any) {
   const [modalShow, setModalShow] = useState(false);
   const [getData, setGetData] = useState(allRPL_QualificationItems);
   const [PaginationDates, setPaginationDates] = useState([]);
@@ -20,25 +26,28 @@ function QualificationItemResult({ allRPL_QualificationItems = [], class_nameOfB
 
   const loadMore = () => {
     if (PaginationDates.length === getData.length) return;
-    const newProducts = createPagination(getData, 6, PaginationDates.length);
+    const newProducts = createPagination(
+      getData,
+      outPutItemNumber,
+      PaginationDates.length
+    );
     const newItems: any = [...PaginationDates, ...newProducts];
     setPaginationDates(newItems);
   };
 
   useEffect(() => {
-    setPaginationDates(createPagination(getData, 6, 0));
-  }, [getData]);
+    setPaginationDates(createPagination(getData, outPutItemNumber, 0));
+  }, [getData, outPutItemNumber]);
 
   useEffect(() => {
     setGetData(allRPL_QualificationItems);
   }, [allRPL_QualificationItems]);
 
-
   return (
     <>
       {PaginationDates?.map((item: any, key: any) => (
         <motion.div
-          className="p-2 bg-white rounded-[24px] flex flex-col shadow border border-secondary/30 hover:border-secondary transition-all hover:!scale-[1.02] ease-in duration-200"
+          className={`p-2 bg-white rounded-[24px] flex flex-col shadow border border-secondary/30 hover:border-secondary transition-all hover:!scale-[1.02] ease-in duration-200 ${class_name}`}
           key={key}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -75,7 +84,9 @@ function QualificationItemResult({ allRPL_QualificationItems = [], class_nameOfB
         </motion.div>
       ))}
 
-      <div className={`flex justify-center items-center ${class_nameOfBtn}`}>
+      <div
+        className={`flex justify-center items-center col-span-4 bg-slate-200 ${class_nameOfBtn}`}
+      >
         {PaginationDates.length != getData.length && (
           <AppBtn
             text={"View more"}
@@ -86,7 +97,10 @@ function QualificationItemResult({ allRPL_QualificationItems = [], class_nameOfB
       </div>
 
       {modalShow && (
-        <AppModal handelModal={handelModal} content={<EntryForm />} />
+        <AppModal
+          handelModal={handelModal}
+          content={<EntryForm data={contactFormOfHome} />}
+        />
       )}
     </>
   );

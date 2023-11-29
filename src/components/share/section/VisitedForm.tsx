@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AppModal, EntryForm } from "..";
 
-function VisitedForm() {
+function VisitedForm({data}:any) {
   const [modalShow, setModalShow] = useState(false);
 
   const handelModal = () => {
@@ -18,7 +18,7 @@ function VisitedForm() {
   return (
     <>
       {modalShow && (
-        <AppModal handelModal={handelModal} content={<EntryForm />} />
+        <AppModal handelModal={handelModal} content={<EntryForm data={data} />} />
       )}
     </>
   );

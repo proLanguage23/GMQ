@@ -7,6 +7,7 @@ import Footer from "@/components/footer/Footer";
 import NextTopLoader from "nextjs-toploader";
 import { AppGoToTop, AppScrollProgress } from "@/components/share";
 import { AnimatePresence } from "framer-motion";
+import TopHeader from "@/components/navBar/topHeader/TopHeader";
 
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
@@ -30,6 +31,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
       `}</style>
       <NextTopLoader showSpinner={false} />
       <AppScrollProgress />
+      <TopHeader />
       <NavBar />
       <AnimatePresence mode={"wait"}>
         <Component key={router.pathname} {...pageProps} />

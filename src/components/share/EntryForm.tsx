@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { AppDescriptionWithDangerouslySetInnerHTML } from ".";
 
-function EntryForm() {
+function EntryForm({data}:any) {
   return (
     <motion.div
-      className="border bg-white rounded overflow-auto md:w-2/3 w-full p-3 m-2 h-[90vh] mt-11"
+      className="border bg-white rounded overflow-auto md:w-2/3 w-full p-3 m-2 h-[90vh] mt-11 scrollBar_style"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{
@@ -15,7 +16,7 @@ function EntryForm() {
         once: true,
       }}
     >
-      here is a entry form
+      <AppDescriptionWithDangerouslySetInnerHTML text={data} />
     </motion.div>
   );
 }

@@ -255,30 +255,35 @@ export const HomeFooterDummyData = {
   socialLinks: [
     {
       id: 1,
+      href: '#',
       text: "Facebook",
-      icon: <AiFillFacebook className="Facebook socialLink" size={22} />,
+      icon: <AiFillFacebook className="Facebook socialLink" size={24} />,
     },
     {
       id: 2,
+      href: '#',
       text: "linkedin",
-      icon: <AiFillLinkedin className="linkedin socialLink" size={22} />,
+      icon: <AiFillLinkedin className="linkedin socialLink" size={24} />,
     },
     {
       id: 3,
+      href: '#',
       text: "twitter",
-      icon: <AiFillTwitterSquare className="twitter socialLink" size={22} />,
+      icon: <AiFillTwitterSquare className="twitter socialLink" size={24} />,
     },
-    {
-      id: 4,
-      text: "youtube",
-      icon: <AiFillYoutube className="youtube socialLink" size={22} />,
-    },
+    // {
+    //   id: 4,
+    //   text: "youtube",
+    //   icon: <AiFillYoutube className="youtube socialLink" size={22} />,
+    // },
     {
       id: 5,
+      href: '#',
       text: "instagram",
-      icon: <AiFillInstagram className="instagram socialLink" size={22} />,
+      icon: <AiFillInstagram className="instagram socialLink" size={24} />,
     },
   ],
-  copyRight: `Copyright© ${new Date().getFullYear()} GMQ. All Rights Reserved.`,
+  copyRight: `Copyright© 2023 GMQ. All Rights Reserved.`,
   secondaryImg: footerBG,
 };
+// ${new Date().getFullYear()}

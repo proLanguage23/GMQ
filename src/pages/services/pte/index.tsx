@@ -4,6 +4,7 @@ import AppSliderBanner from '@/components/share/section/AppSliderBanner';
 import { PTE_SectionOne, PTE_SectionThree, PTE_SectionTwo } from '@/components/student-services';
 import TestimonialSection from '@/components/testimonial';
 import {PTEBannerData } from '@/data/BannerData';
+import { contactFormOfPTE } from '@/data/ShareData';
 import React from 'react'
 
 function PTE_Page() {
@@ -16,7 +17,7 @@ function PTE_Page() {
       <PTE_SectionThree />
       <CommonForm />
       <TestimonialSection />
-      {/* <VisitedForm /> */}
+      <VisitedForm data={contactFormOfPTE} />
     </>
   )
 }

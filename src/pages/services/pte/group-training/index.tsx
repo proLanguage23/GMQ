@@ -4,6 +4,7 @@ import AppSliderBanner from '@/components/share/section/AppSliderBanner'
 import { GROUP_TRAININGSectionOne, GROUP_TRAININGSectionThree, GROUP_TRAININGSectionTwo } from '@/components/student-services'
 import TestimonialSection from '@/components/testimonial'
 import { PTEGroupTrainingBannerData } from '@/data/BannerData'
+import { contactFormOfPTE } from '@/data/ShareData'
 import React from 'react'
 
 function GroupTrainingPage() {
@@ -16,7 +17,7 @@ function GroupTrainingPage() {
       <GROUP_TRAININGSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfPTE} />
     </>
   )
 }

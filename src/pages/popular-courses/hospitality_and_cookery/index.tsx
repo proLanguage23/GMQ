@@ -7,6 +7,7 @@ import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
 import { CookeryCoursesInAustraliaBannerData } from "@/data/BannerData";
+import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
 function CookeryCoursesInAustraliaPage() {
@@ -21,7 +22,7 @@ function CookeryCoursesInAustraliaPage() {
       <CookeryCoursesSectionFour />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }

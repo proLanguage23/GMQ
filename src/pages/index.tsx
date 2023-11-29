@@ -8,6 +8,7 @@ import HomeRWL from "@/components/home/rwl";
 import HomeTestimonials from "@/components/home/testimonials";
 import HomeWhyGMQ from "@/components/home/whyGMQ";
 import { DynamicHead, VisitedForm } from "@/components/share";
+import { contactFormOfHome } from "@/data/ShareData";
 
 
 export default function Home() {
@@ -24,7 +25,7 @@ export default function Home() {
       <HomeHelpOfGMQ />
       <HomeTestimonials />
       <HomeRWL />
-      {/* <VisitedForm /> */}
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }

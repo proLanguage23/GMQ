@@ -4,6 +4,7 @@ import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import { ProfessionalYearProgramSectionOne, ProfessionalYearProgramSectionTwo } from "@/components/student-services";
 import TestimonialSection from "@/components/testimonial";
 import { ProfessionalYearProgramBannerData } from "@/data/BannerData";
+import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
 function ProfessionalYearProgramPage() {
@@ -15,7 +16,7 @@ function ProfessionalYearProgramPage() {
       <ProfessionalYearProgramSectionTwo />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }

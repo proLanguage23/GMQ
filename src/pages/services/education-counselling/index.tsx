@@ -5,6 +5,7 @@ import { EducationCounsellingSectionThree, EducationCounsellingSectionTwo } from
 import EducationCounsellingSectionOne from "@/components/student-services/education-counselling/EducationCounsellingSectionOne";
 import TestimonialSection from "@/components/testimonial";
 import { EducationCounsellingBannerData } from "@/data/BannerData";
+import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
 function EducationCounsellingPage() {
@@ -18,7 +19,7 @@ function EducationCounsellingPage() {
       <EducationCounsellingSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }

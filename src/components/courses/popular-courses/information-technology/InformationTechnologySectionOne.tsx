@@ -35,11 +35,18 @@ function InformationTechnologySectionOne() {
       <div className="py-9 bg-grayCustom/50">
         <Container>
           <AppTitle text={title} heading class_name="text-center capitalize" />
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center gap-3 mt-9">
+          {/* <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center gap-3 mt-9">
             <QualificationItemResult
               allRPL_QualificationItems={informationTechnologyData}
             />
+          </div> */}
+          <div className="flex justify-center gap-3 mt-9 flex-wrap">
+            <QualificationItemResult
+              allRPL_QualificationItems={informationTechnologyData}
+              class_name="md:w-[30%] sm:w-[48%] w-[300px]"
+            />
           </div>
+
         </Container>
       </div>
     </motion.section>

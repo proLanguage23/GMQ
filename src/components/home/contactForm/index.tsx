@@ -22,7 +22,7 @@ function HomeContactForm() {
         <Container class_name="pb-0">
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-9 justify-center items-end">
             <div className="pb-16">
-              <AppDescriptionWithDangerouslySetInnerHTML text={left?.form} />
+              <AppDescriptionWithDangerouslySetInnerHTML text={left?.form} class_name="" />
             </div>
             <div className="">
               <AppTitle text={right?.title} class_name="!text-white " isAnimation />

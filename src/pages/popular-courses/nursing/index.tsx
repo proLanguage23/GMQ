@@ -6,6 +6,7 @@ import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
 import { NursingBannerData } from "@/data/BannerData";
+import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
 function NursingPage() {
@@ -18,7 +19,7 @@ function NursingPage() {
       <NursingCourseSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }

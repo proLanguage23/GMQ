@@ -4,6 +4,7 @@ import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import { NaatiSectionOne, NaatiSectionThree, NaatiSectionTwo } from "@/components/student-services";
 import TestimonialSection from "@/components/testimonial";
 import { NAATIBannerData } from "@/data/BannerData";
+import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
 function NAATI_PAGE() {
@@ -16,7 +17,7 @@ function NAATI_PAGE() {
       <NaatiSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }

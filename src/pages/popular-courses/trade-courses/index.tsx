@@ -4,6 +4,7 @@ import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
 import { TradeCoursesBannerData } from "@/data/BannerData";
+import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
 function TradeCoursesPage() {
@@ -17,7 +18,7 @@ function TradeCoursesPage() {
       <TradeCourseSectionFour />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }

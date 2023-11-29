@@ -3,6 +3,7 @@ import { HomeCoursesDummyData } from "@/data/HomeCoursesData";
 import React from "react";
 import CoursesItem from "./CoursesItem";
 import { motion } from "framer-motion";
+import OldCoursesItem from "./OldCoursesItem";
 
 const defaultVariants = {
   initial: {
@@ -38,8 +39,8 @@ function HomeCourses() {
         <Container>
           <div className="flex flex-col justify-center items-center flex-wrap">
             <AppTitle text={title} class_name="!text-center" isAnimation />
-            <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 mt-8 w-full">
-              {CoursesData?.map((item, key) => (
+            <div className="w-full mt-8 flex justify-center gap-2 flex-wrap">
+              {/* {CoursesData?.map((item, key) => (
                 <CoursesItem
                   key={key}
                   {...item}
@@ -51,6 +52,21 @@ function HomeCourses() {
                     once: true,
                   }}
                   custom={key}
+                />
+              ))} */}
+              {CoursesData?.map((item, key) => (
+                <OldCoursesItem
+                  key={key}
+                  {...item}
+                  index={key}
+                  variants={defaultVariants}
+                  initial="initial"
+                  whileInView="animate"
+                  viewport={{
+                    once: true,
+                  }}
+                  custom={key}
+                  class_name="rounded-2xl md:w-[32%] sm:w-[48%] w-[300px]"
                 />
               ))}
             </div>

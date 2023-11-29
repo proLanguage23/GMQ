@@ -4,6 +4,7 @@ import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import { MockTestSectionOne, MockTestSectionThree, MockTestSectionTwo } from "@/components/student-services";
 import TestimonialSection from "@/components/testimonial";
 import { PTEMockTestBannerData } from "@/data/BannerData";
+import { contactFormOfPTE } from "@/data/ShareData";
 import React from "react";
 
 function MockTestPage() {
@@ -16,7 +17,7 @@ function MockTestPage() {
       <MockTestSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfPTE} />
     </>
   );
 }

@@ -7,6 +7,7 @@ import { FiMenu } from "react-icons/fi";
 import MobileNavbar from "./mobileMenuControler/MobileNavbar";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import TopHeader from "./topHeader/TopHeader";
 
 function NavBar() {
   const [MobileNavbarState, setMobileNavbarState] = useState(false);
@@ -14,7 +15,7 @@ function NavBar() {
 
   return (
     <div className="sticky top-0 left-0 w-full bg-white border-b z-10">
-      <Container fullWidth isContainer={false} class_name="lg:!px-9">
+      <Container fullWidth isContainer={false} class_name="lg:!px-9 !py-0">
         <div className="flex justify-between items-center gap-2 flex-wrap">
           {/* logo  */}
           <motion.div

@@ -15,7 +15,7 @@ function CopyRightArea({ text, socialLinkData }: any) {
             {socialLinkData?.map((item: any, key: any) => {
               return (
                 <a
-                  href="#"
+                  href={item?.href}
                   className="hover:bg-secondary border border-secondary bg-primary opacity-90 hover:opacity-100 p-1 text-white rounded transition-all"
                   key={key}
                 >

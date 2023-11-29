@@ -5,6 +5,7 @@ import StudentServicesSectionOne from "@/components/student-services/StudentServ
 import StudentServicesSectionThree from "@/components/student-services/StudentServicesSectionThree";
 import StudentServicesSectionTwo from "@/components/student-services/StudentServicesSectionTwo";
 import TestimonialSection from "@/components/testimonial";
+import { contactFormOfHome } from "@/data/ShareData";
 import { StudentServicesDummyData } from "@/data/StudentServicesData";
 import React from "react";
 
@@ -19,7 +20,7 @@ function StudentServicesPage() {
       <StudentServicesSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }

@@ -41,6 +41,7 @@ function CookeryCoursesSectionOne() {
           <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center gap-3 mt-9">
             <QualificationItemResult
               allRPL_QualificationItems={cookeryHospitalityData}
+              outPutItemNumber={8}
             />
           </div>
         </Container>

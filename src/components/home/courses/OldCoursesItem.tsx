@@ -17,14 +17,14 @@ function OldCoursesItem({
 }: any) {
   return (
     <div
-      className={`w-full bg-white rounded my-3 p-3 border shadow flex flex-col justify-between flex-wrap ${class_name}`}
+      className={`max-w-full bg-white rounded my-3 p-3 border shadow flex flex-col justify-between flex-wrap ${class_name}`}
     >
       <div className="">
         <AppImg
           src={img}
           alt={title || " image of gmq of popular-courses nursing"}
           quality={100}
-          class_name="w-full object-cover rounded"
+          class_name="w-full rounded-md"
         />
 
         <PageLink
@@ -35,9 +35,9 @@ function OldCoursesItem({
         />
         <AppDescription text={description} class_name="line-clamp-4" />
       </div>
-      <div className="mt-5 flex md:justify-end">
+      <div className="mt-5 flex justify-center md:justify-start">
         {iSPageLink ? (
-          <PageLink {...btn} class_name="commonBtnStyle" />
+          <PageLink {...btn} class_name={`commonBtnStyle ${btn_Class_name}`} />
         ) : (
           <AppBtn
             text={btn?.text}

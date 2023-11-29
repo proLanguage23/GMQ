@@ -4,6 +4,7 @@ import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
 import { informationTechnologyBannerData } from "@/data/BannerData";
+import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
 function InformationTechnologyPage() {
@@ -16,7 +17,7 @@ function InformationTechnologyPage() {
       <InformationTechnologySectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm />
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }
