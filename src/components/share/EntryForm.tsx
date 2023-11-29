@@ -5,7 +5,7 @@ import { AppDescriptionWithDangerouslySetInnerHTML } from ".";
 function EntryForm({data}:any) {
   return (
     <motion.div
-      className="border bg-white rounded overflow-auto md:w-2/3 w-full p-3 m-2 h-[90vh] mt-11 scrollBar_style"
+      className="border bg-white rounded overflow-auto md:w-2/3 w-full p-3 m-2 h-[90vh] md:mt-11 mt-6"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{
@@ -16,7 +16,7 @@ function EntryForm({data}:any) {
         once: true,
       }}
     >
-      <AppDescriptionWithDangerouslySetInnerHTML text={data} />
+      <AppDescriptionWithDangerouslySetInnerHTML text={data} class_name="h-full" />
     </motion.div>
   );
 }
