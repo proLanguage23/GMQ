@@ -36,9 +36,9 @@ function RPLBanner() {
         once: true,
       }}
     >
-      <div className="relative w-full md:h-[565px]">
+      <div className="relative w-full">
         <Container>
-          <div className="pt-40 md:w-2/4 w-full">
+          <div className="md:w-2/4 w-full md:py-20 py-9">
             <Swiper
               slidesPerView={1}
               cssMode={true}

@@ -8,6 +8,8 @@ import { ImCircleDown } from "react-icons/im";
 import Yourequalified from "@/assets/rpl/you-are-qualified.png";
 import EvidenceReview from "@/assets/rpl/evidence-review.png";
 
+import How_to_get_RPL_Certificate from "@/assets/rpl/new/How-to-get-RPL-Certificate.png";
+
 import FreeSkillsAssessment from "@/assets/rpl/free-skills-assessment.png";
 
 import RPL_Img_TWO from "@/assets/rpl/building-construction.png";
@@ -2552,5 +2554,6 @@ export const RPL_SkillsTextData = {
 };
 
 export const RPL_stepData = {
-  assets: [rpl_one_step, rpl_two_step],
+  title: 'How to get RPL Certificate',
+  assets: [How_to_get_RPL_Certificate],
 };

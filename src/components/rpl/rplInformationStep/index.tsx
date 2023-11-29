@@ -17,7 +17,7 @@ function RPL_informationStep() {
         once: true,
       }}
     >
-      <div className="py-16 relative bg-grayCustom">
+      <div className="bg-[#126265]">
         <Container>
           {/* <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-3">
           {items?.map((item, key) => (
