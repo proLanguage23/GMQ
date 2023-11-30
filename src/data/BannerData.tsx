@@ -150,15 +150,16 @@ export const TradeCoursesBannerData = [
             href: '#'
         }
     },
-    // {
-    //     id: 2,
-    //     text: 'nursing Two',
-    //     img: NursingBanner, discover your career path with our Education Counsellors Guidance for your studies
-    //     btn:{
-    //         text: 'learn more',
-    //         href: '#'
-    //     }
-    // }
+    {
+        id: 2,
+        text: 'trade course two',
+        img: TradeCoursesBannerOne,
+        btn:{
+            text: 'learn more',
+            href: '#'
+        }
+    },
+
 ]
 
 export const ProfessionalYearProgramBannerData = [

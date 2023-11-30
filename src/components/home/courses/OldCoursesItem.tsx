@@ -23,7 +23,6 @@ function OldCoursesItem({
         <AppImg
           src={img}
           alt={title || " image of gmq of popular-courses nursing"}
-          quality={100}
           class_name="w-full rounded-md"
         />
 

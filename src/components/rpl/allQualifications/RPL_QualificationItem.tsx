@@ -41,6 +41,7 @@ function RPL_QualificationItem({
             width={30}
             height={30}
             alt="gmq brand img"
+            isPlaceholder={false}
             class_name="absolute top-1 right-1"
           />
         </div>

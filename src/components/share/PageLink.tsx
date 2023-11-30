@@ -18,7 +18,7 @@ function PageLink({
     <>
       <Link
         rel="canonical"
-        href={href || ""}
+        href={href || "#"}
         {...rest}
         className={`${
           isIcon ? "flex justify-center items-center gap-3 flex-wrap" : " "

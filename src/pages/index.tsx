@@ -21,11 +21,11 @@ export default function Home() {
       <HomeWhyGMQ />
       {/* <HomeAboutGMQ /> */}
       <HomeIndustrialOfPartner />
-      {/* <HomeContactForm /> */}
+      <HomeContactForm />
       <HomeHelpOfGMQ />
-      {/* <HomeTestimonials /> */}
-      {/* <HomeRWL /> */}
-      {/* <VisitedForm data={contactFormOfHome} /> */}
+      <HomeTestimonials />
+      <HomeRWL />
+      <VisitedForm data={contactFormOfHome} />
     </>
   );
 }

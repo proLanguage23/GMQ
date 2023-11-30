@@ -11,11 +11,6 @@ function QualificationCategory({
   selectCatagoryHandler,
   selectCatagory,
 }: any) {
-  // const [allData, setAllData] = useState()
-
-  // useLayoutEffect(() => {
-
-  // }, [])
   return (
     <div>
       <AppSubTitle
@@ -32,10 +27,10 @@ function QualificationCategory({
             }`}
             onClick={() => selectCatagoryHandler(item?.text || "all")}
           >
-            <AppImg src={item?.icon} width={30} />
+            <AppImg src={item?.icon} width={30} isPlaceholder={false} />
             <AppDescriptionWithDangerouslySetInnerHTML
               text={item.text}
-              class_name={`capitalize text-[18px] group-hover:text-white flex-1 ${
+              class_name={`capitalize text-[18px] group-hover:text-white transition-all flex-1 ${
                 selectCatagory === item?.text ? "text-white " : "text-primary"
               }`}
             />

@@ -16,13 +16,14 @@ function FooterLinkArea({ footerLinkGP }: any) {
               class_name="text-white md:text-[20px] capitalize"
             />
             <div className="flex flex-col p-1 pl-2 opacity-90 flex-wrap">
-              {item?.link?.map((link: any, index: any) => (
-                <PageLink
-                  {...link}
-                  Key={index}
-                  isIcon={false}
-                  class_name="text-[#dddddd] opacity-90 capitalize hover:opacity-100 hover:text-white transition-all md:w-fit md:text-left text-center w-full"
-                />
+              {item?.link?.map((linkItem: any) => (
+                <div className="fd" key={linkItem?.id}>
+                  <PageLink
+                    {...linkItem}
+                    isIcon={false}
+                    class_name="text-[#dddddd] opacity-90 capitalize hover:opacity-100 hover:text-white transition-all md:w-fit md:text-left text-center w-full"
+                  />
+                </div>
               ))}
             </div>
           </div>

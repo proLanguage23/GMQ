@@ -17,7 +17,7 @@ function RPL_Page() {
       <RPL_About />
       {/* <AllQualifications /> */}
       <ViewQualification />
-      {/* <VisitedForm data={contactFormOfRPL} /> */}
+      <VisitedForm data={contactFormOfRPL} />
     </>
   );
 }
