@@ -30,8 +30,8 @@ function NursingCourseSectionTwo() {
               class_name="text-center text-primary"
               heading
             />
-            <div className="w-full grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-2 mt-6">
-              <QualificationItemResult allRPL_QualificationItems={data} />
+            <div className="w-full gap-2 mt-6 flex justify-center flex-wrap">
+              <QualificationItemResult allRPL_QualificationItems={data} class_name="lg:w-[24%] md:w-[32%] sm:w-[48%] w-[95%] max-w-[380px]" />
             </div>
           </div>
         </Container>
