@@ -10,7 +10,7 @@ import React from "react";
 function MockTestPage() {
   return (
     <>
-      <DynamicHead title="Online Mock Test with Score | Practice Online Test |  - GMQ Global" />
+      <DynamicHead title="Online Mock Test with Score | Practice Online Test |  - GMQ Global" description="Online Mock Test with Score | Practice Online Test |  - GMQ Global" />
       <AppSliderBanner data={PTEMockTestBannerData} />
       <MockTestSectionOne />
       <MockTestSectionTwo />

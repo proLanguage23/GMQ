@@ -14,7 +14,7 @@ function QualificationItemResult({
   allRPL_QualificationItems = [],
   class_nameOfBtn = "lg:col-span-3 sm:col-span-2 col-span-1",
   outPutItemNumber = 6,
-  class_name
+  class_name,
 }: any) {
   const [modalShow, setModalShow] = useState(false);
   const [getData, setGetData] = useState(allRPL_QualificationItems);
@@ -46,18 +46,9 @@ function QualificationItemResult({
   return (
     <>
       {PaginationDates?.map((item: any, key: any) => (
-        <motion.div
+        <div
           className={`w-full p-2 bg-white rounded-[24px] flex flex-col shadow border border-secondary/30 hover:border-secondary transition-all hover:!scale-[1.02] ease-in duration-200 ${class_name}`}
           key={key}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          // transition={{
-          //   delay: 0.1 * key,
-          // }}
-          viewport={{
-            once: true,
-          }}
-          custom={key}
         >
           <AppImg
             src={item?.img}
@@ -81,11 +72,11 @@ function QualificationItemResult({
             class_name="commonBtnStyle w-full rounded-2xl mt-4"
             handleClick={handelModal}
           />
-        </motion.div>
+        </div>
       ))}
 
       <div
-        className={`flex justify-center items-center col-span-4 bg-slate-200 ${class_nameOfBtn}`}
+        className={`flex justify-center items-center ${class_nameOfBtn}`}
       >
         {PaginationDates.length != getData.length && (
           <AppBtn

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { AppCourseBanner } from "@/components/share";
-import {Courses} from "@/components/rpl";
+import { Courses } from "@/components/rpl";
 import { useEffect } from "react";
 import { RPL_QualificationData } from "@/data/RPL_Data";
-import { DynamicHead,VisitedForm } from "@/components/share";
+import { DynamicHead, VisitedForm } from "@/components/share";
+import { contactFormOfPTE } from "@/data/ShareData";
 
 function GMQ_coursePage() {
   const [pageData, setPageData] = useState();
@@ -32,10 +33,13 @@ function GMQ_coursePage() {
 
   return (
     <>
-      <DynamicHead title={`${pageData?.content?.title || "RPL"} | GMQ Global`} />
+      <DynamicHead
+        title={`${pageData?.content?.title || "RPL"} | GMQ Global`}
+        description={`${pageData?.content?.title || "RPL"} | GMQ Global`}
+      />
       <AppCourseBanner text={pageData?.content?.title} />
       <Courses data={pageData?.content?.link} />
-      {/* <VisitedForm /> */}
+      <VisitedForm data={contactFormOfPTE} />
     </>
   );
 }

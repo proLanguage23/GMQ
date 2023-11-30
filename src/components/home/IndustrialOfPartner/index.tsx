@@ -24,40 +24,32 @@ function HomeIndustrialOfPartner() {
   const { title, PartnersData } = one;
 
   return (
-    <motion.div
-      className=""
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-9 bg-grayCustom">
-        <Container>
-          <div className="">
-            <AppTitle text={title} class_name="capitalize text-center" isAnimation />
-            <div className="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-2 mt-5">
-              {PartnersData?.map((item: any, key: any) => (
-                <PartnersItem
-                  key={key}
-                  {...item}
-                  variants={defaultVariants}
-                  initial="initial"
-                  whileInView="animate"
-                  viewport={{
-                    once: true,
-                  }}
-                  custom={key}
-                />
-              ))}
-            </div>
+    <section className="py-9 bg-grayCustom w-full">
+      <Container>
+        <div className="">
+          <AppTitle
+            text={title}
+            class_name="capitalize text-center"
+            isAnimation
+          />
+          <div className="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-2 mt-5">
+            {PartnersData?.map((item: any, key: any) => (
+              <PartnersItem
+                key={key}
+                {...item}
+                variants={defaultVariants}
+                initial="initial"
+                whileInView="animate"
+                viewport={{
+                  once: true,
+                }}
+                custom={key}
+              />
+            ))}
           </div>
-        </Container>
-      </div>
-    </motion.div>
+        </div>
+      </Container>
+    </section>
   );
 }
 

@@ -8,25 +8,14 @@ function SectionFiveOfTeaching() {
   const { SectionFiveOfTeaching } = TeachingDummyData;
   const { title, data } = SectionFiveOfTeaching;
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-9">
-        <Container>
-          <AppTitle text={title} class_name="text-center" />
-          <div className="mt-9">
-            <AppAccordion data={data} />
-          </div>
-        </Container>
-      </div>
-    </motion.section>
+    <section className="py-9 w-full">
+      <Container>
+        <AppTitle text={title} class_name="text-center" />
+        <div className="mt-9">
+          <AppAccordion data={data} />
+        </div>
+      </Container>
+    </section>
   );
 }
 

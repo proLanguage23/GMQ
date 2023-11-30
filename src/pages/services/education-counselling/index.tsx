@@ -12,7 +12,7 @@ function EducationCounsellingPage() {
 
   return (
     <>
-      <DynamicHead title="Education Counselling - GMQ Global" />
+      <DynamicHead title="Education Counselling - GMQ Global" description="Education Counselling - GMQ Global" />
       <AppSliderBanner data={EducationCounsellingBannerData} />
       <EducationCounsellingSectionOne />
       <EducationCounsellingSectionTwo />

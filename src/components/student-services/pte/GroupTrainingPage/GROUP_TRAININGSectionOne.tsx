@@ -8,29 +8,18 @@ function GROUP_TRAININGSectionOne() {
   const { GROUP_TRAININGSectionOne } = GroupTrainingDummyData;
   const { left, right } = GROUP_TRAININGSectionOne;
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-9">
-        <Container>
-          <LeftToRight
-            title={left?.title}
-            tiny_mceEditor={left?.text}
-            sideImg={right?.img}
-            leftImageToRight
-            heading
-            alt={left?.title}
-          />
-        </Container>
-      </div>
-    </motion.div>
+    <section className="py-9 w-full">
+      <Container>
+        <LeftToRight
+          title={left?.title}
+          tiny_mceEditor={left?.text}
+          sideImg={right?.img}
+          leftImageToRight
+          heading
+          alt={left?.title}
+        />
+      </Container>
+    </section>
   );
 }
 

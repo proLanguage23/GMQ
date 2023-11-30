@@ -5,19 +5,12 @@ import { motion } from "framer-motion";
 
 function HomeBanner() {
   return (
-    <motion.div
-      className=""
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <AppSliderBanner data={HomeBannerData} img_class_name="md:max-h-[500px]" />
-    </motion.div>
+    <section className=" w-full">
+      <AppSliderBanner
+        data={HomeBannerData}
+        img_class_name="md:max-h-[500px]"
+      />
+    </section>
   );
 }
 

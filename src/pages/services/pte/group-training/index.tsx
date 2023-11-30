@@ -10,7 +10,7 @@ import React from 'react'
 function GroupTrainingPage() {
   return (
     <>
-      <DynamicHead title="PTE Online Group Coaching |  - GMQ Global" />
+      <DynamicHead title="PTE Online Group Coaching |  - GMQ Global" description="PTE Online Group Coaching |  - GMQ Global" />
       <AppSliderBanner data={PTEGroupTrainingBannerData} />
       <GROUP_TRAININGSectionOne />
       <GROUP_TRAININGSectionTwo />

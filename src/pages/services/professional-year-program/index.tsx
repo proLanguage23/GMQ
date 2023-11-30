@@ -10,7 +10,7 @@ import React from "react";
 function ProfessionalYearProgramPage() {
   return (
     <>
-      <DynamicHead title="Professional Year Program global | IT, Accounting &amp; Engineering |  - GMQ Global" />
+      <DynamicHead title="Professional Year Program global | IT, Accounting &amp; Engineering |  - GMQ Global" description="Professional Year Program global | IT, Accounting &amp; Engineering |  - GMQ Global" />
       <AppSliderBanner data={ProfessionalYearProgramBannerData} />
       <ProfessionalYearProgramSectionOne />
       <ProfessionalYearProgramSectionTwo />

@@ -23,55 +23,43 @@ const defaultVariants = {
 function HomeWhyGMQ() {
   const { title, description, whyGMQFetuses, secondaryImg } = WhyGMQ_DummyData;
   return (
-    <motion.div
-      className=""
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-24 relative">
-        <Container>
-          <div className="flex flex-col gap-6 flex-wrap">
-            <div className="flex gap-7 justify-center md:justify-start flex-wrap">
-              <AppTitle
-                text={title + " GMQ"}
-                class_name="!text-secondary md:!text-[80px] uppercase manropeFont"
-                heading
-                isAnimation
-                animationSpeed = {0.1}
-              />
-            </div>
-            <AppDescription
-              text={description}
-              class_name="!text-white !text-[18px] lg:w-2/3 w-full text-center md:text-left"
+    <section className="py-24 relative w-full">
+      <Container>
+        <div className="flex flex-col gap-6 flex-wrap">
+          <div className="flex gap-7 justify-center md:justify-start flex-wrap">
+            <AppTitle
+              text={title + " GMQ"}
+              class_name="!text-secondary md:!text-[80px] uppercase manropeFont"
+              heading
               isAnimation
-              animationSpeed = {0.01}
+              animationSpeed={0.1}
             />
-            <div className="flex flex-wrap w-full items-center gap-2 md:gap-6 justify-center md:justify-start">
-              {whyGMQFetuses?.map((item, key) => (
-                <WhyGMQFetusesItem
-                  key={key}
-                  {...item}
-                  variants={defaultVariants}
-                  initial="initial"
-                  whileInView="animate"
-                  viewport={{
-                    once: true,
-                  }}
-                  custom={key}
-                />
-              ))}
-            </div>
           </div>
-        </Container>
-        <AppBgImg BgImg={secondaryImg} />
-      </div>
-    </motion.div>
+          <AppDescription
+            text={description}
+            class_name="!text-white !text-[18px] lg:w-2/3 w-full text-center md:text-left"
+            isAnimation
+            animationSpeed={0.01}
+          />
+          <div className="flex flex-wrap w-full items-center gap-2 md:gap-6 justify-center md:justify-start">
+            {whyGMQFetuses?.map((item, key) => (
+              <WhyGMQFetusesItem
+                key={key}
+                {...item}
+                variants={defaultVariants}
+                initial="initial"
+                whileInView="animate"
+                viewport={{
+                  once: true,
+                }}
+                custom={key}
+              />
+            ))}
+          </div>
+        </div>
+      </Container>
+      <AppBgImg BgImg={secondaryImg} />
+    </section>
   );
 }
 

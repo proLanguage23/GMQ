@@ -10,7 +10,7 @@ import React from 'react'
 function PTE_Page() {
   return (
     <>
-      <DynamicHead title="Best PTE Online Courses |  - GMQ Global" />
+      <DynamicHead title="Best PTE Online Courses |  - GMQ Global" description="Best PTE Online Courses |  - GMQ Global" />
       <AppSliderBanner data={PTEBannerData} />
       <PTE_SectionOne />
       <PTE_SectionTwo />

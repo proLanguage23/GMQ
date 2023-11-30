@@ -7,18 +7,7 @@ import { motion } from "framer-motion";
 function HomeRWL() {
   const { rwlData } = RWLDummyData;
   return (
-    <motion.div
-      className=""
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-    <div className="bg-primary py-16">
+    <section className="bg-primary py-16 w-full">
       <Container>
         <div className="grid md:grid-cols-3 grid-cols-1 gap-1 items-center justify-center">
           {rwlData?.map((item: any, key: any) => (
@@ -26,7 +15,7 @@ function HomeRWL() {
           ))}
         </div>
       </Container>
-    </div></motion.div>
+    </section>
   );
 }
 

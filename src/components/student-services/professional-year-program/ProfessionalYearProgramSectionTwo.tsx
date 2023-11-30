@@ -12,21 +12,11 @@ function ProfessionalYearProgramSectionTwo() {
     ProfessionalYearProgramDummyData;
   const { text } = ProfessionalYearProgramSectionTwo;
   return (
-    <motion.section
-      className="py-9"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
+    <section className="py-9 w-full">
       <Container>
         <AppDescriptionWithDangerouslySetInnerHTML text={text} />
       </Container>
-    </motion.section>
+    </section>
   );
 }
 

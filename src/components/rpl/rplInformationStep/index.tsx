@@ -7,34 +7,15 @@ import { motion } from "framer-motion";
 function RPL_informationStep() {
   const { assets } = RPL_stepData;
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="bg-[#126265]">
-        <Container>
-          {/* <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-3">
-          {items?.map((item, key) => (
-            <InformationItem
-              key={key}
-              {...item}
-            />
+    <section className="bg-[#126265] w-full">
+      <Container>
+        <div className="grid grid-cols-1 gap-9 justify-center items-center">
+          {assets?.map((item, key) => (
+            <AppImg key={key} src={item} class_name="w-full my-2" />
           ))}
-        </div> */}
-          <div className="grid grid-cols-1 gap-9 justify-center items-center">
-            {assets?.map((item, key) => (
-              <AppImg key={key} src={item} class_name="w-full my-2" />
-            ))}
-          </div>
-        </Container>
-      </div>
-    </motion.section>
+        </div>
+      </Container>
+    </section>
   );
 }
 

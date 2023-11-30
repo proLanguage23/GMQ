@@ -11,22 +11,11 @@ function InformationTechnologySectionThree() {
   const { text } = InformationTechnologySectionThree;
 
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-9">
-        <Container>
-          <AppDescriptionWithDangerouslySetInnerHTML text={text} />
-        </Container>
-      </div>
-    </motion.section>
+    <section className="py-9 w-full">
+      <Container>
+        <AppDescriptionWithDangerouslySetInnerHTML text={text} />
+      </Container>
+    </section>
   );
 }
 

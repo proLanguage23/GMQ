@@ -9,17 +9,7 @@ function ProfessionalYearProgramSectionOne() {
     ProfessionalYearProgramDummyData;
   const { left, right } = ProfessionalYearProgramSectionOne;
   return (
-    <motion.section
-      className="py-9"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
+    <section className="w-full">
       <Container>
         <LeftToRight
           title={left?.title}
@@ -30,7 +20,7 @@ function ProfessionalYearProgramSectionOne() {
           alt={left?.title}
         />
       </Container>
-    </motion.section>
+    </section>
   );
 }
 

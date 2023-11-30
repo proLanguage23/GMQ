@@ -7,21 +7,11 @@ import { motion } from "framer-motion";
 function HomeContactForm() {
   const { right, left } = ContactFormDummyData;
   return (
-    <motion.div
-      className=""
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="bg-secondary pt-28">
+
+      <section className="bg-secondary pt-28  w-full">
         <Container class_name="pb-0">
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-9 justify-center items-end">
-            <div className="pb-16">
+            <div className="pb-16 flex justify-start h-full">
               <AppDescriptionWithDangerouslySetInnerHTML text={left?.form} class_name="" />
             </div>
             <div className="">
@@ -45,8 +35,7 @@ function HomeContactForm() {
             </div>
           </div>
         </Container>
-      </div>
-    </motion.div>
+      </section>
   );
 }
 

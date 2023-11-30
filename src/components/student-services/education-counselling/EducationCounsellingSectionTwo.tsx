@@ -12,17 +12,8 @@ function EducationCounsellingSectionTwo() {
   const { EducationCounsellingSectionTwo } = EducationCounsellingDummyData;
   const { left, right, title, description } = EducationCounsellingSectionTwo;
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-16">
+
+      <section className="py-9 w-full">
         <Container>
           <div className="flex justify-center items-center flex-col mb-7 gap-4">
             <AppTitle text={title} class_name="text-center" />
@@ -38,8 +29,7 @@ function EducationCounsellingSectionTwo() {
             alt={title}
           />
         </Container>
-      </div>
-    </motion.section>
+      </section>
   );
 }
 

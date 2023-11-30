@@ -10,7 +10,7 @@ import React from "react";
 function OneToOneTrainingPage() {
   return (
     <>
-      <DynamicHead title="Online PTE Training |  - GMQ Global" />
+      <DynamicHead title="Online PTE Training |  - GMQ Global" description="Online PTE Training |  - GMQ Global" />
       <AppSliderBanner data={PTEOneToOneTrainingBannerData} />
       <OneToOneTrainingSectionOne />
       <OneToOneTrainingSectionTwo />

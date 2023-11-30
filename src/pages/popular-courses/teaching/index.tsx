@@ -16,7 +16,7 @@ import React from "react";
 function teaching() {
   return (
     <>
-      <DynamicHead title="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" />
+      <DynamicHead title="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" description="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" />
       <AppSliderBanner data={teachingBannerData} />
       <SectionOneOfTeaching />
       <SectionTwoOfTeaching />

@@ -13,17 +13,7 @@ function PTE_SectionOne() {
   const { PTE_SectionOne } = PTE_Dummy_data;
   const { title, subTitle, description, data } = PTE_SectionOne;
   return (
-    <motion.section
-      className="py-9"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
+    <section className="py-9 w-full">
       <Container>
         <div className="">
           <AppTitle text={title} class_name="text-center" />
@@ -42,7 +32,7 @@ function PTE_SectionOne() {
           />
         </div>
       </Container>
-    </motion.section>
+    </section>
   );
 }
 

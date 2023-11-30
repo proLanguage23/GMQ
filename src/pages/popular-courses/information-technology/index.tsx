@@ -10,7 +10,7 @@ import React from "react";
 function InformationTechnologyPage() {
   return (
     <>
-      <DynamicHead title="List of Top IT Courses in Global for International Students | Pathways to PR  - GMQ Global" />
+      <DynamicHead title="List of Top IT Courses in Global for International Students | Pathways to PR  - GMQ Global" description="List of Top IT Courses in Global for International Students | Pathways to PR  - GMQ Global" />
       <AppSliderBanner data={informationTechnologyBannerData} />
       <InformationTechnologySectionOne />
       <InformationTechnologySectionTwo />

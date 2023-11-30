@@ -9,25 +9,14 @@ function OneToOneTrainingSectionThree() {
   const { OneToOneTrainingSectionThree } = OneToOneTrainingDummyData;
   const { left, right } = OneToOneTrainingSectionThree;
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-9">
-        <Container>
-          <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
-            <ProgressiveApproach left={left} />
-            <WeHelpYouLearnBetter right={right} />
-          </div>
-        </Container>
-      </div>
-    </motion.section>
+    <section className="py-9 w-full">
+      <Container>
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
+          <ProgressiveApproach left={left} />
+          <WeHelpYouLearnBetter right={right} />
+        </div>
+      </Container>
+    </section>
   );
 }
 

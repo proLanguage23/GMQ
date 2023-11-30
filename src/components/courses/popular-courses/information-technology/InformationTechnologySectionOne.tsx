@@ -22,35 +22,23 @@ function InformationTechnologySectionOne() {
   }, [RPL_QualificationItems]);
 
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-9 bg-grayCustom/50">
-        <Container>
-          <AppTitle text={title} heading class_name="text-center capitalize" />
-          {/* <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center gap-3 mt-9">
+    <section className="py-9 bg-grayCustom/50 w-full">
+      <Container>
+        <AppTitle text={title} heading class_name="text-center capitalize" />
+        {/* <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center gap-3 mt-9">
             <QualificationItemResult
               allRPL_QualificationItems={informationTechnologyData}
             />
           </div> */}
-          <div className="flex justify-center gap-3 mt-9 flex-wrap">
-            <QualificationItemResult
-              allRPL_QualificationItems={informationTechnologyData}
-              outPutItemNumber={8}
-              class_name="lg:w-[24%] md:w-[32%] sm:w-[48%] w-[95%] max-w-[380px]"
-            />
-          </div>
-
-        </Container>
-      </div>
-    </motion.section>
+        <div className="flex justify-center gap-3 mt-9 flex-wrap">
+          <QualificationItemResult
+            allRPL_QualificationItems={informationTechnologyData}
+            outPutItemNumber={8}
+            class_name="lg:w-[24%] md:w-[32%] sm:w-[48%] w-[95%] max-w-[380px]"
+          />
+        </div>
+      </Container>
+    </section>
   );
 }
 

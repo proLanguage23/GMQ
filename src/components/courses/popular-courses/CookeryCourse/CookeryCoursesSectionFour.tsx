@@ -8,17 +8,8 @@ function CookeryCoursesSectionFour() {
   const { CookeryCoursesSectionFour } = hospitality_and_cookeryDummyData;
   const { title, data } = CookeryCoursesSectionFour;
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-    <div className="py-9">
+
+    <section className="py-9 w-full">
       <Container>
         <div className="flex flex-col flex-wrap justify-center items-center">
           <AppTitle text={title} class_name="text-center" />
@@ -27,7 +18,7 @@ function CookeryCoursesSectionFour() {
           </div>
         </div>
       </Container>
-    </div></motion.section>
+    </section>
   );
 }
 

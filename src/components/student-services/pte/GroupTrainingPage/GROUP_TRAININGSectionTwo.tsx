@@ -13,39 +13,28 @@ function GROUP_TRAININGSectionTwo() {
   const { GROUP_TRAININGSectionTwo } = GroupTrainingDummyData;
   const { title, description, data, btn } = GROUP_TRAININGSectionTwo;
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-9 bg-secondary">
-        <Container>
-          <div className="flex flex-col justify-center items-center gap-5">
-            <AppTitle text={title} class_name="text-center text-white mb-3" />
-            <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
-              {data?.map((item, key) => (
-                <div className="border rounded bg-white" key={key}>
-                  <AppImg src={item?.img} alt={item?.text} />
-                </div>
-              ))}
-            </div>
-            <AppDescriptionWithDangerouslySetInnerHTML
-              text={description}
-              class_name="text-white !text-[20px]"
-            />
-            <AppBtn
-              text={btn?.text}
-              class_name="NewCommonBtnStyle rounded-full"
-            />
+    <section className="py-9 bg-secondary w-full">
+      <Container>
+        <div className="flex flex-col justify-center items-center gap-5">
+          <AppTitle text={title} class_name="text-center text-white mb-3" />
+          <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
+            {data?.map((item, key) => (
+              <div className="border rounded bg-white" key={key}>
+                <AppImg src={item?.img} alt={item?.text} />
+              </div>
+            ))}
           </div>
-        </Container>
-      </div>
-    </motion.section>
+          <AppDescriptionWithDangerouslySetInnerHTML
+            text={description}
+            class_name="text-white !text-[20px]"
+          />
+          <AppBtn
+            text={btn?.text}
+            class_name="NewCommonBtnStyle rounded-full"
+          />
+        </div>
+      </Container>
+    </section>
   );
 }
 

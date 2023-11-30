@@ -17,18 +17,8 @@ function HomeTestimonials() {
   const { title, secondaryImg, TestimonialDummyData } =
     HomeTestimonialDummyData;
   return (
-    <motion.div
-      className=""
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="pt-8">
+
+      <section className="pt-8 w-full">
         <Container class_name="!py-0">
           <div className="flex justify-center items-center flex-col gap-9 flex-wrap">
             <AppTitle text={title} class_name="md:my-8" isAnimation />
@@ -75,8 +65,7 @@ function HomeTestimonials() {
             </div>
           </div>
         </Container>
-      </div>
-    </motion.div>
+      </section>
   );
 }
 

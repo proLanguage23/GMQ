@@ -10,7 +10,7 @@ import { CommonFormDummyData } from "@/data/ContactAllForm";
 function CommonForm() {
   const { right, left } = CommonFormDummyData;
   return (
-    <div className="bg-secondary pt-28">
+    <section className="bg-secondary pt-28 w-full">
       <Container class_name="!pb-0 !mb-0">
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-9 justify-center items-end">
           <div className="pb-16 flex justify-start h-full min-h-[500px]">
@@ -38,7 +38,7 @@ function CommonForm() {
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 }
 

@@ -8,25 +8,14 @@ function NursingCourseSectionThree() {
   const { NursingCourseSectionThree } = NursingCourseDummyData;
   const { title, img } = NursingCourseSectionThree;
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="py-9">
-        <Container>
-          <div className="flex flex-col justify-center items-center gap-5">
-            <AppTitle text={title} />
-            <AppImg src={img} alt={title + " image"} className="w-full mt-6" />
-          </div>
-        </Container>
-      </div>
-    </motion.section>
+    <section className="py-9 w-full">
+      <Container>
+        <div className="flex flex-col justify-center items-center gap-5">
+          <AppTitle text={title} />
+          <AppImg src={img} alt={title + " image"} className="w-full mt-6" />
+        </div>
+      </Container>
+    </section>
   );
 }
 
