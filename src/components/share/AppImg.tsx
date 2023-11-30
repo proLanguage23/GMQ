@@ -11,7 +11,9 @@ function AppImg({ src, alt, class_name, ...rest }: any) {
       placeholder='blur'
       blurDataURL="true"
       className={`max-w-full ${class_name}`}
+      // style={{width: 'auto', height: 'auto', objectFit: 'contain'}}
       {...rest}
+      
     />
   );
 }

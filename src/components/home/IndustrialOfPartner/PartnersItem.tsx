@@ -18,7 +18,7 @@ function PartnersItem({
       {...rest}
     >
       <div className="w-full h-[100px] flex justify-center items-center mb-4">
-        <AppImg src={img} alt={partnersName} width={100} />
+        <AppImg src={img} alt={partnersName} width={100} height={80} />
       </div>
       <div className="df">
         <AppSubTitle
@@ -30,13 +30,13 @@ function PartnersItem({
           class_name="text-center !text-[16px] "
         />
       </div>
-      {subImg && (
+      {/* {subImg && (
         <AppImg
           src={subImgIcon}
           width={18}
           class_name="absolute top-3 right-3"
         />
-      )}
+      )} */}
     </motion.div>
   );
 }

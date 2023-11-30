@@ -167,6 +167,26 @@ import CPC31920 from "@/assets/rpl/certificate-iii-in-joinery-cpc31920.jpg";
 import { FaTimes } from "react-icons/fa";
 import { AiOutlineCheck } from "react-icons/ai";
 
+import autoMotiveIcon from "@/assets/rpl/icon/autoMotiveIcon.png";
+import buildingConstructionIcon from "@/assets/rpl/icon/buildingConstructionIcon.png";
+import businessFinanceIcon from "@/assets/rpl/icon/buildingConstructionIcon.png";
+import civilConstructionIcon from "@/assets/rpl/icon/civilConstructionIcon.png";
+import communityServicesIcon from "@/assets/rpl/icon/communityServicesIcon.png";
+import commercialCookeryHospitalityIcon from "@/assets/rpl/icon/commercialCookeryHospitalityIcon.png";
+import hairBeautyIcon from "@/assets/rpl/icon/hairBeautyIcon.png";
+import HorticultureLandManagementIcon from "@/assets/rpl/icon/HorticultureLandManagementIcon.png";
+import EngineeringIcon from "@/assets/rpl/icon/EngineeringIcon.png";
+import informationTechnologyIcon from "@/assets/rpl/icon/informationTechnologyIcon.png";
+import miningResourcesIcon from "@/assets/rpl/icon/miningResourcesIcon.png";
+import PlumbingServicesIcon from "@/assets/rpl/icon/PlumbingServicesIcon.png";
+import SecurityCleaningIcon from "@/assets/rpl/icon/SecurityCleaningIcon.png";
+import TransportLogisticsIcon from "@/assets/rpl/icon/TransportLogisticsIcon.png";
+import VocationalEducationTrainingIcon from "@/assets/rpl/icon/VocationalEducationTrainingIcon.png";
+import RetailServicesIcon from "@/assets/rpl/icon/RetailServicesIcon.png";
+
+
+
+
 export const RPL_BannerData = {
   title: [
     {
@@ -295,6 +315,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "automotive",
+        icon: autoMotiveIcon,
         link: [
           {
             id: 1,
@@ -446,6 +467,7 @@ export const RPL_QualificationData = {
       show: 4,
       content: {
         title: "building & construction",
+        icon: buildingConstructionIcon,
         link: [
           {
             id: 1,
@@ -702,6 +724,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "business & finance",
+        icon: businessFinanceIcon,
         link: [
           {
             id: 1,
@@ -878,6 +901,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "civil construction",
+        icon: civilConstructionIcon,
         link: [
           {
             id: 1,
@@ -917,6 +941,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "community services",
+        icon: communityServicesIcon,
         link: [
           {
             id: 1,
@@ -972,6 +997,7 @@ export const RPL_QualificationData = {
       show: 4,
       content: {
         title: "commercial cookery & hospitality",
+        icon: commercialCookeryHospitalityIcon,
         link: [
           {
             id: 1,
@@ -1068,6 +1094,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "hair & beauty",
+        icon: hairBeautyIcon,
         link: [
           {
             id: 1,
@@ -1172,6 +1199,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "Horticulture & Land Management",
+        icon: HorticultureLandManagementIcon,
         link: [
           {
             id: 1,
@@ -1195,6 +1223,7 @@ export const RPL_QualificationData = {
       show: 2,
       content: {
         title: "Engineering",
+        icon: EngineeringIcon,
         link: [
           {
             id: 1,
@@ -1259,6 +1288,7 @@ export const RPL_QualificationData = {
       show: 2,
       content: {
         title: "information technology",
+        icon: informationTechnologyIcon,
         link: [
           {
             id: 1,
@@ -1291,6 +1321,7 @@ export const RPL_QualificationData = {
       show: 2,
       content: {
         title: "mining & resources",
+        icon: miningResourcesIcon,
         link: [
           {
             id: 1,
@@ -1315,6 +1346,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "Plumbing Services",
+        icon: PlumbingServicesIcon,
         link: [
           {
             id: 1,
@@ -1355,6 +1387,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "Security & Cleaning",
+        icon: SecurityCleaningIcon,
         link: [
           {
             id: 1,
@@ -1395,6 +1428,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "Transport & Logistics",
+        icon: TransportLogisticsIcon,
         link: [
           {
             id: 1,
@@ -1419,6 +1453,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "Vocational Education & Training",
+        icon: VocationalEducationTrainingIcon,
         link: [
           {
             id: 1,
@@ -1443,6 +1478,7 @@ export const RPL_QualificationData = {
       show: 3,
       content: {
         title: "Retail Services",
+        icon: RetailServicesIcon,
         link: [
           {
             id: 1,

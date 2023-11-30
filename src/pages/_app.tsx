@@ -37,7 +37,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
         <Component key={router.pathname} {...pageProps} />
       </AnimatePresence>
       <AppGoToTop />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

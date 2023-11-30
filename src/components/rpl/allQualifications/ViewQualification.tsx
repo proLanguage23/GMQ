@@ -9,7 +9,7 @@ import React, { useState, useLayoutEffect, useEffect } from "react";
 import QualificationCategory from "./sub/QualificationCategory";
 import QualificationSearch from "./sub/QualificationSearch";
 import QualificationItemResult from "./sub/QualificationItemResult";
-import { motion } from "framer-motion";
+import allIcon from "@/assets/rpl/icon/allIcon.png";
 
 function ViewQualification() {
   const { title, RPL_QualificationItems } = RPL_QualificationData;
@@ -74,13 +74,26 @@ function ViewQualification() {
   };
 
   useLayoutEffect(() => {
-    const result = [
-      "all",
-      ...RPL_QualificationItems?.map((item) =>
-        item?.content?.title.toLowerCase()
-      ),
+    const IconWithResult = [
+      {
+        text: "all",
+        icon: allIcon,
+      },
+      ...RPL_QualificationItems?.map((item) => {
+        return {
+          text: item?.content?.title.toLowerCase(),
+          icon: item?.content?.icon,
+        };
+      }),
     ];
-    setCategories(result);
+    setCategories(IconWithResult);
+    // const result = [
+    //   "all",
+    //   ...RPL_QualificationItems?.map((item) =>
+    //     item?.content?.title.toLowerCase()
+    //   ),
+    // ];
+    // setCategories(result);
     // =======
   }, [RPL_QualificationItems]);
 
@@ -99,7 +112,7 @@ function ViewQualification() {
           />
           <div className="w-full grid lg:grid-cols-9 mt-9 grid-cols-1 items-start gap-3">
             {/* .category  */}
-            <div className="lg:col-span-2 p-3 mb-5 rounded-2xl bg-white shadow">
+            <div className="lg:col-span-2 p-3 mb-5 rounded-2xl bg-white shadow ">
               <QualificationCategory
                 categories={categories}
                 selectCatagoryHandler={selectCatagoryHandler}
