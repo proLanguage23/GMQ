@@ -25,11 +25,11 @@ function HomeWhyGMQ() {
   return (
     <section className="py-24 relative w-full">
       <Container>
-        <div className="flex flex-col gap-6 flex-wrap">
-          <div className="flex gap-7 justify-center md:justify-start flex-wrap">
+        <div className="flex flex-col flex-wrap">
+          <div className="flex justify-center md:justify-start flex-wrap">
             <AppTitle
               text={title + " GMQ"}
-              class_name="!text-secondary md:!text-[80px] uppercase manropeFont"
+              class_name="!text-white md:!text-[80px] uppercase manropeFont"
               heading
               isAnimation
               animationSpeed={0.1}
@@ -41,7 +41,7 @@ function HomeWhyGMQ() {
             isAnimation
             animationSpeed={0.01}
           />
-          <div className="flex flex-wrap w-full items-center gap-2 md:gap-6 justify-center md:justify-start">
+          <div className="flex flex-wrap w-full items-center gap-2 mt-8 md:gap-6 justify-center md:justify-start">
             {whyGMQFetuses?.map((item, key) => (
               <WhyGMQFetusesItem
                 key={key}

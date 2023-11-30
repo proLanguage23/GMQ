@@ -9,11 +9,12 @@ function PartnersItem({
   subImg,
   partnersName,
   cricosNumber,
+  class_name,
   ...rest
 }: any) {
   return (
     <motion.div
-      className="border p-5 rounded-2xl flex justify-center items-center flex-wrap gap-2 flex-col shadow hover:shadow-md bg-white relative"
+      className={`w-full border p-5 rounded-2xl flex justify-center items-center flex-wrap gap-2 flex-col shadow hover:shadow-md bg-white relative ${class_name}`}
       {...rest}
     >
       <div className="w-full h-[100px] flex justify-center items-center mb-4">

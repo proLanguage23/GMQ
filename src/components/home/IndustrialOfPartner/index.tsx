@@ -32,7 +32,7 @@ function HomeIndustrialOfPartner() {
             class_name="capitalize text-center"
             isAnimation
           />
-          <div className="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-2 mt-5">
+          <div className="flex justify-center flex-wrap gap-2 mt-5">
             {PartnersData?.map((item: any, key: any) => (
               <PartnersItem
                 key={key}
@@ -44,6 +44,7 @@ function HomeIndustrialOfPartner() {
                   once: true,
                 }}
                 custom={key}
+                class_name="lg:w-[24%] md:w-[32%] sm:w-[33%] w-[95%]  max-w-full"
               />
             ))}
           </div>

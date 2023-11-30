@@ -11,9 +11,9 @@ function TopHeader() {
   };
   const { socialLinks } = HomeFooterDummyData;
   return (
-    <div className="border-b">
-      <Container fullWidth class_name="lg:!px-9">
-        <div className="flex sm:justify-between items-center gap-2 flex-wrap justify-center">
+    <section className="border-b">
+      <Container fullWidth  isContainer={false} class_name="lg:!px-9">
+        <div className="sm:grid grid-cols-2 sm:justify-center items-center flex flex-wrap justify-around">
           <div className="flex justify-start items-center gap-2 text-primary">
             {socialLinks?.map((item: any, key: any) => {
               return (
@@ -27,7 +27,7 @@ function TopHeader() {
               );
             })}
           </div>
-          <div className="df">
+          <div className="flex sm:justify-end justify-center ">
             <AppBtn text={"FREE 60 second skills check"} class_name="border px-4 py-2 rounded-full bg-secondary text-white hover:opacity-95" handleClick={() => handelModal()} />
           </div>
         </div>
@@ -36,7 +36,7 @@ function TopHeader() {
       {modalShow && (
         <AppModal handelModal={handelModal} content={<SkillsTestForm />} />
       )}
-    </div>
+    </section>
   );
 }
 

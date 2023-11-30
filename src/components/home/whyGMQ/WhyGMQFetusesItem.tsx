@@ -9,7 +9,7 @@ function WhyGMQFetusesItem({ icon_img, text, ...rest }: any) {
       className="flex flex-col justify-center items-center gap-3 p-2 w-[45%] md:w-fit group flex-wrap"
       {...rest}
     >
-      <div className="bg-secondary group-hover:bg-secondary transition duration-150 ease-out hover:ease-in flex justify-center items-center rounded-full w-20 h-20 ">
+      <div className="bg-white flex justify-center items-center rounded-full w-20 h-20 ">
         <Image
           src={icon_img}
           alt={text}
@@ -18,12 +18,12 @@ function WhyGMQFetusesItem({ icon_img, text, ...rest }: any) {
           // priority={true}
           loading="lazy"
           blurDataURL="true"
-          className="p-1 group-hover:scale-100 scale-75 transition duration-150 ease-out hover:ease-in"
+          className="p-1 group-hover:scale-100 scale-75 transition-all duration-500 ease-out hover:ease-in"
         />
       </div>
       <AppSubTitle
         text={text}
-        class_name="text-white text-center group-hover:text-secondary md:w-28"
+        class_name="text-white text-center md:w-28"
       />
     </motion.div>
   );

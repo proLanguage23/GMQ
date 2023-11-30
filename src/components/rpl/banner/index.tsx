@@ -28,7 +28,7 @@ function RPLBanner() {
   return (
     <section className="relative w-full">
       <Container>
-        <div className="md:w-2/4 w-full md:py-20 py-9">
+        <div className="md:w-2/4 w-full md:py-28 py-9">
           <Swiper
             slidesPerView={1}
             cssMode={true}

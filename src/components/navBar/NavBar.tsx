@@ -27,7 +27,7 @@ function NavBar() {
               duration: 0.3,
             }}
           >
-            <Link rel="canonical" href="./">
+            <Link rel="canonical" href="/">
               <Image
                 src={Logo}
                 alt={"logo"}

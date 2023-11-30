@@ -235,6 +235,10 @@ ul {
   padding: 0px 30px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .subMenu {
   position: absolute;
   top: 100%;
