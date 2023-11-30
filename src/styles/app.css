@@ -226,7 +226,10 @@
   }
 }
 /* animation button end  */
-
+/* section{
+  width: 100vw;
+  overflow-x: hidden;
+} */
 ul {
   list-style-type: square;
   padding: 0px 30px;

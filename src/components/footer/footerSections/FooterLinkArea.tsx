@@ -17,25 +17,12 @@ function FooterLinkArea({ footerLinkGP }: any) {
             />
             <div className="flex flex-col p-1 pl-2 opacity-90 flex-wrap">
               {item?.link?.map((link: any, linkKey: any) => (
-                <motion.div
-                  key={linkKey}
-                  initial={{ opacity: 0, x: 50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{
-                    delay:0.07 * linkKey,
-                    duration: 0.5,
-                  }}
-                  viewport={{
-                    once: true,
-                  }}
-                  className="text-center md:text-left"
-                >
-                  <PageLink
-                    {...link}
-                    isIcon={false}
-                    class_name="text-[#dddddd] opacity-90 capitalize hover:opacity-100 hover:text-white transition-all md:w-fit md:text-left text-center w-full"
-                  />
-                </motion.div>
+                <PageLink
+                  {...link}
+                  Key={linkKey}
+                  isIcon={false}
+                  class_name="text-[#dddddd] opacity-90 capitalize hover:opacity-100 hover:text-white transition-all md:w-fit md:text-left text-center w-full"
+                />
               ))}
             </div>
           </div>

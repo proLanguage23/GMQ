@@ -17,7 +17,7 @@ function Footer() {
     secondaryImg,
   } = HomeFooterDummyData;
   return (
-    <motion.div
+    <motion.section
       className=""
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -44,14 +44,13 @@ function Footer() {
               {...item}
               isIcon={false}
               class_name="px-2 text-white capitalize"
-              isAnimation
             />
           ))}
         </div>
         <CopyRightArea text={copyRight} socialLinkData={socialLinks} />
         <AppBgImg BgImg={secondaryImg} />
       </div>
-    </motion.div>
+    </motion.section>
   );
 }
 

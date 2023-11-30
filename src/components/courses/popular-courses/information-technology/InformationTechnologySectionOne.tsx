@@ -43,7 +43,8 @@ function InformationTechnologySectionOne() {
           <div className="flex justify-center gap-3 mt-9 flex-wrap">
             <QualificationItemResult
               allRPL_QualificationItems={informationTechnologyData}
-              class_name="md:w-[30%] sm:w-[48%] w-[300px]"
+              outPutItemNumber={8}
+              class_name="lg:w-[24%] md:w-[32%] sm:w-[48%] w-[95%] max-w-[380px]"
             />
           </div>
 

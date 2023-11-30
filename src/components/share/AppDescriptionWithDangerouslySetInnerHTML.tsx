@@ -3,7 +3,17 @@ import React from "react";
 
 function AppDescriptionWithDangerouslySetInnerHTML({ text, class_name }: any) {
   return (
-    <motion.div
+    <div
+      className={`text-base text-text w-full ${class_name} `}
+      dangerouslySetInnerHTML={{ __html: text }}
+    ></div>
+  );
+}
+
+export default AppDescriptionWithDangerouslySetInnerHTML;
+
+{
+  /* <motion.div
       initial={{ opacity: 0, }}
       whileInView={{ opacity:1, }}
       transition={{
@@ -13,10 +23,7 @@ function AppDescriptionWithDangerouslySetInnerHTML({ text, class_name }: any) {
       viewport={{
         once: true,
       }}
-      className={`text-base text-text ${class_name} `}
+      className={`text-base text-text w-full ${class_name} `}
       dangerouslySetInnerHTML={{ __html: text }}
-    ></motion.div>
-  );
+    ></motion.div> */
 }
-
-export default AppDescriptionWithDangerouslySetInnerHTML;

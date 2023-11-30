@@ -13,7 +13,7 @@ function TopHeader() {
   return (
     <div className="border-b">
       <Container fullWidth class_name="lg:!px-9">
-        <div className="flex justify-between items-center gap-2">
+        <div className="flex sm:justify-between items-center gap-2 flex-wrap justify-center">
           <div className="flex justify-start items-center gap-2 text-primary">
             {socialLinks?.map((item: any, key: any) => {
               return (

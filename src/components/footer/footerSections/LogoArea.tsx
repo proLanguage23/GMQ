@@ -20,14 +20,10 @@ function LogoArea({ whiteLogo, text, abn }: any) {
       <AppDescription
         text={abn}
         class_name="text-white lg:text-left text-center w-full"
-        isAnimation
-        animationSpeed={0.01}
       />
       <AppDescription
         text={text}
         class_name="text-white lg:text-left text-center w-full"
-        isAnimation
-        animationSpeed={0.01}
       />
     </div>
   );
