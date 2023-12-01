@@ -11,6 +11,7 @@ import TopHeader from "./topHeader/TopHeader";
 
 function NavBar() {
   const [MobileNavbarState, setMobileNavbarState] = useState(false);
+  const [activeMenu, setActiveMenu] = useState('home');
   const { Logo, Menus } = NavbarDummyData;
 
   return (
@@ -40,7 +41,7 @@ function NavBar() {
 
           {/* menu  */}
           <div className="flex justify-center items-center flex-wrap">
-            {/* menu-berar-icon  */}
+            {/* menu-berar-icon and menu for mobile  */}
             <div className="menu-berar-icon md:pr-4 pr-2">
               <FiMenu
                 size={28}
@@ -58,9 +59,9 @@ function NavBar() {
                 />
               )}
             </div>
-            {/* NAVBAR  */}
+            {/* NAVBAR for desktop */}
             <div className="NAVBAR desktop-menu">
-              <Menu menuData={Menus} />
+              <Menu menuData={Menus} activeMenu={activeMenu} setActiveMenu={setActiveMenu} />
             </div>
           </div>
         </div>

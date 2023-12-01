@@ -15,9 +15,9 @@ function FooterLinkArea({ footerLinkGP }: any) {
               text={item?.title}
               class_name="text-white md:text-[20px] capitalize"
             />
-            <div className="flex flex-col p-1 pl-2 opacity-90 flex-wrap">
+            <div className="flex flex-col items-center md:items-start p-1 pl-2 opacity-90 flex-wrap">
               {item?.link?.map((linkItem: any) => (
-                <div className="fd" key={linkItem?.id}>
+                <div key={linkItem?.id}>
                   <PageLink
                     {...linkItem}
                     isIcon={false}

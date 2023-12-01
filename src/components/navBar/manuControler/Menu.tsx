@@ -2,7 +2,7 @@ import { PageLink } from "@/components/share";
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import FilterMenu from "./FilterMenu";
 
-function Menu({ menuData }: any) {
+function Menu({ menuData, activeMenu, setActiveMenu }: any) {
   const [allCloseCondoler, setAllCloseCondoler] = useState({
     one: false,
     two: false,
@@ -46,6 +46,8 @@ function Menu({ menuData }: any) {
           transition={{
             delay: 0.05 * key,
           }}
+          setActiveMenu={setActiveMenu}
+          activeMenu={activeMenu}
         />
       ))}
     </div>

@@ -10,6 +10,8 @@ function FilterMenu({
   SubMenuStateNameHandler,
   allCloseCondoler,
   allCloseCondolerHandler,
+  activeMenu,
+  setActiveMenu,
   ...rest
 }: any) {
   const [MegaSubMenuState, setMegaSubMenuState] = useState("");
@@ -34,12 +36,13 @@ function FilterMenu({
         onBlur={() => subMenuHandler(text)}
         onFocus={() => subMenuHandler(text)}
         {...rest}
+        onClick={()=> setActiveMenu(text)}
       >
         <PageLink
           href={href}
           text={text}
           isIcon={false}
-          class_name="capitalize text-primary font-medium text-[18px] px-3 hover:text-secondary "
+          class_name={`capitalize text-primary font-medium text-[18px] px-3 hover:text-secondary ${activeMenu.toLowerCase() === text.toLowerCase() && "text-secondary"}`}
         />
       </motion.div>
     );

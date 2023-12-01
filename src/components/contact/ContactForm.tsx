@@ -14,11 +14,14 @@ function ContactForm() {
   const { ContactSectionOne } = ContactDummyData;
   const { data } = ContactSectionOne;
   return (
-    <div className="py-9 bg-secondary">
+    <div className="py-9 bg-[#83D0E4]">
       <Container>
-        <AppTitle text={'contact us'} class_name="mb-9 text-center text-white" />
+        <AppTitle
+          text={"contact form"}
+          class_name="text-center text-white capitalize"
+        />
         <div className="grid  grid-cols-1 gap-4 justify-center items-center">
-        <AppDescriptionWithDangerouslySetInnerHTML text={left?.form} />
+          <AppDescriptionWithDangerouslySetInnerHTML text={left?.form} class_name="h-[750px]" />
         </div>
       </Container>
     </div>

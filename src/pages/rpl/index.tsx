@@ -1,4 +1,4 @@
-import { ViewQualification } from "@/components/rpl";
+import { RPL_Certificate_Process, ViewQualification } from "@/components/rpl";
 import RPL_About from "@/components/rpl/about";
 import RPLBanner from "@/components/rpl/banner";
 import RPL_informationStep from "@/components/rpl/rplInformationStep";
@@ -17,6 +17,7 @@ function RPL_Page() {
       <RPL_About />
       {/* <AllQualifications /> */}
       <ViewQualification />
+      <RPL_Certificate_Process />
       <VisitedForm data={contactFormOfRPL} />
     </>
   );

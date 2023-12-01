@@ -27,8 +27,8 @@ function TopHeader() {
               );
             })}
           </div>
-          <div className="flex sm:justify-end justify-center ">
-            <AppBtn text={"FREE 60 second skills check"} class_name="border px-4 py-2 rounded-full bg-secondary text-white hover:opacity-95" handleClick={() => handelModal()} />
+          <div className="flex sm:justify-end justify-center">
+            <AppBtn text={"FREE 60 second skills check"} class_name="capitalize border px-4 py-2 rounded-full bg-secondary text-white hover:opacity-95" handleClick={() => handelModal()} />
           </div>
         </div>
       </Container>

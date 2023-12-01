@@ -23,3 +23,4 @@ export { default as Four_formal_qualification } from './skillsTest/skillsStep/it
 export { default as ThreeStep_State } from './skillsTest/skillsStep/items/ThreeStep_State'
 export { default as Two_workExperience } from './skillsTest/skillsStep/items/Two_workExperience'
 export { default as Two_workExperience_Area } from './skillsTest/skillsStep/items/Two_workExperience_Area'
+export { default as RPL_Certificate_Process } from './certificate_process/index'
