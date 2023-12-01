@@ -7,11 +7,9 @@ import { FiMenu } from "react-icons/fi";
 import MobileNavbar from "./mobileMenuControler/MobileNavbar";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import TopHeader from "./topHeader/TopHeader";
 
 function NavBar() {
   const [MobileNavbarState, setMobileNavbarState] = useState(false);
-  const [activeMenu, setActiveMenu] = useState('home');
   const { Logo, Menus } = NavbarDummyData;
 
   return (
@@ -61,7 +59,7 @@ function NavBar() {
             </div>
             {/* NAVBAR for desktop */}
             <div className="NAVBAR desktop-menu">
-              <Menu menuData={Menus} activeMenu={activeMenu} setActiveMenu={setActiveMenu} />
+              <Menu menuData={Menus} />
             </div>
           </div>
         </div>

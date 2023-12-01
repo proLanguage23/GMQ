@@ -30,7 +30,7 @@ function OldCoursesItem({
           href={btn?.href}
           text={title}
           isIcon={false}
-          class_name="mt-3 !justify-start block pb-2 text-[24px] font-medium text-primary capitalize manropeFont hover:underline  transition-all text-secondary"
+          class_name="mt-3 !justify-start block pb-2 text-[24px] font-medium text-primary capitalize manropeFont hover:underline  transition-all text-secondary text-center"
         />
         <AppDescription text={description} class_name="line-clamp-4 text-center" />
       </div>

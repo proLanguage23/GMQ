@@ -16,7 +16,7 @@ function SkillsTest() {
 
   return (
     <section className="w-full">
-      <div className="bg-error cursor-pointer" onClick={() => handelModal()}>
+      <div className="bg-primary cursor-pointer" onClick={() => handelModal()}>
         <Container>
           <div className="flex justify-center items-center py-2 pb-4 ">
             <AppLoader class_name="w-[70px]" />

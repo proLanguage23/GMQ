@@ -48,7 +48,7 @@ export const PTE_Dummy_data = {
   PTE_SectionTwo: {
     title: `What is PTE?`,
     left: {
-      text: `Every student wishes a blooming future and if that future leads you abroad, especially in Australia, then settling down here definitely calls for PTE clearance. PTE is a form of examination that helps prove his/her ability to understand the English Language in all the four aspects, such as Reading, Listening, Writing and Speaking. Earlier, only IELTS was a medium for students to assess their English competency level. However, the DIBP (Department of Immigration and Border Protection) has focused on the PTE examination as well. As a result, candidates opting to lead their life internationally are undertaking the Pearson Test of English Exam to satisfy their eligibility requirements for the English language.`,
+      text: `Every student wishes a blooming future and if that future leads you abroad, especially in Global, then settling down here definitely calls for PTE clearance. PTE is a form of examination that helps prove his/her ability to understand the English Language in all the four aspects, such as Reading, Listening, Writing and Speaking. Earlier, only IELTS was a medium for students to assess their English competency level. However, the DIBP (Department of Immigration and Border Protection) has focused on the PTE examination as well. As a result, candidates opting to lead their life internationally are undertaking the Pearson Test of English Exam to satisfy their eligibility requirements for the English language.`,
     },
     right: {
       img: What_is_PTE,
@@ -98,7 +98,7 @@ export const GroupTrainingDummyData = {
   GROUP_TRAININGSectionOne: {
     left: {
       title: "What is PTE - GROUP TRAINING ?",
-      text: `The mission of GMQ is to make PTE training or PTE Online Coaching accessible and affordable for every international student in Australia and New Zealand. The group training provides a lucrative opportunity to study collaboratively at an affordable training cost of 199 AUD. To keep the best quality training standard and help students to make it to The Wall of Fame, the maximum class size is capped at 7. That means you can train efficiently with just 6 other students in the batch. Say No to Hesitation and Yes to Success.`,
+      text: `The mission of GMQ is to make PTE training or PTE Online Coaching accessible and affordable for every international student in Global and New Zealand. The group training provides a lucrative opportunity to study collaboratively at an affordable training cost of 199 AUD. To keep the best quality training standard and help students to make it to The Wall of Fame, the maximum class size is capped at 7. That means you can train efficiently with just 6 other students in the batch. Say No to Hesitation and Yes to Success.`,
       data: [
         `Pocket Friendly but Quality Training`,
         `Maximum class size of 7 students`,
@@ -185,7 +185,7 @@ export const OneToOneTrainingDummyData = {
   OneToOneTrainingSectionOne: {
     left: {
       title: "What is PTE - ONE TO ONE TRAINING?",
-      text: `There are many institutes to facilitate PTE Course in Melbourne. We, at  GMQ  are renowned as we understand that every student comes from a different background and needs to be nurtured differently. Our One-to-One private PTE training online sessions caters to the need of private tutoring and mentoring. Keeping in mind the financial struggles of an international student in Australia and NZ, the cost is kept as low as 999 AUD inc GST and software. The coaching will be given privately by Mr Mmanu Bhardwaj, Founder,  GMQ . That simply means "You can ask more" and "You can learn more"`,
+      text: `There are many institutes to facilitate PTE Course in Melbourne. We, at  GMQ  are renowned as we understand that every student comes from a different background and needs to be nurtured differently. Our One-to-One private PTE training online sessions caters to the need of private tutoring and mentoring. Keeping in mind the financial struggles of an international student in Global and NZ, the cost is kept as low as 999 AUD inc GST and software. The coaching will be given privately by Mr Mmanu Bhardwaj, Founder,  GMQ . That simply means "You can ask more" and "You can learn more"`,
       data: [
         `Private sessions with the Founder`,
         `Regular feedback and Mock Tests`,

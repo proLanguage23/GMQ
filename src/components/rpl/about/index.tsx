@@ -13,12 +13,12 @@ function RPL_About() {
   return (
     <section className="py-16 relative w-full">
       <Container>
-        <div className=" text-white rounded lg:p-12 p-9 lg:w-2/3 w-full bg-primary shadow">
+        <div className=" text-white rounded lg:p-12 lg:w-2/3 w-full  shadow">
           {description?.map((item, key) => (
             <div key={key}>
               <AppDescriptionWithDangerouslySetInnerHTML
                 text={item}
-                class_name=" text-white my-3"
+                class_name=" text-white my-3 manropeFont"
               />
             </div>
           ))}

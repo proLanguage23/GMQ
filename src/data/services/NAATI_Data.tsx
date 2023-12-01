@@ -9,7 +9,7 @@ export const NAATI_Dummy_Data = {
   NaatiSectionOne: {
     left: {
       title: "What is Naati",
-      text: `NAATI represents the National Accreditation Authority for Translators and Interpreters and is liable for setting and keeping up high standard guidelines for language specialists in Australia. To gain recognition as a professional translator or interpreter, it is important to clear the NAATI. The NAATI test sample Hindi consists of two dialogues. Each dialogue consists of a conversation between a native LOTE speaker (Hindi) and an English speaker who will be responsible for testing your ability. You need a minimum of 29 scores in every dialogue and a general score of 63 out of 90 to give the CCL Test. Scoring over 63 will add five points to your PR focuses, and score between 55 to 62.5 imprints as unsatisfactory.`,
+      text: `NAATI represents the National Accreditation Authority for Translators and Interpreters and is liable for setting and keeping up high standard guidelines for language specialists in Global. To gain recognition as a professional translator or interpreter, it is important to clear the NAATI. The NAATI test sample Hindi consists of two dialogues. Each dialogue consists of a conversation between a native LOTE speaker (Hindi) and an English speaker who will be responsible for testing your ability. You need a minimum of 29 scores in every dialogue and a general score of 63 out of 90 to give the CCL Test. Scoring over 63 will add five points to your PR focuses, and score between 55 to 62.5 imprints as unsatisfactory.`,
       data: [
         `The educators focus intensively on your vocabulary `,
         `Online Audio Dialogues as part of your sessions`,

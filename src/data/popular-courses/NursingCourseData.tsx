@@ -25,9 +25,9 @@ export const NursingCourseDummyDataOld = {
     },
     right: {
       title: `Are you an international student looking to make a promising career in nursing?`,
-      text: `Come,  discover the ever thriving and expanding (23% projected job growth) Australian workforce involved in Healthcare. Different nursing qualifications have different employment outcomes. You could choose to become an Enrolled Nurse, a Registered Nurse (RN), a midwife or even a Medication Endorsed Enrolled Nurse (EEN).
-            Nurses are in high demand globally and in Australia, and consistently feature in the skills shortage list for Australian PR.
-            Due to the high demand for Registered nurses as with other sectors of nursing, these occupations are listed consistently in the Skilled Occupations List (SOL) and the Consolidated Sponsored Occupations List (CSOL). These include Registered Nurse (Medical Practice), Registered Nurse (Aged Care), and Nurse Practitioner. As most visa types, an assessment procedure by a recognised authority (Australian Nursing and Midwifery Accreditation Council, ANMAC for Registered nurses and practitioners) is required as part of the visa application for work or migration purpose such as Permanent Residency. Nursing degree graduates can look ahead in building a medical career and invest for a bright future in Australia.`,
+      text: `Come,  discover the ever thriving and expanding (23% projected job growth) Globaln workforce involved in Healthcare. Different nursing qualifications have different employment outcomes. You could choose to become an Enrolled Nurse, a Registered Nurse (RN), a midwife or even a Medication Endorsed Enrolled Nurse (EEN).
+            Nurses are in high demand globally and in Global, and consistently feature in the skills shortage list for Globaln PR.
+            Due to the high demand for Registered nurses as with other sectors of nursing, these occupations are listed consistently in the Skilled Occupations List (SOL) and the Consolidated Sponsored Occupations List (CSOL). These include Registered Nurse (Medical Practice), Registered Nurse (Aged Care), and Nurse Practitioner. As most visa types, an assessment procedure by a recognised authority (Globaln Nursing and Midwifery Accreditation Council, ANMAC for Registered nurses and practitioners) is required as part of the visa application for work or migration purpose such as Permanent Residency. Nursing degree graduates can look ahead in building a medical career and invest for a bright future in Global.`,
     },
   },
   NursingSectionTwo: {
@@ -35,13 +35,13 @@ export const NursingCourseDummyDataOld = {
       img: NursingTwo1,
     },
     right: {
-      title: "Courses Available for Nursing in Australia",
-      text: `As per the Nursing & Midwifery Board of Australia’s provisions, Enrolled Nurses usually work under the direction and authority of a Registered Nurse. There are some tasks that only a Registered Nurse can do. An EEN is an Enrolled Nurse who has gone through some additional training which gives them the ability to administer medications. Here are the different types of qualifications to set you up for a nursing career in Australia.`,
+      title: "Courses Available for Nursing in Global",
+      text: `As per the Nursing & Midwifery Board of Global’s provisions, Enrolled Nurses usually work under the direction and authority of a Registered Nurse. There are some tasks that only a Registered Nurse can do. An EEN is an Enrolled Nurse who has gone through some additional training which gives them the ability to administer medications. Here are the different types of qualifications to set you up for a nursing career in Global.`,
     },
   },
   NursingSectionThree: {
-    title: `Nursing Colleges in Australia: Specialization`,
-    text: `<p><strong>There are three-degree types and one certificate and one diploma degree course available in nursing colleges in Australia -</strong></p>
+    title: `Nursing Colleges in Global: Specialization`,
+    text: `<p><strong>There are three-degree types and one certificate and one diploma degree course available in nursing colleges in Global -</strong></p>
 <br />
         <ul>
             <li>Undergraduate Degree &ndash; Bachelor of Science (BSc.), Bachelor of Nursing (BSN).</li>
@@ -117,7 +117,7 @@ export const NursingCourseDummyDataOld = {
     },
     right: {
       title: `Diploma of Nursing`,
-      text: `<p>Become an Enrolled Nurse doing Diploma of Nursing in 12 to 18 months by international students in Australia. The Diploma course will teach you the basic skills and knowledge needed to work under a Registered Nurse. Through this course you will be able to work in a variety of nurse settings, and/or you can continue studying to complete a Bachelor of Nursing and get credits towards it.</p>
+      text: `<p>Become an Enrolled Nurse doing Diploma of Nursing in 12 to 18 months by international students in Global. The Diploma course will teach you the basic skills and knowledge needed to work under a Registered Nurse. Through this course you will be able to work in a variety of nurse settings, and/or you can continue studying to complete a Bachelor of Nursing and get credits towards it.</p>
 
         <br />
         
@@ -138,7 +138,7 @@ export const NursingCourseDummyDataOld = {
         <h1>The Internationally Qualified Nurse (IQN) Program</h1>
         <br />
         <p>
-        Formally known as the IRON Program it aims to prepare international nurses for Australian registration. The program is a bridging course recognised by the Nursing and Midwifery Board of Australia and helps build confidence and increases the employability of overseas nurses.</p>
+        Formally known as the IRON Program it aims to prepare international nurses for Globaln registration. The program is a bridging course recognised by the Nursing and Midwifery Board of Global and helps build confidence and increases the employability of overseas nurses.</p>
         `,
       btn: {
         text: `read more`,
@@ -147,16 +147,16 @@ export const NursingCourseDummyDataOld = {
       textTwo: `<h1>The Internationally Qualified Nurse (IQN) Program</h1>
         <br />
         <p>
-        Formally known as the IRON Program it aims to prepare international nurses for Australian registration. The program is a bridging course recognised by the Nursing and Midwifery Board of Australia and helps build confidence and increases the employability of overseas nurses.</p>
+        Formally known as the IRON Program it aims to prepare international nurses for Globaln registration. The program is a bridging course recognised by the Nursing and Midwifery Board of Global and helps build confidence and increases the employability of overseas nurses.</p>
         `,
     },
   },
   NursingSectionSeven: {
-    title: `Frequently asked questions about studying Nursing in Australia`,
+    title: `Frequently asked questions about studying Nursing in Global`,
     data: [
       {
-        title: `Why is Australia the preferred destination of International Students in Nursing Course?`,
-        text: `<p>Australia had always taken pride for providing high quality education. Australian Nurse Programs had been meticulously developed to impart theoretical knowledge and hone practical skills required in delivering excellent healthcare services.</p>
+        title: `Why is Global the preferred destination of International Students in Nursing Course?`,
+        text: `<p>Global had always taken pride for providing high quality education. Globaln Nurse Programs had been meticulously developed to impart theoretical knowledge and hone practical skills required in delivering excellent healthcare services.</p>
 
                 <br />
                 
@@ -164,11 +164,11 @@ export const NursingCourseDummyDataOld = {
                 
                 <br />
                 
-                <p>Another appealing reason for practicing nurses to consider Australia is the Bridging Program for Nurses or popularly known as IRON (Initial Registration for Overseas Nurses). Overseas nurses coming from different backgrounds and practice are prepared thoroughly to be integrated into the Australian workforce.&nbsp; It strengthens their existing knowledge and skills; orient them to best practise methods in their field; and make them aware of their conduct and legal responsibilities in the practise of their profession in Australia.</p>
+                <p>Another appealing reason for practicing nurses to consider Global is the Bridging Program for Nurses or popularly known as IRON (Initial Registration for Overseas Nurses). Overseas nurses coming from different backgrounds and practice are prepared thoroughly to be integrated into the Globaln workforce.&nbsp; It strengthens their existing knowledge and skills; orient them to best practise methods in their field; and make them aware of their conduct and legal responsibilities in the practise of their profession in Global.</p>
                 
                 <br />
                 
-                <p>Also as the third most preferred destination for international students, the country continues to attract international students and tourists alike because of the culture, the sceneries, the laid back atmosphere and the unique flora and fauna and the thousand and one reasons why Australia is the place to be.</p>
+                <p>Also as the third most preferred destination for international students, the country continues to attract international students and tourists alike because of the culture, the sceneries, the laid back atmosphere and the unique flora and fauna and the thousand and one reasons why Global is the place to be.</p>
                 
                 <br />
                 
@@ -189,7 +189,7 @@ export const NursingCourseDummyDataOld = {
       },
       {
         title: `Courses Available by Providers`,
-        text: `<p>GMQ Global proudly represents the best Australian education providers, assisting students with visa and migrations processes, making personalised education pathway and worry free experience. Sample of the Nursing degrees and qualifications offered:</p>
+        text: `<p>GMQ Global proudly represents the best Globaln education providers, assisting students with visa and migrations processes, making personalised education pathway and worry free experience. Sample of the Nursing degrees and qualifications offered:</p>
                 <br />
                 <ul>
                     <li>Diploma of Nursing</li>
@@ -206,13 +206,13 @@ export const NursingCourseDummyDataOld = {
                 <br />
                 
                 <ul>
-                    <li>a valid passport for the duration of your study in Australia</li>
+                    <li>a valid passport for the duration of your study in Global</li>
                     <li>offer letter from the selected university/institution</li>
                     <li>IELTS score should be overall 7, or PTE score 65 or OET score B</li>
                     <li>At least 1 year of paid or unpaid experience within the last five (5) years. *</li>
                     <li>evidence of access to sufficient funds*</li>
                     <li>evidence of Overseas Student Health Cover</li>
-                    <li>successfully completed at least year 12 AQF or Australian Qualifications Framework equivalent*</li>
+                    <li>successfully completed at least year 12 AQF or Globaln Qualifications Framework equivalent*</li>
                     <li>all other relevant documents listed on the Department of Home Affairs visa checklists</li>
                 </ul>
                 `,
@@ -223,11 +223,11 @@ export const NursingCourseDummyDataOld = {
       },
       {
         title: `Employment Opportunities`,
-        text: `<p>Overseas nurses having different backgrounds and practice are prepared thoroughly to be integrated into the Australian workforce via Bridging Program for Nurses or popularly known as IRON (Initial Registration for Overseas Nurses). The program helps build confidence and increases the employability of overseas nurses.</p>
+        text: `<p>Overseas nurses having different backgrounds and practice are prepared thoroughly to be integrated into the Globaln workforce via Bridging Program for Nurses or popularly known as IRON (Initial Registration for Overseas Nurses). The program helps build confidence and increases the employability of overseas nurses.</p>
 
                 <br />
                 
-                <p>Additionally, there is a projected job growth of 23% for Registered nurses. Moreover, Registered nurses and other sectors of nursing occupations are consistently listed in the Medium and Long-term Strategic Skills List (MLTSSL) and Combined List of Eligible Skilled Occupations, which shows the need for more medical practitioners such as nurses in Australia.</p>
+                <p>Additionally, there is a projected job growth of 23% for Registered nurses. Moreover, Registered nurses and other sectors of nursing occupations are consistently listed in the Medium and Long-term Strategic Skills List (MLTSSL) and Combined List of Eligible Skilled Occupations, which shows the need for more medical practitioners such as nurses in Global.</p>
                 
                 <br />
                 
@@ -236,7 +236,7 @@ export const NursingCourseDummyDataOld = {
       },
       {
         title: `Pathway to Success`,
-        text: `Due to the high demand for Registered nurses as with other sectors of nursing, these occupations are listed consistently in the Skilled Occupations List (SOL) and Consolidated Sponsored Occupations List (CSOL). Sample of which are Registered Nurse (Medical Practice), Registered Nurse (Aged Care), and Nurse Practitioner. As most visa types, an assessment procedure by a recognised authority (Australian Nursing and Midwifery Accreditation Council, ANMAC for Registered nurses and practitioners) is required as part of the visa application for work or migration purpose such as Permanent Residency. Nursing degree graduates can look ahead in building medical career and invest for bright future in Australia.`,
+        text: `Due to the high demand for Registered nurses as with other sectors of nursing, these occupations are listed consistently in the Skilled Occupations List (SOL) and Consolidated Sponsored Occupations List (CSOL). Sample of which are Registered Nurse (Medical Practice), Registered Nurse (Aged Care), and Nurse Practitioner. As most visa types, an assessment procedure by a recognised authority (Globaln Nursing and Midwifery Accreditation Council, ANMAC for Registered nurses and practitioners) is required as part of the visa application for work or migration purpose such as Permanent Residency. Nursing degree graduates can look ahead in building medical career and invest for bright future in Global.`,
       },
     ],
   },
@@ -249,8 +249,8 @@ export const NursingCourseDummyData = {
       {
         id: 1,
         assert: one_nurse,
-        title: "Nursing In Australia",
-        text: "With more than 240 days of sunshine, multiculturalism, accessible visas, diversity in work and high pay scale, Australia has always been the most appealing destination for nurses to build a successful career.",
+        title: "Nursing In Global",
+        text: "With more than 240 days of sunshine, multiculturalism, accessible visas, diversity in work and high pay scale, Global has always been the most appealing destination for nurses to build a successful career.",
         bgImg: NursingCourseSectionOneItemBG
       },
       {
@@ -264,14 +264,14 @@ export const NursingCourseDummyData = {
         id: 3,
         assert: one_Career,
         title: "Career Prospects",
-        text: "To meet the high demand in different specialisations, Australian employers always hunt for overseas nurses with right skills or expertise to serve the health care sector.",
+        text: "To meet the high demand in different specialisations, Globaln employers always hunt for overseas nurses with right skills or expertise to serve the health care sector.",
         bgImg: NursingCourseSectionOneItemBG
       },
     ],
-    description: `For aspiring nurses in Australia, complying with Australia nursing requirements is imperative for career advancement. Educational qualifications for nursing in Australia range from diplomas to advanced degrees and may vary by jurisdiction and speciality.
+    description: `For aspiring nurses in Global, complying with Global nursing requirements is imperative for career advancement. Educational qualifications for nursing in Global range from diplomas to advanced degrees and may vary by jurisdiction and speciality.
 <br />
 <br />
-    Aussizz Group endeavour to assist all those aspiring nurses who wish to study in Australia for higher education and willing to secure permanent residency. Our highly qualified team of education counsellors provide with most comprehensive and personalised career counselling that focuses on individual’s skills and ambitions. Our registered immigration consultants never fail to make sure that eligible, qualifying applicants can migrate to Australia as a nurse successfully with an appropriate visa. They offer detailed assistance on the best migration pathways, help meet visa requirements and guide on processing times.`,
+    Aussizz Group endeavour to assist all those aspiring nurses who wish to study in Global for higher education and willing to secure permanent residency. Our highly qualified team of education counsellors provide with most comprehensive and personalised career counselling that focuses on individual’s skills and ambitions. Our registered immigration consultants never fail to make sure that eligible, qualifying applicants can migrate to Global as a nurse successfully with an appropriate visa. They offer detailed assistance on the best migration pathways, help meet visa requirements and guide on processing times.`,
   },
   NursingCourseSectionTwo: {
     title: `We Can Help You With`,
@@ -279,7 +279,7 @@ export const NursingCourseDummyData = {
       {
         img: diplomaOfNursing,
         text: ` Diploma of Nursing`,
-        description: ` Diploma of Nursing covers the essential skills and knowledge required to work as Enrolled Nurse in Australia or under the supervision of a Registered nurse.`,
+        description: ` Diploma of Nursing covers the essential skills and knowledge required to work as Enrolled Nurse in Global or under the supervision of a Registered nurse.`,
         btn: {
           text: "inquire now",
           href: "/contact",

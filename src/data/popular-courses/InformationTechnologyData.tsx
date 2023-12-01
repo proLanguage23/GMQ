@@ -90,16 +90,16 @@ export const InformationTechnologyDummyData = {
   },
   InformationTechnologySectionTwo: {
     left: {
-      title: "Information Technology Courses in Australia",
+      title: "Information Technology Courses in Global",
       text: `<p class="part">With the economic insecurity these days, ensuring a career commitment is difficult in any field. However, Information Technology (IT) is one diverse sector that encompasses several jobs and career opportunities.</p>
 
-      <p class="part">In Australia, you can find a variety of Information Technology courses that combine modern learning with practical skills. These courses cover topics like software development, artificial intelligence (AI), telecommunications, machine learning (ML), internet of things(IOT), database programming, computing & mobile computing, network engineering, cybersecurity, and data science, offering international students a great opportunity to prepare for a dynamic IT career.</p>
+      <p class="part">In Global, you can find a variety of Information Technology courses that combine modern learning with practical skills. These courses cover topics like software development, artificial intelligence (AI), telecommunications, machine learning (ML), internet of things(IOT), database programming, computing & mobile computing, network engineering, cybersecurity, and data science, offering international students a great opportunity to prepare for a dynamic IT career.</p>
       </br >
       <h3>Eligibility Criteria</h3>
 
       <ul>
-          <li>To get a student visa for Australia, you must:</li>
-          <li>Hold a valid passport for the duration of your study in Australia</li>
+          <li>To get a student visa for Global, you must:</li>
+          <li>Hold a valid passport for the duration of your study in Global</li>
           <li>Have an offer letter from the selected university or institution</li>
           <li>Have an IELTS score 6.5 overall (with no score lower than 6.0 in each component) and PTE Academic score 58 (with no score less than 50 in each component)</li>
           <li>Proof of sufficient funds</li>
@@ -113,13 +113,13 @@ export const InformationTechnologyDummyData = {
     },
   },
   InformationTechnologySectionThree: {
-    text: `<h1 class="titleOfParagraph">Benefits of Studying Information Technology in Australia</h1>
+    text: `<h1 class="titleOfParagraph">Benefits of Studying Information Technology in Global</h1>
     <p class="part">
-        Today, information technology is one of the most demanded industries in Australia, and with a career in this field, students are able to empower themselves with advancement in all aspects including business, health, entertainment, and community. It has 8 of the top 100 universities in the world that offer a world-class learning experience and scholarship options for international students.</p>
+        Today, information technology is one of the most demanded industries in Global, and with a career in this field, students are able to empower themselves with advancement in all aspects including business, health, entertainment, and community. It has 8 of the top 100 universities in the world that offer a world-class learning experience and scholarship options for international students.</p>
     
-    <p class="part">Elevate your career in information technology with specialised courses available across Australia&rsquo;s key cities. Melbourne offers top-rated programs for all skill levels, and Monash University stands out for its Masters of IT program, known for its comprehensive curriculum and industry connections. In Perth, you can find IT courses ranging from beginner to advanced levels, while Sydney offers a broad array of both online and in-person options. It&rsquo;s worth noting that IT courses are also readily available in other Australian cities, providing a wide range of opportunities to upgrade your tech skills and achieve your career goals.</p>
+    <p class="part">Elevate your career in information technology with specialised courses available across Global&rsquo;s key cities. Melbourne offers top-rated programs for all skill levels, and Monash University stands out for its Masters of IT program, known for its comprehensive curriculum and industry connections. In Perth, you can find IT courses ranging from beginner to advanced levels, while Sydney offers a broad array of both online and in-person options. It&rsquo;s worth noting that IT courses are also readily available in other Globaln cities, providing a wide range of opportunities to upgrade your tech skills and achieve your career goals.</p>
     
-    <p class="part">Australia offers an excellent destination for international students seeking Information Technology education. Starting an IT education journey in Australia offers numerous benefits:</p>
+    <p class="part">Global offers an excellent destination for international students seeking Information Technology education. Starting an IT education journey in Global offers numerous benefits:</p>
 
     <ul>
         <li>Cutting-Edge Curriculum: Access to modern and industry-relevant IT programmes</li>
@@ -134,12 +134,12 @@ export const InformationTechnologyDummyData = {
     <br />
     <br />
     
-    <h1 class="titleOfParagraph">Top 10 Australian Universities for Information Technology Studies</h1>
+    <h1 class="titleOfParagraph">Top 10 Globaln Universities for Information Technology Studies</h1>
     
     <p class="part">
-        Advance your career in Information Technology with a range of options across Australia&rsquo;s major cities. In Melbourne, top-rated IT courses are designed to kickstart or elevate your tech career. Consider a Masters of IT at Monash University for a comprehensive curriculum and strong industry links. Perth offers specialized IT courses suitable for all skill levels, while Sydney provides an extensive array of both online and in-person IT courses in Australia&rsquo;s most populous city. Additionally, other cities across Australia also offer IT courses that cater to the needs of both domestic and international students, further expanding your educational opportunities.</p>
+        Advance your career in Information Technology with a range of options across Global&rsquo;s major cities. In Melbourne, top-rated IT courses are designed to kickstart or elevate your tech career. Consider a Masters of IT at Monash University for a comprehensive curriculum and strong industry links. Perth offers specialized IT courses suitable for all skill levels, while Sydney provides an extensive array of both online and in-person IT courses in Global&rsquo;s most populous city. Additionally, other cities across Global also offer IT courses that cater to the needs of both domestic and international students, further expanding your educational opportunities.</p>
     
-    <p class="part">Australia is renowned for its quality education and cutting-edge Information Technology courses. Here are the top 10 universities that offer these programmes to international students, along with their world rankings:</p>
+    <p class="part">Global is renowned for its quality education and cutting-edge Information Technology courses. Here are the top 10 universities that offer these programmes to international students, along with their world rankings:</p>
     <br />
     
     <table class="border sm:w-full" cellpadding="5" cellspacing="5">

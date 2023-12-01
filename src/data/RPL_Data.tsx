@@ -184,7 +184,7 @@ import TransportLogisticsIcon from "@/assets/rpl/icon/TransportLogisticsIcon.png
 import VocationalEducationTrainingIcon from "@/assets/rpl/icon/VocationalEducationTrainingIcon.png";
 import RetailServicesIcon from "@/assets/rpl/icon/RetailServicesIcon.png";
 
-
+import whyGMQ from '@/assets/whyGMQ.png'
 
 
 export const RPL_BannerData = {
@@ -207,7 +207,7 @@ export const RPL_BannerData = {
     },
   ],
   description:
-    "GMQ Australia partner with registered training organizations (RTOs) to give you the best opportunity to convert your experience into a nationally recognized qualification through recognition of prior learning (RPL)",
+    "GMQ Global partner with registered training organizations (RTOs) to give you the best opportunity to convert your experience into a nationally recognized qualification through recognition of prior learning (RPL)",
   link: [
     // {
     //   id: 1,
@@ -229,15 +229,15 @@ export const RPL_BannerData = {
 
 export const RPL_AboutData = {
   description: [
-    "GMQ Australia partners with registered training organizations (RTOs) to give you the best opportunities to take your experiences and prior learning and turn them into a nationally-recognized qualification through the recognition of prior learning (RPL).",
-    "Your skills and career are unique. So, your needs of deskilling and filling the gaps in your knowledge will be unique as well. At GMQ Australia, we look at your case in a dedicated and personalized way so that you can take the right next steps for your career.",
+    "GMQ Global partners with registered training organizations (RTOs) to give you the best opportunities to take your experiences and prior learning and turn them into a nationally-recognized qualification through the recognition of prior learning (RPL).",
+    "Your skills and career are unique. So, your needs of deskilling and filling the gaps in your knowledge will be unique as well. At GMQ Global, we look at your case in a dedicated and personalized way so that you can take the right next steps for your career.",
     "View all the industries and qualifications awarded by our partner RTOs. Get in touch today to obtain certifications through RPL and take your career to the next level.",
     "Having your skills recognized through recognition of prior learning (RPL) may have a wide range of benefits for your career and lifestyle.",
-    "An initial assessment could help you achieve a nationally recognized qualification through GMQ Australia and its partner RTOs.",
+    "An initial assessment could help you achieve a nationally recognized qualification through GMQ Global and its partner RTOs.",
     "There are so many benefits to having your skills recognized including increased career opportunities, avoiding unnecessary training and much more.",
   ],
   // Polygon: PolygonImg,
-  img: RPL_AboutImg,
+  img: whyGMQ,
 };
 
 export const RPL_SliderData = {
@@ -249,7 +249,7 @@ export const RPL_SliderData = {
       img: FreeSkillsAssessment,
       title: "Free Skills Assessment",
       description: [
-        "Speak to GMQ Australia about your goals, and allow us to guide you towards the qualification that will help you reach them.",
+        "Speak to GMQ Global about your goals, and allow us to guide you towards the qualification that will help you reach them.",
       ],
       link: {
         text: "more info",
@@ -288,7 +288,7 @@ export const RPL_SliderData = {
       img: Yourequalified,
       title: "You’re qualified",
       description: [
-        "GMQ Australia is partnered with Registered Training Organizations whose qualifications are nationally recognized in Australia, and are the same as the qualification you would receive from full time study. Qualifications can also be useful for licensing or immigration purposes.",
+        "GMQ Global is partnered with Registered Training Organizations whose qualifications are nationally recognized in Global, and are the same as the qualification you would receive from full time study. Qualifications can also be useful for licensing or immigration purposes.",
       ],
       link: {
         text: "more info",
@@ -418,7 +418,7 @@ export const RPL_QualificationData = {
             text: "Certificate IV in Automotive Electrical Technology - AUR40620",
             img: AUR40620,
             description:
-              "You can be certified anywhere in Australia with a nationally recognised qualification Have your  certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
+              "You can be certified anywhere in Global with a nationally recognised qualification Have your  certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
             href: "#",
           },
           {
@@ -442,7 +442,7 @@ export const RPL_QualificationData = {
             text: "Diploma of Automotive Management - AUR50116",
             img: AUR50116,
             description:
-              " You can be certified anywhere in Australia with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
+              " You can be certified anywhere in Global with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
             href: "#",
           },
           {
@@ -514,7 +514,7 @@ export const RPL_QualificationData = {
             text: "Certificate III in Air-conditioning and Refrigeration - UEE32220",
             img: UEE32220,
             description:
-              " You can be certified anywhere in Australia with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
+              " You can be certified anywhere in Global with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
             href: "#",
           },
           {
@@ -522,7 +522,7 @@ export const RPL_QualificationData = {
             text: "Certificate III in Bricklaying and Blocklaying - CPC33020",
             img: CPC33020,
             description:
-              "This certificate recognises prior learning and experience in the bricklaying field. The program is available to local students who have completed partial studies in Australia and experienced bricklaye....",
+              "This certificate recognises prior learning and experience in the bricklaying field. The program is available to local students who have completed partial studies in Global and experienced bricklaye....",
             href: "#",
           },
           {
@@ -562,7 +562,7 @@ export const RPL_QualificationData = {
             text: "Certificate III in Electrotechnology Electrician - UEE30820",
             img: UEE30820,
             description:
-              " You can be certified anywhere in Australia with a nationally recognised qualification Gain accreditation from a reputable Registered Training Organisation Customer Satisfaction Guarantee Get ....",
+              " You can be certified anywhere in Global with a nationally recognised qualification Gain accreditation from a reputable Registered Training Organisation Customer Satisfaction Guarantee Get ....",
             href: "#",
           },
           {
@@ -763,7 +763,7 @@ export const RPL_QualificationData = {
             text: "Advanced Diploma of Program Management - BSB60720",
             img: BSB60720,
             description:
-              "Advanced Diploma of Program Management through Skills Certified Australia's RTO partners.",
+              "Advanced Diploma of Program Management through Skills Certified Global's RTO partners.",
             href: "#",
           },
           {
@@ -786,7 +786,7 @@ export const RPL_QualificationData = {
             text: "Certificate III in Entrepreneurship and New Business - BSB30220",
             img: BSB60215,
             description:
-              "Advanced Diploma of Program Management through Skills Certified Australia's RTO partners.",
+              "Advanced Diploma of Program Management through Skills Certified Global's RTO partners.",
             href: "#",
           },
           {
@@ -794,7 +794,7 @@ export const RPL_QualificationData = {
             text: "Certificate IV in Business - BSB40120",
             img: BSB60915,
             description:
-              "Advanced Diploma of Program Management through Skills Certified Australia's RTO partners.",
+              "Advanced Diploma of Program Management through Skills Certified Global's RTO partners.",
             href: "#",
           },
           {
@@ -1230,7 +1230,7 @@ export const RPL_QualificationData = {
             text: "Advanced Diploma of Engineering - MEM60112",
             img: MEM60112,
             description:
-              "You can be certified anywhere in Australia with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
+              "You can be certified anywhere in Global with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
             href: "#",
           },
           {
@@ -1270,7 +1270,7 @@ export const RPL_QualificationData = {
             text: "Diploma of Engineering - Technical - MEM50212",
             img: MEM50212,
             description:
-              "You can be certified anywhere in Australia with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
+              "You can be certified anywhere in Global with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
             href: "#",
           },
         ],
@@ -1295,7 +1295,7 @@ export const RPL_QualificationData = {
             text: "Advanced Diploma of Information Technology - ICT60220",
             img: ICT60220,
             description:
-              "Australia Institute of Business and Technology (RTO: 41138)....",
+              "Global Institute of Business and Technology ....",
             href: "#",
           },
           {
@@ -1410,7 +1410,7 @@ export const RPL_QualificationData = {
             text: "Diploma of Security and Risk Management - CPP50619",
             img: CPP41519,
             description:
-              "The Diploma of Security and Risk Management provides the skills required for Security Risk Assessment consultation, monitoring and implementation according to the Australian Security Risk Management S....",
+              "The Diploma of Security and Risk Management provides the skills required for Security Risk Assessment consultation, monitoring and implementation according to the Global Security Risk Management S....",
             href: "#",
           },
         ],
@@ -1435,7 +1435,7 @@ export const RPL_QualificationData = {
             text: "Diploma of Logistics - TLI50221",
             img: TLI50221,
             description:
-              "You can be certified anywhere in Australia with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
+              "You can be certified anywhere in Global with a nationally recognised qualification Have your certification within four weeks of evidence being received Gain accreditation from a reputable Re....",
             href: "#",
           },
         ],
@@ -2597,11 +2597,11 @@ export const RPL_stepData = {
 export const RPL_Certificate_ProcessDummyData = {
   title: 'The RPL Certificate Process',
   description: [
-    `The Recognition of Prior Learning (RPL) approach acknowledges that candidates may have gained appropriate knowledge, understanding, and skills during their previous work experience (paid or unpaid), be it in Australia or further afield. It also takes into consideration any competencies the individual will have developed as a result of engaging in learning experiences in Australia or overseas. RTOs take into consideration an individual’s existing skills and knowledge as acquired in a practical, non-formal or formal learning setting as a means of assessing whether that person can demonstrate the required competencies associated with the relevant Australian standards. Getting your formal qualification via a RPL certificate is the fastest and most cost effective way to enable you to apply for your trade licence / ticket.`,
+    `The Recognition of Prior Learning (RPL) approach acknowledges that candidates may have gained appropriate knowledge, understanding, and skills during their previous work experience (paid or unpaid), be it in Global or further afield. It also takes into consideration any competencies the individual will have developed as a result of engaging in learning experiences in Global or overseas. RTOs take into consideration an individual’s existing skills and knowledge as acquired in a practical, non-formal or formal learning setting as a means of assessing whether that person can demonstrate the required competencies associated with the relevant Global standards. Getting your formal qualification via a RPL certificate is the fastest and most cost effective way to enable you to apply for your trade licence / ticket.`,
     `For example, someone who has spent many years working as a PA within an office setting will have developed many skills that are considered to be part of a qualification in business administration. Previous work experience in a garage may have provided someone with competencies that are relevant to a trade qualification in mechanics. In some cases, previous work, voluntary and learning experiences may not be sufficient to provide an individual will a full recognition of prior learning qualification. However, the competencies he or she has gained can be used as credit towards units of competency and may reduce the amount of time or the number of modules a student is required to complete a qualification.`,
     `Our self paced RPL certificate process means there is no classroom study and zero interruptions to your work and life schedule. All you need to do is apply for the course you want or take the free 60 second skills assessment now and we will contact you. After which we let you know your eligibility and if you meet the requirements and criteria. Once you start the RPL certification process, you’ll have the support of our qualified and licensed trade assessors.`,
     `Qualify Me! will collate a portfolio of evidence that represents your work background, references, experience, etc. All the evidence is reviewed by a qualified and licensed trade assessor. When the review process is completed, you’ll receive a nationally recognised trade qualification!`,
     `As an added plus, Qualify Me! also partners with various organisations to help you plan your next steps, whether assisting with a trade licence application or starting up a business. Giving you the edge you need to succeed.`,
-    `There are a number of payment options and payment plans to help you afford your RPL certificate and any other costs associated with getting qualified through Qualify Me! We offer a best price guarantee for any RPL certificate which means if you receive a cheaper quote with a comparable process, we will match or beat the quote. This is also applicable within 7 days after enrolling with Qualify Me! We also offer a variety of generous discounts and promotions. Anyone can afford to become a qualified trade professional via RPL Australia with Qualify Me!`,
+    `There are a number of payment options and payment plans to help you afford your RPL certificate and any other costs associated with getting qualified through Qualify Me! We offer a best price guarantee for any RPL certificate which means if you receive a cheaper quote with a comparable process, we will match or beat the quote. This is also applicable within 7 days after enrolling with Qualify Me! We also offer a variety of generous discounts and promotions. Anyone can afford to become a qualified trade professional via RPL Global with Qualify Me!`,
   ]
 };

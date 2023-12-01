@@ -6,9 +6,9 @@ export const ScholarshipsDummyData = {
   banner: ScholarshipsBanner,
   ScholarshipsSectionOne: {
     left: {
-      text: `<h2 class="titleOfParagraph">Scholarships for International Students in Australia</h2>
+      text: `<h2 class="titleOfParagraph">Scholarships for International Students in Global</h2>
 
-            <p class="part">We know that tertiary study in Australia can be expensive, but many institutions recognise this and provide scholarships to honour your commitment to your studies.</p>
+            <p class="part">We know that tertiary study in Global can be expensive, but many institutions recognise this and provide scholarships to honour your commitment to your studies.</p>
             
             <p class="part">These scholarships are specifically designed to ease some of the burden for high-achieving and disadvantaged students, so you can concentrate on achieving the best possible results without being concerned about money.</p>
             
@@ -23,10 +23,10 @@ export const ScholarshipsDummyData = {
     },
   },
   ScholarshipsSectionTwo: {
-    title: `List of international student scholarship in Australia`,
+    title: `List of international student scholarship in Global`,
     description: [
       `There are a huge variety of scholarships available across many of our partner institutions in
-            Australia (and we know about all of them).`,
+            Global (and we know about all of them).`,
       `When you speak with our Education Counsellors, be sure to ask them which scholarships might
             apply to your situation – you’d be surprised at the difference some extra funds or discounted
             tuition could make.`,

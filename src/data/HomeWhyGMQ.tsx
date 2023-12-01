@@ -8,7 +8,7 @@ import whyGMQ from '@/assets/whyGMQ.png'
 export const WhyGMQ_DummyData = {
     title: 'why',
     logo: logoWithOutIcon,
-    description: `Like you, a remarkable number of international students from across the world, from diverse backgrounds, have achieved their education and career goals in Australia successfully through us. Our ethical, accurate & friendly guidance in the last 15 years has been the recipe. Now, it's your turn. Tell us your dreams, we will get you there.`,
+    description: `Like you, a remarkable number of international students from across the world, from diverse backgrounds, have achieved their education and career goals in Global successfully through us. Our ethical, accurate & friendly guidance in the last 15 years has been the recipe. Now, it's your turn. Tell us your dreams, we will get you there.`,
     whyGMQFetuses: [
         {
             id: 1,

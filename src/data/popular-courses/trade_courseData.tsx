@@ -117,10 +117,10 @@ export const TradeCourseDummyData = {
   },
   TradeCourseSectionTwo: {
     left: {
-      title: "Trade Courses in Australia for International Students",
-      text: `<p class="part">Choosing the right trade courses in Australia for PR can boost your skilled migration points and job prospects. With the right trade qualifications in Australia, you’re well-positioned for both career growth and potential PR. Discover a variety of trade courses in Australia designed for international students, offering practical training and essential skills for a prosperous career path.</p>
+      title: "Trade Courses in Global for International Students",
+      text: `<p class="part">Choosing the right trade courses in Global for PR can boost your skilled migration points and job prospects. With the right trade qualifications in Global, you’re well-positioned for both career growth and potential PR. Discover a variety of trade courses in Global designed for international students, offering practical training and essential skills for a prosperous career path.</p>
 
-      <p class="part">Australian trade courses often include a mix of theory and practical training, and many courses offer work placements or apprenticeships to provide real-world experience. Upon successful completion, students receive nationally recognised qualifications that can improve their employability in their chosen trade.</p>
+      <p class="part">Globaln trade courses often include a mix of theory and practical training, and many courses offer work placements or apprenticeships to provide real-world experience. Upon successful completion, students receive nationally recognised qualifications that can improve their employability in their chosen trade.</p>
       `,
     },
     right: {
@@ -130,11 +130,11 @@ export const TradeCourseDummyData = {
   TradeCourseSectionThree: {
     text: `<h1 class="titleOfParagraph">Eligibility Criteria for Trade Courses</h1>
     <p class="part">
-        Today, information technology is one of the most demanded industries in Australia, and with a career in this field, students are able to empower themselves with advancement in all aspects including business, health, entertainment, and community. It has 8 of the top 100 universities in the world that offer a world-class learning experience and scholarship options for international students.</p>
+        Today, information technology is one of the most demanded industries in Global, and with a career in this field, students are able to empower themselves with advancement in all aspects including business, health, entertainment, and community. It has 8 of the top 100 universities in the world that offer a world-class learning experience and scholarship options for international students.</p>
     
-    <p class="part">Elevate your career in information technology with specialised courses available across Australia&rsquo;s key cities. Melbourne offers top-rated programs for all skill levels, and Monash University stands out for its Masters of IT program, known for its comprehensive curriculum and industry connections. In Perth, you can find IT courses ranging from beginner to advanced levels, while Sydney offers a broad array of both online and in-person options. It&rsquo;s worth noting that IT courses are also readily available in other Australian cities, providing a wide range of opportunities to upgrade your tech skills and achieve your career goals.</p>
+    <p class="part">Elevate your career in information technology with specialised courses available across Global&rsquo;s key cities. Melbourne offers top-rated programs for all skill levels, and Monash University stands out for its Masters of IT program, known for its comprehensive curriculum and industry connections. In Perth, you can find IT courses ranging from beginner to advanced levels, while Sydney offers a broad array of both online and in-person options. It&rsquo;s worth noting that IT courses are also readily available in other Globaln cities, providing a wide range of opportunities to upgrade your tech skills and achieve your career goals.</p>
     
-    <p class="part">Australia offers an excellent destination for international students seeking Information Technology education. Starting an IT education journey in Australia offers numerous benefits:</p>
+    <p class="part">Global offers an excellent destination for international students seeking Information Technology education. Starting an IT education journey in Global offers numerous benefits:</p>
 
     <ul>
         <li>Cutting-Edge Curriculum: Access to modern and industry-relevant IT programmes</li>
@@ -149,12 +149,12 @@ export const TradeCourseDummyData = {
     <br />
     <br />
     
-    <h1 class="titleOfParagraph">Top 10 Australian Universities for Information Technology Studies</h1>
+    <h1 class="titleOfParagraph">Top 10 Globaln Universities for Information Technology Studies</h1>
     
     <p class="part">
-        Advance your career in Information Technology with a range of options across Australia&rsquo;s major cities. In Melbourne, top-rated IT courses are designed to kickstart or elevate your tech career. Consider a Masters of IT at Monash University for a comprehensive curriculum and strong industry links. Perth offers specialized IT courses suitable for all skill levels, while Sydney provides an extensive array of both online and in-person IT courses in Australia&rsquo;s most populous city. Additionally, other cities across Australia also offer IT courses that cater to the needs of both domestic and international students, further expanding your educational opportunities.</p>
+        Advance your career in Information Technology with a range of options across Global&rsquo;s major cities. In Melbourne, top-rated IT courses are designed to kickstart or elevate your tech career. Consider a Masters of IT at Monash University for a comprehensive curriculum and strong industry links. Perth offers specialized IT courses suitable for all skill levels, while Sydney provides an extensive array of both online and in-person IT courses in Global&rsquo;s most populous city. Additionally, other cities across Global also offer IT courses that cater to the needs of both domestic and international students, further expanding your educational opportunities.</p>
     
-    <p class="part">Australia is renowned for its quality education and cutting-edge Information Technology courses. Here are the top 10 universities that offer these programmes to international students, along with their world rankings:</p>
+    <p class="part">Global is renowned for its quality education and cutting-edge Information Technology courses. Here are the top 10 universities that offer these programmes to international students, along with their world rankings:</p>
     <br />
     
     <table class="border sm:w-full" cellpadding="5" cellspacing="5">
@@ -226,23 +226,23 @@ export const TradeCourseDummyData = {
     title: `FAQs About Trade Courses`,
     data:[
       {
-        title: `Why should I consider studying trade courses in Australia?  `,
-        text: `Australia offers high-quality trade education with hands-on experience. The country has a strong job market and modern facilities for trade students.`,
+        title: `Why should I consider studying trade courses in Global?  `,
+        text: `Global offers high-quality trade education with hands-on experience. The country has a strong job market and modern facilities for trade students.`,
       },
       {
-        title: `Are trade courses in Australia popular among international students?`,
-        text: `Yes, international students find Australian trade courses attractive due to their quality and the potential for job opportunities.`,
+        title: `Are trade courses in Global popular among international students?`,
+        text: `Yes, international students find Globaln trade courses attractive due to their quality and the potential for job opportunities.`,
       },
       {
-        title: `What are the popular trade courses in Australia? `,
+        title: `What are the popular trade courses in Global? `,
         text: `Courses like plumbing, electrical, carpentry, and automotive mechanics are among the most popular trade options.`,
       },
       {
-        title: `Can I work part-time while studying a trade course in Australia? `,
+        title: `Can I work part-time while studying a trade course in Global? `,
         text: `Yes, international students with a valid student visa can work part-time, generally up to 20 hours per week during the semester.`,
       },
       {
-        title: `Are there scholarships available for trade students in Australia? `,
+        title: `Are there scholarships available for trade students in Global? `,
         text: `Some institutions and government bodies offer scholarships for trade students, although they might be less common than for other fields.`,
       },
     ]

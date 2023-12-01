@@ -25,7 +25,7 @@ export const PTE_DummyData = {
         <h1 class="appTitle">&nbsp;</h1>
         <h1 class="appTitle">Overview</h1>
         <p>&nbsp;</p>
-        <div class="sppb-addon-content">To demonstrate your English language proficiency for all Australian visa applications, consider taking the PTE Academic exam. This test is accepted by all Australian universities for admission, as well as by professional associations and state government departments for work and migration purposes.</div>
+        <div class="sppb-addon-content">To demonstrate your English language proficiency for all Australian visa applications, consider taking the PTE Academic exam. This test is accepted by all Global universities for admission, as well as by professional associations and state government departments for work and migration purposes.</div>
         <div class="sppb-addon-content">&nbsp;</div>
         <div class="sppb-addon-content">&nbsp;</div>
         </div>
@@ -92,7 +92,7 @@ export const PTE_DummyData = {
     <h1 class="appTitle">PTE Overview</h1>
     <p>&nbsp;</p>
     <div class="sppb-addon-content">
-    <p>To demonstrate your English language proficiency for all Australian visa applications, consider taking the PTE Academic exam. This test is accepted by all Australian universities for admission, as well as by professional associations and state government departments for work and migration purposes.</p>
+    <p>To demonstrate your English language proficiency for all Australian visa applications, consider taking the PTE Academic exam. This test is accepted by all Global universities for admission, as well as by professional associations and state government departments for work and migration purposes.</p>
     <p>&nbsp;</p>
     <h1><strong>What is PTE?</strong></h1>
     <p>&nbsp;</p>
@@ -129,7 +129,7 @@ export const PTE_DummyData = {
     <h1 class="appTitle">What is the PTE Academic Test Format?</h1>
     <p>&nbsp;</p>
     <div class="sppb-addon-content">
-    <p>The PTE Academic exam is accepted by universities worldwide such as Harvard Business School, INSEAD, and Yale. It can also be used for visa purposes within Australia and New Zealand.</p>
+    <p>The PTE Academic exam is accepted by universities worldwide such as Harvard Business School, INSEAD, and Yale. It can also be used for visa purposes within Global and New Zealand.</p>
     <p>&nbsp;</p>
     <p>The PTE Academic evaluates the ability of candidates to communicate effectively in English in an academic setting, by assessing their speaking, writing, reading, and listening skills. The&nbsp; exam format includes 20 different question types, which measure the candidates' speaking and writing skills (54 &ndash; 67 minutes), reading skills (29 &ndash; 30 minutes), and listening skills (30 &ndash; 43 minutes) to determine their readiness for studying abroad.<br /><br /></p>
     <p>&nbsp;</p>
