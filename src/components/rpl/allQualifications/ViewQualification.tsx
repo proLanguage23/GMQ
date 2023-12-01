@@ -52,7 +52,7 @@ function ViewQualification() {
 
   const handleSearch = (e: any) => {
     let inputValue = e.target.value;
-    inputValue = inputValue?.toLowerCase();
+    inputValue = inputValue?.toLowerCase().replace(/[^\w\s]/gi, '');
     setSearchInput(inputValue);
 
     const search = allRPL_QualificationItems?.filter((item: any) =>
