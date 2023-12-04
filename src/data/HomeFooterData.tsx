@@ -300,7 +300,7 @@ export const HomeFooterDummyData = {
   socialLinks: [
     {
       id: 1,
-      href: '#',
+      href: 'https://www.facebook.com/gmqglobal',
       text: "Facebook",
       icon: <AiFillFacebook className="Facebook socialLink" size={24} />,
     },

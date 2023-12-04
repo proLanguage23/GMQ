@@ -14,7 +14,7 @@ const defaultVariants = {
     y: 0,
     transition: {
       delay: 0.1 * key,
-      duration: 0.15 * key,
+      duration: 0.3,
     },
   }),
 };

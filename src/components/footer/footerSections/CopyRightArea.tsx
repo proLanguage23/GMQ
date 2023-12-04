@@ -16,8 +16,9 @@ function CopyRightArea({ text, socialLinkData }: any) {
               return (
                 <a
                   href={item?.href}
-                  className="hover:bg-secondary border border-secondary bg-primary opacity-90 hover:opacity-100 p-1 text-white rounded transition-all"
+                  className="hover:bg-secondary bg-primary opacity-90 hover:opacity-100 p-1 text-white rounded transition-all"
                   key={key}
+                  target="_blank"
                 >
                   {item?.icon}
                 </a>
