@@ -9,7 +9,7 @@ function HomeContactForm() {
   const { right, left } = ContactFormDummyData;
   return (
     <section className="bg-secondary pt-28  w-full">
-      <Container class_name="pb-0">
+      <Container class_name="!pb-0">
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-9 justify-center items-end">
           <div className="pb-16 flex justify-start h-full min-h-[700px] md:min-h-full">
             <AppDescriptionWithDangerouslySetInnerHTML
@@ -30,7 +30,7 @@ function HomeContactForm() {
               animationSpeed={0.005}
             />
 
-            <AppImg src={right?.secondaryImg} alt={right?.title} width={360} class_name="mx-auto mt-6" />
+            <AppImg src={right?.secondaryImg} alt={right?.title} width={360} class_name="mx-auto mt-5" />
           </div>
         </div>
       </Container>
