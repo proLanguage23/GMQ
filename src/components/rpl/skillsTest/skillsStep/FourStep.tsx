@@ -95,7 +95,7 @@ function FourStep({ submitHandle, value }: any) {
         formData.append("file", file);
       }
 
-      const cloudinary_folder_name = "pro-language";
+      const cloudinary_folder_name = "gmqGlobal";
 
       formData.append("upload_preset", `${cloudinary_folder_name}`);
 

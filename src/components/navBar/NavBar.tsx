@@ -14,7 +14,7 @@ function NavBar() {
 
   return (
     <section className="sticky top-0 left-0 w-full bg-white border-b z-10">
-      <Container fullWidth isContainer={false} class_name="lg:!px-9 md:!py-0">
+      <Container fullWidth isContainer={false} class_name="lg:!px-9">
         <div className="flex justify-between items-center gap-2 flex-wrap">
           {/* logo  */}
           <motion.div
@@ -26,11 +26,20 @@ function NavBar() {
               duration: 0.3,
             }}
           >
-            <Link rel="canonical" href="/">
+            <Link rel="canonical" href="/" className="hidden md:inline">
               <Image
                 src={Logo}
                 alt={"logo"}
                 width={160}
+                quality={100}
+                priority={true}
+              />
+            </Link>
+            <Link rel="canonical" href="/" className="md:hidden">
+              <Image
+                src={Logo}
+                alt={"logo"}
+                width={100}
                 quality={100}
                 priority={true}
               />

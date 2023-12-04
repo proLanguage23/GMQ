@@ -1,4 +1,4 @@
-import { ACN_Number } from "./ShareData";
+import { ACN_Number, address } from "./ShareData";
 
 export const PrivacyPolicyDummyData = {
   title: "Privacy Policy",
@@ -192,7 +192,7 @@ We will not without your prior consent disclose Personal Information collected a
 
 <p class="part">For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at legal AT GMQglobal.com or by mail using the details provided below:</p>
 
-<p class="part">5/6 Bromham Pl, Richmond VIC 3121, Global</p>
+<p class="part"> ${address}</p>
 
 </br>
 

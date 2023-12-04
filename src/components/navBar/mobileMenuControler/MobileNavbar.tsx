@@ -41,7 +41,7 @@ function MobileNavbar({
             <Image
               src={logoAsset}
               alt={"logo"}
-              width={140}
+              width={100}
               quality={100}
               priority={true}
             />
@@ -63,7 +63,7 @@ function MobileNavbar({
           </motion.div>
         </div>
         {/* logo and close icon end */}
-        <MobileMenuFilter menuDates={menuData} />
+        <MobileMenuFilter menuDates={menuData} setMobileNavbarState={setMobileNavbarState} />
       </motion.div>
     </motion.div>
   );

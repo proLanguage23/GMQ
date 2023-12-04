@@ -6,13 +6,13 @@ import {
   AiFillYoutube,
   AiFillInstagram,
 } from "react-icons/ai";
-import { whiteLogo } from './ShareData';
+import { ACN_Number, whiteLogo } from './ShareData';
 
 export const HomeFooterDummyData = {
   generalData:{
     whiteLogo,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae.',
-    abn: 'ABN: 12 123 123 123'
+    abn: `ABN: ${ACN_Number}`
   },
   footerLinkGP: [
     {

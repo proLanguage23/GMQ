@@ -28,7 +28,7 @@ function TopHeader() {
             })}
           </div>
           <div className="flex sm:justify-end justify-center">
-            <AppBtn text={"FREE 60 second skills check"} class_name="capitalize border px-4 py-2 rounded-full bg-secondary text-white hover:opacity-95" handleClick={() => handelModal()} />
+            <AppBtn text={"FREE 60 second skills check"} class_name="capitalize border md:px-4 px-2 md:py-2 py-1 rounded-full bg-secondary text-white hover:opacity-95 text-[14px]" handleClick={() => handelModal()} />
           </div>
         </div>
       </Container>

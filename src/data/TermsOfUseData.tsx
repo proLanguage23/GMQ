@@ -3,7 +3,7 @@ export const TermsOfUseDummyData = {
   body: `
     <h3 class="titleOfParagraph">Website Terms of Use</h3>
 
-<p class="part">This web site is owned and operated by gmq Global and will be referred to as &quot;We&quot;, &quot;our&quot; and &quot;us&quot; in this Terms of Use policy. By using this site, you agree to the Terms of Use Policy of this web site (https://www.gmqglobal.com.au), which is set out on this web site page.</p>
+<p class="part">This web site is owned and operated by GMQ Global and will be referred to as &quot;We&quot;, &quot;our&quot; and &quot;us&quot; in this Terms of Use policy. By using this site, you agree to the Terms of Use Policy of this web site (<a href="https://www.gmqglobal.com.au">https://www.gmqglobal.com.au</a>), which is set out on this web site page.</p>
 
 <br />
 
@@ -33,7 +33,7 @@ export const TermsOfUseDummyData = {
 
 <h3 class="titleOfParagraph">Availability of our web site</h3>
 
-<p class="part">We will try to make our web site available but cannot guarantee that our web site will operate continuously or without interruptions or be error free and can accept no liability for its unavailability. You must not attempt to interfere with the proper working of our web site and, in particular, you must not attempt to circumvent security, tamper with, hack into, or otherwise disrupt any computer system, server, web site, router or any other internet connected device. We reserve the right to alter, suspend or discontinue any aspect of our website or the content or services available through it, including your access to it. Unless explicitly stated, any new features including new content and/or the sale of new products and/or the release of new software tools or resources shall be subject to these terms and conditions. We are committed to safeguarding the privacy of our users. We take your privacy very seriously and it is important to us that you can use and enjoy our website without having to compromise your privacy in any way. For more information, please see our privacy policy.</p>
+<p class="part">We will try to make our web site available but cannot guarantee that our web site will operate continuously or without interruptions or be error free and can accept no liability for its unavailability. You must not attempt to interfere with the proper working of our web site and, in particular, you must not attempt to circumvent security, tamper with, hack into, or otherwise disrupt any computer system, server, web site, router or any other internet connected device. We reserve the right to alter, suspend or discontinue any aspect of our website or the content or services available through it, including your access to it. Unless explicitly stated, any new features including new content and/or the sale of new products and/or the release of new software tools or resources shall be subject to these terms and conditions. We are committed to safeguarding the privacy of our users. We take your privacy very seriously and it is important to us that you can use and enjoy our website without having to compromise your privacy in any way. For more information, please see our <a href="./privacy-policy" class="underline">privacy policy </a>.</p>
 
     `,
 };

@@ -1,11 +1,11 @@
-import { AppSubTitle, PageLink } from "@/components/share";
+import { AppBtn, AppSubTitle, PageLink } from "@/components/share";
 import React, { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import { BsFillCaretDownFill, BsDot } from "react-icons/bs";
 import { AiOutlineLine } from "react-icons/ai";
 import { motion } from "framer-motion";
 
-function MobileMenuFilter({ menuDates }: any) {
+function MobileMenuFilter({ menuDates, setMobileNavbarState }: any) {
   const [submenuState, setSubmenuState] = useState("");
   const [MegaSubmenuState, setMegaSubmenuState] = useState("");
 
@@ -42,11 +42,17 @@ function MobileMenuFilter({ menuDates }: any) {
                   class_name={`capitalize font-medium text-[18px] px-1 text-primary`}
                 />
               ) : (
-                <PageLink
-                  href={item?.href}
-                  text={item?.text}
-                  isIcon={false}
-                  class_name={`capitalize font-medium text-[18px] px-1 text-primary flex-1`}
+                <AppBtn
+                  text={
+                    <PageLink
+                      href={item?.href}
+                      text={item?.text}
+                      isIcon={false}
+                      class_name={`capitalize font-medium text-[18px] px-1 text-primary flex-1 w-full `}
+                    />
+                  }
+                  handleClick={() => setMobileNavbarState(false)}
+                  class_name="flex w-full text-left"
                 />
               )}
 
@@ -94,11 +100,17 @@ function MobileMenuFilter({ menuDates }: any) {
                           <>
                             <div className="flex items-center flex-wrap  flex-1">
                               <BsDot size={16} color="#000" />
-                              <PageLink
-                                href={subItem?.href}
-                                text={subItem?.text}
-                                isIcon={false}
-                                class_name="capitalize font-medium text-[16px] p-1 flex-1 my-1 hover:text-secondary flex-1 "
+                              <AppBtn
+                                text={
+                                  <PageLink
+                                    href={subItem?.href}
+                                    text={subItem?.text}
+                                    isIcon={false}
+                                    class_name="capitalize font-medium text-[16px] p-1 flex-1 my-1 hover:text-secondary flex-1 "
+                                  />
+                                }
+                                class_name="flex w-full text-left flex-1"
+                                handleClick={() => setMobileNavbarState(false)}
                               />
                             </div>
                           </>
@@ -122,11 +134,19 @@ function MobileMenuFilter({ menuDates }: any) {
                                     }}
                                   >
                                     <AiOutlineLine size={16} color="#00AAAC" />
-                                    <PageLink
-                                      href={megaItem?.href}
-                                      text={megaItem?.text}
-                                      isIcon={false}
-                                      class_name="capitalize font-medium text-[16px] p-1 flex-1 my-1 hover:text-secondary"
+                                    <AppBtn
+                                      text={
+                                        <PageLink
+                                          href={megaItem?.href}
+                                          text={megaItem?.text}
+                                          isIcon={false}
+                                          class_name="capitalize font-medium text-[16px] hover:text-secondary flex-1"
+                                        />
+                                      }
+                                      handleClick={() =>
+                                        setMobileNavbarState(false)
+                                      }
+                                      class_name="p-1 flex w-full flex-1 my-1 text-left"
                                     />
                                   </motion.div>
                                 )
