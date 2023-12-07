@@ -18,7 +18,7 @@ function EntryImgPopUp({ data, class_name }: any) {
         once: true,
       }}
     >
-      <Link href={data?.href}>
+      <Link href={data?.href || "#"}>
         <AppImg
           src={data?.img}
           alt={data?.text}

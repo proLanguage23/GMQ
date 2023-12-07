@@ -16,9 +16,10 @@ import PopUpElement from "@/components/share/section/PopUpElement";
 function EducationCounsellingPage() {
   const popUpData = {
     type: "image",
-    img: GetYourSkillsRecognizedImg,
-    text: "Get Your Skills Recognized",
-  };
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
   return (
     <>
       <DynamicHead

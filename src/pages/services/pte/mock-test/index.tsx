@@ -16,9 +16,10 @@ import PopUpElement from "@/components/share/section/PopUpElement";
 function MockTestPage() {
   const popUpData = {
     type: "image",
-    img: GetYourSkillsRecognizedImg,
-    text: "Get Your Skills Recognized",
-  };
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
   return (
     <>
       <DynamicHead
@@ -31,7 +32,7 @@ function MockTestPage() {
       <MockTestSectionThree />
       <CommonForm />
       <TestimonialSection />
-      {/* <PopUpElement data={popUpData} /> */}
+      <PopUpElement data={popUpData} />
     </>
   );
 }
