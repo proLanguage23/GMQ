@@ -24,7 +24,7 @@ function NAATI_PAGE() {
       <NaatiSectionThree />
       <CommonForm />
       <TestimonialSection />
-      {/* <VisitedForm data={popUpData} /> */}
+      <VisitedForm data={popUpData} />
     </>
   );
 }

@@ -30,7 +30,7 @@ export default function Home() {
       <HomeHelpOfGMQ />
       <HomeTestimonials />
       <HomeRWL />
-      {/* <VisitedForm data={popUpData} /> */}
+      <VisitedForm data={popUpData} />
     </>
   );
 }

@@ -30,7 +30,7 @@ function GroupTrainingPage() {
       <GROUP_TRAININGSectionThree />
       <CommonForm />
       <TestimonialSection />
-      {/* <VisitedForm data={popUpData} /> */}
+      <VisitedForm data={popUpData} />
     </>
   );
 }

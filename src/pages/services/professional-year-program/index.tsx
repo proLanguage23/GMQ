@@ -23,7 +23,7 @@ function ProfessionalYearProgramPage() {
       <ProfessionalYearProgramSectionTwo />
       <CommonForm />
       <TestimonialSection />
-      {/* <VisitedForm data={popUpData} /> */}
+      <VisitedForm data={popUpData} />
     </>
   );
 }
