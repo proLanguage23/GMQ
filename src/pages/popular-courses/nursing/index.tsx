@@ -26,7 +26,7 @@ function NursingPage() {
       <NursingCourseSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      {/* <VisitedForm data={popUpData} /> */}
     </>
   );
 }

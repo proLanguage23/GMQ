@@ -48,7 +48,7 @@ function GMQ_coursePage() {
       />
       <AppCourseBanner text={pageData?.content?.title} />
       <Courses data={pageData?.content?.link} />
-      <VisitedForm data={popUpData} />
+      {/* <VisitedForm data={popUpData} /> */}
     </>
   );
 }

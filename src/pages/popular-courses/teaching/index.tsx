@@ -32,7 +32,7 @@ function teaching() {
       <SectionFiveOfTeaching />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      {/* <VisitedForm data={popUpData} /> */}
     </>
   );
 }
