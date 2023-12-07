@@ -31,7 +31,7 @@ function OneToOneTrainingPage() {
       <OneToOneTrainingSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <PopUpElement data={popUpData} />
+      {/* <PopUpElement data={popUpData} /> */}
     </>
   );
 }

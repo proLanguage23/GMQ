@@ -31,7 +31,7 @@ function MockTestPage() {
       <MockTestSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <PopUpElement data={popUpData} />
+      {/* <PopUpElement data={popUpData} /> */}
     </>
   );
 }
