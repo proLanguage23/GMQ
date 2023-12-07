@@ -8,7 +8,7 @@ import SuccessStep from "./skillsStep/SuccessStep";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { motion } from "framer-motion";
 
-function SkillsTestForm() {
+function SkillsTestForm({class_name}:any) {
   const [ProgressNumber, setProgressNumber] = useState(5);
 
   const [visitableOne, setVisitableOne] = useState(true);
@@ -163,7 +163,7 @@ function SkillsTestForm() {
 
   return (
     <motion.div
-      className="md:p-3 w-full md:h-screen  md:flex md:justify-center md:items-center p-2"
+      className={`md:p-3 w-full md:h-screen  md:flex md:justify-center md:items-center p-2 ${class_name}`}
       initial={{ opacity: 0, y: 80 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{

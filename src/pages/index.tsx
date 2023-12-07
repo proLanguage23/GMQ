@@ -8,10 +8,15 @@ import HomeRWL from "@/components/home/rwl";
 import HomeTestimonials from "@/components/home/testimonials";
 import HomeWhyGMQ from "@/components/home/whyGMQ";
 import { DynamicHead, VisitedForm } from "@/components/share";
-import { contactFormOfHome } from "@/data/ShareData";
-
+import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 
 export default function Home() {
+  const popUpData = {
+    type: "image",
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
   return (
     <>
       <DynamicHead />
@@ -25,7 +30,7 @@ export default function Home() {
       <HomeHelpOfGMQ />
       <HomeTestimonials />
       <HomeRWL />
-      <VisitedForm data={contactFormOfHome} />
+      <VisitedForm data={popUpData} />
     </>
   );
 }

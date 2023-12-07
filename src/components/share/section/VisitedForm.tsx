@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { AppModal, EntryForm } from "..";
 
-function VisitedForm({data}:any) {
-  const [modalShow, setModalShow] = useState(false);
+function VisitedForm({ data }: any) {
+  const [modalShow, setModalShow] = useState(true);
 
   const handelModal = () => {
     setModalShow(!modalShow);
@@ -14,6 +14,8 @@ function VisitedForm({data}:any) {
     }, 3000);
     return setModalShow(false);
   }, []);
+
+
 
   return (
     <>

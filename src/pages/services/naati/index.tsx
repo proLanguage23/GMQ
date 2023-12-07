@@ -6,8 +6,15 @@ import TestimonialSection from "@/components/testimonial";
 import { NAATIBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
+import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 
 function NAATI_PAGE() {
+  const popUpData = {
+    type: "image",
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
   return (
     <>
       <DynamicHead title="Best PTE Online Courses |  - GMQ Global" />
@@ -17,7 +24,7 @@ function NAATI_PAGE() {
       <NaatiSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={contactFormOfHome} />
+      <VisitedForm data={popUpData} />
     </>
   );
 }

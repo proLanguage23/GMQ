@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Modal({ handelModal, content }: any) {
   return (
     <motion.div
-      className="fixed top-0 left-0 w-screen h-screen z-50 modal overflow-x-hidden overflow-y-auto"
+      className="fixed top-0 left-0 w-screen h-screen z-50 modal overflow-x-hidden overflow-y-auto flex"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{
@@ -30,7 +30,7 @@ function Modal({ handelModal, content }: any) {
           handleClick={() => handelModal()}
         />
       </motion.div>
-      <div className="flex justify-center">{content}</div>
+      <div className="flex-1 flex w-full justify-center items-center">{content}</div>
     </motion.div>
   );
 }

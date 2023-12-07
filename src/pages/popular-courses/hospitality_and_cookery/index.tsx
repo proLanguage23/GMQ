@@ -9,9 +9,15 @@ import TestimonialSection from "@/components/testimonial";
 import { CookeryCoursesInAustraliaBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
+import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 
 function CookeryCoursesInAustraliaPage() {
-  
+  const popUpData = {
+    type: "image",
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
   return (
     <>
       <DynamicHead title="Cookery Courses in Australia: Top Colleges &amp; Universities, Fees, Prospects | Cooking Courses - GMQ Global" description="Cookery Courses in Australia: Top Colleges &amp; Universities, Fees, Prospects | Cooking Courses - GMQ Global" />
@@ -22,7 +28,7 @@ function CookeryCoursesInAustraliaPage() {
       <CookeryCoursesSectionFour />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={contactFormOfHome} />
+      <VisitedForm data={popUpData} />
     </>
   );
 }

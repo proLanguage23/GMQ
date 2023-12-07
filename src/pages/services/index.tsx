@@ -8,9 +8,16 @@ import TestimonialSection from "@/components/testimonial";
 import { contactFormOfHome } from "@/data/ShareData";
 import { StudentServicesDummyData } from "@/data/StudentServicesData";
 import React from "react";
+import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 
 function StudentServicesPage() {
   const { banner } = StudentServicesDummyData;
+  const popUpData = {
+    type: "image",
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
   return (
     <>
       <DynamicHead title="Student Services - GMQ Global" />
@@ -20,7 +27,7 @@ function StudentServicesPage() {
       <StudentServicesSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={contactFormOfHome} />
+      <VisitedForm data={popUpData} />
     </>
   );
 }

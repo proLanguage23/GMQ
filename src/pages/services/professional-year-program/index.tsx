@@ -6,8 +6,15 @@ import TestimonialSection from "@/components/testimonial";
 import { ProfessionalYearProgramBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
+import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 
 function ProfessionalYearProgramPage() {
+  const popUpData = {
+    type: "image",
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
   return (
     <>
       <DynamicHead title="Professional Year Program global | IT, Accounting &amp; Engineering |  - GMQ Global" description="Professional Year Program global | IT, Accounting &amp; Engineering |  - GMQ Global" />
@@ -16,7 +23,7 @@ function ProfessionalYearProgramPage() {
       <ProfessionalYearProgramSectionTwo />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={contactFormOfHome} />
+      <VisitedForm data={popUpData} />
     </>
   );
 }

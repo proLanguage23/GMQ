@@ -13,7 +13,14 @@ import { teachingBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
+import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 function teaching() {
+  const popUpData = {
+    type: "image",
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
   return (
     <>
       <DynamicHead title="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" description="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" />
@@ -25,7 +32,7 @@ function teaching() {
       <SectionFiveOfTeaching />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={contactFormOfHome} />
+      <VisitedForm data={popUpData} />
     </>
   );
 }

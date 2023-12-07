@@ -7,11 +7,19 @@ import { RPL_QualificationData } from "@/data/RPL_Data";
 import { DynamicHead, VisitedForm } from "@/components/share";
 import { contactFormOfPTE } from "@/data/ShareData";
 
+import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 function GMQ_coursePage() {
   const [pageData, setPageData] = useState();
   const router = useRouter();
   // GET SERVICE NAME FROM URL
   const { GMQ_courseName } = router.query;
+
+  const popUpData = {
+    type: "image",
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
 
   useEffect(() => {
     if (GMQ_courseName) {
@@ -32,6 +40,7 @@ function GMQ_coursePage() {
   }, [GMQ_courseName, router]);
 
   return (
+
     <>
       <DynamicHead
         title={`${pageData?.content?.title || "RPL"} | GMQ Global`}
@@ -39,7 +48,7 @@ function GMQ_coursePage() {
       />
       <AppCourseBanner text={pageData?.content?.title} />
       <Courses data={pageData?.content?.link} />
-      <VisitedForm data={contactFormOfPTE} />
+      <VisitedForm data={popUpData} />
     </>
   );
 }

@@ -6,8 +6,15 @@ import TestimonialSection from '@/components/testimonial';
 import {PTEBannerData } from '@/data/BannerData';
 import { contactFormOfPTE } from '@/data/ShareData';
 import React from 'react'
+import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 
 function PTE_Page() {
+  const popUpData = {
+    type: "image",
+    img : GetYourSkillsRecognizedImg,
+    text: 'Get Your Skills Recognized',
+    href: '/rpl/get-your-skills-recognized'
+  }
   return (
     <>
       <DynamicHead title="Best PTE Online Courses |  - GMQ Global" description="Best PTE Online Courses |  - GMQ Global" />
@@ -17,7 +24,7 @@ function PTE_Page() {
       <PTE_SectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={contactFormOfPTE} />
+      <VisitedForm data={popUpData} />
     </>
   )
 }

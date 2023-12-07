@@ -38,8 +38,8 @@ function HomeWhyGMQ() {
           <AppDescription
             text={description}
             class_name="!text-white !text-[18px] lg:w-2/3 w-full text-center md:text-left"
-            isAnimation
-            animationSpeed={0.01}
+            // isAnimation
+            // animationSpeed={0.01}
           />
           <div className="flex flex-wrap w-full items-center gap-2 mt-8 md:gap-6 justify-center md:justify-start">
             {whyGMQFetuses?.map((item, key) => (
