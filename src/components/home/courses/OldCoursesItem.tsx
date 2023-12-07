@@ -19,11 +19,11 @@ function OldCoursesItem({
     <div
       className={`max-w-full bg-white rounded my-3 p-3 border shadow flex flex-col justify-between flex-wrap ${class_name}`}
     >
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center ">
         <AppImg
           src={img}
           alt={title || " image of gmq of popular-courses nursing"}
-          class_name="w-full rounded-md"
+          class_name="w-full rounded-md h-[290px] object-contain"
         />
 
         <PageLink
