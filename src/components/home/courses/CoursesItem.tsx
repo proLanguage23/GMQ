@@ -2,6 +2,7 @@ import { AppBtn, AppDescription, PageLink } from "@/components/share";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import AppImg from "@/components/share/AppImg";
 
 function CoursesItem({
   img,
@@ -22,15 +23,10 @@ function CoursesItem({
       className={`w-full rounded my-5 flex flex-col justify-between flex-wrap ${class_name}`}
       {...rest}
     >
-      <Image
+      <AppImg
         src={img}
-        alt={"logo"}
-        quality={100}
-        width={400}
-        // priority={true}
-        loading="lazy"
-        blurDataURL="true"
-        className="object-contain h-56 -mb-5 mx-auto rounded-lg"
+        alt={title || " image of gmq of popular-courses nursing"}
+        class_name="w-full rounded-md"
       />
       <div className="bg-secondary md:p-5 p-3 !pb-0 flex-1 flex flex-col justify-between rounded-2xl relative">
         <div className="df">
@@ -53,10 +49,10 @@ function CoursesItem({
           className="mt-5 flex -mb-5"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{
-            delay: (index / 100) * 50,
-            duration: 0.5,
-          }}
+          // transition={{
+          //   delay: (index / 100) * 50,
+          //   duration: 0.5,
+          // }}
           viewport={{
             once: true,
           }}

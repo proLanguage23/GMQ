@@ -1,4 +1,4 @@
-import { AppTitle, Container } from "@/components/share";
+import { AppSubTitle, AppTitle, Container } from "@/components/share";
 import { HomeCoursesDummyData } from "@/data/HomeCoursesData";
 import React from "react";
 import CoursesItem from "./CoursesItem";
@@ -21,16 +21,17 @@ const defaultVariants = {
 };
 
 function HomeCourses() {
-  const { title, CoursesData } = HomeCoursesDummyData;
+  const { title, subTitle, CoursesData } = HomeCoursesDummyData;
 
   return (
-    <section className="bg-grayCustom py-9 w-full">
+    <section className="bg-white py-9 w-full">
       <Container>
         <div className="flex flex-col justify-center items-center flex-wrap">
           <AppTitle text={title} class_name="!text-center" isAnimation />
-          <div className="w-full mt-8 flex justify-center gap-2 flex-wrap">
+          <AppSubTitle text={subTitle} />
+          <div className="w-full mt-8 flex justify-center gap-2 md:gap-5 flex-wrap">
             {CoursesData?.map((item, key) => (
-              <OldCoursesItem
+              <CoursesItem
                 key={key}
                 {...item}
                 index={key}
