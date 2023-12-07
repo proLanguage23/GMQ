@@ -41,7 +41,7 @@ function HomeCourses() {
                   once: true,
                 }}
                 custom={key}
-                class_name="rounded-2xl md:w-[32%] sm:w-[48%] w-[95%] max-w-full"
+                class_name=" rounded-2xl md:w-[32%] sm:w-[48%] w-[95%] max-w-full "
               />
             ))}
           </div>

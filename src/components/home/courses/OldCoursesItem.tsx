@@ -30,13 +30,16 @@ function OldCoursesItem({
           href={btn?.href}
           text={title}
           isIcon={false}
-          class_name="mt-3 !justify-start block pb-2 text-[24px] font-medium text-primary capitalize manropeFont hover:underline  transition-all text-secondary text-center"
+          class_name="mt-3 !justify-start block pb-2 text-[24px] font-medium text-secondary capitalize manropeFont hover:underline  transition-all text-center !font-bold"
         />
-        <AppDescription text={description} class_name="line-clamp-4 text-center" />
+        <AppDescription
+          text={description}
+          class_name="line-clamp-4 text-center"
+        />
       </div>
       <div className="mt-5 mb-3 flex justify-center">
         {iSPageLink ? (
-          <PageLink {...btn} class_name={`commonBtnStyle ${btn_Class_name}`} />
+          <PageLink {...btn} class_name={`NewCommonBtnStyle border-transparent hover:border-secondary ${btn_Class_name}`} />
         ) : (
           <AppBtn
             text={btn?.text}

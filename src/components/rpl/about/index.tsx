@@ -13,7 +13,7 @@ function RPL_About() {
   return (
     <section className="py-16 relative w-full">
       <Container>
-        <div className=" text-white rounded lg:p-12 lg:w-2/3 w-full p-3 shadow">
+        <div className=" text-white rounded lg:p-12 lg:w-2/3 w-full p-3">
           {description?.map((item, key) => (
             <div key={key}>
               <AppDescriptionWithDangerouslySetInnerHTML

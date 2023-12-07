@@ -1,4 +1,3 @@
-
 function AppBtn({ handleClick, text, class_name, disable = false }: any) {
   return (
     <>
@@ -6,6 +5,8 @@ function AppBtn({ handleClick, text, class_name, disable = false }: any) {
         disabled={disable}
         className={`button block w-fit rounded appBtn ${class_name}`}
         onClick={handleClick}
+        id="button"
+        aria-label="AppButton"
       >
         {text}
       </button>

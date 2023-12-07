@@ -22,13 +22,13 @@ function AppTitle({
           </h1>
         )
       ) : isAnimation ? (
-        <h3 className={`appTitle ${class_name}`}>
+        <h5 className={`appTitle ${class_name}`}>
           {TextAnimation(capitalizeSentences(text || ""), animationSpeed)}
-        </h3>
+        </h5>
       ) : (
-        <h3 className={`appTitle ${class_name}`}>
+        <h5 className={`appTitle ${class_name}`}>
           {capitalizeSentences(text || "")}
-        </h3>
+        </h5>
       )}
     </>
   );

@@ -8,7 +8,7 @@ import AppImg from "@/components/share/AppImg";
 function HomeContactForm() {
   const { right, left } = ContactFormDummyData;
   return (
-    <section className="bg-secondary pt-28  w-full">
+    <section className="bg-primary pt-28  w-full">
       <Container class_name="!pb-0">
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-9 justify-center items-end">
           <div className="pb-16 flex justify-start h-full min-h-[700px] md:min-h-full">

@@ -1,6 +1,11 @@
 /* animation button start  */
 /* The loader container */
 /* The loader container */
+::selection {
+  color: #fff;
+  background-color: #027a7c;
+}
+
 .loader {
   -webkit-perspective: 200px;
   perspective: 200px;
