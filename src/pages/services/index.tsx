@@ -9,6 +9,7 @@ import { contactFormOfHome } from "@/data/ShareData";
 import { StudentServicesDummyData } from "@/data/StudentServicesData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
+import PopUpElement from "@/components/share/section/PopUpElement";
 
 function StudentServicesPage() {
   const { banner } = StudentServicesDummyData;
@@ -27,7 +28,7 @@ function StudentServicesPage() {
       <StudentServicesSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }

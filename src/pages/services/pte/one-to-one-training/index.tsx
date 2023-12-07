@@ -11,6 +11,7 @@ import { PTEOneToOneTrainingBannerData } from "@/data/BannerData";
 import { contactFormOfPTE } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
+import PopUpElement from "@/components/share/section/PopUpElement";
 
 function OneToOneTrainingPage() {
   const popUpData = {
@@ -30,7 +31,7 @@ function OneToOneTrainingPage() {
       <OneToOneTrainingSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }

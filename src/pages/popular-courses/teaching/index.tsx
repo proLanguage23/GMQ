@@ -14,6 +14,7 @@ import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
+import PopUpElement from "@/components/share/section/PopUpElement";
 function teaching() {
   const popUpData = {
     type: "image",
@@ -32,7 +33,7 @@ function teaching() {
       <SectionFiveOfTeaching />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }

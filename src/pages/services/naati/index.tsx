@@ -7,6 +7,7 @@ import { NAATIBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
+import PopUpElement from "@/components/share/section/PopUpElement";
 
 function NAATI_PAGE() {
   const popUpData = {
@@ -24,7 +25,7 @@ function NAATI_PAGE() {
       <NaatiSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }

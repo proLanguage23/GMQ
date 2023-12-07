@@ -1,28 +1,22 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { AppDescriptionWithDangerouslySetInnerHTML } from ".";
-import AppImg from "./AppImg";
-import Link from "next/link";
 
-function EntryForm({ data, class_name }: any) {
+function EntryForm({data}:any) {
   return (
     <motion.div
-      className={`border bg-white rounded overflow-auto w-fit md:max-w-2/3 max-w-full p-3 m-2 h-fit max-h-[90vh] md:mt-11 mt-6 ${class_name}`}
+      className="border bg-white rounded overflow-auto md:w-2/3 w-full p-3 m-2 h-[90vh] md:mt-11 mt-6"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{
         duration: 0.3,
-        delay: 0.3,
+        delay: 0.3
       }}
       viewport={{
         once: true,
       }}
     >
-      {/* <AppDescriptionWithDangerouslySetInnerHTML text={data} class_name="h-full" /> */}
-<Link href={data?.href}>
-
-      <AppImg src={data?.img} alt={data?.text} class_name="w-[500px] max-w-full rounded" />
-</Link>
+      <AppDescriptionWithDangerouslySetInnerHTML text={data} class_name="h-full" />
     </motion.div>
   );
 }

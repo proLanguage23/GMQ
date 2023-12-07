@@ -12,6 +12,7 @@ import { contactFormOfPTE } from "@/data/ShareData";
 import React from "react";
 
 import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
+import PopUpElement from "@/components/share/section/PopUpElement";
 function MockTestPage() {
   const popUpData = {
     type: "image",
@@ -30,7 +31,7 @@ function MockTestPage() {
       <MockTestSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }

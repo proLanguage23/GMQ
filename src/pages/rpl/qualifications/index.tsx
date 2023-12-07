@@ -2,6 +2,7 @@ import RPL_AllQualificationsList from '@/components/rpl/allQualifications/RPL_Al
 import { AppCourseBanner, DynamicHead, VisitedForm } from '@/components/share'
 import React from 'react'
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
+import PopUpElement from '@/components/share/section/PopUpElement';
 
 function Qualifications() {
   const popUpData = {
@@ -15,7 +16,7 @@ function Qualifications() {
       <DynamicHead title="RPL Qualifications-GMQ Global" description="RPL Qualifications-GMQ Global" />
       <AppCourseBanner text={"RPL Qualifications"} />
       <RPL_AllQualificationsList />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   )
 }

@@ -7,6 +7,7 @@ import { informationTechnologyBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
+import PopUpElement from "@/components/share/section/PopUpElement";
 
 function InformationTechnologyPage() {
   const popUpData = {
@@ -24,7 +25,7 @@ function InformationTechnologyPage() {
       <InformationTechnologySectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }

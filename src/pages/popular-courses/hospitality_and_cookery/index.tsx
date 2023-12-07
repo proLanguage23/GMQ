@@ -10,6 +10,7 @@ import { CookeryCoursesInAustraliaBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
+import PopUpElement from "@/components/share/section/PopUpElement";
 
 function CookeryCoursesInAustraliaPage() {
   const popUpData = {
@@ -28,7 +29,7 @@ function CookeryCoursesInAustraliaPage() {
       <CookeryCoursesSectionFour />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }

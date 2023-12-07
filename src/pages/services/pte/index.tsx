@@ -7,6 +7,7 @@ import {PTEBannerData } from '@/data/BannerData';
 import { contactFormOfPTE } from '@/data/ShareData';
 import React from 'react'
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
+import PopUpElement from '@/components/share/section/PopUpElement';
 
 function PTE_Page() {
   const popUpData = {
@@ -24,7 +25,7 @@ function PTE_Page() {
       <PTE_SectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   )
 }

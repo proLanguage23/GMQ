@@ -9,6 +9,7 @@ import HomeTestimonials from "@/components/home/testimonials";
 import HomeWhyGMQ from "@/components/home/whyGMQ";
 import { DynamicHead, VisitedForm } from "@/components/share";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
+import PopUpElement from "@/components/share/section/PopUpElement";
 
 export default function Home() {
   const popUpData = {
@@ -30,7 +31,7 @@ export default function Home() {
       <HomeHelpOfGMQ />
       <HomeTestimonials />
       <HomeRWL />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }

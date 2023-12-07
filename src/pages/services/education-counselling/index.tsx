@@ -11,6 +11,7 @@ import { EducationCounsellingBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
+import PopUpElement from "@/components/share/section/PopUpElement";
 
 function EducationCounsellingPage() {
   const popUpData = {
@@ -30,7 +31,7 @@ function EducationCounsellingPage() {
       <EducationCounsellingSectionThree />
       <CommonForm />
       <TestimonialSection />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }

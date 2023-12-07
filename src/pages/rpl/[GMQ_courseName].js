@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import { RPL_QualificationData } from "@/data/RPL_Data";
 import { DynamicHead, VisitedForm } from "@/components/share";
 import { contactFormOfPTE } from "@/data/ShareData";
+import PopUpElement from "@/components/share/section/PopUpElement";
 
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 function GMQ_coursePage() {
@@ -48,7 +49,7 @@ function GMQ_coursePage() {
       />
       <AppCourseBanner text={pageData?.content?.title} />
       <Courses data={pageData?.content?.link} />
-      <VisitedForm data={popUpData} />
+      <PopUpElement data={popUpData} />
     </>
   );
 }
