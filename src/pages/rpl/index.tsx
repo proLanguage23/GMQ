@@ -25,7 +25,7 @@ function RPL_Page() {
       {/* <AllQualifications /> */}
       <ViewQualification />
       <RPL_Certificate_Process />
-      {/* {/* <VisitedForm data={popUpData} /> */} */}
+      {/* <VisitedForm data={popUpData} /> */}
     </>
   );
 }
