@@ -12,9 +12,9 @@ function SuccessStep({ value }: any) {
 
   const finalFormHandler = (e?: any) => {
     e?.preventDefault();
-    const template_ID = `template_mj8iy56`;
-    const service_ID = `service_dekhg3n`;
-    const Public_Key = `2xRfgVr3100dUj7RY`;
+    const service_ID = `service_whzps24`;
+    const template_ID = `template_lymxadr`;
+    const Public_Key = `oJfs7GVoS5G8ETjmn`;
 
     // send massage by gmail inbox
     emailjs
@@ -36,12 +36,12 @@ function SuccessStep({ value }: any) {
 
   useEffect(() => {
     if (dabbleSubmitToggle) {
-      console.log("========true============================");
       finalFormHandler();
       return;
     }
     setDabbleSubmitToggle(true);
   }, [dabbleSubmitToggle]);
+
 
   return (
     <div className="flex flex-col justify-center items-center flex-wrap gap-3">
@@ -95,13 +95,6 @@ function SuccessStep({ value }: any) {
 
           <input
             type="text"
-            name="four_what_qualification"
-            className="border w-full p-1"
-            value={value?.four?.value?.fileData?.secure_url}
-            readOnly
-          />
-          <input
-            type="text"
             name="four_isFormal_qualification"
             className="border w-full p-1"
             value={value?.four?.value?.isFormal_qualification}
@@ -109,9 +102,16 @@ function SuccessStep({ value }: any) {
           />
           <input
             type="text"
-            name="four_fileData"
+            name="four_what_qualification"
             className="border w-full p-1"
             value={value?.four?.value?.what_qualification}
+            readOnly
+          />
+          <input
+            type="text"
+            name="four_fileData"
+            className="border w-full p-1"
+            value={value?.four?.value?.fileData}
             readOnly
           />
 

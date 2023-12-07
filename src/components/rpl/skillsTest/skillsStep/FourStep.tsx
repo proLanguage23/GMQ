@@ -97,16 +97,15 @@ function FourStep({ submitHandle, value }: any) {
 
       const cloudinary_folder_name = "gmqGlobal";
 
-      formData.append("upload_preset", `${cloudinary_folder_name}`);
+      formData.append("gmq-upload-images", `${cloudinary_folder_name}`);
 
       const data = await fetch(
-        "https://api.cloudinary.com/v1_1/ddepzqlbs/image/upload",
+        "https://api.cloudinary.com/v1_1/dh3qaglhg/image/upload",
         {
           method: "POST",
           body: formData,
         }
       ).then((r) => r.json());
-
       setAssetsData(data);
       if (data || assetsData) {
         setBtnBtn(true);
@@ -126,6 +125,7 @@ function FourStep({ submitHandle, value }: any) {
 
     reader.readAsDataURL(changeEvent.target.files[0]);
   }
+
 
   return (
     <div>
