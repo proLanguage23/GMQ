@@ -4,7 +4,7 @@ function AppGoToTop() {
   return (
     <ScrollToTop
       smooth
-      className="!bg-bluePrimary"
+      className="!bg-bluePrimary flex justify-center items-center p-3 !rounded-full"
       color="#fff"
     />
   );

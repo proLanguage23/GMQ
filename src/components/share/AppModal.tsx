@@ -1,4 +1,4 @@
-import { FaTimes } from "react-icons/fa";
+import { LiaTimesSolid } from "react-icons/lia";
 import AppBtn from "./AppBtn";
 import { motion } from "framer-motion";
 
@@ -16,7 +16,7 @@ function Modal({ handelModal, content }: any) {
       }}
     >
       <motion.div
-        className="absolute top-3 right-[3%] bg-black rounded z-50"
+        className="absolute top-3 right-[3%] bg-black md:bg-transparent rounded z-50"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0  }}
         transition={{
@@ -25,7 +25,7 @@ function Modal({ handelModal, content }: any) {
         }}
       >
         <AppBtn
-          text={<FaTimes size={30} className="text-customWhite" />}
+          text={<LiaTimesSolid  size={30} className="text-customWhite" />}
           class_name="text-white"
           handleClick={() => handelModal()}
         />
