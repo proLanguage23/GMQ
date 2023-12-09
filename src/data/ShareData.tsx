@@ -8,7 +8,7 @@ export const logoWithOutIcon = LogoWithOutIcon;
 
 export const email = 'info@gmqglobal.com.au';
 export const call = '1300 515 634';
-export const ACN_Number = `16672637651`
+export const ACN_Number = `16 672 637 651`
 export const address = ` 5/6 Bromham Place, Richmond, VIC 3121`
 
 export const contactFormOfHome = `<iframe src="https://form.jotform.com/form/233320383803045" class="contactFormOfHome iframeClass"></iframe>`

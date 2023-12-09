@@ -11,7 +11,7 @@ import { ACN_Number, whiteLogo } from './ShareData';
 export const HomeFooterDummyData = {
   generalData:{
     whiteLogo,
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae.',
+    text: 'At GMQ (Get Me Qualified) here we empower students in Australia through innovative and ethical education consulting.',
     abn: `ABN: ${ACN_Number}`
   },
   footerLinkGP: [
