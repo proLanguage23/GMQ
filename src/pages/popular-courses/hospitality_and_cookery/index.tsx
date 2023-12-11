@@ -31,7 +31,7 @@ function CookeryCoursesInAustraliaPage() {
       {/* <CookeryCoursesSectionTwo /> */}
       <CookeryCoursesSectionThree />
       {/* <CookeryCoursesSectionFour /> */}
-      <CommonForm />
+      {/* <CommonForm /> */}
       {/* <TestimonialSection /> */}
       <PopUpElement data={popUpData} />
     </>

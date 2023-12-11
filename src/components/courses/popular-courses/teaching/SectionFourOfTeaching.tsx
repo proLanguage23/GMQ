@@ -2,16 +2,28 @@ import {
   AppBgImg,
   AppBtn,
   AppDescriptionWithDangerouslySetInnerHTML,
+  AppModal,
   AppTitle,
   Container,
+  EntryForm,
 } from "@/components/share";
 import { TeachingDummyData } from "@/data/popular-courses/TeachingData";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { contactFormOfHome } from "@/data/ShareData";
 
 function SectionFourOfTeaching() {
+  const [modalShow, setModalShow] = useState(false);
+
   const { SectionFourOfTeaching } = TeachingDummyData;
   const { title, text, btn, secondaryImg } = SectionFourOfTeaching;
+
+  
+  const handelModal = () => {
+    setModalShow(!modalShow);
+  };
+
+
   return (
     <section className="py-16 relative w-full">
       <Container>
@@ -23,7 +35,8 @@ function SectionFourOfTeaching() {
           />
           <AppBtn
             text={btn?.text}
-            class_name="commonBtnStyle rounded-full border-none py-5"
+            handleClick={handelModal}
+            class_name="commonBtnStyle rounded-full py-4 hover:bg-transparent"
           />
         </div>
       </Container>
@@ -32,6 +45,12 @@ function SectionFourOfTeaching() {
         alt={title + " background"}
         class_name="blur-[0px]"
       />
+       {modalShow && (
+        <AppModal
+          handelModal={handelModal}
+          content={<EntryForm data={contactFormOfHome} />}
+        />
+      )}
     </section>
   );
 }

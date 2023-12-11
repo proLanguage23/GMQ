@@ -8,7 +8,7 @@ function CookeryCoursesSectionOneItem({ img, title, btn }: any) {
   };
   return (
     <div
-      className="cursor-pointer relative rounded-2xl shadow border sm:w-[300px] h-[230px] w-full overflow-hidden flex items-end p-3 hover:opacity-95 transition-all"
+      className="cursor-pointer relative rounded-2xl shadow border sm:w-[300px] h-[230px] w-full overflow-hidden flex items-end p-3 hover:opacity-95 transition-all z-0"
       onClick={handelUopUP}
     >
       <div className="flex justify-between items-center gap-2 w-full flex-wrap">
