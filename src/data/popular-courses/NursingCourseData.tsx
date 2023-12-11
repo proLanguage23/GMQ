@@ -15,6 +15,7 @@ import one_nurse from "@/assets/course/new/nursing/one_nurse.svg";
 import one_book from "@/assets/course/new/nursing/one_book.svg";
 import one_Career from "@/assets/course/new/nursing/one_Career.svg";
 import NursingCourseSectionOneItemBG from "@/assets/course/new/nursing/NursingCourseSectionOneItemBG.png";
+import aboutImg from "@/assets/course/NursingSix1.png";
 
 // new data collect end
 export const NursingCourseDummyDataOld = {
@@ -244,6 +245,17 @@ export const NursingCourseDummyDataOld = {
 
 export const NursingCourseDummyData = {
   banner: NursingBanner,
+  NursingCourseAboutSection:{
+    title: 'About the Course',
+    description:`
+    We at GMQ Global Australia pave the path for international students anticipating becoming permanent residents of Australia through nursing professions. Our guidance guarantees an effortless transition from navigating tricky PR pathways to helping with nursing study requirements and visa options. Our counselors focus on each person's abilities and goals to obtain higher education and permanent residence (PR) while providing personalized career counseling and immigration support.
+    <br/>
+    <br/>
+    The need for qualified nurses in Australia's healthcare industry is expected to increase by 19% by 2026 due to an aging population and an increase in chronic diseases in Australia. Therefore, after the COVID-19 pandemic, there has been an increased need for medical professionals, which has forced the government to increase funding for healthcare. Qualified nurses are in high demand in the public and private sectors of the nursing profession because hospitals, nursing homes, and clinics need them.
+
+    `,
+    img: aboutImg
+  },
   NursingCourseSectionOne: {
     data: [
       {
@@ -278,8 +290,9 @@ export const NursingCourseDummyData = {
     data: [
       {
         img: diplomaOfNursing,
-        text: ` Diploma of Nursing`,
-        description: ` Diploma of Nursing covers the essential skills and knowledge required to work as Enrolled Nurse in Global or under the supervision of a Registered nurse.`,
+        text: `Diploma of Nursing`,
+        description: `The curriculum for the Diploma of Nursing focuses on developing the essential skills for a career as an Enrolled Nurse in Australia and provides practical knowledge that is essential for success in the health sector.
+        `,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -287,8 +300,8 @@ export const NursingCourseDummyData = {
       },
       {
         img: bachelorOfNursing,
-        text: ` Bachelor of Nursing`,
-        description: ` This qualification helps you get armed with broad set of skills and start working as a Registered Nurse alongside expert clinicians on successful completion.`,
+        text: `Bachelor of Nursing`,
+        description: `A Bachelor's degree in Nursing provides access to specialized training and advanced positions such as nurse practitioners, anesthetists, midwives, or even medical doctors, allowing for a variety of career paths in the healthcare industry.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -297,7 +310,8 @@ export const NursingCourseDummyData = {
       {
         img: MasterOfNursing,
         text: ` Master  of Nursing`,
-        description: ` Graduation in Master of Nursing helps to broaden the career prospects by extending understanding of evidence based practise and being eligible for senior roles across...`,
+        description: `Obtaining a Master's degree in Nursing broadens one's knowledge in the field and provides opportunities for teaching aspiring nurses. There are many opportunities for nurse educators, including the chance to pursue a Ph.D.
+        `,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -305,8 +319,8 @@ export const NursingCourseDummyData = {
       },
       {
         img: OBA_Program,
-        text: ` OBA Program`,
-        description: ` It is a new two staged assessment process used by NMBA to assess the skills and knowledge of IQNMs whose overseas qualifications are deemed substantially...`,
+        text: `OBA Program`,
+        description: `Outcome-based assessment (OBA) is an innovative approach that AHPRA and NMBA established to assess the credentials of foreign nurses applying for recognition in Australia.        `,
         btn: {
           text: "inquire now",
           href: "/contact",

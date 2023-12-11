@@ -10,6 +10,7 @@ import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
+import { NursingCourseAboutSection } from "@/components/courses";
 
 function NursingPage() {
   const popUpData = {
@@ -22,11 +23,13 @@ function NursingPage() {
     <>
       <DynamicHead title="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" description="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" />
       <AppSliderBanner data={NursingBannerData} />
-      <NursingCourseSectionOne />
+      {/* <NursingCourseSectionOne /> */}
+      <NursingCourseAboutSection />
       <NursingCourseSectionTwo />
       <NursingCourseSectionThree />
-      <CommonForm />
-      <TestimonialSection />
+      <CommonForm title="Help us in getting to know you better, fill it up!" des="Choose GMQ Global for professional educational counseling. Our vast expertise offers efficient guidance towards your objectives. Fill out the form and get in touch with one of our student counselors—you'll be glad you did!
+" />
+      {/* <TestimonialSection /> */}
       <PopUpElement data={popUpData} />
     </>
   );
