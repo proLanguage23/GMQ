@@ -11,6 +11,8 @@ import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
+import CookeryCoursesAboutSection from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesAboutSection";
+import { CookeryCoursesWhyPursueSection } from "@/components/courses";
 
 function CookeryCoursesInAustraliaPage() {
   const popUpData = {
@@ -24,11 +26,13 @@ function CookeryCoursesInAustraliaPage() {
       <DynamicHead title="Cookery Courses in Australia: Top Colleges &amp; Universities, Fees, Prospects | Cooking Courses - GMQ Global" description="Cookery Courses in Australia: Top Colleges &amp; Universities, Fees, Prospects | Cooking Courses - GMQ Global" />
       <AppSliderBanner data={CookeryCoursesInAustraliaBannerData} />
       <CookeryCoursesSectionOne />
-      <CookeryCoursesSectionTwo />
+      <CookeryCoursesAboutSection />
+      <CookeryCoursesWhyPursueSection />
+      {/* <CookeryCoursesSectionTwo /> */}
       <CookeryCoursesSectionThree />
-      <CookeryCoursesSectionFour />
+      {/* <CookeryCoursesSectionFour /> */}
       <CommonForm />
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
       <PopUpElement data={popUpData} />
     </>
   );

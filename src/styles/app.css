@@ -309,10 +309,11 @@ html {
   margin: 0 0 10px 0;
 }
 .titleOfParagraph {
-  font-size: 23px;
+  font-size: 35px;
   margin: 0 0 10px 0;
   font-weight: 500 !important;
 }
+
 .StepItem,
 .StepItemBefore,
 .stepName,
@@ -410,4 +411,9 @@ html {
     z-index: 10;
     top: -35px;
   }
+
+  .titleOfParagraph {
+    font-size: 25px;
+  }
 }
+

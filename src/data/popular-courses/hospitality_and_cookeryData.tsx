@@ -1,15 +1,25 @@
 import AdvancedDiplomaOfHospitality from "@/assets/course/new/Cookery/AdvancedDiplomaOfHospitality.png";
 import BachelorOfTourismAndHospitalityManagement from "@/assets/course/new/Cookery/AdvancedDiplomaOfHospitality.png";
 import cookImg from "@/assets/course/new/Cookery/cookImg.jpg";
+import AboutOfCookImg from "@/assets/course/new/Cookery/cookImg.jpg";
 
 export const hospitality_and_cookeryDummyData = {
   CookeryCoursesSectionOne: {
-    title: `hospitality and cookery Available Courses`,
+    title: `Certifications Offered in Hospitality & Cookery Programs`,
     data: [
       {
         img: AdvancedDiplomaOfHospitality,
-        title: `Certificate III in Commercial Cookery`,
-        text: ``,
+        text: `CERTIFICATE III IN PATISSERIE - SIT31016`,
+        description: `This certifies pastry chefs to gain skills in various patisserie techniques to work as pastry chefs or patissiers in patisseries, restaurants, hotels, and cafes.`,
+        btn: {
+          text: "Contact now",
+          href: "/contact",
+        },
+      },
+      {
+        img: AdvancedDiplomaOfHospitality,
+        text: `CERTIFICATE IV IN COMMERCIAL COOKERY - SIT40516`,
+        description: `The certificate enhances the commercial cooks to take on supervisory roles and opens doors for jobs such as chef or chef de partie in cafes, hotels, and restaurants.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -17,8 +27,8 @@ export const hospitality_and_cookeryDummyData = {
       },
       {
         img: AdvancedDiplomaOfHospitality,
-        title: `Certificate IV in Commercial Cookery `,
-        text: ``,
+        text: `CERTIFICATE IV IN HOSPITALITY - SIT40416`,
+        description: `This certifies qualified executives with the necessary service skills to oversee teams in the hospitality industry, as bar supervisors, and duty managers, at hotels or even cafes.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -26,8 +36,8 @@ export const hospitality_and_cookeryDummyData = {
       },
       {
         img: AdvancedDiplomaOfHospitality,
-        title: `Certificate III in Patisserie`,
-        text: ``,
+        text: `CERTIFICATE IV IN KITCHEN MANAGEMENT - SIT40521`,
+        description: `This certificate ensures chefs and cooks with skills to work independently in kitchens or any leadership positions, at their own cafes, hotels, or restaurants.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -35,8 +45,8 @@ export const hospitality_and_cookeryDummyData = {
       },
       {
         img: AdvancedDiplomaOfHospitality,
-        title: `Certificate IV in Patisserie`,
-        text: ``,
+        text: `CERTIFICATE IV IN PATISSERIE - SIT40716`,
+        description: `This certification allows pastry chefs to work freely in an assortment of settings as leaders in the kitchens of hotels, pubs, clubs, patisseries, or restaurants.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -44,8 +54,9 @@ export const hospitality_and_cookeryDummyData = {
       },
       {
         img: AdvancedDiplomaOfHospitality,
-        title: `Certificate IV in Hospitality (Catering Operations)`,
-        text: ``,
+        text: `Diploma of Hospitality Management - SIT50416`,
+        description: `This certification provides the knowledge for one to become a senior operator in hospitality management and work in a variety of industry sectors.
+        `,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -53,17 +64,8 @@ export const hospitality_and_cookeryDummyData = {
       },
       {
         img: AdvancedDiplomaOfHospitality,
-        title: `Diploma of Hospitality`,
-        text: ``,
-        btn: {
-          text: "inquire now",
-          href: "/contact",
-        },
-      },
-      {
-        img: AdvancedDiplomaOfHospitality,
-        title: `Associate Degree of Hospitality Management`,
-        text: ``,
+        text: `Bachelor of Tourism and Hospitality Management`,
+        description: `The degree combines the skills in entertainment & tourist spots, and hotels, alongside in-depth insights into marketing, business, and management.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -71,17 +73,8 @@ export const hospitality_and_cookeryDummyData = {
       },
       {
         img: BachelorOfTourismAndHospitalityManagement,
-        title: `Bachelor of Tourism and Hospitality Management`,
-        text: ``,
-        btn: {
-          text: "inquire now",
-          href: "/contact",
-        },
-      },
-      {
-        img: AdvancedDiplomaOfHospitality,
-        title: `Advanced Diploma of Hospitality`,
-        text: ``,
+        text: `Advanced Diploma of Hospitality Management - SIT60316`,
+        description: `The advanced diploma provides the knowledge to become a skilled senior manager with specialized skills in areas like cuisines, hotels, and managerial duties.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -91,8 +84,7 @@ export const hospitality_and_cookeryDummyData = {
   },
   CookeryCoursesSectionTwo: {
     left: {
-      title:
-        "Commercial Cookery Courses in Global for International Students",
+      title: "Commercial Cookery Courses in Global for International Students",
       text: `Over the years, cookery has been at the cornerstone of society by serving quality of food and promoting an environment for conversation and thought.
 </br />
 </br />
@@ -106,322 +98,181 @@ export const hospitality_and_cookeryDummyData = {
     },
   },
   CookeryCoursesSectionThree: {
-    text: `<h1 class="titleOfParagraph">Why pursue cookery career in Global?</h1>
-
-    <p class="part">Global is well-known for its culinary cultures due to amalgamation of international flavours. It is the second most preferred destination after Switzerland to study professional cookery and culinary arts.</p>
-    
-    <p class="part">Every year thousands of overseas students choose to pursue culinary courses both at graduate and post graduate levels from Globaln universities to gain hands-on training at some of the best hotels and restaurants.</p>
-    
-    <p class="part">Additionally, a report conducted by Deloitte Access Economics predicted that currently more than 38,000 chefs are needed across Global. This has forced some of the biggest hospitality groups of Global to spend valuable time, money and resources in hiring suitable employees overseas.</p>
-    
-    <h3>&nbsp;</h3>
-    
-    <p class="part"><strong>1. Thriving Culinary Scene:</strong></p>
-    
-    <p class="part">Global boasts a vibrant culinary scene, making it an enticing destination for aspiring chefs and culinary enthusiasts.</p>
-    
-    <ul>
-      <li>Diverse Cuisine: Explore a rich blend of global flavours, from authentic Asian dishes to modern Globaln fusion.</li>
-      <li>World-Class Restaurants: Benefit from exposure to renowned restaurants and chefs, gaining insights into innovative culinary techniques.</li>
-    </ul>
-    
-    </br>
-    
-    <p class="part"><strong>2. Acclaimed Culinary Institutions:</strong></p>
-    
-    <p class="part">Renowned culinary schools in Global offer top-tier education and hands-on experience.</p>
-    
-    <ul>
-      <li>Quality Education: Institutions like Le Cordon Bleu Global and TAFE Queensland provide comprehensive courses, equipping students with industry-relevant skills.</li>
-      <li>Internship Opportunities: Gain practical knowledge through internships at esteemed restaurants and hotels, enhancing employability.</li>
-    </ul>
-    
-    <h3>&nbsp;</h3>
-    
-    <p class="part"><strong>3. Global Career Prospects:</strong></p>
-    
-    <p class="part">An Globaln culinary education opens doors to global career opportunities in the hospitality industry.</p>
-    
-    <ul>
-      <li>International Recognition: Qualifications are widely respected, allowing graduates to work in diverse culinary environments worldwide.</li>
-      <li>Growing Industry: The Globaln hospitality industry contributes significantly to the economy, with over AUD 41 billion in revenue in 2021.</li>
-    </ul>
-    
-    <h3>&nbsp;</h3>
-    
-    <p class="part"><strong>4.&nbsp;Multicultural Learning Experience:</strong></p>
-    
-    <p class="part">Studying in Global offers more than just culinary education&mdash;it&rsquo;s cultural immersion.</p>
-    
-    <ul>
-      <li>Cultural Diversity: Interact with peers from around the world, broadening your understanding of global cuisines and traditions.</li>
-      <li>Work-Life Balance: Enjoy Global&rsquo;s high quality of life with a mix of urban excitement and natural beauty.</li>
-    </ul>
-    
-    </br>
-    
-    <p class="part"><strong>5.&nbsp;Pathway to Entrepreneurship:</strong></p>
-    
-    <p class="part">For those with entrepreneurial aspirations, Global provides a supportive environment.</p>
-    
-    <ul>
-      <li>Startup Ecosystem: Benefit from a thriving startup ecosystem, with opportunities to create your own culinary ventures.</li>
-      <li>Business-Friendly: Global ranks 14th in the World Bank&rsquo;s Ease of Doing Business Index, encouraging entrepreneurial endeavours.</li>
-    </ul>
-    
-    </br>
-    
-    </br>
-    
+    text: `
     <h1 class="titleOfParagraph">Eligibility Criteria</h1>
-    
+    <p class="part"> <b> Meet the Following Criteria </b> </p>
     <ul>
-      <li>Offer Letter from the selected university</li>
-      <li>A valid passport</li>
-      <li>English Language Proficiency Certificates (IELTS 6.5 overall score with no score lower than 6.0 in each component or PTE Academic score 58 with no score lower than 50 in each component)</li>
-      <li>Evidence of sufficient funds for the duration of course of study</li>
-      <li>Evidence of Overseas Students Health Cover</li>
-      <li>All other relevant documents required by the Department of Home Affairs</li>
+      <li>University offer letter</li>
+      <li>Valid passport</li>
+      <li>English Proficiency (IELTS 6.5 overall, no lower than 6.0 in each part / PTE Academic 58, no lower than 50 in each part)</li>
+      <li>Proof of financial support for course duration
+      </li>
+      <li>Overseas Students' Health Cover</li>
+      <li>Additional documents as per the Department of Home Affairs
+      </li>
     </ul>
     
     </br >
     </br >
     
-    <h1 class="titleOfParagraph">Cookery Courses in Global for International Students</h1>
+    <h1 class="titleOfParagraph">Why is Australia a Popular Choice for Culinary Learning?</h1>
     
-    <p class="part">Cookery courses in Global offer a dynamic culinary education, embracing the country&rsquo;s diverse flavours and techniques. From mastering indigenous ingredients to perfecting modern fusion, these courses provide hands-on learning and experienced instructors, celebrating both tradition and innovation in Globaln cuisine.</p>
+    <p class="part">
     
-    <p class="part">Let&rsquo;s see why foreign nationals plan to study cookery courses in Global:</p>
-        </br>
-    <ol>
-      <li class="part"><strong>Culinary Diversity: </strong>Global&rsquo;s multicultural society is reflected in its cuisine, making it an ideal destination for international students to explore a wide range of flavors and cooking techniques from around the world.</li>
-  
-      <li class="part"><strong>Quality Education:</strong> Renowned for its high standard of education, Global offers top-notch culinary schools with state-of-the-art facilities and experienced instructors, ensuring students receive a comprehensive and valuable learning experience.</li>
-      <li class="part"><strong>Industry Opportunities:</strong> With a thriving food and hospitality industry, international students can gain practical experience and networking opportunities through internships, part-time work, and exposure to local food events, setting the stage for a successful culinary career.</li>
-      <li class="part"><strong>Cultural Immersion:</strong> Studying cookery in Global allows students to immerse themselves in the country&rsquo;s lifestyle and culture, interacting with locals and fellow international peers while exploring the vibrant food scene.</li>
-      <li class="part"><strong>Global Recognition:</strong> Graduating from an Globaln cookery program can open doors worldwide, as the country&rsquo;s culinary education is highly respected, providing students with a competitive edge in the global culinary job market.</li>
-    </ol>
+    Australia allows international students to set out on an exciting culinary journey, where courses are created from a diverse variety of flavors and techniques. From indigenous ingredient mastery to modern fusion, it lets experienced instructors provide hands-on instruction that blends tradition and innovation.
+
+    </p>
+
+    <p class="part"> Studying Culinary Courses in Australia reveals international culinary practices, demonstrating how each region prepares food art in its own unique way. Here, you can explore a diverse palette of flavors, from meat pies to barramundi and much more.</p>
+
+    <p class="part">Furthermore, the allure of culinary art ensures a plethora of job opportunities in the fastest-growing industry. Whether you want to be a chef, a restaurant manager, or a food critic, Australia's culinary education will open doors to a vibrant and expanding industry. </p>
     
     </br>
+    </br>
     
-    <h3><strong>Cost of Studying Cooking Courses in Global for International Students</strong></h3>
+    <h3 class="titleOfParagraph">Cost Estimation of Hospitality & Cookery Courses in Australia</h3>
     
-    <p class="part"><span style="color: rgb(0, 0, 0); font-family: Montserrat, sans-serif; font-size: 14.1376px;">In Globaln cookery courses, international students will learn diverse cooking skills, from food preparation and cooking techniques to presentation and kitchen hygiene. These programmes emphasise creativity, food safety and may cover menu planning, nutrition, and sustainability, offering a comprehensive foundation for a successful career in the cooking world.</span></p>
+    <p class="part">
+    The appeal of culinary education in Australia stems from its diverse curriculum, which draws students from all over the world. The institutes here not only teach cooking but also management and leadership skills, which are essential in commercial kitchens.
+    </p>
+
+    <p class="part">Tuition fees vary depending on your chosen discipline, degree level, and university. Bachelor's degrees cost between $20,000 and $45,000 AUD per year for international students, while Master's and PhD degrees cost between $22,000 and $50,000 AUD per year.</p>
+
+    <p class="part">    Let’s take a look at the table below:</p>
     
     </br >
     
     <table class="border sm:w-full" cellpadding="5" cellspacing="5">
       <tbody>
          <tr  class="border" align="center">
-          <th width="15%"> No.</th>
-          <th width="45%">Cookery Course</th>
-          <th width="40%">Approx. Fees per Course (AUD) </th>
+          <th width="45%">Name of the Courses</th>
+          <th width="40%">Approx. Fees per Course in AUD </th>
         </tr>
          <tr  class="border" align="center">
-          <td >1</td>
           <td>Certificate III in Commercial Cookery</td>
-          <td>$7,000 &ndash; $12,000 (1 year)</td>
+          <td>$7,000 – $12,000 (1 year)</td>
         </tr>
          <tr  class="border" align="center">
-          <td>2</td>
+          <td >Certificate IV in Commercial Cookery</td>
+          <td >$8,000 – $15,000 (1 year)</td>
+        </tr>
+         <tr  class="border" align="center" >
           <td >Diploma of Culinary Arts</td>
-          <td >$15,000 &ndash; $25,000 (1 &ndash; 2 years)</td>
+          <td >$15,000 – $25,000 (1 – 2 years)</td>
         </tr>
-         <tr  class="border" align="center" >
-          <td >3</td>
+         <tr  class="border" align="center">
           <td >Bachelor of Culinary Management</td>
-          <td >$20,000 &ndash; $35,000 (3 years)</td>
+          <td>$20,000 – $35,000 (3 years)</td>
         </tr>
-         <tr  class="border" align="center">
-          <td>4</td>
+         <tr  class="border" align="center" >
           <td >Advanced Diploma of Hospitality</td>
-          <td>$12,000 &ndash; $20,000 (1 &ndash; 2 years)</td>
+          <td >$12,000 – $20,000 (1 – 2 years)</td>
         </tr>
          <tr  class="border" align="center" >
-          <td >5</td>
           <td >Certificate IV in Patisserie</td>
-          <td >$8,000 &ndash; $15,000 (1 year)</td>
-        </tr>
-         <tr  class="border" align="center" >
-          <td >6</td>
-          <td >Master of Gastronomic Tourism</td>
-          <td >$25,000 &ndash; $40,000 (1.5 &ndash; 2 years)</td>
+          <td >$8,000 – $15,000 (1 year)</td>
         </tr>
          <tr  class="border" align="center">
-          <td>7</td>
-          <td>Certificate II in Kitchen Operations</td>
-          <td>$5,000 &ndash; $8,000 (6 months &ndash; 1 year)</td>
+          <td>Master of Gastronomic Tourism</td>
+          <td>$25,000 – $40,000 (1.5 – 2 years)</td>
         </tr>
          <tr  class="border" align="center">
-          <td>8</td>
-          <td >Bachelor of Culinary Arts</td>
-          <td >$20,000 &ndash; $35,000 (3 years)</td>
+          <td >Certificate II in Kitchen Operations</td>
+          <td >$5,000 – $8,000 (6 months – 1 year)</td>
         </tr>
          <tr  class="border" align="center">
-          <td>9</td>
+          <td>Bachelor of Culinary Arts</td>
+          <td>$20,000 – $35,000 (3 years)</td>
+        </tr>
+         <tr  class="border" align="center">
           <td>Diploma of Food Science and Technology</td>
-          <td>$15,000 &ndash; $25,000 (1 &ndash; 2 years)</td>
-        </tr>
-         <tr  class="border" align="center">
-          <td>10</td>
-          <td>Certificate IV in Commercial Cookery</td>
-          <td>$8,000 &ndash; $15,000 (1 year) </td>
+          <td>15,000 – $25,000 (1 – 2 years) </td>
         </tr>
       </tbody>
     </table>
     
     </br>
     
-    <p class="part"><em><strong>Note:</strong></em> Please keep in mind that these figures are rough estimates and can vary based on factors such as the specific institution, course duration, and location. It&rsquo;s recommended to visit the official websites of the respective institutions for accurate and up-to-date information on course fees.</p>
+    <p class="part"><em><strong>Note:</strong></em> Please keep in mind that these figures are estimates and may vary depending on factors such as the institution, course duration, and location. We recommend visiting the official websites of the respective institutions for the most up-to-date and precise fee information.
+    </p>
     
     </br >
     </br >
     
-    <h1 class="titleOfParagraph">Colleges for Cookery Courses in Global</h1>
+    <h1 class="titleOfParagraph">World’s Hottest Culinary Colleges Offering Cookery Courses in Australia    </h1>
     
-    <p class="part">Global&rsquo;s prestigious colleges and universities provide cookery courses that combine practical training and theoretical knowledge. These programmes, supported by industry partnerships and experienced faculty, prepare students for successful careers in the culinary and hospitality fields. With a focus on creativity and hands-on learning, students gain the skills and insights needed to excel in the dynamic world of gastronomy.</p>
-    </br>
-    <p><strong>1. Le Cordon Bleu Global</strong></p>
+    <p class="part">To become a successful chef, you must have grit, passion, and determination. A good culinary school can help you get started on the right foot.</p>
+    <p class="part">Australia is home to an abundance of reputable culinary schools, which are essential for aspiring kitchen professionals. They cover everything from kitchen management to communication skills.</p>
+    <p class="part">Culinary schools in Australia offer certificates III and IV, which take six months to two and a half years to complete full-time. Some also offer patisserie, bakery, Asian cooking, and culinary management courses.</p>
+
+    <p><strong>1. Nomi College</strong></p>
     
-    <ul>
-      <li>Renowned for culinary and hospitality education.</li>
-      <li>Offers a variety of programs including diplomas, bachelor&rsquo;s, and master&rsquo;s degrees.</li>
-    </ul>
-     </br >
-    
-    <p ><strong>2.&nbsp;William Blue College of Hospitality Management</strong></p>
-    
-    <ul>
-      <li>Offers a range of culinary and hospitality programs.</li>
-      <li>Known for its industry connections and practical training.</li>
+    <ul class="part">
+      <li>SIT40521 - Certificate IV in Kitchen Management </li>
+      <li>SIT50422 -  Diploma of Hospitality Management </li>
+      <li>Certificate IV in Kitchen Management + Diploma of Hospitality Management 
+      </li>
     </ul>
     
-    </br>
+    <p><strong>2. Franklin International College </strong></p>
     
-    <p><strong>3. TAFE Queensland</strong></p>
-    
-    <ul>
-      <li>Offers a wide array of hospitality and cookery courses.</li>
-      <li>Known for its vocational and practical approach to education.</li>
+    <ul class="part">
+      <li>Cert IV in Kitchen Management</li>
+      <li>Diploma of Hospitality Management</li>
+      <li>Advanced Diploma of Hospitality Management</li>
     </ul>
     
-    </br>
+    <br/>
+    <br/>
     
-    <p><strong>4.&nbsp;Box Hill Institute</strong></p>
+    <h1 class="titleOfParagraph">Incredible Career Prospects for Cookery & Hospitality Graduates</h1>
     
-    <ul>
-      <li>Offers a diverse range of culinary and hospitality programs.</li>
-      <li>Known for its modern facilities and industry partnerships.</li>
-    </ul>
+    <p class="part">Interestingly, Australia's thriving tourism industry has broadened its culinary tastes, opening up a plethora of commercial cooking job opportunities for both local and international students. Moreover, the hotels and resorts industry in Australia is worth $1.3 billion and is expected to grow 13.3% by 2023
+    </p>
     
-    </br>
+    <p class="part">Following the setbacks caused by the COVID-19 pandemic, 2023 represents a robust resurgence for Australia's tourism and hospitality sectors, with a year brimming with opportunities. The hospitality industry in Australia is rebounding and offering plenty of career opportunities to fill the sector's significant staff shortage. </p>
     
-    <p><strong>5.&nbsp;The Hotel School Sydney</strong></p>
+    <p class="part">Explore the most in-demand jobs in hospitality this year and use your skills to advance your career or travel.</p>
     
-    <ul>
-      <li>Provides a blend of business and hospitality education.</li>
-      <li>Offers programs in partnership with Southern Cross University.</li>
-    </ul>
-    
-    </br>
-    
-    <p><strong>6.&nbsp;Holmesglen Institute</strong></p>
-    
-    <ul>
-      <li>Offers comprehensive cookery and hospitality courses.</li>
-      <li>Known for its strong industry connections and training facilities.</li>
-    </ul>
-    
-    </br>
-    
-    <p><strong>7.&nbsp;Northern Sydney Institute of TAFE</strong></p>
-    
-    <ul>
-      <li>Offers various cookery and culinary arts programs.</li>
-      <li>Known for its emphasis on practical skills and creativity.</li>
+    <p class="part">Top In-Demand Jobs in Cookery & Hospitality Sector
+    </p>
+
+    <ul class="part">
+      <li>Digital Specialists</li>
+      <li>Chefs & Cooks</li>
+      <li>Research & Development Chef </li>
+      <li>Hotel Managers & Staff</li>
+      <li>Catering Manager & Staff</li>
+      <li>Bakers & Pastry Chefs</li>
+      <li>Sommeliers & Specialty Bartenders</li>
+      <li>Revenue Managers</li>
+      <li>Food Stylist</li>
+      <li>Culinary Educator</li>
+      <li>Menu Developer</li>
+      <li>Culinary Consultant</li>
+      <li>Food Critic & Food Blogger</li>
     </ul>
     
     </br>
-    
-    <p><strong>8. TAFE SA</strong></p>
-    
-    <ul>
-      <li>Offers a range of hospitality and cookery programs.</li>
-      <li>Known for its focus on real-world skills and industry relevance.</li>
-    </ul>
-    </br >
-    <p><strong>9.&nbsp;Kangan Institute</strong></p>
-    
-    <ul>
-      <li>Offers diverse cookery and hospitality courses.</li>
-      <li>Known for its practical training and industry connections.</li>
-    </ul>
-    
     </br>
     
-    <p><strong>10.&nbsp;Canberra Institute of Technology</strong></p>
+    <h1 class="titleOfParagraph">Flame Up Your Culinary Future with GMQ Global's Guidance!</h1>
     
-    <ul>
-      <li>Provides a range of culinary and hospitality programs.</li>
-      <li>Known for its hands-on training and experienced faculty.</li>
-    </ul>
+    <p class="part">When it comes to studying or settling in Australia, the assistance of knowledgeable immigration consultants is priceless. Their knowledge reduces the likelihood of visa rejection and ensures compliance with immigration laws.</p>
     
-    </br>
-    
-    <p class="part"><em><strong>Note:</strong></em> These institutions are recognized for their quality cookery courses and are often preferred by international students seeking cooking education in Global. These are a few top institutes in cookery courses segment, there are many other institutes in Global that offer similar courses. We suggest students or parents do research before enrolling. Remember to research each institution to find the specific course that aligns with your interests and goals.</p>
-    
-    <p class="part">Whether you&rsquo;re in Sydney, Melbourne, or Brisbane, Global offers a plethora of culinary education options to sharpen your cooking skills. From cookery courses in Sydney and culinary schools in Sydney to cooking courses in Melbourne and cookery courses in Brisbane, there&rsquo;s something for every aspiring chef. If you&rsquo;re interested in a more professional route, commercial cookery in Global is a booming field, with specialised commercial cookery courses available across the country, including cooking classes in Perth, Adelaide, and Melbourne. So, whether it&rsquo;s cooking classes in Sydney, Global, or cookery courses in Melbourne, your culinary dreams can come true Down Under.&nbsp; In addition to major cities, cookery colleges are also available in other parts of Global, offering a wide range of courses to suit every cookery aspiration.</p>
-    
-    </br >
-    </br >
-    
-    <h1 class="titleOfParagraph">Career Prospects After Pursuing Cooking Courses in Global</h1>
-    
-    <p class="part">After pursuing cooking courses in Global, graduates can look forward to a wide range of promising career prospects in the culinary industry, both within Global and internationally. These include:</p>
-    
-    </br>
-    
-    <p class="part"><strong>Chef/Cook: </strong>Graduates can work in various culinary roles, preparing and creating dishes in restaurants, hotels, cafes, and catering companies. They can specialise in different cuisines and techniques, advancing to positions like sous chef, head chef, or executive chef.</p>
-    
-    <p class="part"><strong>Culinary Entrepreneur:</strong> Armed with business skills from their courses, graduates might choose to start their own restaurants, cafes, food trucks, or catering businesses, showcasing their culinary creativity and management expertise.</p>
-    
-    <p class="part"><strong>Food Stylist:</strong> Graduates can work in food media, styling dishes for photography, advertisements, cookbooks, and television shows, ensuring that food is visually appealing for various media platforms.</p>
-    
-    <p class="part"><strong>Culinary Educator: </strong>With advanced training, some graduates might become culinary instructors or educators, sharing their knowledge and expertise with aspiring chefs in culinary schools or workshops.</p>
-    
-    <p class="part"><strong>Food and Beverage Manager:</strong> Graduates can move into management roles within the hospitality industry, overseeing kitchen operations, menu planning, and ensuring exceptional dining experiences for guests.</p>
-    
-    <p class="part"><strong>Menu Developer:</strong> Many restaurants and food establishments seek experts to create innovative and appealing menus that cater to changing culinary trends and customer preferences.</p>
-    
-    <p class="part"><strong>Research and Development Chef:</strong> Graduates with a passion for innovation can work in product development for food companies, creating new recipes, flavours, and food products.</p>
-    
-    <p class="part"><strong>Culinary Consultant:</strong> Graduates can offer their expertise to restaurants and food establishments, providing insights on menu design, kitchen operations, and staff training.</p>
-    
-    <p class="part"><strong>Catering Manager:</strong> Working in event planning and catering, graduates can organise and execute large-scale food events, such as weddings, corporate functions, and parties.</p>
-    
-    <p class="part"><strong>Food Critic or Blogger:</strong> Those with excellent communication skills might become food critics, bloggers, or influencers, sharing their culinary experiences and insights through writing and social media.</p>
-    
-    <p class="part"><strong>Culinary Media:</strong> Graduates might explore roles in food journalism, television production, or digital media, combining their passion for food with storytelling.</p>
-    
-    <p class="part"><strong>Culinary Tourism:</strong> With the rise of culinary tourism, graduates can work in roles that focus on showcasing local cuisine and culture to travellers.</p>
+    <p class="part">As registered MARA (Migration Agents Registration Authority) agents, GMQ Global in Australia provides expert advice, keeping you up to date on regulatory changes and increasing your chances of visa approval.</p>
     
     </br>
     </br>
     
-    <h1 class="titleOfParagraph">Hire Aussizz group &amp; put a step forward towards a bright future in commercial cookery</h1>
+    <h1 class="titleOfParagraph">Easily Secure Permanent Residency in Australia Being a Commercial Cookery Professional</h1>
     
-    <p class="part">When it comes to studying or settling in Global, the benefits of hiring qualified immigration consultants are substantial. Their expertise helps in curtail the chances of visa application rejection and ensure that the entire process follows the immigration laws.</p>
+    <p class="part">The path to Permanent Residency has never been simpler & more interesting – enjoy what you do and live where you want! In Australia, through commercial cooking, a diploma or higher education course in hospitality & cookery courses opens the door to Chef positions on Australia's Skilled Occupation List.</p>
     
-    <p class="part">Being registered MARA (Migration Agents Registration Authority) agents, with headquarters in India and Global, we at Aussizz Group make sure you stay updated with the regulatory changes while ensuring maximum chances of your visa getting approved.</p>
-    
-    </br>
-    </br>
-    
-    <h1 class="titleOfParagraph">Pathway to permanent residency in Global</h1>
-    
-    <p class="part">Since Chef is on the Skilled Occupation List of Global, pursuing a diploma or higher education course can help students find a way to permanent residency in Global.</p>
-    
-    <p class="part">We will assist you in selecting the best programme along with the appropriate college for your Cookery degree and also help you get eligible for Temporary Graduate Visa so you can study, stay, and work in Global temporarily after the completion of the studies. This will provide you an opportunity to gain relevant experience to support your Permanent Residency application.</p>
+    <p class="part">The guidance of GMQ Global will ensure that you select the most suitable program and college for your Cookery degree, allowing you to be eligible for the Temporary Graduate Visa. This visa allows you to study, work, and stay in Australia for a short period of time after finishing your studies, providing valuable experience to support your Permanent Residency application.</p>
+    <p class="part">
+    With commercial cooking skills, you can open the door to a variety of hospitality career paths, some of which lead to a Permanent Residency in Australia. It's a popular course among international students since it sets you up for PR in Australia by training you in a high-demand occupation in Australia.
+    </p>
     
     </br>
     `,
@@ -448,6 +299,67 @@ export const hospitality_and_cookeryDummyData = {
       {
         title: `Can international students work while studying cookery courses in Global?`,
         text: `Yes, international students on a valid student visa can work up to 40 hours per fortnight during their course and full-time during scheduled breaks.`,
+      },
+    ],
+  },
+  CookeryCoursesAboutSection: {
+    title:
+      "Explore Hospitality & Cookery Courses as an International Student in Australia",
+    description: `
+    Come along with Australia's Culinary and Hospitality Revolution! The courses revere the long-standing custom of culinary delights, which is a pillar of Australia’s rich society, promoting incredible food and innovative approaches. There is a growing need for qualified professionals in this field due to the rise in international tourism.
+
+    <br/>
+    <br/>
+
+    Indulge your love of cooking arts, as the learning experience provides a road to opportunities with top-notch chefs as your guides. Thus, offering an immersive experience in cooking and hospitality skills, whether your goal is to create mouthwatering dishes or become a top server in the restaurant culture.
+
+    <br/>
+    <br/>
+
+    With the right learning approach and individual expertise in courses, you can become an expert in the food and beverage industry. Discover the art of running a cafe, entertaining customers, and making the perfect cup of coffee or three-course meal. All of the courses lead to nationally recognized credentials, giving you a head start in your career.
+    `,
+    img: AboutOfCookImg,
+  },
+  CookeryCoursesWhyPursueSection: {
+    title: "Why pursue a cookery career in Australia?",
+    description: `Australia's culinary scene, which is rich in global flavors, ranks second only to Switzerland as a top choice for studying professional cookery and culinary arts. International students flock to Australian universities to gain practical experience in world-class hotels and restaurants.
+
+   According to a Deloitte Access Economics report, Australia has a pressing need for over 38,000 chefs, prompting major hospitality players to invest heavily in recruiting skilled professionals from abroad. This demand emphasizes the importance of culinary education and opportunities in this thriving industry.
+    `,
+    data: [
+      {
+        text: "Vibrant Culinary Scene:",
+        description: `The vibrant diversity of Australia's culinary landscape entices passionate chefs and food enthusiasts.
+        <br/>
+        Explore a world of flavors, from authentic Asian delicacies to cutting-edge Australian fusion. Immerse yourself in world-class restaurants, learning cutting-edge culinary techniques from renowned chefs.`,
+      },
+      {
+        text: "Acclaimed Culinary Institutions:",
+        description: `Australia's leading culinary institutions provide exceptional education and practical learning.
+
+        <br/>
+        Access comprehensive programs tailored to industry needs from renowned Le Cordon Bleu Australia to TAFE Queensland. Internships at prestigious hotels and restaurants will help you advance your skills and career opportunities.`,
+      },
+      {
+        text: "Global Esteem & Exposure:",
+        description: `An Australian culinary education opens the door to a world of career opportunities in hospitality.
+
+        <br/>
+        Earn internationally recognized credentials that will enable you to thrive in a variety of culinary settings around the world. Join a thriving industry—Australia's hospitality sector, which is expected to generate more than AUD 41 billion in revenue by 2021.`,
+      },
+      {
+        text: "Cultural Fusion: ",
+        description: `The study experience in Australia is more than just a culinary education—it is a cultural journey.
+
+        <br/>
+        Participate in a diverse community, embracing global flavors and traditions with your peers. Explore the incredible & vibrant mix of Australia’s city life and natural wonders, which provides a unique work-life balance.`,
+      },
+      {
+        text: "Pathway to Entrepreneurship: ",
+        description: `With an inviting surroundings, Australia promotes entrepreneurial dreams.
+
+        <br/>
+        Investigate an active startup community that will help you launch your culinary ventures. Australia encourages and supports entrepreneurial initiatives, ranking 14th in the World Bank's Ease of Doing Business Index.`,
       },
     ],
   },

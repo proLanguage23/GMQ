@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 function CookeryCoursesSectionOne() {
   const [cookeryHospitalityData, setCookeryHospitalityData] = useState<any>([]);
   const { CookeryCoursesSectionOne } = hospitality_and_cookeryDummyData;
-  const { title } = CookeryCoursesSectionOne;
+  const { title, data } = CookeryCoursesSectionOne;
   const { RPL_QualificationItems } = RPL_QualificationData;
 
   useLayoutEffect(() => {
@@ -25,7 +25,7 @@ function CookeryCoursesSectionOne() {
         <AppTitle text={title} heading class_name="text-center capitalize" />
         <div className="flex justify-center flex-wrap gap-2 mt-9">
           <QualificationItemResult
-            allRPL_QualificationItems={cookeryHospitalityData}
+            allRPL_QualificationItems={data}
             outPutItemNumber={8}
             class_name="lg:w-[24%] md:w-[32%] sm:w-[48%] w-[95%] max-w-[380px]"
           />

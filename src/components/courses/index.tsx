@@ -2,6 +2,7 @@ export { default as CookeryCoursesSectionFour } from './popular-courses/CookeryC
 export { default as CookeryCoursesSectionOne } from './popular-courses/CookeryCourse/CookeryCoursesSectionOne'
 export { default as CookeryCoursesSectionThree } from './popular-courses/CookeryCourse/CookeryCoursesSectionThree'
 export { default as CookeryCoursesSectionTwo } from './popular-courses/CookeryCourse/CookeryCoursesSectionTwo'
+export { default as CookeryCoursesWhyPursueSection } from './popular-courses/CookeryCourse/CookeryCoursesWhyPursueSection'
 
 export { default as NursingCourseSectionOne } from './popular-courses/NursingCourse/NursingCourseSectionOne'
 export { default as NursingCourseSectionTwo } from './popular-courses/NursingCourse/NursingCourseSectionTwo'
