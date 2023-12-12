@@ -15,7 +15,7 @@ function EducationCounsellingSectionTwo() {
 
       <section className="py-9 w-full">
         <Container>
-          <div className="flex justify-center items-center flex-col mb-7 gap-4">
+          <div className="flex justify-center items-center flex-col gap-4">
             <AppTitle text={title} class_name="text-center" />
           </div>
           <LeftToRight

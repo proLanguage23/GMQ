@@ -2784,3 +2784,26 @@ export const RPL_FAQSDummyData = {
     },
   ],
 }
+
+export const RPL_StepDummyData = {
+  title: `Get Certified in Few Simple Steps`,
+    data: [
+      {
+        title: `Check your Skills`,
+        description: `Follow your passion and transform your career! Complete the assessment in just seconds, and we'll contact you to confirm your eligibility for an RPL qualification through our partner RTOs!`,
+      },
+      {
+        title: `Get Portfolio Guidance`,
+        description: `Our experienced evaluators can guide you in compiling the relevant documentation from your portfolio, such as your résumé, references, work samples, photographs,`,
+      },
+      {
+        title: `Get a Skills Review`,
+        description: `Our partner RTO assessors will reach out to you in regard to the discussion of your skills and, if necessary, conduct a practical assessment. If any skill or knowledge gaps are discovered, we will walk you through the extra examinations required for continued improvement.`,
+      },
+      {
+        title: `Get Certified`,
+        description: `Following the assessment, you will get a nationally recognised qualification from an institution affiliated with GMQ Global!. Thus, allowing you to seek a trade license, grow in your job, or even start your own business.
+        `,
+      },
+    ]
+}

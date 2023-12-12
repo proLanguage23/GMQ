@@ -3,9 +3,9 @@ import { MdOutlineSearch } from "react-icons/md";
 
 function QualificationSearch({searchInput, handleSearch}: any) {
   return (
-    <div className="bg-white rounded p-3">
-      <div className="flex justify-center items-center border-2 border-secondary rounded">
-        <div className="bg-secondary p-4 py-3 text-white">
+    <div className="bg-white rounded md:p-3">
+      <div className="flex justify-center items-center border-2 border-secondary rounded  ">
+        <div className=" sm:p-4 py-3 text-white bg-secondary">
           <MdOutlineSearch size={25} />
         </div>
         <input

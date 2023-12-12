@@ -4,7 +4,7 @@ import React from "react";
 
 function CopyRightArea({ text, socialLinkData }: any) {
   return (
-    <div className="bg-bluePrimary p-2">
+    <div className="bg-primary p-2">
       <Container>
         <div className="py-2 grid sm:grid-cols-2 grid-cols-1 gap-4 sm:gap-0">
           <AppDescriptionWithDangerouslySetInnerHTML
