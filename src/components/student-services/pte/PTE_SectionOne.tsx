@@ -15,20 +15,20 @@ function PTE_SectionOne() {
   return (
     <section className="py-9 w-full">
       <Container>
-        <div className="">
+        <div className="flex flex-col justify-center items-center">
           <AppTitle text={title} class_name="text-center" />
           <AppSubTitle
             text={subTitle}
-            class_name="text-center text-secondary"
+            class_name="text-center"
           />
-          <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 mt-9">
+          <div className="flex justify-evenly flex-wrap gap-2 mt-9">
             {data?.map((item, key) => (
               <PteServiceItem key={key} {...item} />
             ))}
           </div>
           <AppDescriptionWithDangerouslySetInnerHTML
             text={description}
-            class_name="text-center mt-9 !text-[18px]"
+            class_name="text-center mt-9 !text-[18px] md:w-2/3 w-full"
           />
         </div>
       </Container>

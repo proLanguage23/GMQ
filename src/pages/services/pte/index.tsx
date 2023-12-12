@@ -23,8 +23,8 @@ function PTE_Page() {
       <PTE_SectionOne />
       <PTE_SectionTwo />
       <PTE_SectionThree />
-      <CommonForm />
-      <TestimonialSection />
+      {/* <CommonForm /> */}
+      {/* <TestimonialSection /> */}
       {/* <PopUpElement data={popUpData} /> */}
     </>
   )

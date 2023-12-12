@@ -16,7 +16,7 @@ import MockTestOne1 from "@/assets/student-services/pte/MockTestOne1.jpg";
 export const PTE_Dummy_data = {
   PTE_SectionOne: {
     title: `PTE`,
-    subTitle: `We provide our best services`,
+    subTitle: `Partnered with Top PTE Centers for Perfected PTE Mentoring`,
     data: [
       {
         img: PTE_GROUP_TRAINING,
@@ -43,12 +43,15 @@ export const PTE_Dummy_data = {
         },
       },
     ],
-    description: `PTE Coaching and Training Classes in Melbourne, Adelaide and Canberra`,
+    description: `Your Pathway to English Proficiency with Experienced PTE Coaching and Training Services in Melbourne, Adelaide, and Canberra.`,
   },
   PTE_SectionTwo: {
-    title: `What is PTE?`,
+    title: `Everything There’s to Know About PTE Assessment`,
     left: {
-      text: `Every student wishes a blooming future and if that future leads you abroad, especially in Global, then settling down here definitely calls for PTE clearance. PTE is a form of examination that helps prove his/her ability to understand the English Language in all the four aspects, such as Reading, Listening, Writing and Speaking. Earlier, only IELTS was a medium for students to assess their English competency level. However, the DIBP (Department of Immigration and Border Protection) has focused on the PTE examination as well. As a result, candidates opting to lead their life internationally are undertaking the Pearson Test of English Exam to satisfy their eligibility requirements for the English language.`,
+      text: `
+      <p class="part">Beginning a path towards a prosperous future frequently drives students to seek chances overseas, particularly in a global context. PTE clearance is a critical milestone for people considering a future in Australia, particularly for educational or settlement purposes. The Pearson Test of English (PTE) measures English ability in four areas: reading, listening, writing, and speaking. While IELTS was formerly the major evaluation medium, the Department of Immigration and Border Protection (DIBP) now recognises the importance of PTE, making it a critical test for those seeking to establish themselves on a global scale.</p>
+      <p class="part">The Australian government recognises PTE as an unbiased, computer-based test across all visa categories. A minimum PTE score of 42 is required for overseas students seeking an Australian student visa.</p>
+      `,
     },
     right: {
       img: What_is_PTE,
@@ -56,40 +59,37 @@ export const PTE_Dummy_data = {
   },
   PTE_SectionThree: {
     left: {
-      title: `Advantages of PTE Academic Exam`,
+      title: `What to expect from the PTE test?`,
       listData: [
-        `A fully computerized test including Speaking too`,
-        `PTE Academic test results are available within five days`,
-        `Impartial and Accurate Scoring with the transparent marketing system`,
-        `All the more practical, reliable and easier`,
-        `Admissions in reputed universities abroad, visa application`,
+        `It is a completely computerized test that also assesses Speaking abilities.`,
+        `Test results are available five days after the exam.`,
+        `The grading method is unbiased and precise, assuring openness.`,
+        `It's quite useful, dependable, and much easier to comprehend.`,
+        `PTE Academic success provides opportunities for admission to prominent overseas colleges and simplifies visa applications.
+        `,
       ],
     },
     right: {
-      title: `Why Choose GMQ?`,
+      title: `What to expect from the PTE test?`,
       text: `
-        <p>
-     GMQdelivers the best PTE coaching in Melbourne. With reference materials, PTE practice tests, we ensure candidate success with successful strategies and proven tips. The online practice materials are designed in a way that gives a real test interface to our candidates. If you need further inquiry regarding best PTE training in Melbourne, contact us to get a deeper insight.
-</p>
+        <p class="part">
+        At GMQ Global, we redefine PTE coaching in Melbourne by providing unmatched quality. Our all-inclusive strategy includes reference materials, practice assessments, and professional tactics to ensure applicants succeed.
+        </p>
+        <p class="part">
+        Our online practice resources are designed to simulate the actual test interface and prepare candidates for success. Contact us for more information on the finest PTE training in Melbourne.
+        </p>
+        <p class="part font-bold"> What sets us apart:</p>
 
-</br>
+        <ul class="part">
+        <li>Abundance of well-planned online resources</li>
+        <li>High success rates have been demonstrated in the past.</li>
+        <li>A group of highly trained and talented workers</li>
+        <li>Interactive workshops that are both engaging and adaptive</li>
+        <li>Interact with our experts to learn about the subtleties of the PTE exam.</li>
+        </ul>
+        <p class="part">Furthermore, our PTE training programmes are available in Adelaide and Canberra, giving full support in several places.</p>
 
-- Well organized online resource materials
-</br>
-</br>
-- High success rates
-</br>
-</br>
-- Qualified and skilled professionals
-</br>
-</br>
-- Flexible interactive sessions
-
-</br>
-</br>
-
-<p>Get into further details of the PTE exam by connecting with our team. We also provide pte training classes in Adelaide and Canberra.</p>
-        `,
+`,
     },
   },
 };
@@ -114,19 +114,19 @@ export const GroupTrainingDummyData = {
     description: `Let’s make your learning meaningful and successful!`,
     data: [
       {
-        text: 'all pte preparation materials',
+        text: "all pte preparation materials",
         img: one,
       },
       {
-        text: 'mock text assessments',
+        text: "mock text assessments",
         img: two,
       },
       {
-        text: 'feedback sessions',
+        text: "feedback sessions",
         img: three,
       },
       {
-        text: 'unlimited practice classes',
+        text: "unlimited practice classes",
         img: four,
       },
     ],
@@ -137,11 +137,11 @@ export const GroupTrainingDummyData = {
   },
   GROUP_TRAININGSectionThree: {
     left: {
-      title: 'A progressive approach',
+      title: "A progressive approach",
       data: [
         {
-          title: 'Interactive Sessions:',
-          text: `Our educators put special emphasis on each student to assist them properly. Productive interaction is our goal.`
+          title: "Interactive Sessions:",
+          text: `Our educators put special emphasis on each student to assist them properly. Productive interaction is our goal.`,
         },
         {
           title: `Affordable Fees:`,
@@ -158,11 +158,11 @@ export const GroupTrainingDummyData = {
       ],
     },
     right: {
-      title: 'We help you learn better',
+      title: "We help you learn better",
       data: [
         {
-          title: 'Experienced Trainers:',
-          text: `Our team, assembled by the founder ofGMQ,  Mr Mmanu Bhardwaj focuses on polishing the potential of the candidates`
+          title: "Experienced Trainers:",
+          text: `Our team, assembled by the founder ofGMQ,  Mr Mmanu Bhardwaj focuses on polishing the potential of the candidates`,
         },
         {
           title: `Latest Resources:`,
@@ -177,8 +177,8 @@ export const GroupTrainingDummyData = {
           text: `We make practice exams to test your interpretation capacity routinely. The tests are easily accessible on our software.`,
         },
       ],
-    }
-  }
+    },
+  },
 };
 
 export const OneToOneTrainingDummyData = {
@@ -220,11 +220,11 @@ export const OneToOneTrainingDummyData = {
   },
   OneToOneTrainingSectionThree: {
     left: {
-      title: 'A progressive approach',
+      title: "A progressive approach",
       data: [
         {
-          title: 'Interactive Sessions:',
-          text: `Our educators put special emphasis on each student to assist them properly. Productive interaction is our goal.`
+          title: "Interactive Sessions:",
+          text: `Our educators put special emphasis on each student to assist them properly. Productive interaction is our goal.`,
         },
         {
           title: `Affordable Fees:`,
@@ -241,11 +241,11 @@ export const OneToOneTrainingDummyData = {
       ],
     },
     right: {
-      title: 'We help you learn better',
+      title: "We help you learn better",
       data: [
         {
-          title: 'Experienced Trainers:',
-          text: `Our team, assembled by the founder ofGMQ,  Mr Mmanu Bhardwaj focuses on polishing the potential of the candidates`
+          title: "Experienced Trainers:",
+          text: `Our team, assembled by the founder ofGMQ,  Mr Mmanu Bhardwaj focuses on polishing the potential of the candidates`,
         },
         {
           title: `Latest Resources:`,
@@ -260,8 +260,8 @@ export const OneToOneTrainingDummyData = {
           text: `We make practice exams to test your interpretation capacity routinely. The tests are easily accessible on our software.`,
         },
       ],
-    }
-  }
+    },
+  },
 };
 
 export const MockTestDummyData = {
@@ -303,11 +303,11 @@ export const MockTestDummyData = {
   },
   MockTestSectionThree: {
     left: {
-      title: 'A progressive approach',
+      title: "A progressive approach",
       data: [
         {
-          title: 'Interactive Sessions:',
-          text: `Our educators put special emphasis on each student to assist them properly. Productive interaction is our goal.`
+          title: "Interactive Sessions:",
+          text: `Our educators put special emphasis on each student to assist them properly. Productive interaction is our goal.`,
         },
         {
           title: `Affordable Fees:`,
@@ -324,11 +324,11 @@ export const MockTestDummyData = {
       ],
     },
     right: {
-      title: 'We help you learn better',
+      title: "We help you learn better",
       data: [
         {
-          title: 'Experienced Trainers:',
-          text: `Our team, assembled by the founder ofGMQ,  Mr Mmanu Bhardwaj focuses on polishing the potential of the candidates`
+          title: "Experienced Trainers:",
+          text: `Our team, assembled by the founder ofGMQ,  Mr Mmanu Bhardwaj focuses on polishing the potential of the candidates`,
         },
         {
           title: `Latest Resources:`,
@@ -343,6 +343,6 @@ export const MockTestDummyData = {
           text: `We make practice exams to test your interpretation capacity routinely. The tests are easily accessible on our software.`,
         },
       ],
-    }
-  }
+    },
+  },
 };
