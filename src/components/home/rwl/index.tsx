@@ -9,7 +9,7 @@ function HomeRWL() {
   return (
     <section className="bg-primary py-16 w-full">
       <Container>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-1 items-center justify-center">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-1 items-end justify-center">
           {rwlData?.map((item: any, key: any) => (
             <RWL_item key={key} {...item} />
           ))}

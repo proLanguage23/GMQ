@@ -14,7 +14,7 @@ function HomeContactForm() {
           <div className="pb-16 flex justify-start h-full min-h-[700px] md:min-h-full">
             <AppDescriptionWithDangerouslySetInnerHTML
               text={left?.form}
-              class_name=""
+              class_name="h-[595px]"
             />
           </div>
           <div className="">
@@ -23,7 +23,7 @@ function HomeContactForm() {
               class_name="!text-white "
               isAnimation
             />
-            <AppDescription
+            <AppDescriptionWithDangerouslySetInnerHTML
               text={right?.description}
               class_name="!text-white mt-3 md:text-left text-center md:p-0 p-3"
               isAnimation

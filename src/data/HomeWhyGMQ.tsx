@@ -6,28 +6,43 @@ import passport from '@/assets/passport.png'
 import whyGMQ from '@/assets/whyGMQ.png'
 
 export const WhyGMQ_DummyData = {
-    title: 'why',
+    title: 'Why GMQ Global?',
     logo: logoWithOutIcon,
-    description: `Like you, a remarkable number of international students from across the world, from diverse backgrounds, have achieved their education and career goals in Global successfully through us. Our ethical, accurate & friendly guidance in the last 15 years has been the recipe. Now, it's your turn. Tell us your dreams, we will get you there.`,
+    description: `
+    <p class="part">
+Take part in the increasing tide of international students who have relied on GMQ Global to achieve their educational and career goals in Australia. For more than a decade, we have consistently delivered results with our skilled counselors and personalized approach. Share your goals with us, and we'll help you get there.
+    </p>
+
+    <ul class="text-left">
+        <li>15+ Years of Industry Experience: </li>
+        <li>Assisted 2000+ Students in Achieving their Dreams 
+        </li>
+        <li>100+ University and Institute Collaborations </li>
+        <li>Located in 5+ Countries
+        </li>
+    </ul>
+    
+    
+    `,
     whyGMQFetuses: [
         {
             id: 1,
-            text:`Located in 15 Countries`,
+            text:`15+ Years of Industry Experience: `,
             icon_img: locator
         },
         {
             id: 2,
-            text:"End to End Services",
+            text:"Assisted 2000+ Students in Achieving their Dreams",
             icon_img: route
         },
         {
             id: 3,
-            text:"750+ Partner Institutions",
+            text:"100+ University and Institute Collaborations",
             icon_img: university
         },
         {
             id: 4,
-            text:"High Visa Success Rate",
+            text:"Located in 5+ Countries",
             icon_img: passport
         },
     ],

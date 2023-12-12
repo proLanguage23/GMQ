@@ -21,7 +21,7 @@ function HomeAboutGMQ() {
     >
       <div className="py-16">
         <Container>
-          <div className="flex md:justify-between justify-center items-center flex-wrap gap-4 py-4">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-4 py-4">
             <div className="flex justify-center items-center mx-auto flex-wrap">
               <Image
                 src={left?.image}
@@ -42,7 +42,7 @@ function HomeAboutGMQ() {
                 text={right?.description}
                 class_name="md:!text-[18px]"
               />
-              <PageLink {...right?.btn} class_name="commonBtnStyle" />
+              {/* <PageLink {...right?.btn} class_name="commonBtnStyle" /> */}
             </div>
           </div>
         </Container>

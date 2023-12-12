@@ -6,16 +6,10 @@ export const HomeAboutDummyData = {
     },
     right:{
         title: 'About GMQ',
-        description: `optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat 
-        <br>
-        <br>
-        Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat 
-        <br>
-        <ul style="list-style: circle; padding: 7px 21px">
-        <li>Veritatis obcaecati tenetur iure eius earum ut molestias </li>
-        <li> obcaecati tenetur iure eius earum ut molestias </li>
-        <li>tenetur obcaecati tenetur iure eius earum ut molestias </li>
-        </ul>
+        description: `
+        <p class="part">With over 15 years of dedicated service in student counseling, GMQ Global serves as a beacon for students all over the world trying to achieve their academic goals. We are dedicated to assisting and enabling students as they negotiate the complications of studying abroad. </p>
+        <p class="part">Our ongoing evolution and adoption of innovative ideas ensure that we provide the ultimate solutions for each individual. We're not just counselors at GMQ Global; we're passionate mentors who care about your success in career & education. We're here to help you realize your goals, from personalized assistance to extensive support services.
+        </p>
         `,
         btn:{
             text: 'learn more',

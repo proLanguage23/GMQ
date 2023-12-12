@@ -1,4 +1,4 @@
-import { AppDescription, AppTitle, Container } from "@/components/share";
+import { AppDescription, AppDescriptionWithDangerouslySetInnerHTML, AppTitle, Container } from "@/components/share";
 import { WhyGMQ_DummyData } from "@/data/HomeWhyGMQ";
 import React from "react";
 import WhyGMQFetusesItem from "./WhyGMQFetusesItem";
@@ -25,23 +25,23 @@ function HomeWhyGMQ() {
   return (
     <section className="py-24 relative w-full">
       <Container>
-        <div className="flex flex-col flex-wrap">
+        <div className="flex flex-col flex-wrap gap-2">
           <div className="flex justify-center md:justify-start flex-wrap">
             <AppTitle
-              text={title + " GMQ"}
-              class_name="!text-white md:!text-[80px] uppercase manropeFont"
+              text={title}
+              class_name="!text-white md:!text-[80px] uppercase manropeFont !text-left w-full"
               heading
               isAnimation
               animationSpeed={0.1}
             />
           </div>
-          <AppDescription
+          <AppDescriptionWithDangerouslySetInnerHTML
             text={description}
-            class_name="!text-white !text-[18px] lg:w-2/3 w-full text-center md:text-left"
+            class_name="!text-white !text-[18px] lg:w-2/3 w-full "
             // isAnimation
             // animationSpeed={0.01}
           />
-          <div className="flex flex-wrap w-full items-center gap-2 mt-8 md:gap-6 justify-center md:justify-start">
+          {/* <div className="grid grid-cols-5 w-full items-center gap-2 mt-8 md:gap-6 justify-center md:justify-start">
             {whyGMQFetuses?.map((item, key) => (
               <WhyGMQFetusesItem
                 key={key}
@@ -55,7 +55,7 @@ function HomeWhyGMQ() {
                 custom={key}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </Container>
       <AppBgImg BgImg={secondaryImg} />

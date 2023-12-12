@@ -5,8 +5,12 @@ export const ContactFormDummyData = {
         form: contactFormOfHome
     },
     right:{
-        title: `Hey, we’d like to know you better too!`,
-        description: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.`,
+        title: `If you think we can guide you towards your dreams, make sure to fill it up!
+        `,
+        description: `
+        <p class="part">
+        Entrust your educational journey to GMQ Global's seasoned counseling team. Our vast expertise offers efficient guidance towards your objectives. Fill out the form and get in touch with one of our career counselors—you'll be glad you did!
+        </p>`,
         secondaryImg: contactForm 
     }
 }

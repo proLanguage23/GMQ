@@ -4,7 +4,7 @@ export const RWLDummyData = {
       id: 1,
       title: "read",
       description:
-        "Explore our extensive library of content with the latest information on studying and building a future in Global.",
+        "Browse our library of articles, press releases, and blogs for up-to-date information about pursuing education and charting a course for your future in Australia!",
       btn: {
         text: "explore blogs",
         href: "#",
@@ -14,7 +14,7 @@ export const RWLDummyData = {
       id: 2,
       title: "watch",
       description:
-        "From campus tours to visa updates to student life, watch exclusive videos to discover and learn more about student life in Global.",
+        "Explore exclusive videos featuring campus tours, visa updates, and Australia's lively student life for a more in-depth understanding and discovery!",
       btn: {
         text: "explore videos",
         href: "#",
@@ -23,7 +23,7 @@ export const RWLDummyData = {
     {
       id: 3,
       title: "listen",
-      description: `Now, you can listen to our migration experts, international students and Global's best universities on the go as they share interesting facts and tips.`,
+      description: `Through engaging podcasts, you can easily get relevant insights from our migration specialists, international students, and top colleges in Australia while on the go!.`,
       btn: {
         text: "explore podcast",
         href: "#",
