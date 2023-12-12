@@ -29,7 +29,7 @@ export const NavbarDummyData = {
                         {
                             id: 'megaMenu2',
                             text:'Hospitality and Cookery',
-                            href:'/popular-courses/hospitality_and_cookery'
+                            href:'/popular-courses/hospitality-and-cookery'
                         },
                         {
                             id: 'megaMenu3',

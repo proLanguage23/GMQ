@@ -32,7 +32,7 @@ function Footer() {
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-9 lg:gap-1">
             <LogoArea {...generalData} />
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 pb-24">
               <FooterLinkArea footerLinkGP={footerLinkGP} />
             </div>
           </div>

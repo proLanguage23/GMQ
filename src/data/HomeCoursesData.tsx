@@ -26,7 +26,7 @@ export const HomeCoursesDummyData = {
         description:'Need the right advice for university or college placement, scholarships and internships? From the initial consultation to application, find out more how we can help.',
         btn:{
             text:"learn more",
-            href:'/popular-courses/hospitality_and_cookery'
+            href:'/popular-courses/hospitality-and-cookery'
         },
     },
     {

@@ -4,11 +4,11 @@ import React from "react";
 
 function FooterLinkArea({ footerLinkGP }: any) {
   return (
-    <div className="p-1 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-1">
+    <div className="p-1 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-1 w-full">
       {footerLinkGP?.map((item: any, key: any) => {
         return (
           <div
-            className="mb-4 flex flex-col items-center md:items-start"
+            className="mb-4 flex flex-col items-center md:items-start md:pl-9 p-3"
             key={key}
           >
             <AppSubTitle

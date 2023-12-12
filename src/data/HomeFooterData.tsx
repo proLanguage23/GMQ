@@ -15,32 +15,32 @@ export const HomeFooterDummyData = {
     abn: `ABN: ${ACN_Number}`
   },
   footerLinkGP: [
-    {
-      id: 100,
-      title: "about us",
-      link: [
-        {
-          id: 0,
-          text: "Who We Are",
-          href: "#",
-        },
-        {
-          id: 1,
-          text: "Our Leadership Team",
-          href: "#",
-        },
-        {
-          id: 2,
-          text: "Partner With Us",
-          href: "#",
-        },
-        {
-          id: 3,
-          text: "Careers",
-          href: "#",
-        },
-      ],
-    },
+    // {
+    //   id: 100,
+    //   title: "about us",
+    //   link: [
+    //     {
+    //       id: 0,
+    //       text: "Who We Are",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 1,
+    //       text: "Our Leadership Team",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 2,
+    //       text: "Partner With Us",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 3,
+    //       text: "Careers",
+    //       href: "#",
+    //     },
+    //   ],
+    // },
     {
       id: 102,
       title: "Our Services",
@@ -48,120 +48,27 @@ export const HomeFooterDummyData = {
         {
           id: 4,
           text: "Education Counselling",
-          href: "#",
+          href: "/services/education-counselling",
         },
         {
           id: 5,
-          text: "Visa & Migration Counselling",
-          href: "#",
+          text: "professional year program",
+          href: "/services/professional-year-program",
         },
         {
           id: 6,
-          text: "Scholarships",
-          href: "#",
+          text: "PTE",
+          href: "/services/pte",
         },
         {
           id: 7,
-          text: "Health Cover",
-          href: "#",
+          text: "NAATI",
+          href: "/services/naati",
         },
         {
           id: 8,
-          text: "Student Accomodation",
-          href: "#",
-        },
-      ],
-    },
-    {
-      id: 103,
-      title: "Quick Links",
-      link: [
-        {
-          id: 9,
-          text: "Education Counselling",
-          href: "#",
-        },
-        {
-          id: 10,
-          text: "Visa & Migration Counselling",
-          href: "#",
-        },
-        {
-          id: 11,
-          text: "Scholarships",
-          href: "#",
-        },
-        {
-          id: 12,
-          text: "Health Cover",
-          href: "#",
-        },
-        {
-          id: 13,
-          text: "Student Accomodation",
-          href: "#",
-        },
-      ],
-    },
-    {
-      id: 104,
-      title: "Study to Migrate",
-      link: [
-        {
-          id: 14,
-          text: "Education Counselling",
-          href: "#",
-        },
-        {
-          id: 15,
-          text: "Visa & Migration Counselling",
-          href: "#",
-        },
-        {
-          id: 16,
-          text: "Scholarships",
-          href: "#",
-        },
-        {
-          id: 17,
-          text: "Health Cover",
-          href: "#",
-        },
-        {
-          id: 18,
-          text: "Student Accomodation",
-          href: "#",
-        },
-      ],
-    },
-    {
-      id: 105,
-      title: "Which Visa is Right for me",
-      link: [
-        {
-          id: 19,
-          text: "Education Counselling",
-          href: "#",
-        },
-        {
-          id: 20,
-          text: "Visa & Migration Counselling",
-          href: "#",
-        },
-        {
-          id: 21,
-          text: "Scholarships",
-          href: "#",
-        },
-        {
-          id: 22,
-          text: "Health Cover",
-          href: "#",
-        },
-        {
-          id: 23,
-          text: "Student Accomodation",
-          href: "#",
+          text: "RPL",
+          href: "/rpl",
         },
       ],
     },
@@ -171,91 +78,184 @@ export const HomeFooterDummyData = {
       link: [
         {
           id: 24,
-          text: "Education Counselling",
-          href: "#",
+          text: "nursing",
+          href: "/popular-courses/nursing",
         },
         {
           id: 25,
-          text: "Visa & Migration Counselling",
-          href: "#",
+          text: "hospitality and cookery",
+          href: "/popular-courses/hospitality-and-cookery",
         },
         {
           id: 26,
-          text: "Scholarships",
-          href: "#",
+          text: "teaching",
+          href: "/popular-courses/teaching",
         },
         {
           id: 27,
-          text: "Health Cover",
-          href: "#",
+          text: "information technology",
+          href: "/popular-courses/information-technology",
         },
         {
           id: 28,
-          text: "Student Accomodation",
-          href: "#",
+          text: "trade courses",
+          href: "/popular-courses/trade-courses",
         },
       ],
     },
-    {
-      id: 107,
-      title: "Resources",
-      link: [
-        {
-          id: 29,
-          text: "Pathfinder Youtube",
-          href: "#",
-        },
-        {
-          id: 30,
-          text: "Pathfinder Podcast",
-          href: "#",
-        },
-      ],
-    },
-    {
-      id: 108,
-      title: "Our Branches",
-      link: [
-        {
-          id: 31,
-          text: "Sydney",
-          href: "#",
-        },
-        {
-          id: 32,
-          text: "Melbourne",
-          href: "#",
-        },
-        {
-          id: 33,
-          text: "Brisbane",
-          href: "#",
-        },
-      ],
-    },
+    // {
+    //   id: 103,
+    //   title: "Quick Links",
+    //   link: [
+    //     {
+    //       id: 9,
+    //       text: "RPL",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 10,
+    //       text: "contact us",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 11,
+    //       text: "Scholarships",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 12,
+    //       text: "Health Cover",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 13,
+    //       text: "Student Accomodation",
+    //       href: "#",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 104,
+    //   title: "Study to Migrate",
+    //   link: [
+    //     {
+    //       id: 14,
+    //       text: "Education Counselling",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 15,
+    //       text: "Visa & Migration Counselling",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 16,
+    //       text: "Scholarships",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 17,
+    //       text: "Health Cover",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 18,
+    //       text: "Student Accomodation",
+    //       href: "#",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 105,
+    //   title: "Which Visa is Right for me",
+    //   link: [
+    //     {
+    //       id: 19,
+    //       text: "Education Counselling",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 20,
+    //       text: "Visa & Migration Counselling",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 21,
+    //       text: "Scholarships",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 22,
+    //       text: "Health Cover",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 23,
+    //       text: "Student Accomodation",
+    //       href: "#",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 107,
+    //   title: "Resources",
+    //   link: [
+    //     {
+    //       id: 29,
+    //       text: "Pathfinder Youtube",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 30,
+    //       text: "Pathfinder Podcast",
+    //       href: "#",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 108,
+    //   title: "Our Branches",
+    //   link: [
+    //     {
+    //       id: 31,
+    //       text: "Sydney",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 32,
+    //       text: "Melbourne",
+    //       href: "#",
+    //     },
+    //     {
+    //       id: 33,
+    //       text: "Brisbane",
+    //       href: "#",
+    //     },
+    //   ],
+    // },
     {
       id: 109,
       title: "other links",
       link: [
         {
           id: 34,
-          text: "Useful Links",
-          href: "#",
+          text: "contact us",
+          href: "/contact-us",
         },
         {
           id: 35,
-          text: "Glossary ",
-          href: "#",
+          text: "terms and conditions",
+          href: "terms-condition",
         },
         {
           id: 36,
           text: "Terms of Use",
-          href: "#",
+          href: "/terms-of-use",
         },
         {
           id: 37,
           text: "Privacy Policy",
-          href: "#",
+          href: "/privacy-policy",
         },
         {
           id: 38,
