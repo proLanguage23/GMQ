@@ -23,8 +23,8 @@ function NAATI_PAGE() {
       <NaatiSectionOne />
       <NaatiSectionTwo />
       <NaatiSectionThree />
-      <CommonForm />
-      <TestimonialSection />
+      {/* <CommonForm /> */}
+      {/* <TestimonialSection /> */}
       {/* <PopUpElement data={popUpData} /> */}
     </>
   );

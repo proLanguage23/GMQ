@@ -5,7 +5,7 @@ import {
 } from "@/components/share";
 import { GroupTrainingDummyData } from "@/data/services/PTE_Data";
 import React from "react";
-import { FaHandPointRight } from "react-icons/fa";
+import { MdOutlineCheckCircle } from "react-icons/md";
 
 function WeHelpYouLearnBetter({right = {}}:any) {
   return (
@@ -17,14 +17,14 @@ function WeHelpYouLearnBetter({right = {}}:any) {
       <div className="mt-5 p-2 rounded">
         {right?.data?.map((item: any, key: any) => (
           <div
-            className="mb-3 border-2 p-3 border-dashed flex items-center gap-4"
+            className="mb-3 border-2 p-3 border-dashed"
             key={key}
           >
-            <div className="df">
-              <FaHandPointRight size={22} color="#00AAAC" />
+            <div className="flex justify-start items-center gap-3">
+              <MdOutlineCheckCircle size={22} color="#00AAAC" />
+              <AppSubTitle text={item?.title} class_name="text text-[22px] flex-1" />
             </div>
             <div className="flex-1">
-              <AppSubTitle text={item?.title} class_name="text text-[22px]" />
               <AppDescriptionWithDangerouslySetInnerHTML text={item?.text} />
             </div>
           </div>
