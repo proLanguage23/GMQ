@@ -3,12 +3,12 @@ import InformationTechnologyCoursesGlobal from "@/assets/course/new/information-
 
 export const InformationTechnologyDummyData = {
   InformationTechnologySectionOne: {
-    title: `information technology available Courses`,
+    title: `Available Courses in Information Technology`,
     data: [
       {
         img: DiplomaOfInformationTechnology,
-        title: `Diploma of Information Technology`,
-        text: ``,
+        text: `Diploma of Information Technology - ICT50220`,
+        description: `This course enhances the understanding of students with key ICT capabilities & specialized technical skills to perform complex IT problem-solving tasks.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -16,8 +16,8 @@ export const InformationTechnologyDummyData = {
       },
       {
         img: DiplomaOfInformationTechnology,
-        title: `Associate Degree in Information Technology`,
-        text: ``,
+        text: `Advanced Diploma of Information Technology - ICT60220`,
+        description: `It is designed for ICT professionals who have deep expertise or managerial skills, thus, after completing the course it makes them even more capable of handling complex tasks autonomously or even steer business strategies.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -25,8 +25,8 @@ export const InformationTechnologyDummyData = {
       },
       {
         img: DiplomaOfInformationTechnology,
-        title: `Advanced Diploma of Information Technology`,
-        text: ``,
+        text: `Bachelor of Science in Information Technology (IT)`,
+        description: `The bachelor’s degree provides a solid education in all parts of computers and information technology for students who want to work in the IT field.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -34,53 +34,8 @@ export const InformationTechnologyDummyData = {
       },
       {
         img: DiplomaOfInformationTechnology,
-        title: `Graduate Diploma in Information Technology`,
-        text: ``,
-        btn: {
-          text: "inquire now",
-          href: "/contact",
-        },
-      },
-      {
-        img: DiplomaOfInformationTechnology,
-        title: `Graduate Certificate in Information Technology `,
-        text: ``,
-        btn: {
-          text: "inquire now",
-          href: "/contact",
-        },
-      },
-      {
-        img: DiplomaOfInformationTechnology,
-        title: `Bachelor of Information Technology`,
-        text: ``,
-        btn: {
-          text: "inquire now",
-          href: "/contact",
-        },
-      },
-      {
-        img: DiplomaOfInformationTechnology,
-        title: `Master of Information Technology`,
-        text: ``,
-        btn: {
-          text: "inquire now",
-          href: "/contact",
-        },
-      },
-      {
-        img: DiplomaOfInformationTechnology,
-        title: `Certificate III in Information Technology`,
-        text: ``,
-        btn: {
-          text: "inquire now",
-          href: "/contact",
-        },
-      },
-      {
-        img: DiplomaOfInformationTechnology,
-        title: `Certificate IV in Information Technology`,
-        text: ``,
+        text: `Masters of Science in Information Technology (IT)`,
+        description: `The master's degree improves students' knowledge & provides in-depth knowledge of the subject’s core, from data structures and databases to being familiar with data analytics and machine learning ideas.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -90,121 +45,173 @@ export const InformationTechnologyDummyData = {
   },
   InformationTechnologySectionTwo: {
     left: {
-      title: "Information Technology Courses in Global",
-      text: `<p class="part">With the economic insecurity these days, ensuring a career commitment is difficult in any field. However, Information Technology (IT) is one diverse sector that encompasses several jobs and career opportunities.</p>
+      title: "Why study IT in Australia?",
+      text: `<p class="part">It’s the modern age filled with technological advancement, and you’re living in a world where innovation is at its highest point. Every line of code pictures the future – that is the importance of information technology (IT) in this world. Why should you make it your career choice? Well, It's not only about finding a great job; it's about walking with the transforming trend of the future as well.</p>
 
-      <p class="part">In Global, you can find a variety of Information Technology courses that combine modern learning with practical skills. These courses cover topics like software development, artificial intelligence (AI), telecommunications, machine learning (ML), internet of things(IOT), database programming, computing & mobile computing, network engineering, cybersecurity, and data science, offering international students a great opportunity to prepare for a dynamic IT career.</p>
-      </br >
-      <h3>Eligibility Criteria</h3>
-
-      <ul>
-          <li>To get a student visa for Global, you must:</li>
-          <li>Hold a valid passport for the duration of your study in Global</li>
-          <li>Have an offer letter from the selected university or institution</li>
-          <li>Have an IELTS score 6.5 overall (with no score lower than 6.0 in each component) and PTE Academic score 58 (with no score less than 50 in each component)</li>
-          <li>Proof of sufficient funds</li>
-          <li>Have acceptable Overseas Students Health Cover (OSHC)</li>
-          <li>Have all other legal documents listed on the Department of Home Affairs checklists</li>
-          <li>Eligibility requirements may vary depending upon the profile of the candidate</li>
-      </ul>`,
+      <p class="part">Therefore, choosing Australia to pursue a degree in IT can become your best bet since the IT sector in Australia stands out from the rest, as it combines modern teaching with hands-on experience, covering a wide range of topics such as software development, AI, and machine learning, as well as telecommunications, IoT, database programming, cybersecurity, and data science. 
+      </p>
+      <p class="part">These international student-focused courses set the groundwork for a successful IT career and offer much more in terms of a healthy job market, globally recognized degrees, and post-study work visas as a pathway to PR. To become an IT professional in Australia, join forces with GMQ Global and follow our counselor’s guidance in choosing the ideal courses and institution that best fit your passion.</p>`,
     },
     right: {
       img: InformationTechnologyCoursesGlobal,
     },
+    description: `
+    <p class="part"><b>Student Visa Eligibility Criteria for Studying IT in Australia</b><p>
+    <p class="part">In order to apply for a student visa & secure your future to study IT courses in Australia’s most renowned institute of your choosing, you must take note of the following instructions:<p>
+  
+    <ul class="part">
+    <li>Maintain a valid passport throughout your study duration in Australia.</li>
+    <li>Obtain an acceptance letter from your chosen university or institution.</li>
+    <li>Achieve a minimum IELTS score of 6.5 overall (with no component lower than 6.0) or a PTE Academic score of 58 (with no section below 50).
+    </li>
+    <li>Show evidence of adequate financial resources.</li>
+    <li>Acquire Overseas Students Health Cover (OSHC).</li>
+    <li>Fulfill all additional legal requirements outlined in the Department of Home Affairs checklists.
+    </li>
+</ul>
+    <p class="part">Please note that the student visa’s eligibility criteria might differ based on individual profiles.<p>
+    `,
   },
   InformationTechnologySectionThree: {
-    text: `<h1 class="titleOfParagraph">Benefits of Studying Information Technology in Global</h1>
+    text: `<h1 class="titleOfParagraph">Benefits of Studying Information Technology in Australia</h1>
     <p class="part">
-        Today, information technology is one of the most demanded industries in Global, and with a career in this field, students are able to empower themselves with advancement in all aspects including business, health, entertainment, and community. It has 8 of the top 100 universities in the world that offer a world-class learning experience and scholarship options for international students.</p>
+    It’s no secret that the IT sector in Australia provides a thriving tech landscape of ongoing job prospects, attracting international students, as well as local students, taking up the challenge to make it their career path. Moreover, with 8 of the world's top 100 institutions, Australia most definitely offers a world-class learning experience and scholarship options, thus, making it a highly sought-after location for budding IT professionals.</p>
     
-    <p class="part">Elevate your career in information technology with specialised courses available across Global&rsquo;s key cities. Melbourne offers top-rated programs for all skill levels, and Monash University stands out for its Masters of IT program, known for its comprehensive curriculum and industry connections. In Perth, you can find IT courses ranging from beginner to advanced levels, while Sydney offers a broad array of both online and in-person options. It&rsquo;s worth noting that IT courses are also readily available in other Globaln cities, providing a wide range of opportunities to upgrade your tech skills and achieve your career goals.</p>
+    <p class="part">The power of IT is present in every sector of any industry from small to big organizations, banking, health sectors to entertainment industries, the transformation to technological advancement has accelerated the field's demand.</p>
     
-    <p class="part">Global offers an excellent destination for international students seeking Information Technology education. Starting an IT education journey in Global offers numerous benefits:</p>
+    <p class="part">Studying Information Technology (IT) in Australia is a doorway to a world of innovation and opportunity. Here's why Australia stands out as the perfect choice for international students aiming to excel in the IT realm:
+    </p>
 
-    <ul>
-        <li>Cutting-Edge Curriculum: Access to modern and industry-relevant IT programmes</li>
-        <li>Global Recognition: Degrees are acknowledged worldwide, enhancing career prospects</li>
-        <li>Diverse Specialisations: Choose from a wide range of IT fields like cybersecurity, AI, and more</li>
-        <li>Hands-On Learning: Practical experience through projects and internships</li>
-        <li>Tech-Driven Environment: Exposure to innovative tech culture and networking opportunities</li>
-        <li>Quality of Life: Enjoy a high standard of living and vibrant multicultural communities</li>
-        <li>Post-Study Work Options: Opportunities for Post-Graduate Work and Migration Pathways</li>
-        <li>Supportive Atmosphere: Universities provide support services for international students</li>
-    </ul>
-    <br />
-    <br />
-    
-    <h1 class="titleOfParagraph">Top 10 Globaln Universities for Information Technology Studies</h1>
-    
-    <p class="part">
-        Advance your career in Information Technology with a range of options across Global&rsquo;s major cities. In Melbourne, top-rated IT courses are designed to kickstart or elevate your tech career. Consider a Masters of IT at Monash University for a comprehensive curriculum and strong industry links. Perth offers specialized IT courses suitable for all skill levels, while Sydney provides an extensive array of both online and in-person IT courses in Global&rsquo;s most populous city. Additionally, other cities across Global also offer IT courses that cater to the needs of both domestic and international students, further expanding your educational opportunities.</p>
-    
-    <p class="part">Global is renowned for its quality education and cutting-edge Information Technology courses. Here are the top 10 universities that offer these programmes to international students, along with their world rankings:</p>
-    <br />
-    
-    <table class="border sm:w-full" cellpadding="5" cellspacing="5">
-        <tbody>
-            <tr class="border" align="center">
-                <th width="15%"> No.</th>
-                <th width="45%">University/College</th>
-                <th width="40%">World Ranking </th>
-            </tr>
-            <tr class="border" align="center">
-                <td>1</td>
-                <td>Certificate III in Commercial Cookery</td>
-                <td>$7,000 &ndash; $12,000 (1 year)</td>
-            </tr>
-            <tr class="border" align="center">
-                <td>2</td>
-                <td>Diploma of Culinary Arts</td>
-                <td>$15,000 &ndash; $25,000 (1 &ndash; 2 years)</td>
-            </tr>
-            <tr class="border" align="center">
-                <td>3</td>
-                <td>Bachelor of Culinary Management</td>
-                <td>$20,000 &ndash; $35,000 (3 years)</td>
-            </tr>
-            <tr class="border" align="center">
-                <td>4</td>
-                <td>Advanced Diploma of Hospitality</td>
-                <td>$12,000 &ndash; $20,000 (1 &ndash; 2 years)</td>
-            </tr>
-            <tr class="border" align="center">
-                <td>5</td>
-                <td>Certificate IV in Patisserie</td>
-                <td>$8,000 &ndash; $15,000 (1 year)</td>
-            </tr>
-            <tr class="border" align="center">
-                <td>6</td>
-                <td>Master of Gastronomic Tourism</td>
-                <td>$25,000 &ndash; $40,000 (1.5 &ndash; 2 years)</td>
-            </tr>
-            <tr class="border" align="center">
-                <td>7</td>
-                <td>Certificate II in Kitchen Operations</td>
-                <td>$5,000 &ndash; $8,000 (6 months &ndash; 1 year)</td>
-            </tr>
-            <tr class="border" align="center">
-                <td>8</td>
-                <td>Bachelor of Culinary Arts</td>
-                <td>$20,000 &ndash; $35,000 (3 years)</td>
-            </tr>
-            <tr class="border" align="center">
-                <td>9</td>
-                <td>Diploma of Food Science and Technology</td>
-                <td>$15,000 &ndash; $25,000 (1 &ndash; 2 years)</td>
-            </tr>
-            <tr class="border" align="center">
-                <td>10</td>
-                <td>Certificate IV in Commercial Cookery</td>
-                <td>$8,000 &ndash; $15,000 (1 year) </td>
-            </tr>
-        </tbody>
-    </table>
-    
-    <br />
-    <p class="part">These universities provide exceptional opportunities for international students to excel in the field of Information Technology and secure promising career paths.</p>
-    
-    <p class="part"><em><strong>Disclaimer</strong></em>: Students are encouraged to verify the most current rankings and program offerings before making educational decisions.</p>`,
+
+
+
+
+    <div class="grid grid-cols-1 justify-center gap-3 w-full">
+
+
+      <div class="item bg-slate-50 p-5 rounded">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">01</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1">High Demand & Diverse Career Opportunities:</p>
+        </div>
+        <div class="body">
+        <p>The IT sector of Australia has a diversified professional occupation spanning technical writing, web development, IT administration, and more. Thus, its job market is always looking for qualified IT graduates, offering lucrative career choices with good salaries.
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">02</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1">Industry-Relevant Practical Learning:</p>
+        </div>
+        <div class="body">
+        <p>Hands-on learning is what makes learning more enjoyable and knowledgeable, that’s what Australian universities are all about. This ensures that the graduates of the program are not theoretically prepared to face any problems, but have acquired practical knowledge too – as it makes a difference in the tech world.
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">03</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1">Ongoing Learning Culture:</p>
+        </div>
+        <div class="body">
+        <p>
+        The IT business thrives on change and the Australian institutions recognise this by creating a culture of lifelong learning. Employers' educational contributions help students, as does the ability to keep current on industry trends.
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">04</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1">
+          Pathway to Permanent Residency:
+          </p>
+        </div>
+        <div class="body">
+        <p>
+        Completing an IT qualification or having appropriate job experience offers up opportunities for skill evaluations, thus, making PR more accessible. After being approved by the evaluating body, applying for a visa in Australia becomes a possible option for obtaining PR status.
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">05</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1">
+          Top-Quality Education and Faculty:
+          </p>
+        </div>
+        <div class="body">
+        <p>
+        Australia's globally high-ranked institutions & colleges provide excellent education with world-class faculty members and well-designed courses.
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">06</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1">
+          Post-Study Work Opportunities and Multicultural Experience:
+          </p>
+        </div>
+        <div class="body">
+        <p>
+        International students in Australia have access to numerous excellent post-study career possibilities after finishing their degrees, gaining exposure in the lively and accepting multicultural community of Australia’s job market.
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">07</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1">
+          Access to Leading Technologies and Scholarship Opportunities:
+          </p>
+        </div>
+        <div class="body">
+        <p>
+        Australian universities give students access to the latest technologies, giving them a competitive advantage. Furthermore, several colleges or institutes provide scholarships to help with the financial burden of tuition expenses.
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">08</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1">
+          Vibrant Tech Start-up Scene and High Quality of Life:
+          </p>
+        </div>
+        <div class="body">
+        <p>
+        Students may launch their own businesses thanks to Australia's expanding tech start-up sector. Aside from academics, students may enjoy a high quality of life in a secure and exciting setting.
+        </p>
+        </div>
+      </div>
+
+
+    </div>
+
+    `,
   },
 };

@@ -31,8 +31,8 @@ function teaching() {
       <SectionThreeOfTeaching />
       <SectionFourOfTeaching />
       <SectionFiveOfTeaching />
-      <CommonForm />
-      <TestimonialSection />
+      {/* <CommonForm /> */}
+      {/* <TestimonialSection /> */}
       <PopUpElement data={popUpData} />
     </>
   );

@@ -29,7 +29,7 @@ function LeftToRight({
         }`}
       >
         {sideImg && (
-          <AppImg src={sideImg} alt={alt || title } class_name="w-full p-3 rounded" />
+          <AppImg src={sideImg} alt={alt || title } class_name="w-full rounded scale-90" />
         )}
       </div>
       <div className="">
@@ -37,7 +37,7 @@ function LeftToRight({
           <AppTitle heading={heading} text={title} class_name="!font-medium" />
         )}
 
-        <div className="mt-5 flex flex-col gap-2 flex-wrap">
+        <div className="flex flex-col gap-2 flex-wrap">
           {description &&
             description?.map((item: any, key: any) => (
               <AppDescriptionWithDangerouslySetInnerHTML
