@@ -26,7 +26,7 @@ function TradeCoursesPage() {
       <TradeCourseSectionFour />
       <CommonForm />
       <TestimonialSection />
-      <PopUpElement data={popUpData} />
+      {/* <PopUpElement data={popUpData} /> */}
     </>
   );
 }

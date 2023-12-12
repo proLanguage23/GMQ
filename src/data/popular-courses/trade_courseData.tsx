@@ -3,7 +3,7 @@ import Trade_CoursesTwo1 from "@/assets/course/new/trade_course/Trade_CoursesTwo
 
 export const TradeCourseDummyData = {
   TradeCourseSectionOne: {
-    title: `Popular trade courses include`,
+    title: `Popular Trade Courses in Australia`,
     data: [
       {
         img: Certificate_III_in_Carpentry,
@@ -117,11 +117,14 @@ export const TradeCourseDummyData = {
   },
   TradeCourseSectionTwo: {
     left: {
-      title: "Trade Courses in Global for International Students",
-      text: `<p class="part">Choosing the right trade courses in Global for PR can boost your skilled migration points and job prospects. With the right trade qualifications in Global, you’re well-positioned for both career growth and potential PR. Discover a variety of trade courses in Global designed for international students, offering practical training and essential skills for a prosperous career path.</p>
-
-      <p class="part">Globaln trade courses often include a mix of theory and practical training, and many courses offer work placements or apprenticeships to provide real-world experience. Upon successful completion, students receive nationally recognised qualifications that can improve their employability in their chosen trade.</p>
+      title: `Navigate a Successful Career Path with Trade Qualifications!
       `,
+      text: `<p class="part">Trade courses in Australia provide a path toward higher education that is connected with the potential of permanent residency (PR). These courses, which are provided by Vocational Education and Training (VET) institutes, are highly valued by Australian companies. At GMQ Global, our career counselors will assist you in picking the appropriate trade courses, which will increase your skilled migration points and work chances, opening the route for professional progression and potential PR eligibility.</p>
+
+      <p class="part">These courses are designed for international students and combine practical training with fundamental skills required for a successful professional path. Trade courses in Australia achieve a mix of theory and hands-on study, sometimes involving work placements or apprenticeships for practical experience. All you have to do is commit to professional development by taking trade courses, learning about industry practices, occupational health and safety, and polishing industry-specific skills.</p>
+      `,
+
+      // working 
     },
     right: {
       img: Trade_CoursesTwo1,

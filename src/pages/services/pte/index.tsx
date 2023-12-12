@@ -25,7 +25,7 @@ function PTE_Page() {
       <PTE_SectionThree />
       <CommonForm />
       <TestimonialSection />
-      <PopUpElement data={popUpData} />
+      {/* <PopUpElement data={popUpData} /> */}
     </>
   )
 }
