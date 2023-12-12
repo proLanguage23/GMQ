@@ -9,7 +9,7 @@ function ProfessionalYearProgramSectionOne() {
     ProfessionalYearProgramDummyData;
   const { left, right } = ProfessionalYearProgramSectionOne;
   return (
-    <section className="w-full">
+    <section className="w-full pt-9">
       <Container>
         <LeftToRight
           title={left?.title}

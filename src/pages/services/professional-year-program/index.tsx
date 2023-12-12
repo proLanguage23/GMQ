@@ -22,8 +22,8 @@ function ProfessionalYearProgramPage() {
       <AppSliderBanner data={ProfessionalYearProgramBannerData} />
       <ProfessionalYearProgramSectionOne />
       <ProfessionalYearProgramSectionTwo />
-      <CommonForm />
-      <TestimonialSection />
+      {/* <CommonForm /> */}
+      {/* <TestimonialSection /> */}
       {/* <PopUpElement data={popUpData} /> */}
     </>
   );

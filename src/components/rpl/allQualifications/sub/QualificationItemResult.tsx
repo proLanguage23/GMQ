@@ -6,9 +6,13 @@ import {
 } from "@/components/share";
 import AppImg from "@/components/share/AppImg";
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { createPagination } from "@/components/share/lib";
 import { contactFormOfHome } from "@/data/ShareData";
+
+const contactFormPopUpData = `
+<h4 class="text-center titleOfParagraph">Hey, we’d like to know you better too! </h4>
+${contactFormOfHome}
+`
 
 function QualificationItemResult({
   allRPL_QualificationItems = [],
@@ -90,7 +94,7 @@ function QualificationItemResult({
       {modalShow && (
         <AppModal
           handelModal={handelModal}
-          content={<EntryForm data={contactFormOfHome} />}
+          content={<EntryForm data={contactFormPopUpData} />}
         />
       )}
     </>

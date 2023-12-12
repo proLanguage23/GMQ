@@ -1,4 +1,4 @@
-import { Container } from "@/components/share";
+import { AppDescriptionWithDangerouslySetInnerHTML, Container } from "@/components/share";
 import LeftToRight from "@/components/share/section/LeftToRight";
 import { TradeCourseDummyData } from "@/data/popular-courses/trade_courseData";
 import React from "react";
@@ -27,6 +27,7 @@ function TradeCourseSectionTwo() {
             leftImageToRight
             alt={left?.title}
           />
+          <AppDescriptionWithDangerouslySetInnerHTML text={left?.description} />
         </Container>
       </div>
     </motion.section>

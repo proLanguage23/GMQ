@@ -30,8 +30,8 @@ function EducationCounsellingPage() {
       <EducationCounsellingSectionOne />
       <EducationCounsellingSectionTwo />
       <EducationCounsellingSectionThree />
-      <CommonForm />
-      <TestimonialSection />
+      {/* <CommonForm /> */}
+      {/* <TestimonialSection /> */}
       {/* <PopUpElement data={popUpData} /> */}
     </>
   );

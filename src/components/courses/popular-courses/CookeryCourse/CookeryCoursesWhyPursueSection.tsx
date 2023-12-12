@@ -24,7 +24,7 @@ function CookeryCoursesWhyPursueSection() {
           </div>
           <div className="flex justify-center flex-wrap gap-2 mt-9">
             {data?.map((item: any, key: any) => (
-              <div className="p-5 rounded-xl border-2 border-secondary shadow bg-white md:w-[30%] sm:w-[48%] w-full" key={key}>
+              <div className="p-5 py-9 rounded-xl border-2 border-secondary shadow bg-white md:w-[30%] sm:w-[48%] w-full" key={key}>
                 <AppDescription text={key + 1 + ". " + item?.text} class_name="p-3 bg-secondary text-white mb-2 rounded" />
                 <AppDescriptionWithDangerouslySetInnerHTML
                   text={item?.description}

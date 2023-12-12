@@ -6,7 +6,7 @@ import tradeCourses from '@/assets/Student-Health.png'
 import StudentAccommodation from '@/assets/StudentAccommodation.png'
 
 export const HomeCoursesDummyData = {
-  title: "GMQ Global Services Overview",
+  title: "Select from a range of courses at GMQ Global",
   subTitle: 'Count on GMQ Global for every step of your educational journey',
   CoursesData:[
     {

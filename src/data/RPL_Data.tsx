@@ -229,12 +229,13 @@ export const RPL_BannerData = {
 
 export const RPL_AboutData = {
   description: [
-    "GMQ Global partners with registered training organizations (RTOs) to give you the best opportunities to take your experiences and prior learning and turn them into a nationally-recognized qualification through the recognition of prior learning (RPL).",
-    "Your skills and career are unique. So, your needs of deskilling and filling the gaps in your knowledge will be unique as well. At GMQ Global, we look at your case in a dedicated and personalized way so that you can take the right next steps for your career.",
-    "View all the industries and qualifications awarded by our partner RTOs. Get in touch today to obtain certifications through RPL and take your career to the next level.",
-    "Having your skills recognized through recognition of prior learning (RPL) may have a wide range of benefits for your career and lifestyle.",
-    "An initial assessment could help you achieve a nationally recognized qualification through GMQ Global and its partner RTOs.",
-    "There are so many benefits to having your skills recognized including increased career opportunities, avoiding unnecessary training and much more.",
+    `GMQ Global transforms careers by partnering with Registered Training Organisations (RTOs) to convert your unique experiences and abilities into nationally recognised qualifications through Recognition of Prior Learning (RPL). We analyze your capabilities and develop solutions to bridge knowledge gaps, helping you towards the proper career milestones.
+    `,
+    `Access a broad spectrum of industrial qualifications provided by our partnered RTO. Reach out to us and polish your career with RPL certificates. Demonstrating unparalleled possibilities such as expanded career avenues and elimination of superfluous training
+    `,
+    `With our help, we believe your sector knowledge may be transformed into a coveted RPL qualification, opening doors to new jobs, increased income, and entrepreneurial endeavors. Get a quick RPL procedure and reliable steps.
+    `,
+    `Entrust GMQ Global in the process to kickstart your career the right way, as we believe, here is where your success story begins! `
   ],
   // Polygon: PolygonImg,
   img: whyGMQ,
@@ -2595,13 +2596,191 @@ export const RPL_stepData = {
 };
 
 export const RPL_Certificate_ProcessDummyData = {
-  title: 'The RPL Certificate Process',
-  description: [
-    `The Recognition of Prior Learning (RPL) approach acknowledges that candidates may have gained appropriate knowledge, understanding, and skills during their previous work experience (paid or unpaid), be it in Global or further afield. It also takes into consideration any competencies the individual will have developed as a result of engaging in learning experiences in Global or overseas. RTOs take into consideration an individual’s existing skills and knowledge as acquired in a practical, non-formal or formal learning setting as a means of assessing whether that person can demonstrate the required competencies associated with the relevant Global standards. Getting your formal qualification via a RPL certificate is the fastest and most cost effective way to enable you to apply for your trade licence / ticket.`,
-    `For example, someone who has spent many years working as a PA within an office setting will have developed many skills that are considered to be part of a qualification in business administration. Previous work experience in a garage may have provided someone with competencies that are relevant to a trade qualification in mechanics. In some cases, previous work, voluntary and learning experiences may not be sufficient to provide an individual will a full recognition of prior learning qualification. However, the competencies he or she has gained can be used as credit towards units of competency and may reduce the amount of time or the number of modules a student is required to complete a qualification.`,
-    `Our self paced RPL certificate process means there is no classroom study and zero interruptions to your work and life schedule. All you need to do is apply for the course you want or take the free 60 second skills assessment now and we will contact you. After which we let you know your eligibility and if you meet the requirements and criteria. Once you start the RPL certification process, you’ll have the support of our qualified and licensed trade assessors.`,
-    `Qualify Me! will collate a portfolio of evidence that represents your work background, references, experience, etc. All the evidence is reviewed by a qualified and licensed trade assessor. When the review process is completed, you’ll receive a nationally recognised trade qualification!`,
-    `As an added plus, Qualify Me! also partners with various organisations to help you plan your next steps, whether assisting with a trade licence application or starting up a business. Giving you the edge you need to succeed.`,
-    `There are a number of payment options and payment plans to help you afford your RPL certificate and any other costs associated with getting qualified through Qualify Me! We offer a best price guarantee for any RPL certificate which means if you receive a cheaper quote with a comparable process, we will match or beat the quote. This is also applicable within 7 days after enrolling with Qualify Me! We also offer a variety of generous discounts and promotions. Anyone can afford to become a qualified trade professional via RPL Global with Qualify Me!`,
-  ]
+  title: 'Which steps are involved in earning an RPL certification?',
+  description: `
+  <div class="flex justify-center flex-wrap gap-3 w-full">
+
+
+      <div class="item bg-slate-50 p-5 rounded md:w-[48%] w-full">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">1</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">High Demand & Diverse Career Opportunities:</p>
+        </div>
+        <div class="body">
+        <p class=" text-left">The IT sector of Australia has a diversified professional occupation spanning technical writing, web development, IT administration, and more. Thus, its job market is always looking for qualified IT graduates, offering lucrative career choices with good salaries.
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded md:w-[48%] w-full">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">2</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">Document Preparation and Verification: 
+          </p>
+        </div>
+        <div class="body">
+        <p class=" text-left">Determine the evidence/documents needed to complete your RPL procedure. We assist you in developing a complete portfolio that highlights your skills.
+        </p>
+        </div>
+      </div>
+      <div class="item bg-slate-50 p-5 rounded md:w-[48%] w-full">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">3</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">
+          Portfolio Compilation and Evaluation: 
+          </p>
+        </div>
+        <div class="body">
+        <p class=" text-left">
+        Gather necessary papers to create a strong portfolio highlighting your job history, references, and experience, which will be thoroughly assessed by our experts.
+
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded md:w-[48%] w-full">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">4</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">
+          RTO Document Review and Competency Validation: 
+
+          </p>
+        </div>
+        <div class="body">
+        <p class=" text-left">
+        Your portfolio is subjected to a rigorous review by our connected RTOs, guaranteeing that your competencies and skills are validated for the appropriate standards.
+
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded md:w-[48%] w-full">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">5</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">
+          Issuance of Acknowledged Qualification: 
+          </p>
+        </div>
+        <div class="body">
+        <p class=" text-left">
+        Following successful assessment and validation by our partner RTOs, you will be awarded a nationally recognised qualification validated by the college, indicating your formal accomplishment.
+
+        </p>
+        </div>
+      </div>
+
+
+      </div>
+  `
 };
+
+export const RPL_Certificate_BenefitsDummyData = {
+  title: `What are the benefits of having an RPL certification?`,
+  description: `
+  <div class="flex justify-center flex-wrap gap-3 w-full">
+
+
+      <div class="item bg-slate-50 p-5 rounded md:w-[48%] w-full">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">1</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">
+          Saves Time & Cost
+          </p>
+        </div>
+        <div class="body">
+        <p class=" text-left">
+        RPL is a practical & cost-effective option that recognises your existing skills and knowledge. Thus, saving time, energy, and definitely money on redundant training.
+
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded md:w-[48%] w-full">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">2</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">Broadening Access to Knowledge 
+          </p>
+        </div>
+        <div class="body">
+        <p class=" text-left">Without formal qualification, RPL enables you to break down barriers to education and gain expertise through diverse experiences to access education and training.
+
+        </p>
+        </div>
+      </div>
+      <div class="item bg-slate-50 p-5 rounded md:w-[48%] w-full">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">3</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">
+          Immense Career Prospects 
+          </p>
+        </div>
+        <div class="body">
+        <p class=" text-left">
+        RPL propels your career by recognizing & certifying your valuable skills. Thus, opening a gateway to use those skills to follow your dream career.
+        </p>
+        </div>
+      </div>
+
+      <div class="item bg-slate-50 p-5 rounded md:w-[48%] w-full">
+        <div class="flex justify-start items-center gap-3 part">
+          <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
+            <p class="text-white text-center w-full ">4</p>
+          </div>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">
+          Boosts Confidence
+          </p>
+        </div>
+        <div class="body">
+        <p class=" text-left">
+        RPL assessments let you become more conscious about your skills & abilities, thus enabling you to set a mind set that lets you grow and conquer your passion.
+        </p>
+        </div>
+      </div>
+
+      </div>
+  `
+};
+
+export const RPL_FAQSDummyData = {
+  title: `Frequently Asked Questions`,
+  data: [
+    {
+      title: `What is an RPL assessment tool?`,
+      text: `RPL is an assessment that evaluates an individual's abilities earned via formal, non-formal, and informal learning. Its goal is to determine how well these abilities match the standards provided in training packages or authorized VET courses.
+      `,
+    },
+    {
+      title: `What are the principles of RPL assessment?`,
+      text: `The assessment for RPL follows the assessment principles of validity, reliability, flexibility, and fairness, just like standard assessment procedures. It also adheres to evidence rules ensuring validity, sufficiency, currency, and authenticity, maintaining the same standards as regular assessment processes.
+      `,
+    },
+    {
+      title: `How much experience do you need for RPL?
+      `,
+      text: `Acquiring nationally recognised qualifications through RPL shows companies your expertise and increases your sense of success. You must have at least six months of relevant experience, and your workplace samples must be within the past five years..
+      `,
+    },
+    {
+      title: `How long is the processing time for RPL?
+      `,
+      text: `The most significant advantage of RPL is that it’s quick to evaluate the prior expertise and validate those skills. However, it may take a few weeks to a few months to complete the paperwork and obtain the qualification.
+      `,
+    },
+  ],
+}

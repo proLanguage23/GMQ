@@ -22,10 +22,9 @@ function TradeCoursesPage() {
       <AppSliderBanner data={TradeCoursesBannerData} />
       <TradeCourseSectionOne />
       <TradeCourseSectionTwo />
-      <TradeCourseSectionThree />
       <TradeCourseSectionFour />
-      <CommonForm />
-      <TestimonialSection />
+      {/* <CommonForm /> */}
+      {/* <TestimonialSection /> */}
       {/* <PopUpElement data={popUpData} /> */}
     </>
   );

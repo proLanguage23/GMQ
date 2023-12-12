@@ -10,17 +10,13 @@ import { motion } from "framer-motion";
 
 function EducationCounsellingSectionTwo() {
   const { EducationCounsellingSectionTwo } = EducationCounsellingDummyData;
-  const { left, right, title, description } = EducationCounsellingSectionTwo;
+  const { left, right, title, } = EducationCounsellingSectionTwo;
   return (
 
       <section className="py-9 w-full">
         <Container>
           <div className="flex justify-center items-center flex-col mb-7 gap-4">
             <AppTitle text={title} class_name="text-center" />
-            <AppDescriptionWithDangerouslySetInnerHTML
-              text={description}
-              class_name="text-center"
-            />
           </div>
           <LeftToRight
             tiny_mceEditor={left?.text}
