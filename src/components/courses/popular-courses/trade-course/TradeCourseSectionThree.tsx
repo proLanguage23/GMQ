@@ -7,8 +7,8 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function TradeCourseSectionThree() {
-  const { TradeCourseSectionThree } = TradeCourseDummyData;
-  const { text } = TradeCourseSectionThree;
+  // const { TradeCourseSectionThree } = TradeCourseDummyData;
+  // const { text } = TradeCourseSectionThree;
 
   return (
     <motion.section
@@ -23,7 +23,7 @@ function TradeCourseSectionThree() {
     >
       <div className="py-9">
         <Container>
-          <AppDescriptionWithDangerouslySetInnerHTML text={text} />
+          <AppDescriptionWithDangerouslySetInnerHTML text={"text"} />
         </Container>
       </div>
     </motion.section>
