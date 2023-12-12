@@ -73,7 +73,7 @@ export const InformationTechnologyDummyData = {
     `,
   },
   InformationTechnologySectionThree: {
-    text: `<h1 class="titleOfParagraph">Benefits of Studying Information Technology in Australia</h1>
+    text: `<h3 class="titleOfParagraph">Benefits of Studying Information Technology in Australia</h3>
     <p class="part">
     It’s no secret that the IT sector in Australia provides a thriving tech landscape of ongoing job prospects, attracting international students, as well as local students, taking up the challenge to make it their career path. Moreover, with 8 of the world's top 100 institutions, Australia most definitely offers a world-class learning experience and scholarship options, thus, making it a highly sought-after location for budding IT professionals.</p>
     
@@ -211,6 +211,40 @@ export const InformationTechnologyDummyData = {
 
 
     </div>
+
+
+
+    </br>
+    </br>
+
+
+    <h3 class="titleOfParagraph">Career Outcomes    </h3>
+
+    <div class="px-5">
+    <p class="part">1. Project Manager</p>
+    <p class="part">2. Information Security Analyst </p>
+    <p class="part">3. IT Consultant 
+    </p>
+    <p class="part">4. Network Administrator </p>
+    <p class="part">5. Systems Analysts
+    </p>
+    <p class="part">6. Large-Scale Data Modelling
+    </p>
+    <p class="part">7. Software Operations Support
+    </p>
+    <p class="part">8. Web or Software or Game development</p>
+    <p class="part">9. Cloud Architecture
+    </p>
+    <p class="part">10. Cyber Security or Cyber Forensics
+    </p>
+    <p class="part">11. Data Analyst</p>
+    <p class="part">12. Business Analyst
+    </p>
+    <p class="part">13. Systems Administrator
+    </p>
+    </div>
+
+
 
     `,
   },
