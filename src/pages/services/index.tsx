@@ -28,7 +28,7 @@ function StudentServicesPage() {
       <StudentServicesSectionThree />
       <CommonForm />
       <TestimonialSection />
-      {/* <PopUpElement data={popUpData} /> */}
+      <PopUpElement data={popUpData} />
     </>
   );
 }

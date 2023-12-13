@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { AppModal, EntryForm } from "..";
 import EntryImgPopUp from "../EntryImgPopUp";
 
-function PopUpElement({data}:any) {
+function PopUpElement({ data }: any) {
   const [modalShow, setModalShow] = useState(true);
 
   const handelModal = () => {
@@ -20,6 +20,7 @@ function PopUpElement({data}:any) {
     <>
       {modalShow && (
         <AppModal
+          close_class="md:justify-around pr-9 md:pr-0"
           handelModal={handelModal}
           content={<EntryImgPopUp data={data} />}
         />

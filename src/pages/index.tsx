@@ -31,7 +31,7 @@ export default function Home() {
       <HomeHelpOfGMQ />
       <HomeTestimonials />
       <HomeRWL />
-      {/* <PopUpElement data={popUpData} /> */}
+      <PopUpElement data={popUpData} />
     </>
   );
 }
