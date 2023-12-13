@@ -163,7 +163,7 @@ function SkillsTestForm({class_name}:any) {
 
   return (
     <motion.div
-      className={`md:p-3 w-full md:h-screen  md:flex md:justify-center md:items-center p-2 ${class_name}`}
+      className={`md:p-3 w-full md:flex md:justify-center md:items-center p-2 ${class_name}`}
       initial={{ opacity: 0, y: 80 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{

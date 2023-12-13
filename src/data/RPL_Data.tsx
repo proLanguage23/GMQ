@@ -1,4 +1,4 @@
-import BgImg from "@/assets/rpl/rpl-banner.png";
+import BgImg from "@/assets/rpl/rpl-banner-1.png";
 import RPL_Img_One from "@/assets/rpl/automotive.png";
 
 import { ImCircleDown } from "react-icons/im";
@@ -188,32 +188,10 @@ import whyGMQ from '@/assets/whyGMQ.png'
 
 
 export const RPL_BannerData = {
-  title: [
-    {
-      text_one: "Get Your",
-      text_two: "Skills Certified Recognized!",
-    },
-    {
-      text_one: "Start Your",
-      text_two: "RPL Journey!",
-    },
-    {
-      text_one: "Do You Have",
-      text_two: "The Skills?",
-    },
-    {
-      text_one: "What are you",
-      text_two: "waiting for?",
-    },
-  ],
+  title: `Turning Experience Into Credentials - Your RPL Journey Starts Here!`,
   description:
-    "GMQ Global partner with registered training organizations (RTOs) to give you the best opportunity to convert your experience into a nationally recognized qualification through recognition of prior learning (RPL)",
+    "GMQ Global, in collaboration with accredited training organisations, provides you with an outstanding opportunity to turn your expertise into a nationally recognised certificate through RPL. Our complimentary skills evaluation and conversion of your knowledge into a valuable qualification that lay the foundation of your success.",
   link: [
-    // {
-    //   id: 1,
-    //   text: "Trade Licensing",
-    //   href: "#",
-    // },
     {
       id: 2,
       text: "View Qualifications",

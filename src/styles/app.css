@@ -397,6 +397,13 @@ img{
   -moz-filter: saturate(149%) contrast(107%);
 }
 
+.textShadow{
+  text-shadow: 2px 3px 2px rgba(0,0,0,0.5);
+}
+.textShadowNormal{
+  text-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+}
+
 
 @media only screen and (max-width: 1100px) {
   .menu-berar-icon {

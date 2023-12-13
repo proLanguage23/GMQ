@@ -1,7 +1,7 @@
 import ArchitectureBuilding from '@/assets/ArchitectureBuilding.png'
 
 export const HomeHelpOfGMQData = {
-    title: 'what GMQ Global can help with you',
+    title: 'Explore Career-Driven Courses with GMQ Global',
     HelpOfGMQ: [
         {
             id: 1,

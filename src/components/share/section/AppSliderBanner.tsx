@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/effect-fade";
 // import required modules
 import {
   Navigation,
@@ -15,6 +16,9 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { AppBgImg, AppBtn, AppSubTitle, AppTitle, Container } from "..";
+import { useRouter } from "next/router";
+import AppSliderBannerItem from "./AppSliderBannerItem";
 
 function AppSliderBanner({
   data,
@@ -24,32 +28,44 @@ function AppSliderBanner({
 }: any) {
   return (
     <section className="w-full">
-      <Swiper
-        slidesPerView={1}
-        cssMode={true}
-        navigation={true}
-        mousewheel={true}
-        keyboard={true}
-        loop={true}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        centeredSlides={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-        {...rest}
-        className={`HomeBannerSwipeWrap overflow-hidden object-cover  ${class_name}`}
-      >
-        {data?.map((item: any, key: any) => (
-          <SwiperSlide key={key}>
-            <Link
-              href={item?.btn?.href}
-              className="flex justify-center items-center"
-            >
-              <Image
+      {data?.length === 1 ? (
+        <AppSliderBannerItem
+          text={data[0]?.text}
+          description={data[0]?.description}
+          btnData={data[0]?.btn}
+          img={data[0].img}
+          ExtraText={data[0].extraText}
+        />
+      ) : (
+        <Swiper
+          slidesPerView={1}
+          cssMode={true}
+          navigation={true}
+          mousewheel={true}
+          keyboard={true}
+          loop={true}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          centeredSlides={true}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
+          {...rest}
+          className={`HomeBannerSwipeWrap overflow-hidden object-cover  ${class_name}`}
+        >
+          {data?.map((item: any, key: any) => (
+            <SwiperSlide key={key}>
+              <AppSliderBannerItem
+                text={item?.text}
+                description={item?.description}
+                btnData={item?.btn}
+                img={item.img}
+                ExtraText={item.ExtraText}
+              />
+              {/* <Image
                 src={item?.img}
                 alt={item?.text || "GMQ slider img"}
                 quality={100}
@@ -58,11 +74,11 @@ function AppSliderBanner({
                 // blurDataURL="true"
                 placeholder="blur"
                 className={`HomeBannerSwipeWrapSliderImg ${img_class_name}`}
-              />
-            </Link>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+              /> */}
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      )}
     </section>
   );
 }

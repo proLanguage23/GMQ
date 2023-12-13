@@ -1,10 +1,14 @@
-import homeBannerOne from '@/assets/join-our-student-referral-program.png'
+
+import homeBannerOne from "@/assets/join-our-student-referral-program.png";
+import homeBannerTwo from "@/assets/home-banner-two.png";
 import NursingBanner from "@/assets/course/NursingBanner.png";
 import teachingBannerOne from "@/assets/course/new/teaching/teachingBannerOne.jpg";
 import informationTechnologyBannerOne from "@/assets/course/new/information-technology/informationTechnologyBannerOne.jpg";
 
 import NursingBannerOne from "@/assets/course/new/nursing/banner/nursing-banner-one-gmq.jpg";
 import NursingBannerTwo from "@/assets/course/new/nursing/banner/nursing-banner-two-gmq.jpg";
+import nursingBannerThree from "@/assets/course/new/nursing/banner/nursing-banner-three-gmq.jpg";
+import NursingBannerFour from "@/assets/course/new/nursing/banner/nursing-banner-four-gmq.jpg";
 
 import CookeryBannerOne from "@/assets/course/new/Cookery/banner/banner-one-of-hospitality-and-cookery.png";
 import CookeryBannerTwo from "@/assets/course/new/Cookery/banner/banner-two-of-hospitality-and-cookery.png";
@@ -36,239 +40,247 @@ import NAATIOne from "@/assets/student-services/naati/banner/banner-one-of-naati
 
 
 export const HomeBannerData = [
-    {
-        id: 1,
-        text: 'join our student referral program',
-        img: homeBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-    {
-        id: 2,
-        text: 'join our student referral program',
-        img: homeBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    }
-]
+  {
+    id: 1,
+    text: "Transform Experience into Recognition of Prior Learning",
+    description: `GMQ Global knows the secret recipe on how you can turn your knowledge into a valuable Australian qualification effortlessly.
+    `,
+    img: homeBannerOne,
+    btn: [
+      {
+        text: "contact Now",
+        href: "/contact-us",
+      },
+    ],
+  },
+  {
+    id: 2,
+    text: "Learn, Grow, and Excel Anywhere in Australia",
+    description: "Ignite your educational and career journey with the expert guidance from our counselors.",
+    img: homeBannerTwo,
+    btn: [
+      {
+        text: "contact Now",
+        href: "/contact-us",
+      },
+    ],
+  },
+];
 
 export const NursingBannerData = [
-    {
-        id: 1,
-        text: 'nursing One',
-        img: NursingBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-    {
-        id: 2,
-        text: 'nursing Two',
-        img: NursingBannerTwo,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    }
-]
+  {
+    id: 1,
+    text: "Embark on a pathway to PR by studying nursing courses in Australia",
+    description: ``,
+    img: NursingBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+  {
+    id: 2,
+    text: "Nursing in Australia",
+    description: `Australia has more than 50 internationally renowned nursing colleges, including top-ranked universities. Allowing you to achieve quality education, improved career opportunities, and a secure, well-paying lifestyle.`,
+    img: NursingBannerTwo,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+  {
+    id: 3,
+    text: "Noble Profession",
+    description: `Whether in Australia or any other nation, nursing plays an essential part in the healthcare system. Nurses are highly valued in providing daily care & guaranteeing patient well-being.`,
+    img: nursingBannerThree,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+  {
+    id: 4,
+    text: "Career Prospects",
+    description: `Due to an aging population and health complexities in Australia, lucrative career opportunities are made possible for international students specializing in the field of nursing.`,
+    img: NursingBannerFour,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const CookeryCoursesInAustraliaBannerData = [
-    {
-        id: 1,
-        text: 'nursing One study Cookery & hospitality Course in Global',
-        img: CookeryBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-    {
-        id: 2,
-        text: 'nursing Two',
-        img: CookeryBannerTwo,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    }
-]
+  {
+    id: 1,
+    text: "Mater the culinary arts & hospitality skills to unlock incredible career opportunities",
+    description:``,
+    img: CookeryBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const teachingBannerData = [
-    {
-        id: 1,
-        text: 'nursing One',
-        img: TeachingBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-    {
-        id: 2,
-        text: 'nursing Two',
-        img: TeachingBannerTwo,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    }
-]
+  {
+    id: 1,
+    text: "Empower the future generations with incredible knowledge by becoming a certified teacher",
+    description:``,
+    img: TeachingBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  }
+];
 
 export const informationTechnologyBannerData = [
-    {
-        id: 1,
-        text: 'nursing One Explore Information Technology Studies in Global',
-        img: InformationTechnologyBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-    {
-        id: 2,
-        text: 'nursing Two',
-        img: InformationTechnologyBannerTwo,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    }
-]
+  {
+    id: 1,
+    text: "Master the tech landscape & pursue a career by enrolling in IT courses in Australia.",
+    description:``,
+    img: InformationTechnologyBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  }
+];
 
 export const TradeCoursesBannerData = [
-    {
-        id: 1,
-        text: 'trade course',
-        img: TradeCoursesBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-    {
-        id: 2,
-        text: 'trade course two',
-        img: TradeCoursesBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-
-]
+  {
+    id: 1,
+    text: "Skilled Trade Courses Open Doors to Permanent Residency in Australia and Empower You to Excel in Any Industry Sector.",
+    description:``,
+    img: TradeCoursesBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const ProfessionalYearProgramBannerData = [
-    {
-        id: 1,
-        text: 'professional year program One',
-        img: ProfessionalYearProgramBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-    {
-        id: 2,
-        text: 'professional year program Two',
-        img: ProfessionalYearProgramBannerTwo,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    }
-]
+  {
+    id: 1,
+    text: "professional year program One",
+    description:``,
+    img: ProfessionalYearProgramBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+  {
+    id: 2,
+    text: "professional year program Two",
+    description:``,
+    img: ProfessionalYearProgramBannerTwo,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const EducationCounsellingBannerData = [
-    {
-        id: 1,
-        text: 'education counselling One',
-        img: EducationCounsellingBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-    {
-        id: 2,
-        text: 'education counselling Two',
-        img: EducationCounsellingBannerTwo,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    }
-]
+  {
+    id: 1,
+    text: "",
+    ExtraText: `GMQ Global provides personalized student counseling, mapping personal goals to a variety of possibilities and nurturing success stories for every individual.`,
+    description:``,
+    img: EducationCounsellingBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+  {
+    id: 2,
+    text: "",
+    ExtraText: `Our motto is at the heart of empowerment that builds our commitment—to fuel aspirations, nurture confidence, and script futures resilient to any challenge.`,
+    description:``,
+    img: EducationCounsellingBannerTwo,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const PTEBannerData = [
-    {
-        id: 1,
-        text: 'PTE One',
-        img: PTEBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-    {
-        id: 2,
-        text: 'PTE Two',
-        img: PTEBannerTwo,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    }
-]
+  {
+    id: 1,
+    text: "PTE One",
+    description:``,
+    img: PTEBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+  {
+    id: 2,
+    text: "PTE Two",
+    description:``,
+    img: PTEBannerTwo,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const PTEGroupTrainingBannerData = [
-    {
-        id: 1,
-        text: 'PTE Group Training One',
-        img: PTEGroupTrainingBannerOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-]
+  {
+    id: 1,
+    text: "PTE Group Training One",
+    description:``,
+    img: PTEGroupTrainingBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const PTEOneToOneTrainingBannerData = [
-    {
-        id: 1,
-        text: 'PTE Group Training One',
-        img: PTEOneToOneTrainingOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-]
+  {
+    id: 1,
+    text: "PTE Group Training One",
+    description:``,
+    img: PTEOneToOneTrainingOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const PTEMockTestBannerData = [
-    {
-        id: 1,
-        text: 'PTE Group Training One',
-        img: PTEMockTestOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-]
+  {
+    id: 1,
+    text: "PTE Group Training One",
+    description:``,
+    img: PTEMockTestOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const NAATIBannerData = [
-    {
-        id: 1,
-        text: 'PTE Group Training One',
-        img: NAATIOne,
-        btn:{
-            text: 'learn more',
-            href: '#'
-        }
-    },
-]
+  {
+    id: 1,
+    text: "PTE Group Training One",
+    description:``,
+    img: NAATIOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];

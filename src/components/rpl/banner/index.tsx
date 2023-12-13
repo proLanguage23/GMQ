@@ -21,53 +21,19 @@ import {
 import { RPL_BannerData } from "@/data/RPL_Data";
 import AppBgImg from "@/components/share/AppBgImg";
 import { motion } from "framer-motion";
+import AppSliderBannerItem from "@/components/share/section/AppSliderBannerItem";
 
 function RPLBanner() {
   const { title, link, description, bgImg } = RPL_BannerData;
 
   return (
     <section className="relative w-full">
-      <Container>
-        <div className="md:w-2/4 w-full md:py-28 py-9">
-          <Swiper
-            slidesPerView={1}
-            cssMode={true}
-            mousewheel={true}
-            keyboard={true}
-            loop={true}
-            autoplay={{
-              delay: 5000,
-              disableOnInteraction: false,
-            }}
-            centeredSlides={true}
-            modules={[Mousewheel, Keyboard, Autoplay]}
-            className="HomeBannerSwipeWrap"
-          >
-            {title?.map((item, key) => (
-              <SwiperSlide key={key}>
-                <div className="w-fit h-18 max-h-fit overflow-hidden">
-                  <AppTitle text={item?.text_one} class_name="text-white" />
-                </div>
-                <div className="w-fit h-18 max-h-fit overflow-hidden">
-                  <AppTitle text={item?.text_two} class_name="text-white" />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-          <AppDescriptionWithDangerouslySetInnerHTML
-            text={description}
-            class_name="!text-white"
-          />
-          {link?.map((item, key) => (
-            <PageLink
-              key={key}
-              {...item}
-              class_name="commonBtnStyle mt-3 hover:bg-transparent"
-            />
-          ))}
-        </div>
-      </Container>
-      <AppBgImg BgImg={bgImg} alt={title[0]?.text_one + title[0]?.text_two} />
+      <AppSliderBannerItem
+          text={title}
+          description={description}
+          btnData={link}
+          img={bgImg}
+        />
     </section>
   );
 }

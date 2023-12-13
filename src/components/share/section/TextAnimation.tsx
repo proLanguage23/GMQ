@@ -13,7 +13,7 @@ const defaultVariants = {
   }),
 };
 
-export const TextAnimation = (text: any, animationSpeed = 0.05, durationSpeed= false) => {
+export const TextAnimation = (text: any, animationSpeed = 0.05, durationSpeed= false, isOnce=true ) => {
   let animationText = text.split("").map((item: any, key: any) => (
     <motion.span
       key={key}
@@ -28,7 +28,7 @@ export const TextAnimation = (text: any, animationSpeed = 0.05, durationSpeed= f
         },
       }}
       viewport={{
-        once: true,
+        once: isOnce,
       }}
     >
       {item}

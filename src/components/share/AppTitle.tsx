@@ -8,6 +8,7 @@ function AppTitle({
   heading = false,
   animationSpeed = 0.05,
   isAnimation = false,
+  
 }: any) {
   return (
     <>

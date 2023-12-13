@@ -7,7 +7,7 @@ function NursingCourseAboutSection() {
   const { NursingCourseAboutSection } = NursingCourseDummyData;
   const { title, img, description } = NursingCourseAboutSection;
   return (
-    <div className="py-9">
+    <div className="">
       <Container>
         <div className="df">
           <LeftToRight

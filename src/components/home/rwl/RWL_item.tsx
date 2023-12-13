@@ -11,18 +11,20 @@ function RWL_item({ id, title, description, btn }: any) {
     >
       <AppDescriptionWithDangerouslySetInnerHTML
         text={description}
-        class_name="text-white text-center md:text-right "
+        class_name="text-white text-center md:text-right flex-1"
       />
-      <PageLink
-        {...btn}
-        class_name="commonBtnStyle mt-2 py-2 hover:bg-transparent"
-      />
-      <AppTitle
-        text={title}
-        class_name="manropeFont lg:!text-[85px] text-white"
-        isAnimation
-        animationSpeed = {0.1}
-      />
+      <div className="flex flex-col justify-end items-end">
+        <PageLink
+          {...btn}
+          class_name="commonBtnStyle mt-2 py-2 hover:bg-transparent"
+        />
+        <AppTitle
+          text={title}
+          class_name="manropeFont lg:!text-[85px] text-white"
+          isAnimation
+          animationSpeed={0.1}
+        />
+      </div>
     </div>
   );
 }
