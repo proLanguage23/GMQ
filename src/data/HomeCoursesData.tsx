@@ -16,7 +16,7 @@ export const HomeCoursesDummyData = {
         description:'Our education counselors are here to ignite your passion by discussing your career aspirations and properly guiding you to your goals. Book a consultation with us today!        ',
         btn:{
             text:"learn more",
-            href:'/popular-courses/nursing'
+            href:'/services/education-counselling'
         },
     },
     {
@@ -25,8 +25,8 @@ export const HomeCoursesDummyData = {
         title:'Student Services',
         description:`Don't get caught up in the hurdle of choosing the right university for yourself to decide what to do next! We're here to guide you from start to success. Click to learn more!`,
         btn:{
-            text:"learn more",
-            href:'/popular-courses/hospitality-and-cookery'
+            text:"contact us",
+            href:'/contact-us'
         },
     },
     {
@@ -35,8 +35,8 @@ export const HomeCoursesDummyData = {
         title:'Popular Courses',
         description:'GMQ Global partners with 100+ leading universities, schools, and colleges worldwide. Explore your options from the in-demand study fields to discover your ideal course and institution today.',
         btn:{
-            text:"learn more",
-            href:'/popular-courses/teaching'
+            text:"contact us",
+            href:'/contact-us'
         },
     },
     {
@@ -45,8 +45,8 @@ export const HomeCoursesDummyData = {
         title:'Student Visa',
         description:'Are you considering studying, working, or migrating? Learn how we can assist you in studying, working, and living in Australia by aiding you in obtaining the visas of your choosing.',
         btn:{
-            text:"learn more",
-            href:'/popular-courses/information-technology'
+            text:"contact us",
+            href:'/contact-us'
         },
     },
     {
@@ -56,8 +56,8 @@ export const HomeCoursesDummyData = {
         description:`GMQ Global is well-resourced with renowned organizations to ensure the best health cover policies tailored for you. We've got you covered, securing comprehensive insurance benefits. Our partner health insurance providers are listed below: 1.NIB, 2.Allianz
         `,
         btn:{
-            text:"learn more",
-            href:'/popular-courses/trade-courses'
+            text:"contact us",
+            href:'/contact-us'
         },
     }
   ]

@@ -28,10 +28,10 @@ function ContactMap() {
         <Container>
           <div className="mb-9 flex flex-col justify-center items-center">
             <AppTitle text={title} class_name="text-center " />
-            <AppDescriptionWithDangerouslySetInnerHTML
+            {/* <AppDescriptionWithDangerouslySetInnerHTML
               text={text}
               class_name="text-center md:w-2/3"
-            />
+            /> */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 w-full mt-9">
               {data?.map((item, key) => (
                 <div
