@@ -317,15 +317,15 @@ export const NursingCourseDummyData = {
           href: "/contact",
         },
       },
-      {
-        img: OBA_Program,
-        text: `OBA Program`,
-        description: `Outcome-based assessment (OBA) is an innovative approach that AHPRA and NMBA established to assess the credentials of foreign nurses applying for recognition in Australia.        `,
-        btn: {
-          text: "inquire now",
-          href: "/contact",
-        },
-      },
+      // {
+      //   img: OBA_Program,
+      //   text: `OBA Program`,
+      //   description: `Outcome-based assessment (OBA) is an innovative approach that AHPRA and NMBA established to assess the credentials of foreign nurses applying for recognition in Australia.        `,
+      //   btn: {
+      //     text: "inquire now",
+      //     href: "/contact",
+      //   },
+      // },
     ],
     contactBTN: {
       text: "inquire now",

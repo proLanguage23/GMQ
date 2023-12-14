@@ -2,6 +2,10 @@ import teacingAbout from "@/assets/course/new/teaching/teacingAbout.png";
 import CareerPathways from "@/assets/course/new/teaching/CareerPathways.png";
 import educationBGImg from "@/assets/course/new/teaching/educationBGImg.png";
 import bgiocnImg from "@/assets/bgiocn.png";
+import CertificateIIIinEarlyChildhoodEducationandCare from "@/assets/course/new/teaching/CertificateIIIinEarlyChildhoodEducationandCare.png";
+import DiplomaofEarlyChildhoodEducationandCare from "@/assets/course/new/teaching/DiplomaofEarlyChildhoodEducationandCare.png";
+import DiplomaofSchoolAgeEducationandCare from "@/assets/course/new/teaching/DiplomaofSchoolAgeEducationandCare.png";
+import CertificateIVinSchoolBasedEducationSupport from "@/assets/course/new/teaching/CertificateIVinSchoolBasedEducationSupport.png";
 
 export const TeachingDummyData = {
   SectionOneOfTeaching: {
@@ -25,19 +29,19 @@ export const TeachingDummyData = {
     data: [
       {
         title: `Certificate III in Early Childhood Education and Care`,
-        img: teacingAbout
+        img: CertificateIIIinEarlyChildhoodEducationandCare
       },
       {
         title: `Diploma of Early Childhood Education and Care:`,
-        img: teacingAbout
+        img: DiplomaofEarlyChildhoodEducationandCare
       },
       {
         title: `Diploma of School Age Education and Care:`,
-        img: teacingAbout
+        img: DiplomaofSchoolAgeEducationandCare
       },
       {
         title: `Certificate IV in School-Based Education Support:`,
-        img: teacingAbout
+        img: CertificateIVinSchoolBasedEducationSupport
       },
     ],
     secondaryImg: bgiocnImg,
