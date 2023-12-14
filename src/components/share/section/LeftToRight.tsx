@@ -29,7 +29,7 @@ function LeftToRight({
         }`}
       >
         {sideImg && (
-          <AppImg src={sideImg} alt={alt || title } class_name="w-full rounded scale-90" />
+          <AppImg src={sideImg} alt={alt || title } class_name="w-full rounded-2xl scale-90" />
         )}
       </div>
       <div className="">

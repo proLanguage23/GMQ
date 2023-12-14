@@ -28,7 +28,7 @@ function HomeAboutGMQ() {
                 alt={"logo"}
                 quality={100}
                 // priority={true}
-                className="w-full h-auto p-5 md:p-0 rounded-2xl"
+                className="w-full h-auto rounded-2xl"
                 loading="lazy"
                 blurDataURL="true"
               />

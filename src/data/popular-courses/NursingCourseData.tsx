@@ -15,7 +15,7 @@ import one_nurse from "@/assets/course/new/nursing/one_nurse.svg";
 import one_book from "@/assets/course/new/nursing/one_book.svg";
 import one_Career from "@/assets/course/new/nursing/one_Career.svg";
 import NursingCourseSectionOneItemBG from "@/assets/course/new/nursing/NursingCourseSectionOneItemBG.png";
-import aboutImg from "@/assets/course/NursingSix1.png";
+import aboutofnursing from "@/assets/course/new/nursing/aboutofnursing.png";
 
 // new data collect end
 export const NursingCourseDummyDataOld = {
@@ -254,7 +254,7 @@ export const NursingCourseDummyData = {
     The need for qualified nurses in Australia's healthcare industry is expected to increase by 19% by 2026 due to an aging population and an increase in chronic diseases in Australia. Therefore, after the COVID-19 pandemic, there has been an increased need for medical professionals, which has forced the government to increase funding for healthcare. Qualified nurses are in high demand in the public and private sectors of the nursing profession because hospitals, nursing homes, and clinics need them.
 
     `,
-    img: aboutImg
+    img: aboutofnursing
   },
   NursingCourseSectionOne: {
     data: [

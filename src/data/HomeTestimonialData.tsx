@@ -12,7 +12,7 @@ import mahadihasan_tm from '@/assets/mahadihasan_tm.png'
 import quotation from '@/assets/quotation.png'
 
 export const HomeTestimonialDummyData = {
-    title:'What says our students about us',
+    title:'Check Out What Our Students Have to Say',
     secondaryImg: happyStudent,
     TestimonialDummyData:[
         {

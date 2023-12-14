@@ -50,16 +50,15 @@ function HomeTestimonials() {
                 </Swiper>
               </div>
 
-              <div className="flex justify-center flex-wrap">
+              <div className="flex justify-center items-end">
                 <Image
                   src={secondaryImg}
                   alt={"logo"}
                   quality={100}
-                  width={350}
                   // priority={true}
                   loading="lazy"
                   blurDataURL="true"
-                  className="h-auto"
+                  className="w-fit object-contain"
                 />
               </div>
             </div>
