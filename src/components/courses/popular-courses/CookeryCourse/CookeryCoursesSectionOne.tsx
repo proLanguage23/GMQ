@@ -6,19 +6,19 @@ import QualificationItemResult from "@/components/rpl/allQualifications/sub/Qual
 import { motion } from "framer-motion";
 
 function CookeryCoursesSectionOne() {
-  const [cookeryHospitalityData, setCookeryHospitalityData] = useState<any>([]);
+  // const [cookeryHospitalityData, setCookeryHospitalityData] = useState<any>([]);
   const { CookeryCoursesSectionOne } = hospitality_and_cookeryDummyData;
   const { title, data } = CookeryCoursesSectionOne;
-  const { RPL_QualificationItems } = RPL_QualificationData;
+  // const { RPL_QualificationItems } = RPL_QualificationData;
 
-  useLayoutEffect(() => {
-    const result = RPL_QualificationItems?.filter(
-      (item) =>
-        item.content?.title?.toLocaleLowerCase() ===
-        "commercial cookery & hospitality"
-    );
-    setCookeryHospitalityData(result[0]?.content?.link);
-  }, [RPL_QualificationItems]);
+  // useLayoutEffect(() => {
+  //   const result = RPL_QualificationItems?.filter(
+  //     (item) =>
+  //       item.content?.title?.toLocaleLowerCase() ===
+  //       "commercial cookery & hospitality"
+  //   );
+  //   setCookeryHospitalityData(result[0]?.content?.link);
+  // }, [RPL_QualificationItems]);
   return (
     <section className="py-9 bg-grayCustom/50 w-full">
       <Container>

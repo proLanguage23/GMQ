@@ -3,12 +3,21 @@ import BachelorOfTourismAndHospitalityManagement from "@/assets/course/new/Cooke
 import cookImg from "@/assets/course/new/Cookery/cookImg.jpg";
 import AboutOfCookImg from "@/assets/course/new/Cookery/cookImg.jpg";
 
+import CERTIFICATEIIIINPATISSERIE_SIT31016 from "@/assets/course/new/Cookery/CERTIFICATEIIIINPATISSERIE_SIT31016.png";
+import CERTIFICATEIVINCOMMERCIALCOOKERY_SIT40516 from "@/assets/course/new/Cookery/CERTIFICATEIVINCOMMERCIALCOOKERY_SIT40516.png";
+import CERTIFICATEIVINHOSPITALITYSIT40416 from "@/assets/course/new/Cookery/CERTIFICATEIVINHOSPITALITYSIT40416.png";
+import CERTIFICATEIVINKITCHENMANAGEMENTSIT40521 from "@/assets/course/new/Cookery/CERTIFICATEIVINKITCHENMANAGEMENTSIT40521.png";
+import CERTIFICATEIVINPATISSERIESIT40716 from "@/assets/course/new/Cookery/CERTIFICATEIVINPATISSERIESIT40716.png";
+import DIPLOMAOFHOSPITALITYMANAGEMENTSIT50416 from "@/assets/course/new/Cookery/DIPLOMAOFHOSPITALITYMANAGEMENTSIT50416.png";
+import BachelorofTourismandHospitalityManagement from "@/assets/course/new/Cookery/BachelorofTourismandHospitalityManagement.png";
+import AdvancedDiplomaofHospitalityManagementSIT60316 from "@/assets/course/new/Cookery/AdvancedDiplomaofHospitalityManagementSIT60316.png";
+
 export const hospitality_and_cookeryDummyData = {
   CookeryCoursesSectionOne: {
     title: `Certifications Offered in Hospitality & Cookery Programs`,
     data: [
       {
-        img: AdvancedDiplomaOfHospitality,
+        img: CERTIFICATEIIIINPATISSERIE_SIT31016,
         text: `CERTIFICATE III IN PATISSERIE - SIT31016`,
         description: `This certifies pastry chefs to gain skills in various patisserie techniques to work as pastry chefs or patissiers in patisseries, restaurants, hotels, and cafes.`,
         btn: {
@@ -17,7 +26,7 @@ export const hospitality_and_cookeryDummyData = {
         },
       },
       {
-        img: AdvancedDiplomaOfHospitality,
+        img: CERTIFICATEIVINCOMMERCIALCOOKERY_SIT40516,
         text: `CERTIFICATE IV IN COMMERCIAL COOKERY - SIT40516`,
         description: `The certificate enhances the commercial cooks to take on supervisory roles and opens doors for jobs such as chef or chef de partie in cafes, hotels, and restaurants.`,
         btn: {
@@ -26,7 +35,7 @@ export const hospitality_and_cookeryDummyData = {
         },
       },
       {
-        img: AdvancedDiplomaOfHospitality,
+        img: CERTIFICATEIVINHOSPITALITYSIT40416,
         text: `CERTIFICATE IV IN HOSPITALITY - SIT40416`,
         description: `This certifies qualified executives with the necessary service skills to oversee teams in the hospitality industry, as bar supervisors, and duty managers, at hotels or even cafes.`,
         btn: {
@@ -35,7 +44,7 @@ export const hospitality_and_cookeryDummyData = {
         },
       },
       {
-        img: AdvancedDiplomaOfHospitality,
+        img: CERTIFICATEIVINKITCHENMANAGEMENTSIT40521,
         text: `CERTIFICATE IV IN KITCHEN MANAGEMENT - SIT40521`,
         description: `This certificate ensures chefs and cooks with skills to work independently in kitchens or any leadership positions, at their own cafes, hotels, or restaurants.`,
         btn: {
@@ -44,7 +53,7 @@ export const hospitality_and_cookeryDummyData = {
         },
       },
       {
-        img: AdvancedDiplomaOfHospitality,
+        img: CERTIFICATEIVINPATISSERIESIT40716,
         text: `CERTIFICATE IV IN PATISSERIE - SIT40716`,
         description: `This certification allows pastry chefs to work freely in an assortment of settings as leaders in the kitchens of hotels, pubs, clubs, patisseries, or restaurants.`,
         btn: {
@@ -53,7 +62,7 @@ export const hospitality_and_cookeryDummyData = {
         },
       },
       {
-        img: AdvancedDiplomaOfHospitality,
+        img: DIPLOMAOFHOSPITALITYMANAGEMENTSIT50416,
         text: `Diploma of Hospitality Management - SIT50416`,
         description: `This certification provides the knowledge for one to become a senior operator in hospitality management and work in a variety of industry sectors.
         `,
@@ -63,7 +72,7 @@ export const hospitality_and_cookeryDummyData = {
         },
       },
       {
-        img: AdvancedDiplomaOfHospitality,
+        img: BachelorofTourismandHospitalityManagement,
         text: `Bachelor of Tourism and Hospitality Management`,
         description: `The degree combines the skills in entertainment & tourist spots, and hotels, alongside in-depth insights into marketing, business, and management.`,
         btn: {
@@ -72,7 +81,7 @@ export const hospitality_and_cookeryDummyData = {
         },
       },
       {
-        img: BachelorOfTourismAndHospitalityManagement,
+        img: AdvancedDiplomaofHospitalityManagementSIT60316,
         text: `Advanced Diploma of Hospitality Management - SIT60316`,
         description: `The advanced diploma provides the knowledge to become a skilled senior manager with specialized skills in areas like cuisines, hotels, and managerial duties.`,
         btn: {
