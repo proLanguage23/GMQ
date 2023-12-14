@@ -2584,10 +2584,12 @@ export const RPL_Certificate_ProcessDummyData = {
           <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
             <p class="text-white text-center w-full ">1</p>
           </div>
-          <p class="font-bold text-lg text-slate-700 flex-1 text-left">High Demand & Diverse Career Opportunities:</p>
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">Initial Assessment for Customized Pathways: 
+          </p>
         </div>
         <div class="body">
-        <p class=" text-left">The IT sector of Australia has a diversified professional occupation spanning technical writing, web development, IT administration, and more. Thus, its job market is always looking for qualified IT graduates, offering lucrative career choices with good salaries.
+        <p class=" text-left">Begin your RPL journey with a customized assessment from one of our consultants, who will build a pathway that corresponds with your abilities and professional ambitions.
+
         </p>
         </div>
       </div>
@@ -2598,6 +2600,7 @@ export const RPL_Certificate_ProcessDummyData = {
             <p class="text-white text-center w-full ">2</p>
           </div>
           <p class="font-bold text-lg text-slate-700 flex-1 text-left">Document Preparation and Verification: 
+ 
           </p>
         </div>
         <div class="body">

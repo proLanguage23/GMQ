@@ -28,7 +28,7 @@ function HomeCourses() {
       <Container>
         <div className="flex flex-col justify-center items-center flex-wrap">
           <AppTitle text={title} class_name="!text-center" isAnimation />
-          <AppSubTitle text={subTitle} class_name="!text-center" />
+          {/* <AppSubTitle text={subTitle} class_name="!text-center" /> */}
           <div className="w-full mt-8 flex justify-center gap-2 flex-wrap">
             {CoursesData?.map((item, key) => (
               <OldCoursesItem

@@ -12,8 +12,8 @@ export const HomeCoursesDummyData = {
     {
         id: 1,
         img: Nursing,
-        title:'Nursing',
-        description:'Our Education Counsellors will learn about your career aspirations, lifestyle and study goals so that we can offer tailored advice.',
+        title:'Education Counseling',
+        description:'Our education counselors are here to ignite your passion by discussing your career aspirations and properly guiding you to your goals. Book a consultation with us today!        ',
         btn:{
             text:"learn more",
             href:'/popular-courses/nursing'
@@ -22,8 +22,8 @@ export const HomeCoursesDummyData = {
     {
         id: 2,
         img: HospitalityCookery,
-        title:'Hospitality & Cookery',
-        description:'Need the right advice for university or college placement, scholarships and internships? From the initial consultation to application, find out more how we can help.',
+        title:'Student Services',
+        description:`Don't get caught up in the hurdle of choosing the right university for yourself to decide what to do next! We're here to guide you from start to success. Click to learn more!`,
         btn:{
             text:"learn more",
             href:'/popular-courses/hospitality-and-cookery'
@@ -32,8 +32,8 @@ export const HomeCoursesDummyData = {
     {
         id: 3,
         img: Teaching,
-        title:'Teaching',
-        description:'GMQ Global represent over 750+ top universities, schools and colleges globally. Browse our fields of study to find your perfect course and institution today.',
+        title:'Popular Courses',
+        description:'GMQ Global partners with 100+ leading universities, schools, and colleges worldwide. Explore your options from the in-demand study fields to discover your ideal course and institution today.',
         btn:{
             text:"learn more",
             href:'/popular-courses/teaching'
@@ -42,8 +42,8 @@ export const HomeCoursesDummyData = {
     {
         id: 4,
         img: informationTechnology,
-        title:'Information Technology',
-        description:'Whether you’re looking to study abroad or planning for a career overseas. See how we can help you study, work and live in leading destinations around the world.',
+        title:'Student Visa',
+        description:'Are you considering studying, working, or migrating? Learn how we can assist you in studying, working, and living in Australia by aiding you in obtaining the visas of your choosing.',
         btn:{
             text:"learn more",
             href:'/popular-courses/information-technology'
@@ -52,8 +52,9 @@ export const HomeCoursesDummyData = {
     {
         id: 5,
         img: tradeCourses,
-        title:'Trade Courses',
-        description:'From finding the best health cover policies to ensuring the insurance benefits for you, we have got you covered.',
+        title:'Student Health',
+        description:`GMQ Global is well-resourced with renowned organizations to ensure the best health cover policies tailored for you. We've got you covered, securing comprehensive insurance benefits. Our partner health insurance providers are listed below: 1.NIB, 2.Allianz
+        `,
         btn:{
             text:"learn more",
             href:'/popular-courses/trade-courses'

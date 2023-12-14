@@ -1,6 +1,7 @@
 import { MdAddCall } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaRegClock } from "react-icons/fa";
+import { call } from "./ShareData";
 
 export const ContactDummyData = {
     ContactSectionOne: {
@@ -10,7 +11,7 @@ export const ContactDummyData = {
             {
                 asserts: <MdAddCall size={32} color="#fff" />,
                 title: `Call Us`,
-                text: `+61416310688` 
+                text: `${call}` 
             },
             {
                 asserts: <MdOutlineMailOutline size={32} color="#fff" />,

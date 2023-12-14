@@ -165,19 +165,9 @@ export const TradeCoursesBannerData = [
 export const ProfessionalYearProgramBannerData = [
   {
     id: 1,
-    text: "professional year program One",
-    description:``,
+    text: "Forge your future with a Professional Year Program in Australia",
+    description:`The Professional Year Program provides significant support in broadening your experience and boosting your confidence. It paves the route for a successful career and perhaps permanent residency in Australia.`,
     img: ProfessionalYearProgramBannerOne,
-    btn: [{
-      text: "contact us",
-      href: "/contact-us",
-    }],
-  },
-  {
-    id: 2,
-    text: "professional year program Two",
-    description:``,
-    img: ProfessionalYearProgramBannerTwo,
     btn: [{
       text: "contact us",
       href: "/contact-us",
@@ -213,8 +203,8 @@ export const EducationCounsellingBannerData = [
 export const PTEBannerData = [
   {
     id: 1,
-    text: "PTE One",
-    description:``,
+    text: "What is PTE?",
+    description:`Students who wish to study in Australia, must take part in the PTE evaluation. It is an advanced computer-based assessment designed for non-native English speakers.`,
     img: PTEBannerOne,
     btn: [{
       text: "contact us",
@@ -223,8 +213,8 @@ export const PTEBannerData = [
   },
   {
     id: 2,
-    text: "PTE Two",
-    description:``,
+    text: "PTE unlocks the key to academic & immigration goals in Australia",
+    description:`PTE acts as a catalyst that can help you accomplish your dreams of studying, working, or migrating to Australia. Regarded as the quickest English assessment and allows you to schedule it at your convenience. The most significant and reliable assessment of English competence in Australia.`,
     img: PTEBannerTwo,
     btn: [{
       text: "contact us",
@@ -275,7 +265,8 @@ export const PTEMockTestBannerData = [
 export const NAATIBannerData = [
   {
     id: 1,
-    text: "PTE Group Training One",
+    text: "",
+    extraText:`The NAATI test establishes language proficiency for international students in Australia. It enhances the English speaking & understanding skills, opening doors to a spectrum of opportunities. From career prospects to aspiring migrants!`,
     description:``,
     img: NAATIOne,
     btn: [{

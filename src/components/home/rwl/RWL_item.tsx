@@ -13,7 +13,7 @@ function RWL_item({ id, title, description, btn }: any) {
         text={description}
         class_name="text-white text-center md:text-right flex-1"
       />
-      <div className="flex flex-col justify-end items-end">
+      <div className="flex flex-col justify-end md:items-end items-center">
         <PageLink
           {...btn}
           class_name="commonBtnStyle mt-2 py-2 hover:bg-transparent"

@@ -396,6 +396,10 @@ img{
   -webkit-filter: saturate(130%) contrast(107%);
   -moz-filter: saturate(149%) contrast(107%);
 }
+.clearFilter{
+  filter: saturate(110%) contrast(105%);
+  -webkit-filter: saturate(110%) contrast(105%);
+}
 
 .textShadow{
   text-shadow: 2px 3px 2px rgba(0,0,0,0.5);

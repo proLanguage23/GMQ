@@ -23,7 +23,7 @@ function OldCoursesItem({
         <AppImg
           src={img}
           alt={title || " image of gmq of popular-courses nursing"}
-          class_name="w-full rounded-md h-[290px] object-contain"
+          class_name="w-full rounded-md h-[290px] object-contain clearFilter"
         />
 
         <PageLink

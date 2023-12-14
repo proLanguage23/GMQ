@@ -10,7 +10,7 @@ import React, { useState } from "react";
 import { BiSolidHandRight } from "react-icons/bi";
 import { motion } from "framer-motion";
 import AppImg from "@/components/share/AppImg";
-import { contactFormOfHome } from "@/data/ShareData";
+import { contactFormOfHome, contactFormPopUpData } from "@/data/ShareData";
 
 function RPL_QualificationItem({
   brandImg,
@@ -72,7 +72,7 @@ function RPL_QualificationItem({
       </motion.div>
 
       {modalShow && (
-        <AppModal handelModal={handelModal} content={<EntryForm data={contactFormOfHome} />} />
+        <AppModal handelModal={handelModal} content={<EntryForm data={contactFormPopUpData} />} />
       )}
     </>
   );

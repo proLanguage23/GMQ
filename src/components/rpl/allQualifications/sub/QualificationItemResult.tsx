@@ -7,12 +7,8 @@ import {
 import AppImg from "@/components/share/AppImg";
 import React, { useEffect, useState } from "react";
 import { createPagination } from "@/components/share/lib";
-import { contactFormOfHome } from "@/data/ShareData";
+import { contactFormPopUpData } from "@/data/ShareData";
 
-const contactFormPopUpData = `
-<h4 class="text-center titleOfParagraph">Hey, we’d like to know you better too! </h4>
-${contactFormOfHome}
-`
 
 function QualificationItemResult({
   allRPL_QualificationItems = [],
