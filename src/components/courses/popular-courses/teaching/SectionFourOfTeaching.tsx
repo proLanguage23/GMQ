@@ -10,7 +10,7 @@ import {
 import { TeachingDummyData } from "@/data/popular-courses/TeachingData";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { contactFormOfHome } from "@/data/ShareData";
+import { contactFormOfHome, contactFormPopUpData } from "@/data/ShareData";
 
 function SectionFourOfTeaching() {
   const [modalShow, setModalShow] = useState(false);
@@ -48,7 +48,7 @@ function SectionFourOfTeaching() {
        {modalShow && (
         <AppModal
           handelModal={handelModal}
-          content={<EntryForm data={contactFormOfHome} />}
+          content={<EntryForm data={contactFormPopUpData} />}
         />
       )}
     </section>

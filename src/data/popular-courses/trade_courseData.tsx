@@ -1,5 +1,19 @@
-import Certificate_III_in_Carpentry from "@/assets/course/new/trade_course/Certificate_III_in_Carpentry.png";
+
 import Trade_CoursesTwo1 from "@/assets/course/new/trade_course/Trade_CoursesTwo1.jpg";
+import Certificate_III_in_Carpentry from "@/assets/course/new/trade_course/Certificate_III_in_Carpentry.png";
+import CertificateIIIinWallandFloorTiling from "@/assets/course/new/trade_course/CertificateIIIinWallandFloorTiling.png";
+import CertificateIIIinPaintingDecorating from "@/assets/course/new/trade_course/CertificateIIIinPaintingDecorating.png";
+import CertificateIIIinSolidPlastering from "@/assets/course/new/trade_course/CertificateIIIinSolidPlastering.png";
+import CertificateIIIinBricklayingBlocklaying from "@/assets/course/new/trade_course/CertificateIIIinBricklayingBlocklaying.png";
+import CertificateIIIinInstrumentationandControl from "@/assets/course/new/trade_course/CertificateIIIinInstrumentationandControl.png";
+import CertificateIIIinAutomotiveElectricalTechnology from "@/assets/course/new/trade_course/CertificateIIIinAutomotiveElectricalTechnology.png";
+import CertificateIIIinCommercialCookery from "@/assets/course/new/trade_course/CertificateIIIinCommercialCookery.png";
+import CertificateIIIinEngineering_FabricationTradeBoilermaker_Welder_Fabricator from "@/assets/course/new/trade_course/CertificateIIIinEngineering_FabricationTradeBoilermaker_Welder_Fabricator.png";
+import AdvancedDiplomaofEngineeringTechnology from "@/assets/course/new/trade_course/AdvancedDiplomaofEngineeringTechnology.png";
+import CertificateIIIinJoinery from "@/assets/course/new/trade_course/CertificateIIIinJoinery.png";
+import CertificateIIIinAutomotiveMechanicalTechnology_Heavy from "@/assets/course/new/trade_course/CertificateIIIinAutomotiveMechanicalTechnology_Heavy.png";
+
+
 
 export const TradeCourseDummyData = {
   TradeCourseSectionOne: {
@@ -15,7 +29,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinWallandFloorTiling,
         title: `Certificate III in Wall and Floor Tiling`,
         text: ``,
         btn: {
@@ -24,7 +38,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinPaintingDecorating,
         title: `Certificate III in Painting & Decorating `,
         text: ``,
         btn: {
@@ -33,7 +47,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinSolidPlastering,
         title: `Certificate III in Solid Plastering `,
         text: ``,
         btn: {
@@ -42,7 +56,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinBricklayingBlocklaying,
         title: `Certificate III in Bricklaying / Blocklaying`,
         text: ``,
         btn: {
@@ -51,7 +65,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinInstrumentationandControl,
         title: `Certificate III in Instrumentation and Control  `,
         text: ``,
         btn: {
@@ -60,7 +74,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinAutomotiveElectricalTechnology,
         title: `Certificate III in Automotive Electrical Technology `,
         text: ``,
         btn: {
@@ -69,7 +83,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinCommercialCookery,
         title: `Certificate III in Commercial Cookery`,
         text: ``,
         btn: {
@@ -78,7 +92,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinEngineering_FabricationTradeBoilermaker_Welder_Fabricator,
         title: `Certificate III in Engineering (Fabrication Trade) Boilermaker/Welder/Fabricator `,
         text: ``,
         btn: {
@@ -87,7 +101,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: AdvancedDiplomaofEngineeringTechnology,
         title: `Advanced Diploma of Engineering Technology`,
         text: ``,
         btn: {
@@ -96,7 +110,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinJoinery,
         title: `Certificate III in Joinery `,
         text: ``,
         btn: {
@@ -105,7 +119,7 @@ export const TradeCourseDummyData = {
         },
       },
       {
-        img: Certificate_III_in_Carpentry,
+        img: CertificateIIIinAutomotiveMechanicalTechnology_Heavy,
         title: `Certificate III in Automotive Mechanical Technology (Heavy)    `,
         text: ``,
         btn: {

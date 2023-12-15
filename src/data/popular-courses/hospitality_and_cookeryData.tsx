@@ -202,7 +202,7 @@ export const hospitality_and_cookeryDummyData = {
     
     </br>
     
-    <p class="part"><em><strong>Note:</strong></em> Please keep in mind that these figures are estimates and may vary depending on factors such as the institution, course duration, and location. We recommend visiting the official websites of the respective institutions for the most up-to-date and precise fee information.
+    <p class="part"> Please keep in mind that these figures are estimates and may vary depending on factors such as the institution, course duration, and location. We recommend visiting the official websites of the respective institutions for the most up-to-date and precise fee information.
     </p>
     
     </br >
