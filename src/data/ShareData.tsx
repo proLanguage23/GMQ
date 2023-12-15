@@ -21,3 +21,7 @@ export const contactFormPopUpData = `
 <h4 class="text-center titleOfParagraph">Hey, we’d like to know you better too! </h4>
 ${contactFormOfHome}
 `
+export const popUp_ElementData = `
+<h4 class="text-center titleOfParagraph">Hey, we’d like to know you better too! </h4>
+${contactFormOfPTE}
+`

@@ -62,10 +62,13 @@ export const ProfessionalYearProgramDummyData = {
 <h4 class="text-2xl part">Benefits of Enrolling in PYP through GMQ Global</h4>
 
 <ul class="list-decimal part">
-    <li> Free TR 485 Visa Application</li>
-    <li> Reward on refer a friend</li>
-    <li> One FREE Consultation Voucher</li>
-    <li> One month of free PTE coaching along with 5 unscored PTE mock tests</li>
+    <li> Candidates can access the cheapest deals.</li>
+    <li> Candidates may receive free of charge migration consultation worth $165 AUD.
+     </li>
+    <li> Candidates may earn rewards through our referral program.
+     </li>
+    <li> Candidates may gain exclusive pricing options for professional development courses or RPL (Recognition of Prior Learning) services.
+    </li>
 </ul>
 
     `

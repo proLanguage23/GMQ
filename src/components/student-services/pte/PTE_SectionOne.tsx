@@ -8,6 +8,8 @@ import { PTE_Dummy_data } from "@/data/services/PTE_Data";
 import React from "react";
 import PteServiceItem from "./pteSubItem/PteServiceItem";
 import { motion } from "framer-motion";
+import CookeryCoursesSectionOneItem from "@/components/courses/popular-courses/CookeryCourse/subItem/CookeryCoursesSectionOneItem";
+import { popUp_ElementData } from "@/data/ShareData";
 
 function PTE_SectionOne() {
   const { PTE_SectionOne } = PTE_Dummy_data;
@@ -23,7 +25,8 @@ function PTE_SectionOne() {
           />
           <div className="flex justify-evenly flex-wrap gap-2 mt-9">
             {data?.map((item, key) => (
-              <PteServiceItem key={key} {...item} />
+              // <PteServiceItem key={key} {...item} />
+              <CookeryCoursesSectionOneItem {...item} key={key} popUp_Element={popUp_ElementData} />
             ))}
           </div>
           <AppDescriptionWithDangerouslySetInnerHTML

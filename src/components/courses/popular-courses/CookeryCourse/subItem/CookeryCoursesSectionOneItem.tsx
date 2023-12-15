@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 
-function CookeryCoursesSectionOneItem({ img, title, btn }: any) {
+function CookeryCoursesSectionOneItem({ img, title, btn, popUp_Element }: any) {
   const [modalShow, setModalShow] = useState(false);
 
   const handelModal = () => {
@@ -24,7 +24,7 @@ function CookeryCoursesSectionOneItem({ img, title, btn }: any) {
               class_name="text-white textShadowNormal"
             />
           </div>
-          <div className="w-8 h-8 bg-primary hover:bg-white group flex justify-center items-center rounded-full transition-all">
+          <div className="w-8 h-8 bg-secondary hover:bg-white group flex justify-center items-center rounded-full transition-all">
             <FaArrowRight className="text-white group-hover:text-primary transition-all" />
           </div>
         </div>
@@ -34,7 +34,7 @@ function CookeryCoursesSectionOneItem({ img, title, btn }: any) {
       {modalShow && (
         <AppModal
           handelModal={handelModal}
-          content={<EntryForm data={contactFormPopUpData} />}
+          content={<EntryForm data={popUp_Element || contactFormPopUpData} />}
         />
       )}
     </>

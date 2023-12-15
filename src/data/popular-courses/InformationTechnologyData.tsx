@@ -1,12 +1,16 @@
-import DiplomaOfInformationTechnology from "@/assets/course/new/information-technology/DiplomaOfInformationTechnology.png";
 import InformationTechnologyCoursesGlobal from "@/assets/course/new/information-technology/InformationTechnologyCoursesGlobal.jpeg";
+
+import DiplomaofInformationTechnologyICT50220 from "@/assets/course/new/information-technology/DiplomaOfInformationTechnology.png";
+import AdvancedDiplomaofInformationTechnologyICT60220 from "@/assets/course/new/information-technology/AdvancedDiplomaofInformationTechnologyICT60220.png";
+import BachelorofScienceinInformationTechnology_IT from "@/assets/course/new/information-technology/BachelorofScienceinInformationTechnology_IT.png";
+import MastersofScienceinInformationTechnology_IT from "@/assets/course/new/information-technology/MastersofScienceinInformationTechnology_IT.png";
 
 export const InformationTechnologyDummyData = {
   InformationTechnologySectionOne: {
     title: `Available Courses in Information Technology`,
     data: [
       {
-        img: DiplomaOfInformationTechnology,
+        img: DiplomaofInformationTechnologyICT50220,
         text: `Diploma of Information Technology - ICT50220`,
         description: `This course enhances the understanding of students with key ICT capabilities & specialized technical skills to perform complex IT problem-solving tasks.`,
         btn: {
@@ -15,7 +19,7 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
+        img: AdvancedDiplomaofInformationTechnologyICT60220,
         text: `Advanced Diploma of Information Technology - ICT60220`,
         description: `It is designed for ICT professionals who have deep expertise or managerial skills, thus, after completing the course it makes them even more capable of handling complex tasks autonomously or even steer business strategies.`,
         btn: {
@@ -24,7 +28,7 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
+        img: BachelorofScienceinInformationTechnology_IT,
         text: `Bachelor of Science in Information Technology (IT)`,
         description: `The bachelor’s degree provides a solid education in all parts of computers and information technology for students who want to work in the IT field.`,
         btn: {
@@ -33,7 +37,7 @@ export const InformationTechnologyDummyData = {
         },
       },
       {
-        img: DiplomaOfInformationTechnology,
+        img: MastersofScienceinInformationTechnology_IT,
         text: `Masters of Science in Information Technology (IT)`,
         description: `The master's degree improves students' knowledge & provides in-depth knowledge of the subject’s core, from data structures and databases to being familiar with data analytics and machine learning ideas.`,
         btn: {

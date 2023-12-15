@@ -124,7 +124,7 @@ export const TradeCourseDummyData = {
       <p class="part">These courses are designed for international students and combine practical training with fundamental skills required for a successful professional path. Trade courses in Australia achieve a mix of theory and hands-on study, sometimes involving work placements or apprenticeships for practical experience. All you have to do is commit to professional development by taking trade courses, learning about industry practices, occupational health and safety, and polishing industry-specific skills.</p>
       `,
       description: `
-      <h6 class="text-lg my-3">Career Outcome:</h6>
+      <h3 class="text-lg my-3">Career Outcome:</h3>
       <div class="">
         <p><b>a. Automotive </b></p>
         <ul class="part">

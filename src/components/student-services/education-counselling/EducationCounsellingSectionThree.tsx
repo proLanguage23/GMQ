@@ -1,8 +1,9 @@
-import { AppSubTitle, AppTitle, Container } from "@/components/share";
+import { AppDescriptionWithDangerouslySetInnerHTML, AppSubTitle, AppTitle, Container } from "@/components/share";
 import LeftToRight from "@/components/share/section/LeftToRight";
 import { EducationCounsellingDummyData } from "@/data/EducationCounsellingData";
 import React from "react";
 import { motion } from "framer-motion";
+import AppImg from "@/components/share/AppImg";
 
 function EducationCounsellingSectionThree() {
   const { EducationCounsellingSectionThree } = EducationCounsellingDummyData;
@@ -11,14 +12,16 @@ function EducationCounsellingSectionThree() {
     <section className="py-16 bg-grayCustom w-full">
       <Container>
         <div className="flex justify-center items-center flex-col mb-7 gap-4">
-          <AppTitle text={title} class_name="text-center text-[30px]" />
+          <AppTitle text={title} class_name="text-center" />
           <AppSubTitle text={subTitle} class_name="text-center"  />
+          <AppImg src={right?.img} alt={left?.text} />
+          <AppDescriptionWithDangerouslySetInnerHTML text={left?.text} class_name="text-center" />
         </div>
-        <LeftToRight
+        {/* <LeftToRight
           tiny_mceEditor={left?.text}
           sideImg={right?.img}
           alt={title}
-        />
+        /> */}
       </Container>
     </section>
   );
