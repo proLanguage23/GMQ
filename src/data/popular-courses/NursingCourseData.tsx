@@ -286,7 +286,7 @@ export const NursingCourseDummyData = {
     Aussizz Group endeavour to assist all those aspiring nurses who wish to study in Global for higher education and willing to secure permanent residency. Our highly qualified team of education counsellors provide with most comprehensive and personalised career counselling that focuses on individual’s skills and ambitions. Our registered immigration consultants never fail to make sure that eligible, qualifying applicants can migrate to Global as a nurse successfully with an appropriate visa. They offer detailed assistance on the best migration pathways, help meet visa requirements and guide on processing times.`,
   },
   NursingCourseSectionTwo: {
-    title: `We Can Help You With`,
+    title: `Types of Nursing Programs`,
     data: [
       {
         img: diplomaOfNursing,

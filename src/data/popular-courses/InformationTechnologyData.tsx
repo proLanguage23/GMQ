@@ -223,7 +223,7 @@ export const InformationTechnologyDummyData = {
 
 
     <h3 class="titleOfParagraph">Career Outcomes    </h3>
-
+    <p class="part">The digital ecosystem in Australia continues to grow rapidly, with a projected 6.5 million people needing to be technologically sound and have digital skills by 2025 – which is why the IT job market in Australia is prospering, with an increasing need for technical talents every day.</p>
     <div class="px-5">
     <p class="part">1. Project Manager</p>
     <p class="part">2. Information Security Analyst </p>

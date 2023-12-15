@@ -147,53 +147,53 @@ export const hospitality_and_cookeryDummyData = {
 
     <p class="part">Tuition fees vary depending on your chosen discipline, degree level, and university. Bachelor's degrees cost between $20,000 and $45,000 AUD per year for international students, while Master's and PhD degrees cost between $22,000 and $50,000 AUD per year.</p>
 
-    <p class="part">    Let’s take a look at the table below:</p>
+    <p class="part font-bold">    Let’s take a look at the table below:</p>
     
     </br >
     
     <table class="border sm:w-full" cellpadding="5" cellspacing="5">
       <tbody>
          <tr  class="border" align="center">
-          <th width="45%">Name of the Courses</th>
-          <th width="40%">Approx. Fees per Course in AUD </th>
+          <th width="45%" class="bg-secondary text-white">Name of the Courses</th>
+          <th width="40%" class="bg-secondary text-white">Approx. Fees per Course in AUD </th>
         </tr>
-         <tr  class="border" align="center">
+         <tr  class="border border-secondary" align="center">
           <td>Certificate III in Commercial Cookery</td>
           <td>$7,000 – $12,000 (1 year)</td>
         </tr>
-         <tr  class="border" align="center">
+         <tr  class="border border-secondary" align="center">
           <td >Certificate IV in Commercial Cookery</td>
           <td >$8,000 – $15,000 (1 year)</td>
         </tr>
-         <tr  class="border" align="center" >
+         <tr  class="border border-secondary" align="center" >
           <td >Diploma of Culinary Arts</td>
           <td >$15,000 – $25,000 (1 – 2 years)</td>
         </tr>
-         <tr  class="border" align="center">
+         <tr  class=" border border-secondary" align="center">
           <td >Bachelor of Culinary Management</td>
           <td>$20,000 – $35,000 (3 years)</td>
         </tr>
-         <tr  class="border" align="center" >
+         <tr  class="border border-secondary" align="center" >
           <td >Advanced Diploma of Hospitality</td>
           <td >$12,000 – $20,000 (1 – 2 years)</td>
         </tr>
-         <tr  class="border" align="center" >
+         <tr  class="border border-secondary" align="center" >
           <td >Certificate IV in Patisserie</td>
           <td >$8,000 – $15,000 (1 year)</td>
         </tr>
-         <tr  class="border" align="center">
+         <tr  class="border border-secondary" align="center">
           <td>Master of Gastronomic Tourism</td>
           <td>$25,000 – $40,000 (1.5 – 2 years)</td>
         </tr>
-         <tr  class="border" align="center">
+         <tr  class="border border-secondary" align="center">
           <td >Certificate II in Kitchen Operations</td>
           <td >$5,000 – $8,000 (6 months – 1 year)</td>
         </tr>
-         <tr  class="border" align="center">
+         <tr  class="border border-secondary" align="center">
           <td>Bachelor of Culinary Arts</td>
           <td>$20,000 – $35,000 (3 years)</td>
         </tr>
-         <tr  class="border" align="center">
+         <tr  class="border border-secondary" align="center">
           <td>Diploma of Food Science and Technology</td>
           <td>15,000 – $25,000 (1 – 2 years) </td>
         </tr>
