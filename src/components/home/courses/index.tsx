@@ -21,7 +21,7 @@ const defaultVariants = {
 };
 
 function HomeCourses() {
-  const { title,subTitle, CoursesData } = HomeCoursesDummyData;
+  const { title, subTitle, CoursesData } = HomeCoursesDummyData;
 
   return (
     <section className="bg-grayCustom py-9 w-full">

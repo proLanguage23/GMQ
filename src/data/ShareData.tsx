@@ -24,4 +24,13 @@ ${contactFormOfHome}
 export const popUp_ElementData = `
 <h4 class="text-center titleOfParagraph">Hey, we’d like to know you better too! </h4>
 ${contactFormOfPTE}
-`
+`;
+
+export const GeyYourSkillsRecognized = {
+    title: 'Get Your Skills Recognized',
+    description: 'Hospitality & Cookery | Information Technology | Trade Courses | Nursing | Teaching',
+    btn: {
+        text: 'Check Your Eligibility Now',
+        href: '/rpl/get-your-skills-recognized'
+    }
+}

@@ -11,6 +11,10 @@
   perspective: 200px;
 }
 
+.appShadow {
+  text-shadow: 3px 3px 0px rgb(0, 0, 0, 0.5);
+}
+
 /* The dot */
 .dot {
   position: absolute;
