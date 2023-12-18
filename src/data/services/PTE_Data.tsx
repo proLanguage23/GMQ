@@ -43,7 +43,7 @@ export const PTE_Dummy_data = {
         },
       },
     ],
-    description: `Your Pathway to English Proficiency with Experienced PTE Coaching and Training Services in Melbourne, Adelaide, and Canberra.`,
+    description: `Your Pathway to English Proficiency with Experienced PTE Coaching and Training Services in Australia.`,
   },
   PTE_SectionTwo: {
     title: `Everything There’s to Know About PTE Assessment`,
@@ -70,7 +70,7 @@ export const PTE_Dummy_data = {
       ],
     },
     right: {
-      title: `What to expect from the PTE test?`,
+      title: `How GMQ Global Helps You Prepare?`,
       text: `
         <p class="part">
         At GMQ Global, we redefine PTE coaching in Melbourne by providing unmatched quality. Our all-inclusive strategy includes reference materials, practice assessments, and professional tactics to ensure applicants succeed.

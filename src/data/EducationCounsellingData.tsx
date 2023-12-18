@@ -13,6 +13,7 @@ export const EducationCounsellingDummyData = {
     <p class="part">At GMQ Global, we have been serving as a lighthouse for ambitious minds, enabling an abundance of choices and encouraging their passions into prosperous career pathways. With a history of counseling ambitions, we create personalized routes that guide each individual towards achieving their professional goals.</p>
     <p class="part"> <b>3 USPs: </b> </p>
 
+    <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center gap-3">
     <p class="part px-5 p-3 bg-slate-100 rounded">
     1. Counseling sessions suited to your specific needs and goals.
     </p>
@@ -24,6 +25,7 @@ export const EducationCounsellingDummyData = {
     3. We are partnered up with an extensive list of renowned institutions and universities, ensuring your ideal study pathway.
 
     </p>
+    </div>
 
 
     `,

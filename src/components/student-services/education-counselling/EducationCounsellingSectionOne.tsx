@@ -13,7 +13,6 @@ function EducationCounsellingSectionOne() {
         <div className="df">
           <AppTitle text={title} heading class_name="" />
           <AppDescriptionWithDangerouslySetInnerHTML text={description} class_name=" mt-4" />
-
         </div>
       </Container>
     </section>

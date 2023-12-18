@@ -333,7 +333,7 @@ export const NursingCourseDummyData = {
     },
   },
   NursingCourseSectionThree: {
-    title: `Pathways to Permanent Residency`,
+    title: `Pathways to PR`,
     img: nursingPathways,
   },
 };

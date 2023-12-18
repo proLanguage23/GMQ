@@ -178,9 +178,10 @@ export const ProfessionalYearProgramBannerData = [
 export const EducationCounsellingBannerData = [
   {
     id: 1,
-    text: "",
-    ExtraText: `GMQ Global provides personalized student counseling, mapping personal goals to a variety of possibilities and nurturing success stories for every individual.`,
-    description:``,
+    text: "Guiding Paths:",
+    ExtraText: ``,
+    description:`GMQ Global provides personalized student counseling, mapping personal goals to a variety of possibilities and nurturing success stories for every individual.
+    `,
     img: EducationCounsellingBannerOne,
     btn: [{
       text: "contact us",
@@ -189,9 +190,9 @@ export const EducationCounsellingBannerData = [
   },
   {
     id: 2,
-    text: "",
-    ExtraText: `Our motto is at the heart of empowerment that builds our commitment—to fuel aspirations, nurture confidence, and script futures resilient to any challenge.`,
-    description:``,
+    text: "Empowering Futures:",
+    ExtraText: ``,
+    description:`Our motto is at the heart of empowerment that builds our commitment—to fuel aspirations, nurture confidence, and script futures resilient to any challenge.`,
     img: EducationCounsellingBannerTwo,
     btn: [{
       text: "contact us",

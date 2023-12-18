@@ -10,7 +10,7 @@ function AppImg({ src, alt, class_name, isPlaceholder = true, ...rest }: any) {
     // loading="lazy"
     placeholder={isPlaceholder? "blur" : "empty"}
     priority={true}
-    blurDataURL="true"
+    // blurDataURL="true"
     className={`max-w-full ${class_name}`}
     // style={{width: 'auto', height: 'auto', objectFit: 'contain'}}
     {...rest}

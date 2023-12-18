@@ -36,7 +36,7 @@ export const TeachingDummyData = {
         img: DiplomaofEarlyChildhoodEducationandCare
       },
       {
-        title: `Diploma of School Age Education and Care:`,
+        title: `Diploma of School-Age Education and Care:`,
         img: DiplomaofSchoolAgeEducationandCare
       },
       {

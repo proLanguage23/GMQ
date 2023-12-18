@@ -81,10 +81,10 @@ export const InformationTechnologyDummyData = {
     <p class="part">
     It’s no secret that the IT sector in Australia provides a thriving tech landscape of ongoing job prospects, attracting international students, as well as local students, taking up the challenge to make it their career path. Moreover, with 8 of the world's top 100 institutions, Australia most definitely offers a world-class learning experience and scholarship options, thus, making it a highly sought-after location for budding IT professionals.</p>
     
-    <p class="part">The power of IT is present in every sector of any industry from small to big organizations, banking, health sectors to entertainment industries, the transformation to technological advancement has accelerated the field's demand.</p>
-    
-    <p class="part">Studying Information Technology (IT) in Australia is a doorway to a world of innovation and opportunity. Here's why Australia stands out as the perfect choice for international students aiming to excel in the IT realm:
+    <p class="part">The power of IT is present in every sector of any industry from small to big organizations, banking, health sectors to entertainment industries, the transformation to technological advancement has accelerated the field's demand. 
+    Studying Information Technology (IT) in Australia is a doorway to a world of innovation and opportunity. Here's why Australia stands out as the perfect choice for international students aiming to excel in the IT realm:
     </p>
+
 
 
 
