@@ -23,7 +23,7 @@ const defaultVariants = {
 function HomeWhyGMQ() {
   const { title, description, whyGMQFetuses, secondaryImg } = WhyGMQ_DummyData;
   return (
-    <section className="py-24 relative w-full">
+    <section className="py-24 relative w-full bg-primary">
       <Container>
         <div className="flex flex-col flex-wrap gap-2">
           <div className="flex justify-center md:justify-start flex-wrap">

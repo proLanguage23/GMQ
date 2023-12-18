@@ -32,15 +32,6 @@ export const HomeTestimonialDummyData = {
             secondaryImg: quotation
         },
         {
-            id: 3,
-            avatar: MostafizurRahman_tm,
-            name: 'Mostafizur Rahman',
-            bio: 'NAATI',
-            messages:`A recommendation is extended for GMQ Global to the individuals seeking a smooth and informed transition into different education processes.
-            They show excellent professionalism, knowledge, and personalized approach to provide an efficient and rewarding experience. They have a profound understanding of the intricacies of the application process, providing invaluable insights that streamlined the journey to smooth education process.`,
-            secondaryImg: quotation
-        },
-        {
             id: 4,
             avatar: DiveshChawla_tm,
             name: 'Divesh Chawla',
@@ -54,22 +45,6 @@ export const HomeTestimonialDummyData = {
             name: 'Chin Michelle',
             bio: 'Hospitality and Cookery',
             messages:`My friend recommend me the GMQ service. Had  excellent experience. Very good and positive support.`,
-            secondaryImg: quotation
-        },
-        {
-            id: 6,
-            avatar: souravhussain_tm,
-            name: 'sourav hussain',
-            bio: 'Information Technology',
-            messages:`I had an excellent experience with GMQ Global. Their team is highly knowledgeable, reliable, and truly dedicated to helping students achieve their academic goals. From providing valuable insights into various educational programs to offering personalized guidance throughout the application process, GMQ Global demonstrated a level of professionalism and expertise that set them apart. I felt confident in their guidance, and their commitment to transparency and trustworthiness was evident at every step. I highly recommend GMQ Global to anyone seeking reliable and trusted educational consulting services.`,
-            secondaryImg: quotation
-        },
-        {
-            id: 7,
-            avatar: MinhazurRahmanRafi_tm,
-            name: 'Minhazur Rahman Rafi',
-            bio: 'Education Counselling',
-            messages:`I had a remarkable experience with GMQ Global. Their team's profound knowledge, unwavering reliability, and genuine dedication to assisting students in reaching their academic aspirations were truly commendable. From offering valuable insights on diverse educational programs to providing personalized guidance throughout the application process, GMQ Global exhibited a professionalism and expertise that distinguishes them. I had full confidence in their guidance, and their commitment to transparency and trustworthiness shone through every step. I wholeheartedly endorse GMQ Global to anyone in search of dependable and reputable educational consulting services.`,
             secondaryImg: quotation
         },
         {

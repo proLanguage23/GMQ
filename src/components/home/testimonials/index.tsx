@@ -21,8 +21,19 @@ function HomeTestimonials() {
       <section className="pt-8 w-full">
         <Container class_name="!py-0">
           <div className="flex justify-center items-center flex-col gap-9 flex-wrap">
-            <AppTitle text={title} class_name="md:my-8" isAnimation />
-            <div className="w-full grid lg:grid-cols-2 grid-cols-1">
+            <AppTitle text={title} class_name="" isAnimation />
+            <div className="w-full grid lg:grid-cols-2 grid-cols-1 justify-center items-center">
+              <div className="hidden lg:flex justify-center items-center">
+                <Image
+                  src={secondaryImg}
+                  alt={"logo"}
+                  quality={100}
+                  // priority={true}
+                  loading="lazy"
+                  blurDataURL="true"
+                  className="w-fit object-contain"
+                />
+              </div>
               <div className="p-5 md:p-3">
                 <Swiper
                   slidesPerView={1}
@@ -49,8 +60,7 @@ function HomeTestimonials() {
                   ))}
                 </Swiper>
               </div>
-
-              <div className="flex justify-center items-end">
+              <div className="flex justify-center items-center lg:hidden ">
                 <Image
                   src={secondaryImg}
                   alt={"logo"}
@@ -61,6 +71,7 @@ function HomeTestimonials() {
                   className="w-fit object-contain"
                 />
               </div>
+
             </div>
           </div>
         </Container>
