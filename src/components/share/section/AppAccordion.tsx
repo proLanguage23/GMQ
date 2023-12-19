@@ -5,13 +5,22 @@ function AppAccordion({ data }: any) {
     const [app_accordion, setApp_accordion] = useState('')
 
     const app_accordionHandler = (data:any) => {
+      if(app_accordion === data){
+        setApp_accordion("")
+      }else{
         setApp_accordion(data)
+      }
+        
     }
 
     useLayoutEffect(() => {
         let obj = data[0]
         setApp_accordion(obj[Object.keys(obj)[0]])
     }, [data])
+
+    console.log('===app_accordion=================================');
+    console.log(app_accordion);
+    console.log('====================================');
 
   return (
     <>

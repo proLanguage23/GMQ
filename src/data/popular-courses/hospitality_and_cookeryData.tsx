@@ -218,7 +218,7 @@ export const hospitality_and_cookeryDummyData = {
     
     <ul class="part">
       <li>SIT40521 - Certificate IV in Kitchen Management </li>
-      <li>SIT50422 -  Diploma of Hospitality Management </li>
+      <li>SIT50422 - Diploma of Hospitality Management</li>
       <li>Certificate IV in Kitchen Management + Diploma of Hospitality Management 
       </li>
     </ul>

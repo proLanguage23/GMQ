@@ -14,7 +14,7 @@ function CookeryCoursesSectionOneItem({ img, title, btn, popUp_Element }: any) {
   return (
     <>
       <div
-        className="cursor-pointer relative rounded-2xl shadow border sm:w-[300px] h-[230px] w-full overflow-hidden flex items-end p-3 hover:opacity-95 transition-all z-0"
+        className="cursor-pointer relative rounded-2xl shadow border sm:w-[300px] h-[230px] w-full overflow-hidden flex items-end p-3 hover:opacity-95 transition-all z-0 group"
         onClick={handelModal}
       >
         <div className="flex justify-between items-center gap-2 w-full flex-wrap ">
@@ -25,11 +25,11 @@ function CookeryCoursesSectionOneItem({ img, title, btn, popUp_Element }: any) {
             />
           </div>
           <div className="w-8 h-8 bg-secondary hover:bg-white group flex justify-center items-center rounded-full transition-all">
-            <FaArrowRight className="text-white group-hover:text-primary transition-all" />
+            <FaArrowRight className="text-white group-hover:text-primary transition-all ease-in-out duration-500" />
           </div>
         </div>
 
-        <AppBgImg BgImg={img} alt={title} />
+        <AppBgImg BgImg={img} alt={title} class_name="group-hover:scale-110 transition-all ease-in-out duration-500" />
       </div>
       {modalShow && (
         <AppModal

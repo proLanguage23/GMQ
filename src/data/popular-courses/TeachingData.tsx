@@ -28,7 +28,7 @@ export const TeachingDummyData = {
     title: `Eligibility Requirement`,
     data: [
       {
-        title: `Certificate III in Early Childhood Education and Care`,
+        title: `Certificate III in Early Childhood Education and Care:`,
         img: CertificateIIIinEarlyChildhoodEducationandCare
       },
       {
@@ -59,7 +59,6 @@ export const TeachingDummyData = {
         `University professor`,
         `Early Childhood Educator`,
         `Family Day Care Operator`,
-        `Early Childhood Educator`,
         `Early Childhood Centre Director Or Coordinator`,
         `Early Childhood Programs and Primary School Settings (Preparatory to Year 6)`,
         `Casual teacher`,
