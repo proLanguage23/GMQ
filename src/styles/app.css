@@ -12,7 +12,7 @@
 }
 
 .appShadow {
-  text-shadow: 3px 3px 0px rgb(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.5);
 }
 
 /* The dot */
@@ -301,7 +301,7 @@ html {
   overflow: visible !important;
 }
 
-.HomeTestimonialSwipeWrap .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+.HomeTestimonialSwipeWrap .swiper-pagination-fraction, .HomeTestimonialSwipeWrap .swiper-pagination-custom, .HomeTestimonialSwipeWrap .swiper-horizontal > .swiper-pagination-bullets, .HomeTestimonialSwipeWrap .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: -25px !important;
 }
 .HomeTestimonialSwipeWrap .swiper-pagination-bullet-active {
@@ -441,7 +441,7 @@ img{
   .titleOfParagraph {
     font-size: 25px;
   }
-  .HomeTestimonialSwipeWrap .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  .HomeTestimonialSwipeWrap .swiper-pagination-fraction, .HomeTestimonialSwipeWrap .swiper-pagination-custom, .HomeTestimonialSwipeWrap .swiper-horizontal > .swiper-pagination-bullets, .HomeTestimonialSwipeWrap .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 0px !important;
   }
 }

@@ -4,6 +4,7 @@ import Teaching from '@/assets/teaching.png'
 import informationTechnology from '@/assets/information-technology.png'
 import tradeCourses from '@/assets/Student-Health.png'
 import StudentAccommodation from '@/assets/StudentAccommodation.png'
+import RPL_IMG from '@/assets/RPL_IMG.png'
 
 export const HomeCoursesDummyData = {
   title: "Select from a range of courses at GMQ Global",
@@ -40,6 +41,16 @@ export const HomeCoursesDummyData = {
         },
     },
     {
+        id: 3,
+        img: RPL_IMG,
+        title:'RPL',
+        description:'Begin your RPL journey with a customized assessment from one of our consultants, who will build a pathway that corresponds with your abilities and professional ambitions.',
+        btn:{
+            text:"learn more",
+            href:'/rpl'
+        },
+    },
+    {
         id: 4,
         img: informationTechnology,
         title:'Student Visa',
@@ -49,16 +60,16 @@ export const HomeCoursesDummyData = {
             href:'/contact-us'
         },
     },
-    {
-        id: 5,
-        img: tradeCourses,
-        title:'Student Health',
-        description:`GMQ Global is well-resourced with renowned organizations to ensure the best health cover policies tailored for you. We've got you covered, securing comprehensive insurance benefits. Our partner health insurance providers are listed below: 1.NIB, 2.Allianz
-        `,
-        btn:{
-            text:"contact us",
-            href:'/contact-us'
-        },
-    }
+    // {
+    //     id: 5,
+    //     img: tradeCourses,
+    //     title:'Student Health',
+    //     description:`GMQ Global is well-resourced with renowned organizations to ensure the best health cover policies tailored for you. We've got you covered, securing comprehensive insurance benefits. Our partner health insurance providers are listed below: 1.NIB, 2.Allianz
+    //     `,
+    //     btn:{
+    //         text:"contact us",
+    //         href:'/contact-us'
+    //     },
+    // }
   ]
 };

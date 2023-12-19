@@ -1,6 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AppBgImg, AppDescriptionWithDangerouslySetInnerHTML, AppTitle, PageLink } from ".";
+import {
+  AppBgImg,
+  AppDescriptionWithDangerouslySetInnerHTML,
+  AppTitle,
+  PageLink,
+} from ".";
 import AppImg from "./AppImg";
 import Link from "next/link";
 import { GeyYourSkillsRecognized } from "@/data/ShareData";
@@ -26,15 +31,23 @@ function EntryImgPopUp({ data, class_name }: any) {
           class_name="w-[500px] max-w-full rounded"
         />
       </Link> */}
-      <div className="sm:w-[500px] w-full h-[350px] sm:h-[450px] p-5 flex flex-col justify-center gap-3">
-        <AppTitle text={GeyYourSkillsRecognized?.title} class_name="md:text-[45px] text-white text-left w-full sm:w-1/2 md:w-full"  />
-        <AppDescriptionWithDangerouslySetInnerHTML text={GeyYourSkillsRecognized?.description} class_name=" text-white w-1/2"  />
-        <PageLink {...GeyYourSkillsRecognized?.btn} class_name="bg-primary p-3 w-fit md:px-5 rounded-full text-white" />
+      <div className="sm:w-[500px] max-w-full h-[350px] sm:h-[450px] p-5 flex flex-col justify-center gap-3">
+        <AppTitle
+          text={GeyYourSkillsRecognized?.title}
+          class_name="md:text-[45px] text-white text-left w-full sm:w-1/2 md:w-full pr-4"
+        />
+        <AppDescriptionWithDangerouslySetInnerHTML
+          text={GeyYourSkillsRecognized?.description}
+          class_name=" text-white w-1/2"
+        />
+        <PageLink
+          {...GeyYourSkillsRecognized?.btn}
+          class_name="NewCommonBtnStyle bg-primary hover:bg-primary/70 hover:text-white rounded border-none w-fit p-3 md:px-5 text-[14px]"
+        />
       </div>
-      <AppBgImg src={data?.img}
-          alt={data?.text} />
+      <AppBgImg src={data?.img} alt={data?.text} />
     </motion.div>
-  )
+  );
 }
 
-export default EntryImgPopUp
+export default EntryImgPopUp;

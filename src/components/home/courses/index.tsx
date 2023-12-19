@@ -4,6 +4,7 @@ import React from "react";
 import CoursesItem from "./CoursesItem";
 import { motion } from "framer-motion";
 import OldCoursesItem from "./OldCoursesItem";
+import ItemCourse from "./ItemCourse";
 
 const defaultVariants = {
   initial: {
@@ -31,7 +32,19 @@ function HomeCourses() {
           {/* <AppSubTitle text={subTitle} class_name="!text-center" /> */}
           <div className="w-full mt-8 flex justify-center gap-2 flex-wrap">
             {CoursesData?.map((item, key) => (
-              <OldCoursesItem
+              <ItemCourse {...item} key={key} />
+            ))}
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+}
+
+export default HomeCourses;
+
+
+{/* <OldCoursesItem
                 key={key}
                 {...item}
                 index={key}
@@ -43,13 +56,4 @@ function HomeCourses() {
                 }}
                 custom={key}
                 class_name=" rounded-2xl md:w-[32%] sm:w-[48%] w-[95%] max-w-full "
-              />
-            ))}
-          </div>
-        </div>
-      </Container>
-    </section>
-  );
-}
-
-export default HomeCourses;
+              /> */}
