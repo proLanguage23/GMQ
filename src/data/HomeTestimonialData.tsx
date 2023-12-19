@@ -16,14 +16,6 @@ export const HomeTestimonialDummyData = {
     secondaryImg: happyStudent,
     TestimonialDummyData:[
         {
-            id: 1,
-            avatar: tanverahmad_tm,
-            name: 'tanver ahmad',
-            bio: 'PTE',
-            messages:'GMQ Global provided exceptional guidance, making the education planning process smooth and stress-free. Their expertise and personalized approach exceeded expectations. Highly recommended for anyone seeking a dedicated and knowledgeable consultant. A valuable investment in my educational journey.',
-            secondaryImg: quotation
-        },
-        {
             id: 2,
             avatar: JaydeepKamani_tm,
             name: 'Jaydeep Kamani',

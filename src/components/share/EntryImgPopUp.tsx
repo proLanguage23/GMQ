@@ -26,10 +26,10 @@ function EntryImgPopUp({ data, class_name }: any) {
           class_name="w-[500px] max-w-full rounded"
         />
       </Link> */}
-      <div className=" md:w-[500px] sm:w-[430px] max-w-full py-14 md:px-9 p-5 flex flex-col justify-center items-start gap-3">
-        <AppTitle text={GeyYourSkillsRecognized?.title} class_name="md:text-[45px] text-white appShadow text-left"  />
-        <AppDescriptionWithDangerouslySetInnerHTML text={GeyYourSkillsRecognized?.description} class_name=" text-white appShadow w-2/3"  />
-        <PageLink {...GeyYourSkillsRecognized?.btn} class_name="bg-primary py-3 md:w-fit w-full md:px-5 rounded-full text-white" />
+      <div className="sm:w-[500px] w-full h-[350px] sm:h-[450px] p-5 flex flex-col justify-center gap-3">
+        <AppTitle text={GeyYourSkillsRecognized?.title} class_name="md:text-[45px] text-white text-left w-full sm:w-1/2 md:w-full"  />
+        <AppDescriptionWithDangerouslySetInnerHTML text={GeyYourSkillsRecognized?.description} class_name=" text-white w-1/2"  />
+        <PageLink {...GeyYourSkillsRecognized?.btn} class_name="bg-primary p-3 w-fit md:px-5 rounded-full text-white" />
       </div>
       <AppBgImg src={data?.img}
           alt={data?.text} />

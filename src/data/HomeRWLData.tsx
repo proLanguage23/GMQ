@@ -23,7 +23,7 @@ export const RWLDummyData = {
     {
       id: 3,
       title: "listen",
-      description: `Through engaging podcasts, you can easily get relevant insights from our migration specialists, international students, and top colleges in Australia while on the go!.`,
+      description: `Through engaging podcasts, you can easily get relevant insights from our migration specialists, international students, and top colleges in Australia while on the go!`,
       btn: {
         text: "explore podcast",
         href: "#",

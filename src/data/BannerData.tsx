@@ -56,7 +56,7 @@ export const HomeBannerData = [
   {
     id: 2,
     text: "Learn, Grow, and Excel Anywhere in Australia",
-    description: "Ignite your educational and career journey with the expert guidance from our counselors.",
+    description: "Ignite your educational and career journey with expert guidance from our counselors.",
     img: homeBannerTwo,
     btn: [
       {
