@@ -45,7 +45,7 @@ export const EducationCounsellingDummyData = {
       </strong>   Transparency is a cornerstone of the relationships between educational counselors and students—a relationship based on molding futures and achieving ambitions. Our continuous commitment to ethical standards means that each solution we propose is founded on honesty, putting your best interests first and keeping a clear, open channel of communication available at all times.
       </p>
 
-      <p class="part"><strong>4. Becoming Part of YOUR Success : 
+      <p class="part"><strong>4. Becoming Part of YOUR Success: 
       </strong>   Rest assured, we serve as partners in your journey, rather than mere counselors. Our dedication extends beyond advice to a shared growth journey. With our major focus on assisting students in achieving their objectives and transforming their interests into jobs, your triumphs are inextricably linked to our collective accomplishments. We work tirelessly together to propel you towards your goals, therefore crafting our common success narrative.
       </p>
 

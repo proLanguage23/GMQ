@@ -35,7 +35,7 @@ function ContactMap() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 w-full mt-9">
               {data?.map((item, key) => (
                 <div
-                  className="flex justify-between items-center flex-wrap gap-4 my-4 border-2 rounded p-1 border-secondary"
+                  className="flex justify-between items-center flex-wrap gap-4 border-2 rounded p-1 border-secondary"
                   key={key}
                 >
                   <div className=" bg-secondary p-4 rounded">
