@@ -43,23 +43,23 @@ export const HomeCoursesDummyData = {
     {
         id: 3,
         img: RPL_IMG,
-        title:'RPL',
+        title:'Recognition of Prior Learning',
         description:'Begin your RPL journey with a customized assessment from one of our consultants, who will build a pathway that corresponds with your abilities and professional ambitions.',
         btn:{
             text:"learn more",
             href:'/rpl'
         },
     },
-    {
-        id: 4,
-        img: informationTechnology,
-        title:'Student Visa',
-        description:'Are you considering studying, working, or migrating? Learn how we can assist you in studying, working, and living in Australia by aiding you in obtaining the visas of your choosing.',
-        btn:{
-            text:"contact us",
-            href:'/contact-us'
-        },
-    },
+    // {
+    //     id: 4,
+    //     img: informationTechnology,
+    //     title:'Student Visa',
+    //     description:'Are you considering studying, working, or migrating? Learn how we can assist you in studying, working, and living in Australia by aiding you in obtaining the visas of your choosing.',
+    //     btn:{
+    //         text:"contact us",
+    //         href:'/contact-us'
+    //     },
+    // },
     // {
     //     id: 5,
     //     img: tradeCourses,

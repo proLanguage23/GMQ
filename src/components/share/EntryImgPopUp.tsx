@@ -31,14 +31,14 @@ function EntryImgPopUp({ data, class_name }: any) {
           class_name="w-[500px] max-w-full rounded"
         />
       </Link> */}
-      <div className="sm:w-[500px] max-w-full h-[350px] sm:h-[450px] p-5 flex flex-col justify-center gap-3">
+      <div className="sm:w-[500px] w-[350px] max-w-full h-[350px] sm:h-[450px] p-5 flex flex-col justify-center gap-3">
         <AppTitle
           text={GeyYourSkillsRecognized?.title}
           class_name="md:text-[45px] text-white text-left w-full sm:w-1/2 md:w-full pr-4"
         />
         <AppDescriptionWithDangerouslySetInnerHTML
           text={GeyYourSkillsRecognized?.description}
-          class_name=" text-white w-1/2"
+          class_name="text-white !w-1/2"
         />
         <PageLink
           {...GeyYourSkillsRecognized?.btn}

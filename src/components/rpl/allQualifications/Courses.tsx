@@ -23,6 +23,7 @@ function Courses({ data = [], class_name }: any) {
           <div className="form p-3 h-full flex justify-start min-h-[500px mt-2]">
             <AppDescriptionWithDangerouslySetInnerHTML
               text={contactFormOfHome}
+              class_name="min-h-[594px]"
             />
           </div>
         </div>
