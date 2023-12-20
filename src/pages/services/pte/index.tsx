@@ -3,7 +3,7 @@ import { DynamicHead, VisitedForm } from '@/components/share';
 import AppSliderBanner from '@/components/share/section/AppSliderBanner';
 import { PTE_SectionOne, PTE_SectionThree, PTE_SectionTwo } from '@/components/student-services';
 import TestimonialSection from '@/components/testimonial';
-import {PTEBannerData } from '@/data/BannerData';
+import {PTEBannerData, PTEMobileBannerData } from '@/data/BannerData';
 import { contactFormOfPTE } from '@/data/ShareData';
 import React from 'react'
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
@@ -19,7 +19,13 @@ function PTE_Page() {
   return (
     <>
       <DynamicHead title="Best PTE Online Courses |  - GMQ Global" description="Best PTE Online Courses |  - GMQ Global" />
-      <AppSliderBanner data={PTEBannerData} />
+      {/* <AppSliderBanner data={PTEBannerData} /> */}
+      <div className="hidden md:block">
+        <AppSliderBanner data={PTEBannerData} />
+      </div>
+      <div className="block md:hidden">
+        <AppSliderBanner data={PTEMobileBannerData} />
+      </div>
       <PTE_SectionOne />
       <PTE_SectionTwo />
       <PTE_SectionThree />

@@ -12,7 +12,7 @@ function TestimonialItem({
   secondaryImg,
 }: any) {
   return (
-    <div className="border rounded md:p-6 p-3 md:h-[250px] flex flex-col justify-between gap-1">
+    <div className="border w-full rounded md:p-6 p-3 md:h-[300px] flex flex-col justify-between gap-1">
       <AppDescriptionWithDangerouslySetInnerHTML
         text={messages}
         class_name="!text-text manropeFont flex-1"

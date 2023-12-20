@@ -24,16 +24,32 @@ import { motion } from "framer-motion";
 import AppSliderBannerItem from "@/components/share/section/AppSliderBannerItem";
 
 function RPLBanner() {
-  const { title, link, description, bgImg } = RPL_BannerData;
+  const { title, link, description, bgImg, mobileBG } = RPL_BannerData;
 
   return (
     <section className="relative w-full">
-      <AppSliderBannerItem
+      {/* <AppSliderBannerItem
+        text={title}
+        description={description}
+        btnData={link}
+        img={bgImg}
+      /> */}
+      <div className=" hidden md:block">
+        <AppSliderBannerItem
           text={title}
           description={description}
           btnData={link}
           img={bgImg}
         />
+      </div>
+      <div className="block md:hidden">
+        <AppSliderBannerItem
+          text={title}
+          description={description}
+          btnData={link}
+          img={mobileBG}
+        />
+      </div>
     </section>
   );
 }

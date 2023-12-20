@@ -3,7 +3,7 @@ import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import { ProfessionalYearProgramSectionOne, ProfessionalYearProgramSectionTwo } from "@/components/student-services";
 import TestimonialSection from "@/components/testimonial";
-import { ProfessionalYearProgramBannerData } from "@/data/BannerData";
+import { ProfessionalYearProgramBannerBannerData, ProfessionalYearProgramBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
@@ -19,7 +19,13 @@ function ProfessionalYearProgramPage() {
   return (
     <>
       <DynamicHead title="Professional Year Program global | IT, Accounting &amp; Engineering |  - GMQ Global" description="Professional Year Program global | IT, Accounting &amp; Engineering |  - GMQ Global" />
-      <AppSliderBanner data={ProfessionalYearProgramBannerData} />
+      {/* <AppSliderBanner data={ProfessionalYearProgramBannerData} /> */}
+      <div className="hidden md:block">
+        <AppSliderBanner data={ProfessionalYearProgramBannerData} />
+      </div>
+      <div className="block md:hidden">
+        <AppSliderBanner data={ProfessionalYearProgramBannerBannerData} />
+      </div>
       <ProfessionalYearProgramSectionOne />
       <ProfessionalYearProgramSectionTwo />
       {/* <CommonForm /> */}

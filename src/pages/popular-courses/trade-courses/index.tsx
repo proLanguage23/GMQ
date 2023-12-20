@@ -3,7 +3,7 @@ import { TradeCourseSectionFour, TradeCourseSectionOne, TradeCourseSectionThree,
 import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
-import { TradeCoursesBannerData } from "@/data/BannerData";
+import { TradeCoursesBannerData, TradeCoursesMobileBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
@@ -19,7 +19,13 @@ function TradeCoursesPage() {
   return (
     <>
       <DynamicHead title="List of Top IT Courses in Global for International Students | Pathways to PR  - GMQ Global" />
-      <AppSliderBanner data={TradeCoursesBannerData} />
+      {/* <AppSliderBanner data={TradeCoursesBannerData} /> */}
+      <div className="hidden md:block">
+        <AppSliderBanner data={TradeCoursesBannerData} />
+      </div>
+      <div className="block md:hidden">
+        <AppSliderBanner data={TradeCoursesMobileBannerData} />
+      </div>
       <TradeCourseSectionOne />
       <TradeCourseSectionTwo />
       <TradeCourseSectionFour />

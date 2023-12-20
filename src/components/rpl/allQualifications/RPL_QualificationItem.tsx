@@ -11,6 +11,7 @@ import { BiSolidHandRight } from "react-icons/bi";
 import { motion } from "framer-motion";
 import AppImg from "@/components/share/AppImg";
 import { contactFormOfHome, contactFormPopUpData } from "@/data/ShareData";
+import { BsDot } from "react-icons/bs";
 
 function RPL_QualificationItem({
   brandImg,
@@ -51,15 +52,16 @@ function RPL_QualificationItem({
           <div className="df">
             {content?.link?.slice(0, show).map((item: any, key: any) => (
               <div
-                className="flex justify-start items-center gap-2 my-1  cursor-pointer"
+                className="flex justify-start items-center gap-1 mb-2 "
                 key={key}
-                onClick={handelModal}
+                // onClick={handelModal}
               >
-                <BiSolidHandRight color="#00AAAC" size={20} />
+                {/* <BiSolidHandRight color="#00AAAC" size={20} /> */}
+                <BsDot color="#00AAAC" size={20} />
                 <div className="flex-1">
                   <AppDescriptionWithDangerouslySetInnerHTML
-                    text={item?.text}
-                    class_name="hover:underline !text-[14px] uppercase font-light "
+                    text={item?.text.toLowerCase()}
+                    class_name=" font-light "
                   />
                 </div>
               </div>
@@ -67,7 +69,8 @@ function RPL_QualificationItem({
           </div>
         </div>
         <div className="p-3">
-          <PageLink {...link} class_name="commonBtnStyle w-full" />
+          {/* <PageLink {...link} class_name="commonBtnStyle w-full" /> */}
+          <PageLink text={'contact us'} href={'/contact-us'} class_name="commonBtnStyle w-full" />
         </div>
       </motion.div>
 

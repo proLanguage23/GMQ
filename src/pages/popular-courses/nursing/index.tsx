@@ -26,7 +26,7 @@ function NursingPage() {
         description="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global"
       />
       <div className="hidden md:block">
-      <AppSliderBanner data={NursingBannerData} />
+        <AppSliderBanner data={NursingBannerData} />
       </div>
       <div className="block md:hidden">
         <AppSliderBanner data={NursingMobileBannerData} />

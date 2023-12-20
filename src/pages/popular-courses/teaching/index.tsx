@@ -9,23 +9,34 @@ import {
 import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
-import { teachingBannerData } from "@/data/BannerData";
+import {
+  teachingBannerData,
+  teachingMobileBannerData,
+} from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 
-import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
+import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
 import PopUpElement from "@/components/share/section/PopUpElement";
 function teaching() {
   const popUpData = {
     type: "image",
-    img : GetYourSkillsRecognizedImg,
-    text: 'Get Your Skills Recognized',
-    href: '/rpl/get-your-skills-recognized'
-  }
+    img: GetYourSkillsRecognizedImg,
+    text: "Get Your Skills Recognized",
+    href: "/rpl/get-your-skills-recognized",
+  };
   return (
     <>
-      <DynamicHead title="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" description="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global" />
-      <AppSliderBanner data={teachingBannerData} />
+      <DynamicHead
+        title="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global"
+        description="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global"
+      />
+      <div className="hidden md:block">
+        <AppSliderBanner data={teachingBannerData} />
+      </div>
+      <div className="block md:hidden">
+        <AppSliderBanner data={teachingMobileBannerData} />
+      </div>
       <SectionOneOfTeaching />
       <SectionTwoOfTeaching />
       <SectionThreeOfTeaching />

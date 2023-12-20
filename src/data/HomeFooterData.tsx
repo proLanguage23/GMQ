@@ -291,11 +291,11 @@ export const HomeFooterDummyData = {
       text: "Philippines",
       href: "#",
     },
-    {
-      id: 44,
-      text: "indonesia",
-      href: "#",
-    },
+    // {
+    //   id: 44,
+    //   text: "indonesia",
+    //   href: "#",
+    // },
   ],
   socialLinks: [
     {

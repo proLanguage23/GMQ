@@ -1,4 +1,5 @@
 import BgImg from "@/assets/rpl/rpl-banner-1.png";
+import mobileBgImg from "@/assets/rpl/mobileBG.png";
 import RPL_Img_One from "@/assets/rpl/automotive.png";
 
 import { ImCircleDown } from "react-icons/im";
@@ -199,6 +200,7 @@ export const RPL_BannerData = {
     },
   ],
   bgImg: BgImg,
+  mobileBG : mobileBgImg,
   skillsTest: {
     text: "Click here for your FREE 60 second skills check!",
     assets: <ImCircleDown className="icon" size={25} />,

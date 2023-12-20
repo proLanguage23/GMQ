@@ -3,7 +3,7 @@ import { InformationTechnologySectionOne, InformationTechnologySectionThree, Inf
 import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
-import { informationTechnologyBannerData } from "@/data/BannerData";
+import { informationTechnologyBannerData, informationTechnologyMobileBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
@@ -19,7 +19,13 @@ function InformationTechnologyPage() {
   return (
     <>
       <DynamicHead title="List of Top IT Courses in Global for International Students | Pathways to PR  - GMQ Global" description="List of Top IT Courses in Global for International Students | Pathways to PR  - GMQ Global" />
-      <AppSliderBanner data={informationTechnologyBannerData} />
+      {/* <AppSliderBanner data={informationTechnologyBannerData} /> */}
+      <div className="hidden md:block">
+        <AppSliderBanner data={informationTechnologyBannerData} />
+      </div>
+      <div className="block md:hidden">
+        <AppSliderBanner data={informationTechnologyMobileBannerData} />
+      </div>
       <InformationTechnologySectionOne />
       <InformationTechnologySectionTwo />
       <InformationTechnologySectionThree />
