@@ -6,7 +6,7 @@ import CookeryCoursesSectionTwo from "@/components/courses/popular-courses/Cooke
 import { DynamicHead, VisitedForm } from "@/components/share";
 import AppSliderBanner from "@/components/share/section/AppSliderBanner";
 import TestimonialSection from "@/components/testimonial";
-import { CookeryCoursesInAustraliaBannerData } from "@/data/BannerData";
+import { CookeryCoursesInAustraliaBannerData, CookeryCoursesInAustraliaMobileBannerData } from "@/data/BannerData";
 import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
@@ -24,7 +24,12 @@ function CookeryCoursesInAustraliaPage() {
   return (
     <>
       <DynamicHead title="Cookery Courses in Australia: Top Colleges &amp; Universities, Fees, Prospects | Cooking Courses - GMQ Global" description="Cookery Courses in Australia: Top Colleges &amp; Universities, Fees, Prospects | Cooking Courses - GMQ Global" />
+      <div className="hidden md:block">
       <AppSliderBanner data={CookeryCoursesInAustraliaBannerData} />
+      </div>
+      <div className="block md:hidden">
+        <AppSliderBanner data={CookeryCoursesInAustraliaMobileBannerData} />
+      </div>
       <CookeryCoursesSectionOne />
       <CookeryCoursesAboutSection />
       <CookeryCoursesWhyPursueSection />

@@ -64,6 +64,7 @@ function AppSliderBanner({
                 btnData={item?.btn}
                 img={item.img}
                 ExtraText={item.ExtraText}
+                class_name={class_name}
               />
               {/* <Image
                 src={item?.img}

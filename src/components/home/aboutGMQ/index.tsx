@@ -36,7 +36,7 @@ function HomeAboutGMQ() {
             <div className="flex flex-col gap-3 md:p-6 px-3 lg:flex-1 text-justify items-center md:items-start flex-wrap">
               <AppTitle
                 text={right?.title}
-                class_name="lg:!text-[70px] manropeFont !text-bluePrimary"
+                class_name="lg:!text-[50px] manropeFont !text-bluePrimary"
               />
               <AppDescriptionWithDangerouslySetInnerHTML
                 text={right?.description}

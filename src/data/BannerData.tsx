@@ -1,16 +1,23 @@
 
 import homeBannerOne from "@/assets/join-our-student-referral-program.png";
+import homeBannerMobileOne from "@/assets/home-mobile-banner-one.png";
 import homeBannerTwo from "@/assets/home-banner-two.png";
+import homeBannerMobileTwo from "@/assets/home-mobile-banner-two.png";
 import NursingBanner from "@/assets/course/NursingBanner.png";
 import teachingBannerOne from "@/assets/course/new/teaching/teachingBannerOne.jpg";
 import informationTechnologyBannerOne from "@/assets/course/new/information-technology/informationTechnologyBannerOne.jpg";
 
 import NursingBannerOne from "@/assets/course/new/nursing/banner/nursing-banner-one-gmq.jpg";
+import NursingMobileBannerOne from "@/assets/course/new/nursing/banner/nursing-mobile-banner-one-gmq.jpg";
 import NursingBannerTwo from "@/assets/course/new/nursing/banner/nursing-banner-two-gmq.jpg";
+import NursingMobileBannerTwo from "@/assets/course/new/nursing/banner/nursing-mobile-banner-two-gmq.jpg";
 import nursingBannerThree from "@/assets/course/new/nursing/banner/nursing-banner-three-gmq.jpg";
+import nursingMobileBannerThree from "@/assets/course/new/nursing/banner/nursing-mobile-banner-three-gmq.jpg";
 import NursingBannerFour from "@/assets/course/new/nursing/banner/nursing-banner-four-gmq.jpg";
+import NursingMobileBannerFour from "@/assets/course/new/nursing/banner/nursing-mobile-banner-four-gmq.jpg";
 
 import CookeryBannerOne from "@/assets/course/new/Cookery/banner/banner-one-of-hospitality-and-cookery.png";
+import CookeryBannerMobileOne from "@/assets/course/new/Cookery/banner/banner-mobile-one-of-hospitality-and-cookery.png";
 import CookeryBannerTwo from "@/assets/course/new/Cookery/banner/banner-two-of-hospitality-and-cookery.png";
 
 import TeachingBannerOne from "@/assets/course/new/teaching/banner/banner-one-of-Teaching.png";
@@ -66,6 +73,33 @@ export const HomeBannerData = [
     ],
   },
 ];
+export const HomeBannerMobileData = [
+  {
+    id: 1,
+    text: "Transform Experience into Recognition of Prior Learning",
+    description: `GMQ Global knows the secret recipe on how you can turn your knowledge into a valuable Australian qualification effortlessly.
+    `,
+    img: homeBannerMobileOne,
+    btn: [
+      {
+        text: "contact Now",
+        href: "/contact-us",
+      },
+    ],
+  },
+  {
+    id: 2,
+    text: "Learn, Grow, and Excel Anywhere in Australia",
+    description: "Ignite your educational and career journey with expert guidance from our counselors.",
+    img: homeBannerMobileTwo,
+    btn: [
+      {
+        text: "contact Now",
+        href: "/contact-us",
+      },
+    ],
+  },
+];
 
 export const NursingBannerData = [
   {
@@ -109,6 +143,48 @@ export const NursingBannerData = [
     }],
   },
 ];
+export const NursingMobileBannerData = [
+  {
+    id: 1,
+    text: "Embark on a pathway to PR by studying nursing courses in Australia",
+    description: ``,
+    img: NursingMobileBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+  {
+    id: 2,
+    text: "Nursing in Australia",
+    description: `Australia has more than 50 internationally renowned nursing colleges, including top-ranked universities. Allowing you to achieve quality education, improved career opportunities, and a secure, well-paying lifestyle.`,
+    img: NursingMobileBannerTwo,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+  {
+    id: 3,
+    text: "Noble Profession",
+    description: `Whether in Australia or any other nation, nursing plays an essential part in the healthcare system. Nurses are highly valued in providing daily care & guaranteeing patient well-being.`,
+    img: nursingMobileBannerThree,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+  {
+    id: 4,
+    text: "Career Prospects",
+    description: `Due to an aging population and health complexities in Australia, lucrative career opportunities are made possible for international students specializing in the field of nursing.`,
+    img: NursingMobileBannerFour,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
 
 export const CookeryCoursesInAustraliaBannerData = [
   {
@@ -116,6 +192,18 @@ export const CookeryCoursesInAustraliaBannerData = [
     text: "Mater the culinary arts & hospitality skills to unlock incredible career opportunities",
     description:``,
     img: CookeryBannerOne,
+    btn: [{
+      text: "contact us",
+      href: "/contact-us",
+    }],
+  },
+];
+export const CookeryCoursesInAustraliaMobileBannerData = [
+  {
+    id: 1,
+    text: "Mater the culinary arts & hospitality skills to unlock incredible career opportunities",
+    description:``,
+    img: CookeryBannerMobileOne,
     btn: [{
       text: "contact us",
       href: "/contact-us",
