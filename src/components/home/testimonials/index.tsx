@@ -60,7 +60,7 @@ function HomeTestimonials() {
                   ))}
                 </Swiper>
               </div>
-              <div className="flex justify-center items-center lg:hidden ">
+              <div className="flex justify-center items-center lg:hidden">
                 <Image
                   src={secondaryImg}
                   alt={"logo"}
