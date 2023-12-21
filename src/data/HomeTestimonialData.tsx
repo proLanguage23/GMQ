@@ -55,13 +55,13 @@ export const HomeTestimonialDummyData = {
             messages:`Highly recommend. Very fantastic experience with my course and got very sound guidance. Thanks team.`,
             secondaryImg: quotation
         },
-        {
-            id: 10,
-            avatar: mahadihasan_tm,
-            name: 'mahadi hasan',
-            bio: 'NAATI',
-            messages:`GMQ Global has been an invaluable partner in my educational journey. Their exceptional guidance and personalized approach made the planning process seamless. I highly recommend their expertise for a stress-free and rewarding educational experience.`,
-            secondaryImg: quotation
-        },
+        // {
+        //     id: 10,
+        //     avatar: mahadihasan_tm,
+        //     name: 'mahadi hasan',
+        //     bio: 'NAATI',
+        //     messages:`GMQ Global has been an invaluable partner in my educational journey. Their exceptional guidance and personalized approach made the planning process seamless. I highly recommend their expertise for a stress-free and rewarding educational experience.`,
+        //     secondaryImg: quotation
+        // },
     ]
 }

@@ -52,12 +52,14 @@ function RPL_QualificationItem({
           <div className="df">
             {content?.link?.slice(0, show).map((item: any, key: any) => (
               <div
-                className="flex justify-start items-center gap-1 mb-2 "
+                className="flex justify-start gap-1 mb-2 "
                 key={key}
                 // onClick={handelModal}
               >
-                {/* <BiSolidHandRight color="#00AAAC" size={20} /> */}
+                <div className="pt-1">
+                  {/* <BiSolidHandRight color="#00AAAC" size={20} /> */}
                 <BsDot color="#00AAAC" size={20} />
+                </div>
                 <div className="flex-1">
                   <AppDescriptionWithDangerouslySetInnerHTML
                     text={item?.text.toLowerCase()}

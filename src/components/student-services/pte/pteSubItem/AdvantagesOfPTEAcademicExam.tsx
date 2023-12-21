@@ -11,10 +11,10 @@ function AdvantagesOfPTEAcademicExam() {
   const { left } = PTE_SectionThree;
   const { title, listData } = left;
   return (
-    <div className=" border-4 border-error rounded bg-white pb-5">
+    <div className=" border-4 border-secondary rounded bg-white pb-5">
       <AppTitle
         text={title}
-        class_name="text-center text-white text-[25px] p-1 py-5 bg-error"
+        class_name="text-center text-white text-[25px] p-1 py-5 bg-secondary"
       />
       <div className="mt-5 p-2 rounded">
         {listData?.map((item, key) => (

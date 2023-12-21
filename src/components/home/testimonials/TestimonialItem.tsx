@@ -12,12 +12,14 @@ function TestimonialItem({
   secondaryImg,
 }: any) {
   return (
-    <div className="border w-full rounded md:p-6 p-3 md:h-[300px] flex flex-col justify-between gap-1">
+    <div className="border w-full rounded-2xl md:p-6 p-3 lg:h-[200px] min-h-[250px] flex flex-col justify-between gap-1 bg-primary">
+      <div className="flex-1 flex justify-center items-center md:justify-start md:items-start">
       <AppDescriptionWithDangerouslySetInnerHTML
         text={messages}
-        class_name="!text-text manropeFont flex-1"
+        class_name="manropeFont text-white"
       />
-      <div className="mt-9 flex md:justify-between justify-around items-center flex-wrap gap-2">
+      </div>
+      <div className="mt-9 flex justify-between items-center flex-wrap gap-2">
         <div className=" flex justify-start items-center gap-3 flex-wrap">
           <Image
             src={avatar}
@@ -31,8 +33,8 @@ function TestimonialItem({
             className="border-4 rounded-full border-secondary"
           />
           <div className="">
-            <AppSubTitle text={name} class_name="uppercase font-bold" />
-            <AppDescription text={bio} />
+            <AppSubTitle text={name} class_name="uppercase font-bold text-white" />
+            <AppDescription text={bio} class_name="text-white" />
           </div>
         </div>
         <Image
@@ -43,6 +45,7 @@ function TestimonialItem({
           // priority={true}
           loading="lazy"
           blurDataURL="true"
+          className=""
         />
       </div>
     </div>

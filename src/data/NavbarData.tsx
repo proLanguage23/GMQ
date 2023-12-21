@@ -88,33 +88,33 @@ export const NavbarDummyData = {
                 },
             ]
         },
-        {
-            id: '5',
-            text: 'latest updates',
-            href:'#',
-            submenu: true,
-            subMenuData:[
-                {
-                    id: 'subMenu1',
-                    text:"blogs",
-                    href:'/',
-                    megaMenu: false,
-                },
-                {
-                    id: 'subMenu2',
-                    text:"news",
-                    href:'/',
-                    megaMenu: false,
+        // {
+        //     id: '5',
+        //     text: 'latest updates',
+        //     href:'#',
+        //     submenu: true,
+        //     subMenuData:[
+        //         {
+        //             id: 'subMenu1',
+        //             text:"blogs",
+        //             href:'/',
+        //             megaMenu: false,
+        //         },
+        //         {
+        //             id: 'subMenu2',
+        //             text:"news",
+        //             href:'/',
+        //             megaMenu: false,
 
-                },
-                {
-                    id: 'subMenu3',
-                    text:"events",
-                    href:'/',
-                    megaMenu: false,
-                },
-            ]
-        },
+        //         },
+        //         {
+        //             id: 'subMenu3',
+        //             text:"events",
+        //             href:'/',
+        //             megaMenu: false,
+        //         },
+        //     ]
+        // },
         {
             id: '6',
             text: 'contact us',

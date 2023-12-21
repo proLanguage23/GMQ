@@ -25,11 +25,11 @@ function HomeWhyGMQ() {
   return (
     <section className="py-24 relative w-full bg-primary">
       <Container>
-        <div className="flex flex-col flex-wrap gap-2">
-          <div className="flex justify-center md:justify-start flex-wrap">
+        <div className="flex flex-col justify-center items-center flex-wrap gap-2">
+          <div className="flex justify-center flex-wrap">
             <AppTitle
               text={title}
-              class_name="!text-white md:!text-[80px] uppercase manropeFont !text-left w-full"
+              class_name="!text-white md:!text-[80px] uppercase manropeFont w-full text-center"
               heading
               isAnimation
               animationSpeed={0.1}
@@ -37,11 +37,11 @@ function HomeWhyGMQ() {
           </div>
           <AppDescriptionWithDangerouslySetInnerHTML
             text={description}
-            class_name="!text-white !text-[18px] lg:w-2/3 w-full "
+            class_name="!text-white !text-[18px] lg:w-2/3 w-full  text-center"
             // isAnimation
             // animationSpeed={0.01}
           />
-          {/* <div className="grid grid-cols-5 w-full items-center gap-2 mt-8 md:gap-6 justify-center md:justify-start">
+          <div className="flex flex-wrap justify-center w-full gap-1">
             {whyGMQFetuses?.map((item, key) => (
               <WhyGMQFetusesItem
                 key={key}
@@ -55,7 +55,7 @@ function HomeWhyGMQ() {
                 custom={key}
               />
             ))}
-          </div> */}
+          </div>
         </div>
       </Container>
       <AppBgImg BgImg={secondaryImg} />

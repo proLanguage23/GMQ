@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function WhyGMQFetusesItem({ icon_img, text, ...rest }: any) {
   return (
     <motion.div
-      className="flex flex-col justify-center items-center gap-3 p-2 group flex-wrap"
+      className="flex flex-col justify-center items-center gap-3 p-2 group flex-wrap max-w-full w-full lg:w-[20%] md:w-[32%] sm:w-[49%]"
       {...rest}
     >
       <div className="bg-white flex justify-center items-center rounded-full w-20 h-20 ">
@@ -23,7 +23,7 @@ function WhyGMQFetusesItem({ icon_img, text, ...rest }: any) {
       </div>
       <AppSubTitle
         text={text}
-        class_name="text-white text-center"
+        class_name="text-white text-center flex-1"
       />
     </motion.div>
   );
