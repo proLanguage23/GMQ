@@ -9,11 +9,11 @@ function NursingCourseSectionThree() {
   const { NursingCourseSectionThree } = NursingCourseDummyData;
   const { title, img, data } = NursingCourseSectionThree;
   return (
-    <section className="py-9 w-full">
+    <section className="pt-9 w-full">
       <Container>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-5">
           <AppTitle text={title} class_name="" />
-          <AppImg src={img} alt={title + " image"} className="!w-full md:mt-2" />
+          <AppImg src={img} alt={title + " image"} className="!w-full " />
           {/* <div className="gri grid-cols-1 mt-9">
           {
             data?.map((item:any, key:any)=> <PathwayItem key={key} {...item} /> )
