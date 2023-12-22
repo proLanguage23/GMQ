@@ -22,7 +22,7 @@ function PTE_SectionTwo() {
           <PageLink
             text="apply Now"
             href="/services/pte/pte-form"
-            class_name="border p-3 px-9 rounded-full bg-primary text-white"
+            class_name="NewCommonBtnStyle border-transparent hover:border-secondary"
           />
         </div>
       </Container>

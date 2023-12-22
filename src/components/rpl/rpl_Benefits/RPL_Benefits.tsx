@@ -17,7 +17,7 @@ function RPL_Benefits() {
             </div>
           </div>
           <div className=" pt-16 flex justify-center items-center">
-            <PageLink text="apply Now" href="/rpl/rpl-form" class_name="border p-3 px-9 rounded-full bg-primary text-white" />
+            <PageLink text="apply Now" href="/rpl/rpl-form" class_name="NewCommonBtnStyle border-transparent hover:border-secondary" />
           </div>
         </Container>
       </section>

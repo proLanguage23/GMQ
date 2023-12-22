@@ -5,7 +5,7 @@ import { LuMoveDown } from "react-icons/lu";
 function AppAccordionItem({ obj, app_accordionHandler, value }: any) {
   return (
     <div
-      className={`border  group cursor-pointer lg:w-2/3 w-full`}
+      className={`border  group cursor-pointer lg:w-2/3 w-full overflow-hidden`}
       onClick={() => app_accordionHandler(obj[Object.keys(obj)[0]])}
     >
       {/* accordionHeader */}
@@ -34,16 +34,16 @@ function AppAccordionItem({ obj, app_accordionHandler, value }: any) {
       {/* accordionBody */}
       {value === obj[Object.keys(obj)[0]] && (
         <motion.div
-          className="accordionBody p-4 "
-          initial={{ opacity: 0, y: 5, }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          className="accordionBody"
+          initial={{ opacity: 0.5, height: 0  }}
+          whileInView={{ opacity: 1, height: 'unset' }}
+          transition={{ duration: 1 }}
           viewport={{
             once: true,
           }}
         >
           <div
-            className={`text-base text-text  `}
+            className={`text-base text-text  p-4`}
             dangerouslySetInnerHTML={{ __html: obj[Object.keys(obj)[1]] }}
           ></div>
         </motion.div>

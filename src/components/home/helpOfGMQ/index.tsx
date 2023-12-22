@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function HomeHelpOfGMQ() {
   const { title } = HomeHelpOfGMQData;
   return (
-    <section className="w-full">
+    <section className="w-full ">
       <AllQualifications PropsText={title} />
     </section>
   );

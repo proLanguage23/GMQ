@@ -10,6 +10,8 @@ function FilterMenu({
   SubMenuStateNameHandler,
   allCloseCondoler,
   allCloseCondolerHandler,
+  setIsMenuHoverOut,
+  setIsMenuSubHoverOut,
   ...rest
 }: any) {
   const [MegaSubMenuState, setMegaSubMenuState] = useState("");
@@ -54,6 +56,10 @@ function FilterMenu({
             allCloseCondolerHandler({ one: true });
           }}
           onBlur={() => subMenuHandler(text)}
+          onMouseLeave={()=> {
+            // setIsMenuHoverOut(true)
+            // setIsMenuSubHoverOut(false)
+          }}
         >
           <PageLink
             href={href}
@@ -94,6 +100,7 @@ function FilterMenu({
                 transition={{
                   delay: 0.15 * key,
                 }}
+                setIsMenuSubHoverOut={setIsMenuSubHoverOut}
               />
             ))}
           </motion.div>

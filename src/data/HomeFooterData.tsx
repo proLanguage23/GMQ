@@ -5,7 +5,9 @@ import {
   AiFillTwitterSquare,
   AiFillYoutube,
   AiFillInstagram,
+  AiOutlineWhatsApp 
 } from "react-icons/ai";
+import { FaWhatsappSquare } from "react-icons/fa";
 import { ACN_Number, whiteLogo } from './ShareData';
 
 export const HomeFooterDummyData = {
@@ -304,18 +306,12 @@ export const HomeFooterDummyData = {
       text: "Facebook",
       icon: <AiFillFacebook className="Facebook socialLink" size={24} />,
     },
-    {
-      id: 2,
-      href: '#',
-      text: "linkedin",
-      icon: <AiFillLinkedin className="linkedin socialLink" size={24} />,
-    },
-    {
-      id: 3,
-      href: '#',
-      text: "twitter",
-      icon: <AiFillTwitterSquare className="twitter socialLink" size={24} />,
-    },
+    // {
+    //   id: 2,
+    //   href: '#',
+    //   text: "linkedin",
+    //   icon: <AiFillLinkedin className="linkedin socialLink" size={24} />,
+    // },
     // {
     //   id: 4,
     //   text: "youtube",
@@ -323,9 +319,15 @@ export const HomeFooterDummyData = {
     // },
     {
       id: 5,
-      href: '#',
+      href: 'https://www.instagram.com/gmqglobal/',
       text: "instagram",
       icon: <AiFillInstagram className="instagram socialLink" size={24} />,
+    },
+    {
+      id: 3,
+      href: 'https://wa.me/1300515634',
+      text: "whatsapp",
+      icon: <AiOutlineWhatsApp className="whatsapp socialLink" size={23} />,
     },
   ],
   copyRight: `Copyright© 2023 GMQ. All Rights Reserved.`,

@@ -10,7 +10,7 @@ import PopUpElement from "@/components/share/section/PopUpElement";
 
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 function GMQ_coursePage() {
-  const [pageData, setPageData] = useState();
+  const [pageData, setPageData] = useState(null);
   const router = useRouter();
   // GET SERVICE NAME FROM URL
   const { GMQ_courseName } = router.query;

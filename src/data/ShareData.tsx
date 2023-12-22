@@ -28,7 +28,13 @@ ${contactFormOfPTE}
 
 export const GeyYourSkillsRecognized = {
     title: 'Get Your Skills Recognized',
-    description: 'Hospitality & Cookery | Information Technology | Trade Courses | Nursing | Teaching',
+    description: `
+    <a href="/popular-courses/hospitality-and-cookery">Hospitality & Cookery</a> |
+    <a href="/popular-courses/information-technology">Information Technology</a>|
+    <a href="/popular-courses/trade-courses">Trade Courses</a> |
+    <a href="/popular-courses/nursing">Nursing</a> |
+    <a href="/popular-courses/teaching">Teaching</a>
+    `,
     btn: {
         text: 'Check Your Eligibility Now',
         href: '/rpl/get-your-skills-recognized'

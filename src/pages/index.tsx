@@ -27,10 +27,10 @@ export default function Home() {
       <HomeAboutGMQ />
       <HomeWhyGMQ />
       <HomeIndustrialOfPartner />
-      <HomeContactForm />
       <HomeHelpOfGMQ />
       <HomeTestimonials />
-      <HomeRWL />
+      {/* <HomeRWL /> */}
+      <HomeContactForm />
       <PopUpElement data={popUpData} />
     </>
   );

@@ -12,6 +12,7 @@ function SubMenu({
   MegaSubMenuState,
   MegaSubMenuStateHandler,
   allCloseCondolerHandler,
+  setIsMenuSubHoverOut,
   ...rest
 }: any) {
   return (
@@ -22,12 +23,13 @@ function SubMenu({
           onMouseOver={() => {
             MegaSubMenuStateHandler(text);
             allCloseCondolerHandler({ two: true });
+            // setIsMenuSubHoverOut(true)
           }}
           onBlur={() => MegaSubMenuStateHandler(text)}
           onFocus={() => MegaSubMenuStateHandler(text)}
-          onMouseLeave={() =>
-            allCloseCondolerHandler({ one: false, two: false, three: false })
-          }
+          onMouseLeave={() => {
+            allCloseCondolerHandler({ one: false, two: false, three: false });
+          }}
         >
           <BsDot size={16} />
           <PageLink
