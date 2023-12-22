@@ -15,6 +15,7 @@ function NursingCourseAboutSection() {
             tiny_mceEditor={description}
             sideImg={img}
             alt={title}
+            heading
             class_name="lg:gap-5"
           />
         </div>

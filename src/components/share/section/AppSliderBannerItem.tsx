@@ -27,6 +27,7 @@ function AppSliderBannerItem({
             />
             <AppTitle
               text={ExtraText || ""}
+              tag='h3'
               class_name="text-white !text-left textShadow lg:text-[30px] md:text-[25px] text-[18px]"
             />
             <AppSubTitle

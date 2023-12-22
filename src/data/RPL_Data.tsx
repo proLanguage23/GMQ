@@ -2,6 +2,8 @@ import BgImg from "@/assets/rpl/rpl-banner-1.png";
 import mobileBgImg from "@/assets/rpl/mobileBG.png";
 import RPL_Img_One from "@/assets/rpl/automotive.png";
 
+import allInOneIMG from "@/assets/rpl/few-step/allinOne.svg";
+
 import { ImCircleDown } from "react-icons/im";
 
 // import RPL_Slider_BG from "@/assets/rpl/rpl-step-bg.png";
@@ -2814,5 +2816,6 @@ export const RPL_StepDummyData = {
         images: GetCertifiedIMG,
         imagesImage: GetCertifiedIMGMobile
       },
-    ]
+    ],
+    allInOne: allInOneIMG
 }

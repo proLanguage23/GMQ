@@ -30,7 +30,6 @@ function HomeWhyGMQ() {
             <AppTitle
               text={title}
               class_name="!text-white md:!text-[80px] uppercase manropeFont w-full text-center"
-              heading
               isAnimation
               animationSpeed={0.1}
             />

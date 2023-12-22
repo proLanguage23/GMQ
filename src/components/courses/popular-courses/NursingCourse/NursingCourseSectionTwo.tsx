@@ -15,7 +15,7 @@ function NursingCourseSectionTwo() {
           <AppTitle
             text={title}
             class_name="text-center text-primary"
-            heading
+            
           />
           <div className="w-full gap-2 mt-6 flex justify-center flex-wrap">
             <QualificationItemResult
