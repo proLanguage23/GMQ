@@ -10,6 +10,7 @@ import AppImg from "@/components/share/AppImg";
 import rightArrowImg from "@/assets/right-arrow.png";
 import checkMark from "@/assets/check-mark.png";
 import { motion } from "framer-motion";
+import RPL_StepItem from "./RPL_StepItem";
 
 function RPL_informationStep() {
   // const { assets } = RPL_stepData;
@@ -25,47 +26,9 @@ function RPL_informationStep() {
         </div> */}
         <div className="">
           <AppTitle text={title} class_name="text-center" />
-          <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-center gap-1 pt-9">
+          <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-center pt-9">
             {data?.map((item: any, key: any) => (
-              <div
-                className="border border-secondary rounded-2xl hover:shadow-md flex justify-between flex-col"
-                key={key}
-              >
-                <div className="">
-                  <AppSubTitle
-                    text={item?.title}
-                    class_name="text-[25px] font-medium mb-3 border-b bg-primary rounded-t-2xl p-3 px-5 text-white text-center"
-                  />
-                  <AppDescriptionWithDangerouslySetInnerHTML
-                    text={item?.description}
-                    class_name="px-5 pb-9 text-center"
-                  />
-                </div>
-                <div className="p-3 flex justify-between items-center bg-secondary rounded-2xl flex-wrap">
-
-                 <div className="flex justify-start items-center gap-2">
-                 <AppDescriptionWithDangerouslySetInnerHTML text={key+1} class_name='text-right bg-primary !w-[30px] h-[30px] text-white flex justify-center items-center rounded-full' />
-                 <AppDescriptionWithDangerouslySetInnerHTML text={"Step"} class_name="flex-1 !text-white" />
-                 </div>
-
-                  {key !== 3 ? (
-                    <AppImg
-                      src={rightArrowImg}
-                      width="35"
-                      class_name="border-4 border-white rounded-full p-1 bg-white"
-                    />
-                  )
-                  :
-                  (
-                    <AppImg
-                      src={checkMark}
-                      width="35"
-                      class_name="rounded-full p-1"
-                    />
-                  )
-                }
-                </div>
-              </div>
+              <RPL_StepItem key={key} {...item} />
             ))}
           </div>
         </div>

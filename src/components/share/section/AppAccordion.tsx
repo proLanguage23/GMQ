@@ -20,11 +20,11 @@ function AppAccordion({ data }: any) {
 
 
   return (
-    <>
+    <div className="flex justify-center items-center flex-col">
       {data?.map((item: any, key: any) => (
         <AppAccordionItem key={key} obj={item} app_accordionHandler={app_accordionHandler} value={app_accordion} />
       ))}
-    </>
+    </div>
   );
 }
 

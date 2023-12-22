@@ -424,6 +424,71 @@ img{
   background-color: #00AAAC !important;
 }
 
+.PathwayItem_Left::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: #00AAAC;
+  position: absolute;
+  right: 100%;
+  top: 0;
+}
+
+.PathwayItem_Left::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #00AAAC;
+  position: absolute;
+  right: 100%;
+  top: 0%;
+  transform: translate(50%, 0%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(50%, 0%);
+  -moz-transform: translate(50%, 0%);
+  -ms-transform: translate(50%, 0%);
+  -o-transform: translate(50%, 0%);
+}
+
+.PathwayItem_Right::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: #00AAAC;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.PathwayItem_Right::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #00AAAC;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  transform: translate(50%, 0%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(50%, 0%);
+  -moz-transform: translate(50%, 0%);
+  -ms-transform: translate(50%, 0%);
+  -o-transform: translate(50%, 0%);
+}
+
 @media only screen and (max-width: 1100px) {
   .menu-berar-icon {
     display: block;

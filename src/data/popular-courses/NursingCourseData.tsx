@@ -335,5 +335,40 @@ export const NursingCourseDummyData = {
   NursingCourseSectionThree: {
     title: `Pathways to PR`,
     img: nursingPathways,
+    data:[
+      {
+        id: '1',
+        name: 'Get Qualified',
+        text: ` Obtaining Diplomas, Bachelor's, and Master's for Nursing, and then applying for registration with AHPRA (Australian Health Practitioner Regulation Agency).
+        `
+      },
+      {
+        id: '2',
+        name: 'Onshore Pathway',
+        text: `Obtain a confirmation letter from AHPRA`
+      },
+      {
+        id: '3',
+        name: 'Offshore Pathway',
+        text: `Obtain a referral letter for Outcome Based Assessment (OBA) through the OBA Programme, complete the assessment criteria, and register with AHPRA.
+        `
+      },
+      {
+        id: '4',
+        name: 'Assess Your Skills',
+        text: ` Complete ANMAC (Australian Nursing & Midwifery Accreditation Council) skill assessment.        `
+      },
+      {
+        id: '5',
+        name: 'Secure your PR',
+        text: `Receive an invitation to apply for PR Visa (Subclass 189, 190, or 489).`
+      },
+      {
+        id: '6',
+        name: 'Submit EOI',
+        text: ` Submit the Expression of Interest (EOI) form on the Skill select platform and score 60 points.
+        `
+      },
+    ]
   },
 };
