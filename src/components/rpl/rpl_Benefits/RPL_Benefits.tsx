@@ -1,4 +1,4 @@
-import { AppDescriptionWithDangerouslySetInnerHTML, AppTitle, Container } from '@/components/share';
+import { AppDescriptionWithDangerouslySetInnerHTML, AppTitle, Container, PageLink } from '@/components/share';
 import { RPL_Certificate_BenefitsDummyData } from '@/data/RPL_Data';
 import React from 'react'
 
@@ -15,6 +15,9 @@ function RPL_Benefits() {
                 class_name="text-center p-2"
               />
             </div>
+          </div>
+          <div className=" pt-16 flex justify-center items-center">
+            <PageLink text="apply Now" href="/rpl/rpl-form" class_name="border p-3 px-9 rounded-full bg-primary text-white" />
           </div>
         </Container>
       </section>
