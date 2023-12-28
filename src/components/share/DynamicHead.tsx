@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 
 export default function DynamicHead({
@@ -7,11 +8,12 @@ export default function DynamicHead({
   icon,
 }: any) {
   const staticText = "GMQ Global";
-  const staticDescription = "GMQ Description";
+  const staticDescription = "GMQ ( Get Me Qualified)- empowering students in Australia through innovative education consulting.";
   const staticViewport = "width=device-width, initial-scale=1";
   const staticIcon = "/faviconGMQ.png";
-  const pageTitle = "I am a page title";
+  const pageTitle = "GMQ ( Get Me Qualified)- empowering students in Australia through innovative education consulting.";
   const DomainName = "www.gmqglobal.com.au";
+  const gmq_global_logo = "/gmq_global_logo.jpg";
 
   return (
     <>
@@ -38,8 +40,8 @@ export default function DynamicHead({
           content={description || staticDescription}
         />
         {/* organization page title */}
-        <meta property="og:site_name" content="GMQ" /> {/* organization name */}
-        <meta property="og:image" content={icon || staticIcon} />{" "}
+        <meta property="og:site_name" content="GMQ  GLOBAL" /> {/* organization name */}
+        <meta property="og:image" content={icon || gmq_global_logo} />{" "}
         {/* organization img */}
         <meta property="og:image:width" content="1600" />{" "}
         {/* organization img width */}

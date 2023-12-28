@@ -48,7 +48,7 @@ function AppSliderBannerItem({
           </div>
         </div>
       </Container>
-      <AppBgImg src={img} alt={text || "GMQ slider img"}  />
+      <AppBgImg src={img} alt={text || "GMQ GLOBAL slider img"}  />
     </div>
 {/* mobile  */}
     <div className={`relative h-[450px] overflow-hidden z-0 block md:hidden ${class_name}`}>
@@ -81,7 +81,7 @@ function AppSliderBannerItem({
           </div>
         </div>
       </Container>
-      <AppBgImg src={img} alt={text || "GMQ slider img"} />
+      <AppBgImg src={img} alt={text || "GMQ GLOBAL slider img"} />
     </div>
     </>
   );

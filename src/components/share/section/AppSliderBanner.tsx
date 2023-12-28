@@ -68,7 +68,7 @@ function AppSliderBanner({
               />
               {/* <Image
                 src={item?.img}
-                alt={item?.text || "GMQ slider img"}
+                alt={item?.text || "GMQ GLOBAL slider img"}
                 quality={100}
                 // priority={true}
                 loading="lazy"

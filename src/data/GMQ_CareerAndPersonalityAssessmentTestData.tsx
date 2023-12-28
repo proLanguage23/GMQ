@@ -22,9 +22,9 @@
 //   banner: GMQ_CareerAndPersonalityAssessmentTestBanner,
 //   GMQ_CareerAndPersonalityAssessmentTestSectionOne: {
 //     text: `
-//     <h2 class="titleOfParagraph">What is the GMQ Skills Personality Assessment?</h2>
+//     <h2 class="titleOfParagraph">What is the GMQ GLOBAL Skills Personality Assessment?</h2>
 
-//     <p class="part">The FREE Personality Assessment Test from GMQ&nbsp; is a personalised, interactive, career-focused skills assessment test.</p>
+//     <p class="part">The FREE Personality Assessment Test from GMQ GLOBAL&nbsp; is a personalised, interactive, career-focused skills assessment test.</p>
 
 //     <p class="part">This test is exclusively designed for students to understand their strengths and passions that helps them in turn identify a suitable career choice, and find the right course at a university of their choice.</p>
 //     <br />
@@ -44,7 +44,7 @@
 //     left:{
 //         text:`<h2 class="titleOfParagraph">What is a personality test?</h2>
 
-//         <p class="part">The GMQ Skills Personality Assessment is based on a core theory that explains how behavioural traits differ from person to person in different situations, thus resulting in various personality types. The&nbsp; test&#39;s concept is based on the assumption that the world&#39;s population is made up of these 16 different sorts of people.</p>
+//         <p class="part">The GMQ GLOBAL Skills Personality Assessment is based on a core theory that explains how behavioural traits differ from person to person in different situations, thus resulting in various personality types. The&nbsp; test&#39;s concept is based on the assumption that the world&#39;s population is made up of these 16 different sorts of people.</p>
         
 //         <br />>
         
@@ -274,7 +274,7 @@
 //   },
 //   GMQ_CareerAndPersonalityAssessmentTestSectionSix:{
 //     title: 'Want to know your personality type?',
-//     description:`Now that you’re read all about these personality types, we’re sure you’re intrigued and eager to find out what your personality type is among the 16. Take up the GMQ Free Career and Personality Assessment test worth $20 for FREE and understand yourself better! This test is tailored specially for students like you who are keen on tracing their strengths and skills so they can make the best decisions for their future.`
+//     description:`Now that you’re read all about these personality types, we’re sure you’re intrigued and eager to find out what your personality type is among the 16. Take up the GMQ GLOBAL Free Career and Personality Assessment test worth $20 for FREE and understand yourself better! This test is tailored specially for students like you who are keen on tracing their strengths and skills so they can make the best decisions for their future.`
 //   },
 //   GMQ_CareerAndPersonalityAssessmentTestSectionSeven:{
 //     title: 'FAQ’S',
@@ -290,7 +290,7 @@
 //         },
 //         {
 //             title: '3.How to test my personality type?',
-//             text: `You can take up the GMQ Skills FREE personality test, respond honestly to the questionnaire to test your personality type.   `,
+//             text: `You can take up the GMQ GLOBAL Skills FREE personality test, respond honestly to the questionnaire to test your personality type.   `,
 //         },
 //         {
 //             title: '4. How accurate are personality tests?',
@@ -312,7 +312,7 @@
 //     ]
 //   },
 //   GMQ_CareerAndPersonalityAssessmentTestSectionEight:{
-//     title: 'Steps to take up the GMQ Skills FREE Personality Test',
+//     title: 'Steps to take up the GMQ GLOBAL Skills FREE Personality Test',
 //     data: [
 //         {
 //             id: 1,

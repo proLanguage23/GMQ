@@ -42,7 +42,7 @@ const router = useRouter();
     </Container>
     <AppBgImg
       src={img}
-      alt={text || "GMQ slider img"}
+      alt={text || "GMQ GLOBAL slider img"}
     />
   </div>
   )

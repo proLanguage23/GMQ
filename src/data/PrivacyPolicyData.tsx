@@ -190,7 +190,7 @@ We will not without your prior consent disclose Personal Information collected a
 
 <h3 class="titleOfParagraph">Contact Us</h3>
 
-<p class="part">For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at legal AT GMQglobal.com or by mail using the details provided below:</p>
+<p class="part">For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at legal AT info@gmqglobal.com.au or by mail using the details provided below:</p>
 
 <p class="part"> ${address}</p>
 

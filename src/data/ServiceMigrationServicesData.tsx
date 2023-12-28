@@ -384,7 +384,7 @@ export const PermanentResidencyPathwaysInAustraliaDummyData = {
         </div>
         </div>`,
         btn: {
-          text: "Isn’t it better to contact GMQ so that you get the entire process sorted out easily?",
+          text: "Isn’t it better to contact  GMQ GLOBAL so that you get the entire process sorted out easily?",
           href: "#",
         },
       },
@@ -436,7 +436,7 @@ export const PermanentResidencyPathwaysInAustraliaDummyData = {
         <li>Wait for Processing: Await the processing of your application.</li>
         </ul>
         <p>This approach allows you to navigate the intricacies of Australian immigration with clarity, confidence, and precision, ultimately leading you to the status of&nbsp;<strong>permanent residency</strong>&nbsp;in this welcoming nation.</p>
-        <p style="text-align: center;">Do you find it tiring to arrange all these documents on your own? If you contact GMQ, our experts can ease the entire process for you!</p>
+        <p style="text-align: center;">Do you find it tiring to arrange all these documents on your own? If you contact  GMQ GLOBAL, our experts can ease the entire process for you!</p>
         </div>
         </div>
         </div>

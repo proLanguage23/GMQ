@@ -36,7 +36,7 @@ export const HomeTestimonialDummyData = {
             avatar: ChinMichelle_tm,
             name: 'Chin Michelle',
             bio: 'Hospitality and Cookery',
-            messages:`My friend recommend me the GMQ service. Had  excellent experience. Very good and positive support.`,
+            messages:`My friend recommend me the GMQ GLOBAL service. Had  excellent experience. Very good and positive support.`,
             secondaryImg: quotation
         },
         {

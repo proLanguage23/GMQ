@@ -25,7 +25,7 @@ function CoursesItem({
     >
       <AppImg
         src={img}
-        alt={title || " image of gmq of popular-courses nursing"}
+        alt={title || " image of GMQ GLOBAL of popular-courses nursing"}
         class_name="w-full rounded-md"
       />
       <div className="bg-secondary md:p-5 p-3 !pb-0 flex-1 flex flex-col justify-between rounded-2xl relative">

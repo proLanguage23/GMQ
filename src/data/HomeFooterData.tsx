@@ -330,7 +330,7 @@ export const HomeFooterDummyData = {
       icon: <AiOutlineWhatsApp className="whatsapp socialLink" size={23} />,
     },
   ],
-  copyRight: `Copyright© 2023 GMQ. All Rights Reserved.`,
+  copyRight: `Copyright© 2023  GMQ GLOBAL. All Rights Reserved.`,
   secondaryImg: footerBG,
 };
 // ${new Date().getFullYear()}
