@@ -108,7 +108,7 @@ export const hospitality_and_cookeryDummyData = {
   },
   CookeryCoursesSectionThree: {
     text: `
-    <h1 class="titleOfParagraph">Eligibility Criteria</h1>
+    <h3 class="titleOfParagraph">Eligibility Criteria</h3>
     <p class="part"> <b> Meet the Following Criteria </b> </p>
     <ul>
       <li>University offer letter</li>
@@ -124,7 +124,7 @@ export const hospitality_and_cookeryDummyData = {
     </br >
     </br >
     
-    <h1 class="titleOfParagraph">Why is Australia a Popular Choice for Culinary Learning?</h1>
+    <h4 class="titleOfParagraph">Why is Australia a Popular Choice for Culinary Learning?</h4>
     
     <p class="part">
     
@@ -208,7 +208,7 @@ export const hospitality_and_cookeryDummyData = {
     </br >
     </br >
     
-    <h1 class="titleOfParagraph">World’s Hottest Culinary Colleges Offering Cookery Courses in Australia    </h1>
+    <h2 class="titleOfParagraph">World’s Hottest Culinary Colleges Offering Cookery Courses in Australia    </h2>
     
     <p class="part">To become a successful chef, you must have grit, passion, and determination. A good culinary school can help you get started on the right foot.</p>
     <p class="part">Australia is home to an abundance of reputable culinary schools, which are essential for aspiring kitchen professionals. They cover everything from kitchen management to communication skills.</p>
@@ -234,7 +234,7 @@ export const hospitality_and_cookeryDummyData = {
     <br/>
     <br/>
     
-    <h1 class="titleOfParagraph">Incredible Career Prospects for Cookery & Hospitality Graduates</h1>
+    <h4 class="titleOfParagraph">Incredible Career Prospects for Cookery & Hospitality Graduates</h4>
     
     <p class="part">Interestingly, Australia's thriving tourism industry has broadened its culinary tastes, opening up a plethora of commercial cooking job opportunities for both local and international students. Moreover, the hotels and resorts industry in Australia is worth $1.3 billion and is expected to grow 13.3% by 2023
     </p>
@@ -265,7 +265,7 @@ export const hospitality_and_cookeryDummyData = {
     </br>
     </br>
     
-    <h1 class="titleOfParagraph">Flame Up Your Culinary Future with GMQ Global's Guidance!</h1>
+    <h6 class="titleOfParagraph">Flame Up Your Culinary Future with GMQ Global's Guidance!</h6>
     
     <p class="part">When it comes to studying or settling in Australia, the assistance of knowledgeable immigration consultants is priceless. Their knowledge reduces the likelihood of visa rejection and ensures compliance with immigration laws.</p>
     
@@ -274,7 +274,7 @@ export const hospitality_and_cookeryDummyData = {
     </br>
     </br>
     
-    <h1 class="titleOfParagraph">Easily Secure Permanent Residency in Australia Being a Commercial Cookery Professional</h1>
+    <h4 class="titleOfParagraph">Easily Secure Permanent Residency in Australia Being a Commercial Cookery Professional</h4>
     
     <p class="part">The path to Permanent Residency has never been simpler & more interesting – enjoy what you do and live where you want! In Australia, through commercial cooking, a diploma or higher education course in hospitality & cookery courses opens the door to Chef positions on Australia's Skilled Occupation List.</p>
     

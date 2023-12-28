@@ -15,7 +15,7 @@ function RPL_About() {
     <section className="py-16 relative w-full bg-primary">
       <Container>
         <div className=" text-white rounded w-full p-3 flex flex-col justify-center items-start">
-          <AppTitle text={title} class_name="!text-white" />
+          <AppTitle heading text={title} class_name="!text-white" />
           <div className="mt-4">
             {description?.map((item, key) => (
               <div key={key}>

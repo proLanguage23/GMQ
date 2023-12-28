@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 import { Pagination, Mousewheel, Keyboard, Autoplay } from "swiper/modules";
 import TestimonialItem from "./TestimonialItem";
 import { motion } from "framer-motion";
+import AppH6Title from "@/components/share/appHadding/AppH6Title";
 
 function HomeTestimonials() {
   const { title, secondaryImg, TestimonialDummyData } =
@@ -20,7 +21,7 @@ function HomeTestimonials() {
     <section className="py-8 w-full">
       <Container class_name="!py-0">
         <div className="flex justify-center items-center flex-col gap-5 flex-wrap">
-          <AppTitle
+          <AppH6Title
             text={title}
             class_name="text-center md:w-1/2 w-full"
             isAnimation

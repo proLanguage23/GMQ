@@ -3,6 +3,7 @@ import { createPagination } from "@/components/share/lib";
 import { RPL_QualificationData } from "@/data/RPL_Data";
 import React, { useState, useEffect } from "react";
 import RPL_QualificationItem from "./RPL_QualificationItem";
+import AppH5Title from "@/components/share/appHadding/AppH5Title";
 
 const defaultVariants = {
   initial: {
@@ -42,7 +43,7 @@ function AllQualifications({ PropsText }: any) {
     <div className="py-16 bg-grayCustom">
       <Container>
         <div className="flex flex-col justify-center items-center ">
-          <AppTitle
+          <AppH5Title
             text={PropsText || title}
             class_name="capitalize !text-center md:w-2/3 w-full"
             isAnimation

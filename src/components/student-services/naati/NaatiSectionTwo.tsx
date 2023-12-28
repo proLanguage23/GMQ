@@ -8,6 +8,7 @@ import AppImg from "@/components/share/AppImg";
 import { NAATI_Dummy_Data } from "@/data/services/NAATI_Data";
 import React from "react";
 import { motion } from "framer-motion";
+import AppH2Title from "@/components/share/appHadding/AppH2Title";
 
 function NaatiSectionTwo() {
   const { NaatiSectionTwo } = NAATI_Dummy_Data;
@@ -26,7 +27,7 @@ function NaatiSectionTwo() {
       <div className="py-9 bg-secondary">
         <Container>
           <div className="flex flex-col justify-center items-center gap-5">
-            <AppTitle text={title} class_name="text-center text-white" />
+            <AppH2Title text={title} class_name="text-center text-white" />
             <AppDescriptionWithDangerouslySetInnerHTML
               text={description}
               class_name="text-white"

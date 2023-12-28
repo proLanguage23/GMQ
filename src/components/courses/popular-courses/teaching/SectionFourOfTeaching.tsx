@@ -11,6 +11,7 @@ import { TeachingDummyData } from "@/data/popular-courses/TeachingData";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { contactFormOfHome, contactFormPopUpData } from "@/data/ShareData";
+import AppH4Title from "@/components/share/appHadding/AppH4Title";
 
 function SectionFourOfTeaching() {
   const [modalShow, setModalShow] = useState(false);
@@ -28,7 +29,7 @@ function SectionFourOfTeaching() {
     <section className="py-16 relative w-full">
       <Container>
         <div className="flex flex-wrap flex-col gap-5 md:w-2/3 w-full bg-primary rounded-lg p-9 justify-center items-center md:justify-start md:items-start">
-          <AppTitle text={title} class_name=" text-white" />
+          <AppH4Title text={title} class_name=" text-white" />
           <AppDescriptionWithDangerouslySetInnerHTML
             text={text}
             class_name="text-white text-center md:text-left"

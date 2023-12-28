@@ -4,6 +4,7 @@ import React from "react";
 import RequirementItem from "./SectionTwoOfTeachingDiv/RequirementItem";
 import { motion } from "framer-motion";
 import CookeryCoursesSectionOneItem from "../CookeryCourse/subItem/CookeryCoursesSectionOneItem";
+import AppH2Title from "@/components/share/appHadding/AppH2Title";
 
 function SectionTwoOfTeaching() {
   const { SectionTwoOfTeaching } = TeachingDummyData;
@@ -12,7 +13,7 @@ function SectionTwoOfTeaching() {
     <section className="py-9 w-full bg-grayCustom">
       <Container>
         <div className="flex flex-col flex-wrap justify-center items-center">
-          <AppTitle text={title} class_name="text-center font-semibold" />
+          <AppH2Title text={title} class_name="text-center font-semibold" />
 
           <div className="md:flex flex-wrap justify-center items-center gap-2 mt-9 grid sm:grid-cols-2 grid-cols-1">
             {data?.map((item: any, key: any) => (

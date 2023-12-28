@@ -3,6 +3,7 @@ import { AppTitle, Container } from "@/components/share";
 import { NursingCourseDummyData } from "@/data/popular-courses/NursingCourseData";
 import React from "react";
 import { motion } from "framer-motion";
+import AppH2Title from "@/components/share/appHadding/AppH2Title";
 
 function NursingCourseSectionTwo() {
   const { NursingCourseSectionTwo } = NursingCourseDummyData;
@@ -12,7 +13,7 @@ function NursingCourseSectionTwo() {
     <section className="py-9 bg-grayCustom w-full">
       <Container>
         <div className="flex flex-col justify-center items-center">
-          <AppTitle
+          <AppH2Title
             text={title}
             class_name="text-center text-primary"
             

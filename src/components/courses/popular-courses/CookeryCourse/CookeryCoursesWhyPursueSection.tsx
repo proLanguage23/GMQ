@@ -4,6 +4,7 @@ import {
   AppTitle,
   Container,
 } from "@/components/share";
+import AppH4Title from "@/components/share/appHadding/AppH4Title";
 import { hospitality_and_cookeryDummyData } from "@/data/popular-courses/hospitality_and_cookeryData";
 import React from "react";
 
@@ -16,7 +17,7 @@ function CookeryCoursesWhyPursueSection() {
       <div className="py-9 bg-primary pb-16">
         <Container>
           <div className="flex justify-center items-center flex-col">
-            <AppTitle text={title} class_name=" text-white capitalize py-3 text-center" />
+            <AppH4Title text={title} class_name=" text-white capitalize py-3 text-center" />
             <AppDescriptionWithDangerouslySetInnerHTML
               text={description}
               class_name="text-white mt-3 text-center"

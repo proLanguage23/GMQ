@@ -10,6 +10,7 @@ import PteServiceItem from "./pteSubItem/PteServiceItem";
 import { motion } from "framer-motion";
 import CookeryCoursesSectionOneItem from "@/components/courses/popular-courses/CookeryCourse/subItem/CookeryCoursesSectionOneItem";
 import { popUp_ElementData } from "@/data/ShareData";
+import AppH2Title from "@/components/share/appHadding/AppH2Title";
 
 function PTE_SectionOne() {
   const { PTE_SectionOne } = PTE_Dummy_data;
@@ -18,7 +19,7 @@ function PTE_SectionOne() {
     <section className="py-9 w-full">
       <Container>
         <div className="flex flex-col justify-center items-center">
-          <AppTitle text={title} class_name="text-center" />
+          <AppH2Title text={title} class_name="text-center" />
           <AppSubTitle
             text={subTitle}
             class_name="text-center"

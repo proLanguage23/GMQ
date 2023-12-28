@@ -4,6 +4,7 @@ import React from "react";
 import WhyGMQFetusesItem from "./WhyGMQFetusesItem";
 import AppBgImg from "@/components/share/AppBgImg";
 import { motion } from "framer-motion";
+import AppH3Title from "@/components/share/appHadding/AppH3Title";
 
 const defaultVariants = {
   initial: {
@@ -27,12 +28,10 @@ function HomeWhyGMQ() {
       <Container>
         <div className="flex flex-col justify-center items-center flex-wrap gap-2">
           <div className="flex justify-center flex-wrap">
-            <AppTitle
-              text={title}
+            <AppH3Title text={title}
               class_name="!text-white md:!text-[80px] uppercase manropeFont w-full text-center"
               isAnimation
-              animationSpeed={0.1}
-            />
+              animationSpeed={0.1} />
           </div>
           <AppDescriptionWithDangerouslySetInnerHTML
             text={description}

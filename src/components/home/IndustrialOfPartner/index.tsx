@@ -3,6 +3,7 @@ import { IndustrialOfPartner } from "@/data/IndustrialOfPartner";
 import { motion } from "framer-motion";
 import React from "react";
 import PartnersItem from "./PartnersItem";
+import AppH4Title from "@/components/share/appHadding/AppH4Title";
 
 const defaultVariants = {
   initial: {
@@ -27,7 +28,7 @@ function HomeIndustrialOfPartner() {
     <section className="py-9 bg-grayCustom w-full">
       <Container>
         <div className="">
-          <AppTitle
+          <AppH4Title
             text={title}
             class_name="capitalize text-center"
             isAnimation

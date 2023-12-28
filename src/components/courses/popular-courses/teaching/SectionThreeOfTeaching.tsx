@@ -8,6 +8,7 @@ import AppImg from "@/components/share/AppImg";
 import { TeachingDummyData } from "@/data/popular-courses/TeachingData";
 import React from "react";
 import { motion } from "framer-motion";
+import AppH3Title from "@/components/share/appHadding/AppH3Title";
 
 function SectionThreeOfTeaching() {
   const { SectionThreeOfTeaching } = TeachingDummyData;
@@ -15,7 +16,7 @@ function SectionThreeOfTeaching() {
   return (
     <section className="py-9 w-full">
       <Container>
-        <AppTitle text={title} class_name="text-center w-full" />
+        <AppH3Title text={title} class_name="text-center w-full" />
         <div className="mt-9 grid md:grid-cols-1 grid-cols-1 justify-center gap-5">
           <div className="flex justify-center items-start flex-wrap">
             <AppImg src={img} alt={title} class_name="rounded" />

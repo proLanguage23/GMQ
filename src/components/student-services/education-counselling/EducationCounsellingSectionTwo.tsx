@@ -7,6 +7,7 @@ import LeftToRight from "@/components/share/section/LeftToRight";
 import { EducationCounsellingDummyData } from "@/data/EducationCounsellingData";
 import React from "react";
 import { motion } from "framer-motion";
+import AppH2Title from "@/components/share/appHadding/AppH2Title";
 
 function EducationCounsellingSectionTwo() {
   const { EducationCounsellingSectionTwo } = EducationCounsellingDummyData;
@@ -16,7 +17,7 @@ function EducationCounsellingSectionTwo() {
       <section className="py-9 w-full">
         <Container>
           <div className="flex justify-center items-center flex-col gap-4">
-            <AppTitle text={title} class_name="text-center" />
+            <AppH2Title text={title} class_name="text-center" />
           </div>
           <LeftToRight
             tiny_mceEditor={left?.text}

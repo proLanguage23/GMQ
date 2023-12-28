@@ -23,7 +23,7 @@ export const ProfessionalYearProgramDummyData = {
   },
   ProfessionalYearProgramSectionTwo: {
     text: `
-    <h4 class="text-2xl part">What are the fundamental prerequisites for applying to a Professional Year Program?</h4>
+    <h3 class="titleOfParagraph text-center md:text-left">What are the fundamental prerequisites for applying to a Professional Year Program?</h3>
 
     <ul class="list-decimal part">
         <li> The candidate must have a Bachelor's or Master's degree in Accounting, Information Technology, or Engineering.</li>
@@ -32,7 +32,7 @@ export const ProfessionalYearProgramDummyData = {
     </ul>
 
 
-<h4 class="text-2xl part">What are the benefits of the Professional Year Program?</h4>
+<h4 class="titleOfParagraph pt-4 text-center md:text-left">What are the benefits of the Professional Year Program?</h4>
 
 
 <ul class="part list-decimal">
@@ -59,7 +59,7 @@ export const ProfessionalYearProgramDummyData = {
 </ul>
 
 
-<h4 class="text-2xl part">Benefits of Enrolling in PYP through GMQ Global</h4>
+<h5 class="titleOfParagraph  pt-4 text-center md:text-left">Benefits of Enrolling in PYP through GMQ Global</h5>
 
 <ul class="list-decimal part">
     <li> Candidates can access the cheapest deals.</li>

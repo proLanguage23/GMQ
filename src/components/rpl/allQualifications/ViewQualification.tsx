@@ -10,6 +10,7 @@ import QualificationCategory from "./sub/QualificationCategory";
 import QualificationSearch from "./sub/QualificationSearch";
 import QualificationItemResult from "./sub/QualificationItemResult";
 import allIcon from "@/assets/rpl/icon/allIcon.png";
+import AppH2Title from "@/components/share/appHadding/AppH2Title";
 
 function ViewQualification() {
   const { title, RPL_QualificationItems } = RPL_QualificationData;
@@ -105,9 +106,8 @@ function ViewQualification() {
     <section className="py-9 bg-white w-full" id="RPL_Qualification">
       <Container fullWidth>
         <div className="flex flex-col justify-center items-center">
-          <AppTitle
+          <AppH2Title
             text={title}
-            heading
             class_name="capitalize !text-center md:w-2/3 w-full"
           />
           <div className="w-full grid lg:grid-cols-9 mt-9 grid-cols-1 items-start gap-3">

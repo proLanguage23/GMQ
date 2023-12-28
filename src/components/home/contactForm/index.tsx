@@ -5,6 +5,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import AppImg from "@/components/share/AppImg";
+import AppH3Title from "@/components/share/appHadding/AppH3Title";
 function HomeContactForm() {
   const { right, left } = ContactFormDummyData;
   return (
@@ -18,7 +19,7 @@ function HomeContactForm() {
             />
           </div>
           <div className="">
-            <AppTitle
+            <AppH3Title
               text={right?.title}
               class_name="!text-white "
               isAnimation

@@ -4,6 +4,7 @@ import { hospitality_and_cookeryDummyData } from "@/data/popular-courses/hospita
 import { RPL_QualificationData } from "@/data/RPL_Data";
 import QualificationItemResult from "@/components/rpl/allQualifications/sub/QualificationItemResult";
 import { motion } from "framer-motion";
+import AppH2Title from "@/components/share/appHadding/AppH2Title";
 
 function CookeryCoursesSectionOne() {
   // const [cookeryHospitalityData, setCookeryHospitalityData] = useState<any>([]);
@@ -22,7 +23,7 @@ function CookeryCoursesSectionOne() {
   return (
     <section className="py-9 bg-grayCustom/50 w-full">
       <Container>
-        <AppTitle text={title} heading class_name="text-center capitalize" />
+        <AppH2Title text={title} heading class_name="text-center capitalize" />
         <div className="flex justify-center flex-wrap gap-2 mt-9">
           <QualificationItemResult
             allRPL_QualificationItems={data}

@@ -5,6 +5,7 @@ import CoursesItem from "./CoursesItem";
 import { motion } from "framer-motion";
 import OldCoursesItem from "./OldCoursesItem";
 import ItemCourse from "./ItemCourse";
+import AppH2Title from "@/components/share/appHadding/AppH2Title";
 
 const defaultVariants = {
   initial: {
@@ -28,7 +29,7 @@ function HomeCourses() {
     <section className="bg-grayCustom py-9 w-full">
       <Container>
         <div className="flex flex-col justify-center items-center flex-wrap">
-          <AppTitle text={title} class_name="!text-center" isAnimation />
+          <AppH2Title text={title} class_name="!text-center" isAnimation />
           {/* <AppSubTitle text={subTitle} class_name="!text-center" /> */}
           <div className="w-full mt-8 flex justify-center gap-2 flex-wrap">
             {CoursesData?.map((item, key) => (
