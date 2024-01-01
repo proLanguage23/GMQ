@@ -11,7 +11,7 @@ export const NavbarDummyData = {
         },
         {
             id: '1',
-            text: 'courses',
+            text: 'student services',
             href:'#',
             submenu: true,
             subMenuData:[

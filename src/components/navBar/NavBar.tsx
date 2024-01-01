@@ -7,6 +7,7 @@ import { FiMenu } from "react-icons/fi";
 import MobileNavbar from "./mobileMenuControler/MobileNavbar";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import SzhsinMenuDesktop from "./szhsin-menu/SzhsinMenuDesktop";
 
 function NavBar() {
   const [MobileNavbarState, setMobileNavbarState] = useState(false);
@@ -47,7 +48,7 @@ function NavBar() {
           </motion.div>
 
           {/* menu  */}
-          <div className="flex justify-center items-center flex-wrap">
+          <div className="flex justify-center items-center flex-wrap md:hidden">
             {/* menu-berar-icon and menu for mobile  */}
             <div className="menu-berar-icon md:pr-4 pr-2">
               <FiMenu
@@ -71,6 +72,8 @@ function NavBar() {
               <Menu menuData={Menus} />
             </div>
           </div>
+        
+        <SzhsinMenuDesktop />
         </div>
       </Container>
     </section>
