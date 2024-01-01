@@ -31,7 +31,7 @@ function TradeCoursesPage() {
       <TradeCourseSectionFour />
       {/* <CommonForm /> */}
       {/* <TestimonialSection /> */}
-      <PopUpElement data={popUpData} />
+      
     </>
   );
 }

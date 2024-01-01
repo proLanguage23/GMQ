@@ -31,7 +31,7 @@ function InformationTechnologyPage() {
       <InformationTechnologySectionThree />
       <CommonForm title="If you think we can help your dreams, make sure to fill it up!" des="Choose GMQ Global for professional educational counseling. Our vast expertise offers efficient guidance towards your objectives. Fill out the form and get in touch with one of our career counselors—you'll be glad you did!" />
       {/* <TestimonialSection /> */}
-      <PopUpElement data={popUpData} />
+      
     </>
   );
 }

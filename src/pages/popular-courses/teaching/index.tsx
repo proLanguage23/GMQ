@@ -44,7 +44,7 @@ function teaching() {
       <SectionFiveOfTeaching />
       {/* <CommonForm /> */}
       {/* <TestimonialSection /> */}
-      <PopUpElement data={popUpData} />
+      
     </>
   );
 }

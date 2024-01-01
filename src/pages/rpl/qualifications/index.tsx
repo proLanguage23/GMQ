@@ -16,7 +16,7 @@ function Qualifications() {
       <DynamicHead title="RPL Qualifications-GMQ Global" description="RPL Qualifications-GMQ Global" />
       <AppCourseBanner text={"RPL Qualifications"} />
       <RPL_AllQualificationsList />
-      <PopUpElement data={popUpData} />
+      
     </>
   )
 }

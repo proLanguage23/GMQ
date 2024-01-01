@@ -51,7 +51,7 @@ function FilterMenu({
         {/* menu with submenu  */}
         <div
           className="flex items-center flex-wrap group hover:text-secondary"
-          onMouseOver={() => {
+          onMouseEnter={() => {
             subMenuHandler(text);
             allCloseCondolerHandler({ one: true });
           }}
@@ -59,6 +59,7 @@ function FilterMenu({
           onMouseLeave={()=> {
             // setIsMenuHoverOut(true)
             // setIsMenuSubHoverOut(false)
+            // allCloseCondolerHandler({ one: false });
           }}
         >
           <PageLink

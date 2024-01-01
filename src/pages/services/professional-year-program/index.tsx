@@ -30,7 +30,7 @@ function ProfessionalYearProgramPage() {
       <ProfessionalYearProgramSectionTwo />
       {/* <CommonForm /> */}
       {/* <TestimonialSection /> */}
-      <PopUpElement data={popUpData} />
+      
     </>
   );
 }

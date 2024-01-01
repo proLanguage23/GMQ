@@ -38,7 +38,7 @@ function CookeryCoursesInAustraliaPage() {
       {/* <CookeryCoursesSectionFour /> */}
       {/* <CommonForm /> */}
       {/* <TestimonialSection /> */}
-      <PopUpElement data={popUpData} />
+      
     </>
   );
 }

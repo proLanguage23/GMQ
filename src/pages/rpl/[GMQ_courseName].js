@@ -49,7 +49,7 @@ function GMQ_coursePage() {
       />
       <AppCourseBanner text={pageData?.content?.title} />
       <Courses data={pageData?.content?.link} />
-       <PopUpElement data={popUpData} />
+       
     </>
   );
 }

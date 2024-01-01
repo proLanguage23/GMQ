@@ -41,7 +41,7 @@ function NursingPage() {
 "
       />
       {/* <TestimonialSection /> */}
-      <PopUpElement data={popUpData} />
+      
     </>
   );
 }

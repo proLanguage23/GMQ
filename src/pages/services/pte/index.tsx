@@ -39,7 +39,7 @@ function PTE_Page() {
       
       {/* <CommonForm /> */}
       {/* <TestimonialSection /> */}
-      <PopUpElement data={popUpData} />
+      
     </>
   );
 }

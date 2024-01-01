@@ -34,50 +34,6 @@ function Menu({ menuData }: any) {
     }
   }, [allCloseCondoler]);
 
-  // useEffect(() => {
-  //   if (IsMenuHoverOut && IsMenuSubHoverOut) {
-  //     if(allCloseCondoler?.two && !allCloseCondoler?.one && !allCloseCondoler?.three){
-  //       setAllCloseCondoler({
-  //         one: false,
-  //         two: false,
-  //         three: false,
-  //       });
-  //       return
-  //     }
-  //     if(!allCloseCondoler?.two && allCloseCondoler?.one && !allCloseCondoler?.three){
-  //       setAllCloseCondoler({
-  //         one: false,
-  //         two: false,
-  //         three: false,
-  //       });
-  //       return
-  //     }
-  //     if(allCloseCondoler?.two && allCloseCondoler?.one && !allCloseCondoler?.three){
-  //       // setAllCloseCondoler({
-  //       //   one: false,
-  //       //   two: false,
-  //       //   three: false,
-  //       // });
-  //       return
-  //     }
-  //     return;
-  //   } else if (IsMenuHoverOut && !IsMenuSubHoverOut) {
-  //     setAllCloseCondoler({
-  //       one: false,
-  //       two: false,
-  //       three: false,
-  //     });
-  //     setIsMenuHoverOut(false);
-  //     setIsMenuSubHoverOut(false);
-  //   } else {
-  //   }
-  // }, [IsMenuHoverOut, IsMenuSubHoverOut]);
-
-  // console.log("=====IsMenuHoverOut===============================");
-  // console.log(IsMenuSubHoverOut, IsMenuHoverOut);
-  // console.log("=========allCloseCondoler===========================");
-  // console.log(allCloseCondoler);
-
   return (
     <div className="flex items-center justify-end gap-3 flex-wrap">
       {menus?.map((item, key) => (

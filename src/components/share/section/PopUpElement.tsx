@@ -12,7 +12,7 @@ function PopUpElement({ data }: any) {
   useEffect(() => {
     setTimeout(function () {
       setModalShow(true);
-    }, 3000);
+    }, 10000);
     return setModalShow(false);
   }, []);
 
