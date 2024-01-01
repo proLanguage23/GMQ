@@ -17,40 +17,24 @@ export const HomeFooterDummyData = {
     abn: `ABN: ${ACN_Number}`
   },
   footerLinkGP: [
-    // {
-    //   id: 100,
-    //   title: "about us",
-    //   link: [
-    //     {
-    //       id: 0,
-    //       text: "Who We Are",
-    //       href: "#",
-    //     },
-    //     {
-    //       id: 1,
-    //       text: "Our Leadership Team",
-    //       href: "#",
-    //     },
-    //     {
-    //       id: 2,
-    //       text: "Partner With Us",
-    //       href: "#",
-    //     },
-    //     {
-    //       id: 3,
-    //       text: "Careers",
-    //       href: "#",
-    //     },
-    //   ],
-    // },
     {
       id: 102,
       title: "Our Services",
       link: [
         {
-          id: 4,
+          id: 401,
+          text: "RPL Qualification",
+          href: "/rpl",
+        },
+        {
+          id: 402,
           text: "Education Counselling",
           href: "/services/education-counselling",
+        },
+        {
+          id: 403,
+          text: "PR Pathway Courses",
+          href: false,
         },
         {
           id: 5,
@@ -67,16 +51,11 @@ export const HomeFooterDummyData = {
           text: "NAATI",
           href: "/services/naati",
         },
-        {
-          id: 8,
-          text: "RPL",
-          href: "/rpl",
-        },
       ],
     },
     {
       id: 106,
-      title: "Popular Courses",
+      title: "PR Pathway Courses",
       link: [
         {
           id: 24,
