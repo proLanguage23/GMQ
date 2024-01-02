@@ -7,39 +7,9 @@ import StudentAccommodation from '@/assets/StudentAccommodation.png'
 import RPL_IMG from '@/assets/RPL_IMG.png'
 
 export const HomeCoursesDummyData = {
-  title: "Select from a range of courses at GMQ Global",
+  title: "Our Services",
   subTitle: 'Count on GMQ Global for every step of your educational journey',
   CoursesData:[
-    {
-        id: 1,
-        img: Nursing,
-        title:'Education Counseling',
-        description:'Our education counselors are here to ignite your passion by discussing your career aspirations and properly guiding you to your goals. Book a consultation with us today!        ',
-        btn:{
-            text:"learn more",
-            href:'/services/education-counselling'
-        },
-    },
-    {
-        id: 2,
-        img: HospitalityCookery,
-        title:'Student Services',
-        description:`Don't get caught up in the hurdle of choosing the right university for yourself to decide what to do next! We're here to guide you from start to success. Click to learn more!`,
-        btn:{
-            text:"contact us",
-            href:'/contact-us'
-        },
-    },
-    {
-        id: 3,
-        img: Teaching,
-        title:'Popular Courses',
-        description:'GMQ Global partners with 100+ leading universities, schools, and colleges worldwide. Explore your options from the in-demand study fields to discover your ideal course and institution today.',
-        btn:{
-            text:"contact us",
-            href:'/contact-us'
-        },
-    },
     {
         id: 3,
         img: RPL_IMG,
@@ -48,6 +18,36 @@ export const HomeCoursesDummyData = {
         btn:{
             text:"learn more",
             href:'/rpl'
+        },
+    },
+    {
+        id: 1,
+        img: Nursing,
+        title:'Education',
+        description:'Our education counselors are here to ignite your passion by discussing your career aspirations and properly guiding you to your goals. Book a consultation with us today!        ',
+        btn:{
+            text:"learn more",
+            href:'/services/education-counselling'
+        },
+    },
+    // {
+    //     id: 2,
+    //     img: HospitalityCookery,
+    //     title:'Student Services',
+    //     description:`Don't get caught up in the hurdle of choosing the right university for yourself to decide what to do next! We're here to guide you from start to success. Click to learn more!`,
+    //     btn:{
+    //         text:"contact us",
+    //         href:'/contact-us'
+    //     },
+    // },
+    {
+        id: 3,
+        img: Teaching,
+        title:'PR Pathway Courses',
+        description:'GMQ Global partners with 100+ leading universities, schools, and colleges worldwide. Explore your options from the in-demand study fields to discover your ideal course and institution today.',
+        btn:{
+            text:"contact us",
+            href:'/contact-us'
         },
     },
     // {

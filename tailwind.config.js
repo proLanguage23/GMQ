@@ -21,6 +21,7 @@ module.exports = {
         white: "#fff",
         error: "#ff6d39",
         grayCustom: "#F3F4F6",
+        cream : "#FAEED1",
       },
     },
   },

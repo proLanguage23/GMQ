@@ -24,18 +24,17 @@ const defaultVariants = {
 function HomeWhyGMQ() {
   const { title, description, whyGMQFetuses, secondaryImg } = WhyGMQ_DummyData;
   return (
-    <section className="py-24 relative w-full bg-primary">
+    <section className="py-9 relative w-full ">
       <Container>
         <div className="flex flex-col justify-center items-center flex-wrap gap-2">
           <div className="flex justify-center flex-wrap">
             <AppH3Title text={title}
-              class_name="!text-white md:!text-[80px] uppercase manropeFont w-full text-center"
-              isAnimation
-              animationSpeed={0.1} />
+              class_name=" lg:!text-[50px] manropeFont w-full text-center uppercase"
+             />
           </div>
           <AppDescriptionWithDangerouslySetInnerHTML
             text={description}
-            class_name="!text-white !text-[18px] lg:w-2/3 w-full  text-center"
+            class_name=" !text-[18px] lg:w-2/3 w-full  text-center"
             // isAnimation
             // animationSpeed={0.01}
           />
@@ -56,7 +55,7 @@ function HomeWhyGMQ() {
           </div>
         </div>
       </Container>
-      <AppBgImg BgImg={secondaryImg} />
+      {/* <AppBgImg BgImg={secondaryImg} /> */}
     </section>
   );
 }

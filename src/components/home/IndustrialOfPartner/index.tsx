@@ -4,6 +4,20 @@ import { motion } from "framer-motion";
 import React from "react";
 import PartnersItem from "./PartnersItem";
 import AppH4Title from "@/components/share/appHadding/AppH4Title";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
+// import required modules
+import {
+  Navigation,
+  Pagination,
+  Mousewheel,
+  Keyboard,
+  Autoplay,
+} from "swiper/modules";
 
 const defaultVariants = {
   initial: {
@@ -25,7 +39,7 @@ function HomeIndustrialOfPartner() {
   const { title, PartnersData } = one;
 
   return (
-    <section className="py-9 bg-grayCustom w-full">
+    <section className="py-9 bg-cream/10 w-full">
       <Container>
         <div className="">
           <AppH4Title
@@ -33,21 +47,52 @@ function HomeIndustrialOfPartner() {
             class_name="capitalize text-center"
             isAnimation
           />
-          <div className="flex justify-center flex-wrap gap-2 mt-5">
-            {PartnersData?.map((item: any, key: any) => (
-              <PartnersItem
-                key={key}
-                {...item}
-                variants={defaultVariants}
-                initial="initial"
-                whileInView="animate"
-                viewport={{
-                  once: true,
-                }}
-                custom={key}
-                class_name="lg:w-[24%] md:w-[32%] sm:w-[33%] w-[95%]  max-w-full"
-              />
-            ))}
+          <div className="">
+            <Swiper
+              slidesPerView={1}
+              cssMode={true}
+              navigation={true}
+              mousewheel={true}
+              keyboard={true}
+              loop={true}
+              autoplay={{
+                delay: 10000,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              centeredSlides={true}
+              modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
+              className={`w-full IndustrialOfPartner`}
+            >
+              <SwiperSlide>
+                <div className="w-full flex justify-center flex-wrap gap-2  mt-5 pb-9">
+                  {PartnersData?.slice(0, 8).map((item: any, key: any) => (
+                    <PartnersItem
+                      key={key}
+                      {...item}
+                      v
+                      custom={key}
+                      class_name="lg:w-[24%] md:w-[32%] sm:w-[33%] w-[95%]  max-w-full"
+                    />
+                  ))}
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="w-full flex justify-center flex-wrap gap-2 mt-5 pb-9">
+                  {PartnersData?.slice(8, 16).map((item: any, key: any) => (
+                    <PartnersItem
+                      key={key}
+                      {...item}
+                      v
+                      custom={key}
+                      class_name="lg:w-[24%] md:w-[32%] sm:w-[33%] w-[95%]  max-w-full"
+                    />
+                  ))}
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </Container>

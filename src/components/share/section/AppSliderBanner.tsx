@@ -45,7 +45,7 @@ function AppSliderBanner({
           keyboard={true}
           loop={true}
           autoplay={{
-            delay: 5000,
+            delay: 10000,
             disableOnInteraction: false,
           }}
           pagination={{

@@ -30,12 +30,9 @@ function SzhsinMenuDesktop() {
     router.push(data);
   };
 
-console.log('==menuState?.state==================================');
-console.log(menuState?.state);
-console.log('====================================');
 
   return (
-    <div className=" flex-1 px-2">
+    <div className="md:block flex-1 px-2 hidden">
       <div className="flex justify-end items-center gap-2 w-full">
         <div className="1">
           <PageLink href="/" text="home" isIcon={false} class_name="p-2 px-4" />
@@ -44,10 +41,10 @@ console.log('====================================');
           <div ref={ref} {...anchorProps}>
             <div className="flex justify-center items-center px-4 gap-1 ">
               <AppDescriptionWithDangerouslySetInnerHTML
-                text={"Student Services"}
+                text={"Education Services"}
                 class_name="cursor-pointer py-4 !text-black"
               />
-              <div className={`${menuState?.state === "open" ? "bg-black" : "bg-black/50"}`}>
+              <div className={`transition-all ease-in duration-300 ${menuState?.state === "open" ? "rotate-180" : "rotate-0"}`}>
                 <FaChevronDown />
               </div>
             </div>
@@ -60,8 +57,8 @@ console.log('====================================');
             onClose={() => toggle(false)}
             arrow={true}
           >
-            <SubMenu label="Student Counselling" arrow={true} direction="left">
-              <SubMenu label="PR Pathway Courses" arrow={true}>
+            <SubMenu label="Student Counselling" arrow={true} direction="right">
+              <SubMenu label="PR Pathway Courses" arrow={true}  direction="right">
                 <MenuItem className={"w-full !p-0"}>
                   <PageLink
                     text={"Nursing"}

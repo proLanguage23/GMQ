@@ -6,7 +6,7 @@ function ScrollYProgress({ children, class_name }: any) {
 
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.33 1"],
+    offset: ["0 1", "1.15 1"],
   });
 
 //   const scale = useTransform(scrollYProgress, [0, 1], [0.2, 1]);

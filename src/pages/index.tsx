@@ -25,7 +25,7 @@ export default function Home() {
       <HomeCourses />
       {/* <ReferralJoinProgram /> */}
       <HomeAboutGMQ />
-      <HomeWhyGMQ />
+      {/* <HomeWhyGMQ /> */}
       <HomeIndustrialOfPartner />
       <HomeHelpOfGMQ />
       <HomeTestimonials />

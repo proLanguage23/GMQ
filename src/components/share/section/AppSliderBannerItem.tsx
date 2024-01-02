@@ -38,7 +38,7 @@ function AppSliderBannerItem({
               {/* <AppDynamicTitle text={`<h3>${ExtraText}</h3>`} /> */}
               <AppSubTitle
                 text={description || ""}
-                class_name="text-white !text-left text-[16px] textShadowNormal line-clamp-3
+                class_name="text-white !text-left text-[22px] textShadowNormal line-clamp-3
               "
               />
               <div className="flex justify-start items-center gap-2 flex-wrap">
@@ -47,7 +47,7 @@ function AppSliderBannerItem({
                     key={key}
                     text={btnItem?.text}
                     handleClick={() => clickBtn(btnItem?.href || "")}
-                    class_name="NewCommonBtnStyle mt-3 bg-primary hover:bg-transparent hover:text-white rounded-full  border-primary hover:border-white"
+                    class_name="NewCommonBtnStyle mt-3 bg-primary hover:bg-secondary hover:text-white rounded-full  border-primary hover:border-white text-[18px]"
                   />
                 ))}
               </div>
