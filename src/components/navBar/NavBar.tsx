@@ -48,7 +48,7 @@ function NavBar() {
           </motion.div>
 
           {/* menu  */}
-          <div className="flex justify-center items-center flex-wrap md:hidden">
+          <div className="flex justify-center items-center flex-wrap">
             {/* menu-berar-icon and menu for mobile  */}
             <div className="menu-berar-icon md:pr-4 pr-2">
               <FiMenu
@@ -73,7 +73,7 @@ function NavBar() {
             </div>
           </div>
         
-        <SzhsinMenuDesktop />
+        {/* <SzhsinMenuDesktop /> */}
         </div>
       </Container>
     </section>

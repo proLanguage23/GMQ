@@ -12,9 +12,13 @@ import {
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 
-import { AppDescription, AppDescriptionWithDangerouslySetInnerHTML, PageLink } from "@/components/share";
+import {
+  AppDescription,
+  AppDescriptionWithDangerouslySetInnerHTML,
+  PageLink,
+} from "@/components/share";
 import { useRouter } from "next/router";
-import { FaAngleDown } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
 
 function SzhsinMenuDesktop() {
   const ref = useRef(null);
@@ -26,21 +30,26 @@ function SzhsinMenuDesktop() {
     router.push(data);
   };
 
+console.log('==menuState?.state==================================');
+console.log(menuState?.state);
+console.log('====================================');
+
   return (
     <div className=" flex-1 px-2">
       <div className="flex justify-end items-center gap-2 w-full">
-
         <div className="1">
           <PageLink href="/" text="home" isIcon={false} class_name="p-2 px-4" />
         </div>
         <div className="2">
           <div ref={ref} {...anchorProps}>
-            <div className="flex justify-center items-center">
-            <AppDescriptionWithDangerouslySetInnerHTML
-              text={"Student Services"}
-              class_name="cursor-pointer py-4 px-4 !text-black"
-            />
-            
+            <div className="flex justify-center items-center px-4 gap-1 ">
+              <AppDescriptionWithDangerouslySetInnerHTML
+                text={"Student Services"}
+                class_name="cursor-pointer py-4 !text-black"
+              />
+              <div className={`${menuState?.state === "open" ? "bg-black" : "bg-black/50"}`}>
+                <FaChevronDown />
+              </div>
             </div>
           </div>
 
