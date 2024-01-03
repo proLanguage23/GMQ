@@ -14,7 +14,7 @@ function HomeTopQualifications() {
           <div className="flex justify-center flex-wrap gap-2 mt-9">
             {data?.map((item, key) => (
               // <PteServiceItem key={key} {...item} />
-              <CookeryCoursesSectionOneItem {...item} key={key} popUp_Element={contactFormPopUpData} class_name="sm:w-[270px]" />
+              <CookeryCoursesSectionOneItem {...item} key={key} popUp_Element={contactFormPopUpData} class_name="sm:w-[267px]" />
             ))}
           </div>
         </div>
