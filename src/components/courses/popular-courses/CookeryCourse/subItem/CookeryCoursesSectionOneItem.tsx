@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 
-function CookeryCoursesSectionOneItem({ img, title, btn, popUp_Element }: any) {
+function CookeryCoursesSectionOneItem({ img, title, btn,class_name, popUp_Element }: any) {
   const [modalShow, setModalShow] = useState(false);
 
   const handelModal = () => {
@@ -14,7 +14,7 @@ function CookeryCoursesSectionOneItem({ img, title, btn, popUp_Element }: any) {
   return (
     <>
       <div
-        className="cursor-pointer relative rounded-2xl shadow border sm:w-[300px] h-[230px] w-full overflow-hidden flex items-end p-3 hover:opacity-95 transition-all z-0 group"
+        className={`cursor-pointer relative rounded-2xl shadow border sm:w-[300px] h-[230px] w-full overflow-hidden flex items-end p-3 hover:opacity-95 transition-all z-0 group ${class_name}`}
         onClick={handelModal}
       >
         <div className="flex justify-between items-center gap-2 w-full flex-wrap ">

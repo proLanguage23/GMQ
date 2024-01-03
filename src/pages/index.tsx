@@ -10,6 +10,8 @@ import HomeWhyGMQ from "@/components/home/whyGMQ";
 import { DynamicHead, VisitedForm } from "@/components/share";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
+import HomeTopQualifications from "@/components/home/HomeTopQualifications";
+import OurRenownIndustries from "@/components/home/OurRenownIndustries";
 
 export default function Home() {
   const popUpData = {
@@ -26,7 +28,9 @@ export default function Home() {
       {/* <ReferralJoinProgram /> */}
       <HomeAboutGMQ />
       {/* <HomeWhyGMQ /> */}
+      <HomeTopQualifications />
       <HomeIndustrialOfPartner />
+      {/* <OurRenownIndustries /> */}
       <HomeHelpOfGMQ />
       <HomeTestimonials />
       {/* <HomeRWL /> */}

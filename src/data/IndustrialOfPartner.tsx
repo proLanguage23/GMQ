@@ -84,13 +84,6 @@ export const IndustrialOfPartner = {
         cricosNumber: "00099F",
       },
       {
-        id: "1",
-        img: James_Cook_University,
-        subImg: true,
-        partnersName: "James Cook University",
-        cricosNumber: "00117J",
-      },
-      {
         id: "2",
         img: University_of_Tasmania,
         subImg: true,
@@ -98,18 +91,25 @@ export const IndustrialOfPartner = {
         cricosNumber: "00586B",
       },
       {
-        id: "3",
-        img: Edith_cowan_university,
-        subImg: true,
-        partnersName: "Edith Cowan University",
-        cricosNumber: "00279B",
-      },
-      {
         id: "4",
         img: Victoria_University,
         subImg: true,
         partnersName: "Victoria University",
         cricosNumber: "00124K",
+      },
+      {
+        id: "1",
+        img: James_Cook_University,
+        subImg: true,
+        partnersName: "James Cook University",
+        cricosNumber: "00117J",
+      },
+      {
+        id: "3",
+        img: Edith_cowan_university,
+        subImg: true,
+        partnersName: "Edith Cowan University",
+        cricosNumber: "00279B",
       },
       {
         id: "13",

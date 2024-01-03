@@ -40,7 +40,7 @@ function HomeIndustrialOfPartner() {
 
   return (
     <section className="py-9 bg-cream/10 w-full">
-      <Container>
+      <Container fullWidth>
         <div className="">
           <AppH4Title
             text={title}
@@ -68,39 +68,39 @@ function HomeIndustrialOfPartner() {
             >
               <SwiperSlide>
                 <div className="w-full flex justify-center flex-wrap gap-2  mt-5 pb-9">
-                  {PartnersData?.slice(0, 8).map((item: any, key: any) => (
+                  {PartnersData?.slice(0, 10).map((item: any, key: any) => (
                     <PartnersItem
                       key={key}
                       {...item}
                       v
                       custom={key}
-                      class_name="lg:w-[22%] md:w-[32%] sm:w-[33%] w-[95%] max-w-full"
+                      class_name="sm:!w-[270px]  w-full max-w-full"
                     />
                   ))}
                 </div>
               </SwiperSlide>
                <SwiperSlide>
                 <div className="w-full flex justify-center flex-wrap gap-2 mt-5 pb-9">
-                  {PartnersData?.slice(8, 16).map((item: any, key: any) => (
+                  {PartnersData?.slice(10, 20).map((item: any, key: any) => (
                     <PartnersItem
                       key={key}
                       {...item}
                       v
                       custom={key}
-                      class_name="lg:w-[24%] md:w-[32%] sm:w-[33%] w-[95%]  max-w-full"
+                      class_name="sm:!w-[270px]  w-full max-w-full"
                     />
                   ))}
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="w-full flex justify-center flex-wrap gap-2 mt-5 pb-9">
-                  {PartnersData?.slice(16, 32).map((item: any, key: any) => (
+                  {PartnersData?.slice(20, 30).map((item: any, key: any) => (
                     <PartnersItem
                       key={key}
                       {...item}
                       v
                       custom={key}
-                      class_name="lg:w-[24%] md:w-[32%] sm:w-[33%] w-[95%]  max-w-full"
+                      class_name="sm:!w-[270px]  w-full max-w-full"
                     />
                   ))}
                 </div>

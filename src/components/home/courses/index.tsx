@@ -31,7 +31,7 @@ function HomeCourses() {
         <div className="flex flex-col justify-center items-center flex-wrap">
           <AppH2Title text={title} class_name="!text-center" isAnimation />
           {/* <AppSubTitle text={subTitle} class_name="!text-center" /> */}
-          <div className="w-full mt-8 flex justify-center gap-1 flex-wrap">
+          <div className="w-full mt-8 flex justify-center md:gap-5 gap-1 flex-wrap">
             {CoursesData?.map((item, key) => (
               <ItemCourse {...item} key={key} />
             ))}
