@@ -42,7 +42,7 @@ function EntryImgPopUp({ data, class_name }: any) {
         />
         <PageLink
           {...GeyYourSkillsRecognized?.btn}
-          class_name="NewCommonBtnStyle bg-primary hover:bg-primary/70 hover:text-white rounded md:rounded-full border-none w-fit p-3 md:px-5 text-[14px]"
+          class_name="NewCommonBtnStyle bg-secondary hover:bg-primary/70 hover:text-white rounded md:rounded-full border-none w-fit p-3 md:px-5 text-[14px]"
         />
       </div>
       <AppBgImg src={data?.img} alt={data?.text} />
