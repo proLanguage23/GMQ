@@ -14,27 +14,16 @@ function ContactMap() {
   const { ContactSectionOne } = ContactDummyData;
   const { title, text, data } = ContactSectionOne;
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
-      <div className="pb-9">
-        <Container fullWidth>
-
-          <div className="grid md:grid-cols-5 grid-cols-1 gap-5 w-full rounded">
-            <div className="md:col-span-5 shadow-xl">
-              <AppDescriptionWithDangerouslySetInnerHTML
-                text={LocationOfGoogleMap}
-                class_name="border-2 w-full rounded "
-              />
-            </div>
-            {/* <div className="md:p-2 flex justify-center items-center p-5">
+    <div className="py-9">
+      <Container fullWidth>
+        <div className="grid md:grid-cols-5 grid-cols-1 gap-5 w-full rounded">
+          <div className="md:col-span-5 shadow-xl">
+            <AppDescriptionWithDangerouslySetInnerHTML
+              text={LocationOfGoogleMap}
+              class_name="border-2 w-full rounded "
+            />
+          </div>
+          {/* <div className="md:p-2 flex justify-center items-center p-5">
               <div className="flex flex-col justify-center items-center pt-5 border rounded-2xl rounded-b-3xl bg-secondary Tir shadow-xl">
                 <MdLocationOn size={32} color="#fff" />
                 <AppSubTitle
@@ -54,10 +43,9 @@ function ContactMap() {
                 </a>
               </div>
             </div> */}
-          </div>
-        </Container>
-      </div>
-    </motion.section>
+        </div>
+      </Container>
+    </div>
   );
 }
 
