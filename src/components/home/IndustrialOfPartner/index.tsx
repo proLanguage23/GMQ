@@ -55,10 +55,10 @@ function HomeIndustrialOfPartner() {
               mousewheel={true}
               keyboard={true}
               loop={true}
-              autoplay={{
-                delay: 10000,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 10000,
+              //   disableOnInteraction: false,
+              // }}
               pagination={{
                 clickable: true,
               }}
@@ -74,6 +74,19 @@ function HomeIndustrialOfPartner() {
                       {...item}
                       v
                       custom={key}
+                      class_name="lg:w-[22%] md:w-[32%] sm:w-[33%] w-[95%] max-w-full"
+                    />
+                  ))}
+                </div>
+              </SwiperSlide>
+               <SwiperSlide>
+                <div className="w-full flex justify-center flex-wrap gap-2 mt-5 pb-9">
+                  {PartnersData?.slice(8, 16).map((item: any, key: any) => (
+                    <PartnersItem
+                      key={key}
+                      {...item}
+                      v
+                      custom={key}
                       class_name="lg:w-[24%] md:w-[32%] sm:w-[33%] w-[95%]  max-w-full"
                     />
                   ))}
@@ -81,7 +94,7 @@ function HomeIndustrialOfPartner() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="w-full flex justify-center flex-wrap gap-2 mt-5 pb-9">
-                  {PartnersData?.slice(8, 16).map((item: any, key: any) => (
+                  {PartnersData?.slice(16, 32).map((item: any, key: any) => (
                     <PartnersItem
                       key={key}
                       {...item}

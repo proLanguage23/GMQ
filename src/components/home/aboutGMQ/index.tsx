@@ -37,10 +37,10 @@ function HomeAboutGMQ() {
         once: true,
       }}
     >
-      <div className="py-16">
+      <div className="py-0">
         <Container>
           <div className="grid md:grid-cols-5 grid-cols-1 gap-4 py-4">
-            <div className="flex justify-center items-center mx-auto flex-wrap col-span-2">
+            <div className="flex justify-center items-center mx-auto flex-wrap md:col-span-2 w-full">
               <Image
                 src={left?.image}
                 alt={"logo"}
@@ -51,7 +51,7 @@ function HomeAboutGMQ() {
                 blurDataURL="true"
               />
             </div>
-            <div className="col-span-3 flex flex-col gap-3 md:p-6 px-3 lg:flex-1 text-justify items-center md:items-start flex-wrap">
+            <div className="md:col-span-3 flex flex-col gap-3 md:p-6 px-3 lg:flex-1 text-justify items-center md:items-start flex-wrap">
               <AppTitle
                 text={right?.title}
                 heading

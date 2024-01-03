@@ -1,12 +1,15 @@
-import { AppSubTitle } from "@/components/share";
+import { AppSubTitle, AppTitle } from "@/components/share";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { CountUp } from 'use-count-up'
 
-function WhyGMQFetusesItem({ icon_img, text, ...rest }: any) {
+function WhyGMQFetusesItem({ icon_img, text,counterText, ...rest }: any) {
+
+
   return (
     <motion.div
-      className="flex justify-center items-center gap-1 p-2 group max-w-full w-full"
+      className="flex justify-center items-start gap-1 p-2 group max-w-full w-full"
       {...rest}
     >
       <div className="bg-secondary flex justify-center items-center rounded-full w-16 h-16">
@@ -22,9 +25,14 @@ function WhyGMQFetusesItem({ icon_img, text, ...rest }: any) {
         />
       </div>
       <div className="flex-1 px-2">
+      {/* <CountUp isCounting end={1320} duration={3.2} /> */}
+      <AppTitle
+        text={counterText}
+        class_name="text-[25px]"
+      />
       <AppSubTitle
         text={text}
-        class_name=""
+        class_name="text-left"
       />
       </div>
     </motion.div>

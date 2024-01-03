@@ -15,10 +15,10 @@ function PartnersItem({
 }: any) {
   return (
     <motion.div
-      className={`w-full border p-5 rounded-2xl flex justify-center items-center flex-wrap gap-2 flex-col shadow hover:shadow-md bg-white relative ${class_name}`}
+      className={`w-full h-[200px] p-5 rounded-2xl flex justify-end items-start flex-wrap gap-2 flex-col shadow hover:shadow-md bg-secondary hover:bg-primary transition-all ease-in duration-500 relative ${class_name}`}
       {...rest}
     >
-      <div className="w-full  flex justify-center items-center mb-4">
+      {/* <div className="w-full  flex justify-center items-center mb-4">
         <AppImg
           src={img}
           alt={partnersName}
@@ -26,25 +26,25 @@ function PartnersItem({
           height={80}
           style={{ width: "100", height: "80px", objectFit: "contain" }}
         />
-      </div>
+      </div> */}
       <div className="df">
         <AppSubTitle
           text={partnersName}
-          class_name="text-center !text-[16px] font-medium"
+          class_name="!text-[20px] font-medium mb-2 text-white leading-6"
         />
         <AppSubTitle
           text={"CRICOS NO: " + cricosNumber}
-          class_name="text-center !text-[16px] "
+          class_name="!text-[16px] text-white"
         />
       </div>
-      {subImg && (
+      {/* {subImg && (
         <AppImg
           src={subImgIcon}
           width={18}
           class_name="absolute top-3 right-3"
           isPlaceholder={false}
         />
-      )}
+      )} */}
     </motion.div>
   );
 }

@@ -17,22 +17,26 @@ export const WhyGMQ_DummyData = {
   whyGMQFetuses: [
     {
       id: 1,
-      text: `15+ Years of Industry Experience: `,
+      counterText: '15 +',
+      text: `Years of Industry Experience`,
       icon_img: locator,
     },
     {
       id: 2,
-      text: "Assisted 2000+ Students in Achieving their Dreams",
+      counterText: '2000 +',
+      text: "Assisted Students in Achieving their Dreams",
       icon_img: route,
     },
     {
       id: 3,
-      text: "100+ University and Institute Collaborations",
+      counterText: '100 + ',
+      text: "University and Institute Collaborations",
       icon_img: university,
     },
     {
       id: 4,
-      text: "Located in 5+ Countries",
+      counterText: '5 + ',
+      text: "Located in Countries",
       icon_img: passport,
     },
   ],
