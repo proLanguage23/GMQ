@@ -57,7 +57,7 @@ function SzhsinMenuDesktop() {
             onClose={() => toggle(false)}
             arrow={true}
           >
-            <SubMenu label="Student Counselling" arrow={true} direction="right">
+            <SubMenu label="Student Counselling" arrow={true} direction="bottom">
               <SubMenu label="PR Pathway Courses" arrow={true}  direction="right">
                 <MenuItem className={"w-full !p-0"}>
                   <PageLink

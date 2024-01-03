@@ -24,44 +24,19 @@ function ContactMap() {
         once: true,
       }}
     >
-      <div className="py-9">
-        <Container>
-          <div className="mb-9 flex flex-col justify-center items-center">
-            <AppTitle text={title} class_name="text-center " />
-            {/* <AppDescriptionWithDangerouslySetInnerHTML
-              text={text}
-              class_name="text-center md:w-2/3"
-            /> */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 w-full mt-9">
-              {data?.map((item, key) => (
-                <div
-                  className="flex justify-between items-center flex-wrap gap-4 border-2 rounded p-1 border-secondary"
-                  key={key}
-                >
-                  <div className=" bg-secondary p-4 rounded">
-                    {item?.asserts}
-                  </div>
-                  <div className="flex-1">
-                    <AppSubTitle text={item?.title} class_name="text-[20px]" />
-                    <AppDescriptionWithDangerouslySetInnerHTML
-                      text={item?.text}
-                      class_name="!text-[18px]"
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="grid md:grid-cols-5 grid-cols-1 gap-5 rounded">
-            <div className="md:col-span-4 shadow-xl">
+      <div className="pb-9">
+        <Container fullWidth>
+
+          <div className="grid md:grid-cols-5 grid-cols-1 gap-5 w-full rounded">
+            <div className="md:col-span-5 shadow-xl">
               <AppDescriptionWithDangerouslySetInnerHTML
                 text={LocationOfGoogleMap}
                 class_name="border-2 w-full rounded "
               />
             </div>
-            <div className=" md:p-2 flex justify-center items-center p-5">
+            {/* <div className="md:p-2 flex justify-center items-center p-5">
               <div className="flex flex-col justify-center items-center pt-5 border rounded-2xl rounded-b-3xl bg-secondary Tir shadow-xl">
-                <MdLocationOn size={32} />
+                <MdLocationOn size={32} color="#fff" />
                 <AppSubTitle
                   text={"Address: "}
                   class_name="mt-3 text-[24px] text-white"
@@ -78,7 +53,7 @@ function ContactMap() {
                   get Direction
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>

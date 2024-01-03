@@ -1,4 +1,5 @@
 import { ContactForm, ContactMap } from "@/components/contact";
+import ContactArea from "@/components/contact/ContactArea";
 import { AppCourseBanner, DynamicHead } from "@/components/share";
 import React from "react";
 
@@ -8,8 +9,9 @@ function ContactPage() {
       <>
         <DynamicHead title="Contact-us - GMQ Global" />
         <AppCourseBanner text={"contact us"} />
+        <ContactArea />
         <ContactMap />
-        <ContactForm />
+        {/* <ContactForm /> */}
       </>
     </div>
   );
