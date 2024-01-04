@@ -36,19 +36,18 @@ function HomeTopQualifications() {
       <Container fullWidth>
         <div className="flex flex-col justify-center items-center gap-5">
           <AppTitle text={title} />
-          {/* <div className="flex justify-center flex-wrap gap-1 w-full ">
+          {/* <div className="grid grid-cols-5 justify-center flex-wrap gap-1 w-full ">
             {data?.map((item: any, key: any) => (
                 <TopQualificationsItem key={key} {...item} />
               ))}
           </div> */}
           <div className="w-full">
-          <Swiper
+            <Swiper
               slidesPerView={1}
               navigation={true}
               loop={true}
               autoplay={{
-                delay: 10000,
-                disableOnInteraction: false,
+                delay: 3000,
               }}
               pagination={{
                 clickable: true,
@@ -73,14 +72,13 @@ function HomeTopQualifications() {
               }}
               centeredSlides={true}
               modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-              className={`w-full IndustrialOfPartner`}
+              className={`w-full TopQualifications`}
             >
               {data?.map((item: any, key: any) => (
                 <SwiperSlide key={key}>
                   <div className="pb-9">
                     <TopQualificationsItem {...item} />
                   </div>
-                    
                 </SwiperSlide>
               ))}
             </Swiper>
