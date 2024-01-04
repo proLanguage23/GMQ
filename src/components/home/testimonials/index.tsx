@@ -19,7 +19,7 @@ function HomeTestimonials() {
     HomeTestimonialDummyData;
   return (
     <section className="py-8 w-full">
-      <Container class_name="!py-0">
+      <Container fullWidth class_name="!py-0">
         <div className="flex justify-center items-center flex-col gap-5 flex-wrap">
           <AppH6Title
             text={title}

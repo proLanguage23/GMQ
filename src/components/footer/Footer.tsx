@@ -34,9 +34,11 @@ function Footer() {
     >
       <div className="pt-24 relative ">
         <Container>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-9 lg:gap-1">
-            <LogoArea {...generalData} />
-            <div className="lg:col-span-2 pb-24">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-9 lg:gap-1">
+            <div className="lg:col-span-2 ">
+              <LogoArea {...generalData} />
+            </div>
+            <div className="lg:col-span-3 pb-24">
               <FooterLinkArea footerLinkGP={footerLinkGP} />
             </div>
           </div>

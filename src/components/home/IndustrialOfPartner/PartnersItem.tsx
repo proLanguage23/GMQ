@@ -11,11 +11,14 @@ function PartnersItem({
   partnersName,
   cricosNumber,
   class_name,
+  odd,
   ...rest
 }: any) {
   return (
     <motion.div
-      className={`w-full h-[200px] p-5 rounded-2xl flex justify-end items-start flex-wrap gap-2 flex-col shadow hover:shadow-md bg-secondary hover:bg-primary transition-all ease-in duration-500 relative ${class_name}`}
+      className={`w-full h-[200px] p-5 rounded-2xl flex justify-end items-start flex-wrap gap-2 flex-col shadow hover:shadow-md  hover:bg-primary transition-all ease-in duration-500 relative ${
+        odd ? "bg-primary" : "bg-secondary"
+      } ${class_name}`}
       {...rest}
     >
       {/* <div className="w-full  flex justify-center items-center mb-4">

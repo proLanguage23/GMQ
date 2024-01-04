@@ -28,7 +28,7 @@ function WhyGMQFetusesItem({ icon_img, text,counterText, ...rest }: any) {
       {/* <CountUp isCounting end={1320} duration={3.2} /> */}
       <AppTitle
         text={counterText}
-        class_name="text-[25px]"
+        class_name="text-[25px] text-left"
       />
       <AppSubTitle
         text={text}

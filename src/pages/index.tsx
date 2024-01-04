@@ -30,7 +30,7 @@ export default function Home() {
       {/* <HomeWhyGMQ /> */}
       <HomeTopQualifications />
       <HomeIndustrialOfPartner />
-      {/* <OurRenownIndustries /> */}
+      <OurRenownIndustries />
       <HomeHelpOfGMQ />
       <HomeTestimonials />
       {/* <HomeRWL /> */}

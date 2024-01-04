@@ -25,7 +25,6 @@ export const IndustrialOfPartner = {
   one: {
     title: "Our valuable industry partner",
     PartnersData: [
-     
       {
         id: "5",
         img: University_of_Wollongong,

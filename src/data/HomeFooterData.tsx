@@ -31,11 +31,11 @@ export const HomeFooterDummyData = {
           text: "Education Counselling",
           href: "/services/education-counselling",
         },
-        {
-          id: 403,
-          text: "PR Pathway Courses",
-          href: false,
-        },
+        // {
+        //   id: 403,
+        //   text: "PR Pathway Courses",
+        //   href: false,
+        // },
         {
           id: 5,
           text: "professional year program",

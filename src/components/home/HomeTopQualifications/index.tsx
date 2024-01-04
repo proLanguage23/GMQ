@@ -9,12 +9,12 @@ function HomeTopQualifications() {
   return (
     <div className="py-9">
       <Container fullWidth>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-5">
           <AppTitle text={title} />
-          <div className="flex justify-center flex-wrap gap-2 mt-9">
+          <div className="flex justify-center flex-wrap gap-0 ">
             {data?.map((item, key) => (
               // <PteServiceItem key={key} {...item} />
-              <CookeryCoursesSectionOneItem {...item} key={key} popUp_Element={contactFormPopUpData} class_name="sm:w-[267px]" />
+              <CookeryCoursesSectionOneItem {...item} key={key} popUp_Element={contactFormPopUpData} class_name="sm:w-[270px]  h-[250px]" />
             ))}
           </div>
         </div>

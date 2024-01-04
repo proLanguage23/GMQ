@@ -72,9 +72,9 @@ function HomeIndustrialOfPartner() {
                     <PartnersItem
                       key={key}
                       {...item}
-                      v
                       custom={key}
                       class_name="sm:!w-[270px]  w-full max-w-full"
+                      odd={!(key % 2)}
                     />
                   ))}
                 </div>
@@ -85,9 +85,9 @@ function HomeIndustrialOfPartner() {
                     <PartnersItem
                       key={key}
                       {...item}
-                      v
                       custom={key}
                       class_name="sm:!w-[270px]  w-full max-w-full"
+                      odd={!(key % 2)}
                     />
                   ))}
                 </div>
@@ -98,9 +98,9 @@ function HomeIndustrialOfPartner() {
                     <PartnersItem
                       key={key}
                       {...item}
-                      v
                       custom={key}
                       class_name="sm:!w-[270px]  w-full max-w-full"
+                      odd={!(key % 2)}
                     />
                   ))}
                 </div>

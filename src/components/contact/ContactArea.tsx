@@ -29,7 +29,7 @@ function ContactArea() {
               />
             </div>
           </div>
-          <div className="2 w-full mt-9 md:px-9 bg-white">
+          <div className="2 w-full mt-32 md:px-9 bg-white">
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-1 pt-7 md:pb-44">
               {data?.map((item, key) => (
                 <div
