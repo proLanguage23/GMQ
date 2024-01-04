@@ -9,7 +9,7 @@ import AppH3Title from "@/components/share/appHadding/AppH3Title";
 function HomeContactForm() {
   const { right, left } = ContactFormDummyData;
   return (
-    <section className="  w-full">
+    <section className="pt-9 w-full">
       {/* <Container class_name="!pb-0">
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-9 justify-center items-end">
           <div className="pb-16 flex justify-start h-full min-h-[700px] md:min-h-full ">
@@ -37,7 +37,7 @@ function HomeContactForm() {
       </Container> */}
       <Container>
       <div className="flex flex-col justify-center items-center">
-          <div className="md:w-2/3">
+          <div className="md:w-2/3 border-b">
             <AppH3Title text={right?.title} class_name="text-center" isAnimation />
             <AppDescriptionWithDangerouslySetInnerHTML
               text={right?.description}

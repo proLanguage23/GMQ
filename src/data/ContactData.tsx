@@ -22,7 +22,7 @@ export const ContactDummyData = {
         asserts: <FaRegClock size={32} color="#fff" />,
         title: `Office Hours`,
         text: `
-                <div class="group grid grid-cols-1">
+                <div class="group grid grid-cols-1 mt-4">
                     <div class="group item grid lg:grid-cols-3 grid-cols-2 justify-center items-center">
                         <div class="left">
                                 <p class="part">Saturday</p>

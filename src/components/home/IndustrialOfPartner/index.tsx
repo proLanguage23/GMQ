@@ -47,7 +47,7 @@ function HomeIndustrialOfPartner() {
             class_name="capitalize text-center"
             isAnimation
           />
-          <div className="">
+          <div className="hidden lg:block">
             <Swiper
               slidesPerView={1}
               cssMode={true}
@@ -55,10 +55,10 @@ function HomeIndustrialOfPartner() {
               mousewheel={true}
               keyboard={true}
               loop={true}
-              // autoplay={{
-              //   delay: 10000,
-              //   disableOnInteraction: false,
-              // }}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
               pagination={{
                 clickable: true,
               }}
@@ -67,44 +67,94 @@ function HomeIndustrialOfPartner() {
               className={`w-full IndustrialOfPartner`}
             >
               <SwiperSlide>
-                <div className="w-full flex justify-center flex-wrap gap-2  mt-5 pb-9">
+                <div className="w-full grid grid-cols-5 justify-center flex-wrap gap-2  mt-5 pb-9">
                   {PartnersData?.slice(0, 10).map((item: any, key: any) => (
                     <PartnersItem
                       key={key}
                       {...item}
                       custom={key}
-                      class_name="sm:!w-[270px]  w-full max-w-full"
-                      odd={!(key % 2)}
-                    />
-                  ))}
-                </div>
-              </SwiperSlide>
-               <SwiperSlide>
-                <div className="w-full flex justify-center flex-wrap gap-2 mt-5 pb-9">
-                  {PartnersData?.slice(10, 20).map((item: any, key: any) => (
-                    <PartnersItem
-                      key={key}
-                      {...item}
-                      custom={key}
-                      class_name="sm:!w-[270px]  w-full max-w-full"
+                      class_name=" w-full max-w-full"
                       odd={!(key % 2)}
                     />
                   ))}
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="w-full flex justify-center flex-wrap gap-2 mt-5 pb-9">
-                  {PartnersData?.slice(20, 30).map((item: any, key: any) => (
+                <div className="w-full grid grid-cols-5 justify-center flex-wrap gap-2 mt-5 pb-9">
+                  {PartnersData?.slice(10, 20).map((item: any, key: any) => (
                     <PartnersItem
                       key={key}
                       {...item}
                       custom={key}
-                      class_name="sm:!w-[270px]  w-full max-w-full"
+                      class_name=" w-full max-w-full"
                       odd={!(key % 2)}
                     />
                   ))}
                 </div>
               </SwiperSlide>
+              <SwiperSlide>
+                <div className="w-full grid grid-cols-5 justify-center flex-wrap gap-2 mt-5 pb-9">
+                  {PartnersData?.slice(20, 30).map((item: any, key: any) => (
+                    <PartnersItem
+                      key={key}
+                      {...item}
+                      custom={key}
+                      class_name=" w-full max-w-full"
+                      odd={!(key % 2)}
+                    />
+                  ))}
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+          <div className="block lg:hidden mt-4">
+            <Swiper
+              slidesPerView={1}
+              cssMode={true}
+              navigation={true}
+              mousewheel={true}
+              keyboard={true}
+              loop={true}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                1280: {
+                  slidesPerView: 5,
+                  spaceBetween: 7,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 7,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 7,
+                },
+                500: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+              }}
+              centeredSlides={true}
+              modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
+              className={`w-full IndustrialOfPartner`}
+            >
+              
+              {PartnersData?.map((item: any, key: any) => (
+                <SwiperSlide key={key}>
+                  <PartnersItem
+                    {...item}
+                    custom={key}
+                    class_name="mb-16"
+                    odd={!(key % 2)}
+                  />
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </div>

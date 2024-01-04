@@ -27,12 +27,17 @@ import {
   Keyboard,
   Autoplay,
 } from "swiper/modules";
+import { IndustrialOfPartner } from "@/data/IndustrialOfPartner";
+import PartnersItem from "../IndustrialOfPartner/PartnersItem";
+import HomeTopQualificationsForDesktop from "./HomeTopQualificationsForDesktop";
 
 function HomeTopQualifications() {
   const { title, data } = HomeTopQualificationsData;
 
+
   return (
-    <div className="py-9">
+    <>
+    <div className="py-9 md:hidden">
       <Container fullWidth>
         <div className="flex flex-col justify-center items-center gap-5">
           <AppTitle text={title} />
@@ -86,6 +91,8 @@ function HomeTopQualifications() {
         </div>
       </Container>
     </div>
+    <HomeTopQualificationsForDesktop />
+    </>
   );
 }
 
