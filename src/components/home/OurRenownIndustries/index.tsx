@@ -22,7 +22,7 @@ function OurRenownIndustries() {
 
   return (
     <>
-    <div className="pb-9">
+    <div className="py-9">
       <Container fullWidth>
         <div className="flex flex-col gap-5 justify-center items-center">
           <AppTitle text={title} />

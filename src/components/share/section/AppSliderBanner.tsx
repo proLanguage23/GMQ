@@ -39,6 +39,7 @@ function AppSliderBanner({
       ) : (
         <Swiper
           slidesPerView={1}
+          initialSlide={3}
           cssMode={true}
           navigation={true}
           mousewheel={true}

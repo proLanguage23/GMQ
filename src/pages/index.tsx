@@ -28,10 +28,10 @@ export default function Home() {
       {/* <ReferralJoinProgram /> */}
       <HomeAboutGMQ />
       {/* <HomeWhyGMQ /> */}
+      <OurRenownIndustries />
       <HomeTopQualifications />
       <HomeIndustrialOfPartner />
-      <OurRenownIndustries />
-      <HomeHelpOfGMQ />
+      {/* <HomeHelpOfGMQ /> */}
       <HomeTestimonials />
       {/* <HomeRWL /> */}
       <HomeContactForm />

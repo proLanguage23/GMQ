@@ -9,8 +9,8 @@ import AppH3Title from "@/components/share/appHadding/AppH3Title";
 function HomeContactForm() {
   const { right, left } = ContactFormDummyData;
   return (
-    <section className="bg-[#FFFFFF] pt-28  w-full">
-      <Container class_name="!pb-0">
+    <section className="  w-full">
+      {/* <Container class_name="!pb-0">
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-9 justify-center items-end">
           <div className="pb-16 flex justify-start h-full min-h-[700px] md:min-h-full ">
             <AppDescriptionWithDangerouslySetInnerHTML
@@ -32,6 +32,25 @@ function HomeContactForm() {
             />
 
             <AppImg src={right?.secondaryImg} alt={right?.title} width={360} class_name="mx-auto mt-5" />
+          </div>
+        </div>
+      </Container> */}
+      <Container>
+      <div className="flex flex-col justify-center items-center">
+          <div className="md:w-2/3">
+            <AppH3Title text={right?.title} class_name="text-center" isAnimation />
+            <AppDescriptionWithDangerouslySetInnerHTML
+              text={right?.description}
+              class_name=" mt-3 text-center md:p-0 p-3"
+              isAnimation
+              animationSpeed={0.005}
+            />
+          </div>
+          <div className="w-full">
+          <AppDescriptionWithDangerouslySetInnerHTML
+              text={left?.form}
+              class_name="h-[900px]"
+            />
           </div>
         </div>
       </Container>

@@ -1,21 +1,89 @@
 import CookeryCoursesSectionOneItem from "@/components/courses/popular-courses/CookeryCourse/subItem/CookeryCoursesSectionOneItem";
-import { AppTitle, Container } from "@/components/share";
+import QualificationItemResult from "@/components/rpl/allQualifications/sub/QualificationItemResult";
+import {
+  AppBtn,
+  AppDescriptionWithDangerouslySetInnerHTML,
+  AppModal,
+  AppTitle,
+  Container,
+  EntryForm,
+} from "@/components/share";
+import AppImg from "@/components/share/AppImg";
 import { HomeTopQualificationsData } from "@/data/HomeTopQualifications";
 import { contactFormPopUpData } from "@/data/ShareData";
-import React from "react";
+import React, { useState } from "react";
+import TopQualificationsItem from "./TopQualificationsItem";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
+// import required modules
+import {
+  Navigation,
+  Pagination,
+  Mousewheel,
+  Keyboard,
+  Autoplay,
+} from "swiper/modules";
 
 function HomeTopQualifications() {
   const { title, data } = HomeTopQualificationsData;
+
   return (
     <div className="py-9">
       <Container fullWidth>
         <div className="flex flex-col justify-center items-center gap-5">
           <AppTitle text={title} />
-          <div className="flex justify-center flex-wrap gap-0 ">
-            {data?.map((item, key) => (
-              // <PteServiceItem key={key} {...item} />
-              <CookeryCoursesSectionOneItem {...item} key={key} popUp_Element={contactFormPopUpData} class_name="sm:w-[270px]  h-[250px]" />
-            ))}
+          {/* <div className="flex justify-center flex-wrap gap-1 w-full ">
+            {data?.map((item: any, key: any) => (
+                <TopQualificationsItem key={key} {...item} />
+              ))}
+          </div> */}
+          <div className="w-full">
+          <Swiper
+              slidesPerView={1}
+              navigation={true}
+              loop={true}
+              autoplay={{
+                delay: 10000,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                1280: {
+                  slidesPerView: 5,
+                  spaceBetween: 7,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 7,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 7,
+                },
+                500: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+              }}
+              centeredSlides={true}
+              modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
+              className={`w-full IndustrialOfPartner`}
+            >
+              {data?.map((item: any, key: any) => (
+                <SwiperSlide key={key}>
+                  <div className="pb-9">
+                    <TopQualificationsItem {...item} />
+                  </div>
+                    
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </Container>

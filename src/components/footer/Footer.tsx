@@ -33,7 +33,7 @@ function Footer() {
       }}
     >
       <div className="pt-24 relative ">
-        <Container>
+        <Container fullWidth>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-9 lg:gap-1">
             <div className="lg:col-span-2 ">
               <LogoArea {...generalData} />
