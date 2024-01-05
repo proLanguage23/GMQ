@@ -73,6 +73,7 @@ export const HomeBannerData = [
     text: "Learn, Grow, and Excel Anywhere in Australia",
     description: "Ignite your educational and career journey with expert guidance from our counsellors.",
     img: homeBannerTwo,
+    noFilterImg: '',
     btn: [
       {
         text: "contact Now",
@@ -98,7 +99,7 @@ export const HomeBannerMobileData = [
   {
     id: 2,
     text: "Learn, Grow, and Excel Anywhere in Australia",
-    description: "Ignite your educational and career journey with expert guidance from our counselors.",
+    description: "Ignite your educational and career journey with expert guidance from our counsellors.",
     img: homeBannerMobileTwo,
     btn: [
       {

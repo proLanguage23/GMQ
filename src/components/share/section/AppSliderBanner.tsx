@@ -66,6 +66,7 @@ function AppSliderBanner({
                 img={item.img}
                 ExtraText={item.ExtraText}
                 class_name={class_name}
+                noFilterImg={item.noFilterImg}
               />
               {/* <Image
                 src={item?.img}

@@ -36,11 +36,6 @@ export default function Home() {
       <HomeTestimonials />
       {/* <HomeRWL /> */}
       <HomeContactForm />
-      {/* <CommonForm
-        title="Help us in getting to know you better, fill it up!"
-        des="Choose GMQ Global for professional educational counseling. Our vast expertise offers efficient guidance towards your objectives. Fill out the form and get in touch with one of our student counselors—you'll be glad you did!
-"
-      /> */}
       <PopUpElement data={popUpData} />
     </>
   );

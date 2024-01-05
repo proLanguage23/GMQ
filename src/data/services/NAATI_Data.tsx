@@ -10,15 +10,15 @@ export const NAATI_Dummy_Data = {
     left: {
       title: "Everything There’s to Know About NAATI Tests",
       text: `
-      <p class="part">The National Accreditation Authority for Translators and Interpreters (NAATI) establishes and supports high standards for language professionals in Australia. Accreditation from NAATI is critical for people seeking recognition as effective translators or interpreters, since it provides better employment opportunities and reputation in the profession.</p>
+      <p class="part">The National Accreditation Authority for Translators and Interpreters (NAATI) establishes and supports high standards for language professionals in Australia. Accreditation from NAATI is critical for people seeking recognition as effective translators or interpreters since it provides better employment opportunities and reputation in the profession. </p>
       <p class="part">At GMQ Global, we specialize in assisting international students through the NAATI test process and ensuring that they achieve the demanding certification standards. Our specialized help prepares applicants to excel in the exam, gaining an extra 5 points in visa streams 189/190/489 and creating successful career paths in the language business.
       </p>
       `,
-      data: [
-        `The educators focus intensively on your vocabulary `,
-        `Online Audio Dialogues as part of your sessions`,
-        `Feedback sessions to maintain a flow of improvement`,
-      ],
+      // data: [
+      //   `The educators focus intensively on your vocabulary `,
+      //   `Online Audio Dialogues as part of your sessions`,
+      //   `Feedback sessions to maintain a flow of improvement`,
+      // ],
     },
     right: {
       img: NaatiOne1,
@@ -66,7 +66,7 @@ export const NAATI_Dummy_Data = {
             <p class="text-white text-center w-full ">03</p>
           </div>
           <p class="font-bold text-lg text-slate-700 flex-1">
-          Accredited Faculty Members
+          Accredited Faculty Members:
           </p>
         </div>
         <div class="body">
@@ -116,8 +116,7 @@ export const NAATI_Dummy_Data = {
         },
         {
           title: `Interactive Online Assessments`,
-          text: `We provide periodical practice exams to adequately assess your interpretation abilities while guaranteeing accessibility and convenience of use.
-          Why We Teach Better
+          text: `We provide periodical practice exams to adequately assess your interpretation abilities while guaranteeing accessibility and convenience of use. Why We Teach Better
           `,
         },
       ],
@@ -127,16 +126,16 @@ export const NAATI_Dummy_Data = {
       data: [
         {
           title: "Building Confidence & Driving Results",
-          text: `We believe the end result drives success due to the reliability & entrusting element that our candidates put on us.`,
+          text: `We believe the result drives success due to the reliability & entrusting element that our candidates put on us.`,
         },
         {
           title: `Planned Assessments & Evaluations`,
-          text: `Providing multiple mock tests to check your progress and help you in areas where you can perform better.
+          text: `Provide multiple mock tests to check your progress and help you in areas where you can perform better.
 `,
         },
         {
-          title: `Quality Learning & Faculties`,
-          text: `With Audio dialogues, study materials that are updated and informative, our team gives you the best help for you to arrive at your ideal outcome.`,
+          title: `Quality Learning & Faculties          `,
+          text: `With Audio dialogues, and study materials that are updated and informative, our team gives you the best help for you to arrive at your ideal outcome.`,
         },
       ],
     },

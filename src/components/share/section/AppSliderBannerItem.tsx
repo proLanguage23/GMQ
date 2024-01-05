@@ -11,6 +11,7 @@ function AppSliderBannerItem({
   img,
   ExtraText,
   class_name,
+  noFilterImg
 }: any) {
   const router = useRouter();
 
@@ -54,7 +55,7 @@ function AppSliderBannerItem({
             </div>
           </div>
         </Container>
-        <AppBgImg src={img} alt={text || "GMQ GLOBAL slider img"} />
+        <AppBgImg src={img} alt={text || "GMQ GLOBAL slider img"} class_name={noFilterImg || " "} />
       </div>
       {/* mobile  */}
       <div
