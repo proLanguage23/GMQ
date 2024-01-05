@@ -324,7 +324,7 @@ export const EducationCounsellingBannerData = [
     id: 1,
     text: "Guiding Paths:",
     ExtraText: ``,
-    description:`GMQ Global provides personalized student counseling, mapping personal goals to a variety of possibilities and nurturing success stories for every individual.
+    description:`GMQ Global provides personalized student counselling, mapping personal goals to a variety of possibilities and nurturing success stories for every individual.
     `,
     img: EducationCounsellingBannerOne,
     btn: [{
@@ -350,7 +350,7 @@ export const EducationCounsellingMobileBannerData = [
     id: 1,
     text: "Guiding Paths:",
     ExtraText: ``,
-    description:`GMQ Global provides personalized student counseling, mapping personal goals to a variety of possibilities and nurturing success stories for every individual.
+    description:`GMQ Global provides personalized student counselling, mapping personal goals to a variety of possibilities and nurturing success stories for every individual.
     `,
     img: EducationCounsellingMobileBannerOne,
     btn: [{
