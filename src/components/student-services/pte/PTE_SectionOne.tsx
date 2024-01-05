@@ -19,7 +19,7 @@ function PTE_SectionOne() {
     <section className="py-9 w-full">
       <Container>
         <div className="flex flex-col justify-center items-center">
-          <AppH2Title text={title} class_name="text-center" />
+          <AppH2Title text={title} class_name="text-center" /> 
           <AppSubTitle
             text={subTitle}
             class_name="text-center"
