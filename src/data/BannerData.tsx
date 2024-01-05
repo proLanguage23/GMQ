@@ -375,7 +375,7 @@ export const PTEBannerData = [
   {
     id: 1,
     text: "What is PTE?",
-    description:`Students who wish to study in Australia, must take part in the PTE evaluation. It is an advanced computer-based assessment designed for non-native English speakers.`,
+    description:`Students who wish to study in Australia must take part in the PTE evaluation. It is an advanced computer-based assessment designed for non-native English speakers.`,
     img: PTEBannerOne,
     btn: [{
       text: "contact us",
@@ -397,7 +397,7 @@ export const PTEMobileBannerData = [
   {
     id: 1,
     text: "What is PTE?",
-    description:`Students who wish to study in Australia, must take part in the PTE evaluation. It is an advanced computer-based assessment designed for non-native English speakers.`,
+    description:`Students who wish to study in Australia must take part in the PTE evaluation. It is an advanced computer-based assessment designed for non-native English speakers.`,
     img: PTEBannerMobileOne,
     btn: [{
       text: "contact us",
