@@ -12,7 +12,7 @@ export const InformationTechnologyDummyData = {
       {
         img: DiplomaofInformationTechnologyICT50220,
         text: `Diploma of Information Technology - ICT50220`,
-        description: `This course enhances the understanding of students with key ICT capabilities & specialized technical skills to perform complex IT problem-solving tasks.`,
+        description: `This course enhances the understanding of students with key ICT capabilities & specialised technical skills to perform complex IT problem-solving tasks.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -54,14 +54,14 @@ export const InformationTechnologyDummyData = {
 
       <p class="part">Therefore, choosing Australia to pursue a degree in IT can become your best bet since the IT sector in Australia stands out from the rest, as it combines modern teaching with hands-on experience, covering a wide range of topics such as software development, AI, and machine learning, as well as telecommunications, IoT, database programming, cybersecurity, and data science. 
       </p>
-      <p class="part">These international student-focused courses set the groundwork for a successful IT career and offer much more in terms of a healthy job market, globally recognized degrees, and post-study work visas as a pathway to PR. To become an IT professional in Australia, join forces with GMQ Global and follow our counselor’s guidance in choosing the ideal courses and institution that best fit your passion.</p>`,
+      <p class="part">These international student-focused courses set the groundwork for a successful IT career and offer much more in terms of a healthy job market, globally recognised degrees, and post-study work visas as a pathway to PR. To become an IT professional in Australia, join forces with GMQ Global and follow our counsellor’s guidance in choosing the ideal courses and institution that best fit your passion.</p>`,
     },
     right: {
       img: InformationTechnologyCoursesGlobal,
     },
     description: `
     <p class="part"><b>Student Visa Eligibility Criteria for Studying IT in Australia</b><p>
-    <p class="part">In order to apply for a student visa & secure your future to study IT courses in Australia’s most renowned institute of your choosing, you must take note of the following instructions:<p>
+    <p class="part">To apply for a student visa & secure your future to study IT courses in Australia’s most renowned institute of your choosing, you must take note of the following instructions:<p>
   
     <ul class="part">
     <li>Maintain a valid passport throughout your study duration in Australia.</li>
@@ -81,8 +81,8 @@ export const InformationTechnologyDummyData = {
     <p class="part">
     It’s no secret that the IT sector in Australia provides a thriving tech landscape of ongoing job prospects, attracting international students, as well as local students, taking up the challenge to make it their career path. Moreover, with 8 of the world's top 100 institutions, Australia most definitely offers a world-class learning experience and scholarship options, thus, making it a highly sought-after location for budding IT professionals.</p>
     
-    <p class="part">The power of IT is present in every sector of any industry from small to big organizations, banking, health sectors to entertainment industries, the transformation to technological advancement has accelerated the field's demand. 
-    Studying Information Technology (IT) in Australia is a doorway to a world of innovation and opportunity. Here's why Australia stands out as the perfect choice for international students aiming to excel in the IT realm:
+    <p class="part">
+    The power of IT is present in every sector of any industry from small to big organizations, banking, health sectors to entertainment industries, the transformation to technological advancement has accelerated the field's demand. Studying Information Technology (IT) in Australia is a doorway to a world of innovation and opportunity. Here's why Australia stands out as the perfect choice for international students aiming to excel in the IT realm:     
     </p>
 
 
@@ -128,7 +128,7 @@ export const InformationTechnologyDummyData = {
         </div>
         <div class="body">
         <p>
-        The IT business thrives on change and the Australian institutions recognise this by creating a culture of lifelong learning. Employers' educational contributions help students, as does the ability to keep current on industry trends.
+        The IT business thrives on change and Australian institutions recognise this by creating a culture of lifelong learning. Employers' educational contributions help students, as does the ability to keep current on industry trends.
         </p>
         </div>
       </div>
@@ -176,7 +176,7 @@ export const InformationTechnologyDummyData = {
         </div>
         <div class="body">
         <p>
-        International students in Australia have access to numerous excellent post-study career possibilities after finishing their degrees, gaining exposure in the lively and accepting multicultural community of Australia’s job market.
+        International students in Australia have access to numerous excellent post-study career possibilities after finishing their degrees, gaining exposure to the lively and accepting multicultural community of Australia’s job market.
         </p>
         </div>
       </div>

@@ -60,7 +60,7 @@ function QualificationItemResult({
           <div className="my-4 flex-1">
             <AppDescriptionWithDangerouslySetInnerHTML
               text={item?.text}
-              class_name="uppercase mb-2 font-bold text-secondary group-hover:!text-white text-center "
+              class_name="manropeFont mb-2 font-semibold text-secondary group-hover:!text-white text-center !text-[20px]"
             />
             <AppDescriptionWithDangerouslySetInnerHTML
               text={item?.description}

@@ -8,6 +8,7 @@ import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
+import HomeContactForm from "@/components/home/contactForm";
 
 function InformationTechnologyPage() {
   const popUpData = {
@@ -29,9 +30,9 @@ function InformationTechnologyPage() {
       <InformationTechnologySectionOne />
       <InformationTechnologySectionTwo />
       <InformationTechnologySectionThree />
-      <CommonForm title="If you think we can help your dreams, make sure to fill it up!" des="Choose GMQ Global for professional educational counseling. Our vast expertise offers efficient guidance towards your objectives. Fill out the form and get in touch with one of our career counselors—you'll be glad you did!" />
+      {/* <CommonForm title="If you think we can help your dreams, make sure to fill it up!" des="Choose GMQ Global for professional educational counseling. Our vast expertise offers efficient guidance towards your objectives. Fill out the form and get in touch with one of our career counselors—you'll be glad you did!" /> */}
       {/* <TestimonialSection /> */}
-      
+      <HomeContactForm />
     </>
   );
 }

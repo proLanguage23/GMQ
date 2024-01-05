@@ -16,7 +16,7 @@ export const TeachingDummyData = {
 
       <p class="part">Teaching courses in Australia provide an industry-focused qualification taught by experienced educators in Early Childhood Education, School Age Education and Care, and School-Based Education Support.
       </p>
-      <p class="part">Fulfill your career goals as a teaching professional with GMQ Global’s guidance. We inspire you to embark on a journey, as your career counselors, assisting in every step, providing course options that best fit you, finding top-tier universities, and more. Prepare for a fulfilling career in education and life with GMQ Global.
+      <p class="part">Fulfil your career goals as a teaching professional with GMQ Global’s guidance. We inspire you to embark on a journey, as your career counsellors, assisting in every step, providing course options that best fit you, finding top-tier universities, and more. Prepare for a fulfilling career in education and life with GMQ Global.
       </p>
       `,
     },
@@ -28,19 +28,19 @@ export const TeachingDummyData = {
     title: `Eligibility Requirement`,
     data: [
       {
-        title: `Certificate III in Early Childhood Education and Care:`,
+        text: `Certificate III in Early Childhood Education and Care`,
         img: CertificateIIIinEarlyChildhoodEducationandCare
       },
       {
-        title: `Diploma of Early Childhood Education and Care:`,
+        text: `Diploma of Early Childhood Education and Care`,
         img: DiplomaofEarlyChildhoodEducationandCare
       },
       {
-        title: `Diploma of School-Age Education and Care:`,
+        text: `Diploma of School-Age Education and Care`,
         img: DiplomaofSchoolAgeEducationandCare
       },
       {
-        title: `Certificate IV in School-Based Education Support:`,
+        text: `Certificate IV in School-Based Education Support`,
         img: CertificateIVinSchoolBasedEducationSupport
       },
     ],

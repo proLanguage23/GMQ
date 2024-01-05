@@ -133,9 +133,10 @@ export const TradeCourseDummyData = {
     left: {
       title: `Navigate a Successful Career Path with Trade Qualifications!
       `,
-      text: `<p class="part">Trade courses in Australia provide a path toward higher education that is connected with the potential of permanent residency (PR). These courses, which are provided by Vocational Education and Training (VET) institutes, are highly valued by Australian companies. At GMQ Global, our career counselors will assist you in picking the appropriate trade courses, which will increase your skilled migration points and work chances, opening the route for professional progression and potential PR eligibility.</p>
+      text: `<p class="part">Trade courses in Australia provide a path toward higher education that is connected with the potential of permanent residency (PR). These courses, which are provided by Vocational Education and Training (VET) institutes, are highly valued by Australian companies. At GMQ Global, our career counsellors will assist you in picking the appropriate trade courses, which will increase your skilled migration points and work chances, opening the route for professional progression and potential PR eligibility.</p>
 
-      <p class="part">These courses are designed for international students and combine practical training with fundamental skills required for a successful professional path. Trade courses in Australia achieve a mix of theory and hands-on study, sometimes involving work placements or apprenticeships for practical experience. All you have to do is commit to professional development by taking trade courses, learning about industry practices, occupational health and safety, and polishing industry-specific skills.</p>
+      <p class="part">These courses are designed for international students and combine practical training with fundamental skills required for a successful professional path. Trade courses in Australia achieve a mix of theory and hands-on study, sometimes involving work placements or apprenticeships for practical experience. All you have to do is commit to professional development by taking trade courses, learning about industry practices, occupational health and safety, and polishing industry-specific skills.
+      </p>
       `,
       description: `
       <h3 class="text-lg my-3">Career Outcome:</h3>
@@ -202,7 +203,7 @@ export const TradeCourseDummyData = {
     title: `Frequently Asked Questions`,
     data:[
       {
-        title: `Which trade course is best for PR in Australia? `,
+        title: `Which trade courses are best for PR in Australia? `,
         text: `Cookery, chef, automotive (i.e. motor mechanic), carpentry, and horticulture studies are great fields for obtaining a Permanent Residency (PR) in Australia.`,
       },
       {

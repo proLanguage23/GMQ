@@ -24,7 +24,7 @@ export const HomeCoursesDummyData = {
         id: 1,
         img: Nursing,
         title:'Education',
-        description:'Our education counselors are here to ignite your passion by discussing your career aspirations and properly guiding you to your goals. Book a consultation with us today!        ',
+        description:'Our education counsellors are here to ignite your passion by discussing your career aspirations and properly guiding you to your goals. Book a consultation with us today! ',
         btn:{
             text:"learn more",
             href:'/services/education-counselling'

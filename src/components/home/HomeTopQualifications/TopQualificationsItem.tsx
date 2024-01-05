@@ -9,7 +9,7 @@ import AppImg from "@/components/share/AppImg";
 import { contactFormPopUpData } from "@/data/ShareData";
 import React, { useState } from "react";
 
-function TopQualificationsItem({ img, title }: any) {
+function TopQualificationsItem({ img, title, textClass_name }: any) {
   const [modalShow, setModalShow] = useState(false);
 
   const handelModal = () => {
@@ -31,7 +31,7 @@ function TopQualificationsItem({ img, title }: any) {
         <div className="my-4 flex-1">
           <AppDescriptionWithDangerouslySetInnerHTML
             text={title}
-            class_name="uppercase font-bold text-secondary group-hover:!text-white text-center "
+            class_name={`manropeFont font-semibold text-secondary group-hover:!text-white text-center !text-[20px] ${textClass_name}`}
           />
         </div>
 

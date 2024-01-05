@@ -248,10 +248,11 @@ export const NursingCourseDummyData = {
   NursingCourseAboutSection:{
     title: 'About the Course',
     description:`
-    We at GMQ Global Australia pave the path for international students anticipating becoming permanent residents of Australia through nursing professions. Our guidance guarantees an effortless transition from navigating tricky PR pathways to helping with nursing study requirements and visa options. Our counselors focus on each person's abilities and goals to obtain higher education and permanent residence (PR) while providing personalized career counseling and immigration support.
+    We at GMQ Global Australia pave the path for international students anticipating becoming permanent residents of Australia through nursing professions. Our guidance guarantees an effortless transition from navigating PR pathways to helping with nursing study requirements and visa options. Our counsellors focus on each person's abilities and goals to obtain higher education and permanent residence (PR) while providing personalised career counselling and immigration support.
     <br/>
     <br/>
     The need for qualified nurses in Australia's healthcare industry is expected to increase by 19% by 2026 due to an aging population and an increase in chronic diseases in Australia. Therefore, after the COVID-19 pandemic, there has been an increased need for medical professionals, which has forced the government to increase funding for healthcare. Qualified nurses are in high demand in the public and private sectors of the nursing profession because hospitals, nursing homes, and clinics need them.
+
 
     `,
     img: aboutofnursing

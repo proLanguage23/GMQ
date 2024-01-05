@@ -11,6 +11,7 @@ import React from "react";
 import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
 import PopUpElement from "@/components/share/section/PopUpElement";
 import { NursingCourseAboutSection } from "@/components/courses";
+import HomeContactForm from "@/components/home/contactForm";
 
 function NursingPage() {
   const popUpData = {
@@ -35,11 +36,12 @@ function NursingPage() {
       <NursingCourseAboutSection />
       <NursingCourseSectionTwo />
       <NursingCourseSectionThree />
-      <CommonForm
+      {/* <CommonForm
         title="Help us in getting to know you better, fill it up!"
         des="Choose GMQ Global for professional educational counseling. Our vast expertise offers efficient guidance towards your objectives. Fill out the form and get in touch with one of our student counselors—you'll be glad you did!
 "
-      />
+      /> */}
+      <HomeContactForm />
       {/* <TestimonialSection /> */}
       
     </>

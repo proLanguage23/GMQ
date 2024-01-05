@@ -19,7 +19,7 @@ export const hospitality_and_cookeryDummyData = {
       {
         img: CERTIFICATEIIIINPATISSERIE_SIT31016,
         text: `CERTIFICATE III IN PATISSERIE - SIT31016`,
-        description: `This certifies pastry chefs to gain skills in various patisserie techniques to work as pastry chefs or patissiers in patisseries, restaurants, hotels, and cafes.`,
+        description: `Pastry chefs can gain skills in various patisserie techniques to work as pastry chefs or patissiers in patisseries, restaurants, hotels, and cafes.`,
         btn: {
           text: "Contact now",
           href: "/contact",
@@ -28,7 +28,7 @@ export const hospitality_and_cookeryDummyData = {
       {
         img: CERTIFICATEIVINCOMMERCIALCOOKERY_SIT40516,
         text: `CERTIFICATE IV IN COMMERCIAL COOKERY - SIT40516`,
-        description: `The certificate enhances the commercial cooks to take on supervisory roles and opens doors for jobs such as chef or chef de partie in cafes, hotels, and restaurants.`,
+        description: `Commercial cooks can enhance their expertise by taking on supervisory roles which open doors for jobs such as chef or chef de partie in cafes, hotels, and restaurants.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -37,7 +37,7 @@ export const hospitality_and_cookeryDummyData = {
       {
         img: CERTIFICATEIVINHOSPITALITYSIT40416,
         text: `CERTIFICATE IV IN HOSPITALITY - SIT40416`,
-        description: `This certifies qualified executives with the necessary service skills to oversee teams in the hospitality industry, as bar supervisors, and duty managers, at hotels or even cafes.`,
+        description: `Get qualified as an executive with the necessary service skills to oversee teams in the hospitality industry, as bar supervisors, and duty managers, at hotels or even cafes.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -46,7 +46,7 @@ export const hospitality_and_cookeryDummyData = {
       {
         img: CERTIFICATEIVINKITCHENMANAGEMENTSIT40521,
         text: `CERTIFICATE IV IN KITCHEN MANAGEMENT - SIT40521`,
-        description: `This certificate ensures chefs and cooks with skills to work independently in kitchens or any leadership positions, at their own cafes, hotels, or restaurants.`,
+        description: `Enhance the culinary and management skills to work independently in kitchens or any leadership positions, at cafes, hotels, or restaurants.`,
         btn: {
           text: "inquire now",
           href: "/contact",
@@ -127,14 +127,16 @@ export const hospitality_and_cookeryDummyData = {
     <h4 class="titleOfParagraph">Why is Australia a Popular Choice for Culinary Learning?</h4>
     
     <p class="part">
-    
-    Australia allows international students to set out on an exciting culinary journey, where courses are created from a diverse variety of flavors and techniques. From indigenous ingredient mastery to modern fusion, it lets experienced instructors provide hands-on instruction that blends tradition and innovation.
+    Australia allows international students to set out on an exciting culinary journey, where courses are created from a diverse variety of flavours and techniques. From indigenous ingredient mastery to modern fusion, it lets experienced instructors provide hands-on instruction that blends tradition and innovation.
 
     </p>
 
-    <p class="part"> Studying Culinary Courses in Australia reveals international culinary practices, demonstrating how each region prepares food art in its own unique way. Here, you can explore a diverse palette of flavors, from meat pies to barramundi and much more.</p>
+    <p class="part"> Studying Culinary Courses in Australia reveals international culinary practices, demonstrating how each region prepares food art in its unique way. Here, you can explore a diverse palette of flavours, from meat pies to barramundi and much more.
+    </p>
 
-    <p class="part">Furthermore, the allure of culinary art ensures a plethora of job opportunities in the fastest-growing industry. Whether you want to be a chef, a restaurant manager, or a food critic, Australia's culinary education will open doors to a vibrant and expanding industry. </p>
+    <p class="part">
+    Furthermore, the allure of culinary art ensures a plethora of job opportunities in the fastest-growing industry. Whether you want to be a chef, a restaurant manager, or a food critic, Australia's culinary education will open doors to a vibrant and expanding industry.
+    </p>
     
     </br>
     </br>
@@ -147,7 +149,7 @@ export const hospitality_and_cookeryDummyData = {
 
     <p class="part">Tuition fees vary depending on your chosen discipline, degree level, and university. Bachelor's degrees cost between $20,000 and $45,000 AUD per year for international students, while Master's and PhD degrees cost between $22,000 and $50,000 AUD per year.</p>
 
-    <p class="part font-bold">    Let’s take a look at the table below:</p>
+    <p class="part font-bold"> Let’s take a look at the table below:</p>
     
     </br >
     
@@ -195,7 +197,7 @@ export const hospitality_and_cookeryDummyData = {
         </tr>
          <tr  class="border border-secondary" align="center">
           <td>Diploma of Food Science and Technology</td>
-          <td>15,000 – $25,000 (1 – 2 years) </td>
+          <td>$15,000 – $25,000 (1 – 2 years) </td>
         </tr>
       </tbody>
     </table>
@@ -208,17 +210,19 @@ export const hospitality_and_cookeryDummyData = {
     </br >
     </br >
     
-    <h2 class="titleOfParagraph">World’s Hottest Culinary Colleges Offering Cookery Courses in Australia    </h2>
+    <h2 class="titleOfParagraph">
+    Top Culinary Colleges Offering Cookery Courses in Australia </h2>
     
     <p class="part">To become a successful chef, you must have grit, passion, and determination. A good culinary school can help you get started on the right foot.</p>
     <p class="part">Australia is home to an abundance of reputable culinary schools, which are essential for aspiring kitchen professionals. They cover everything from kitchen management to communication skills.</p>
+
     <p class="part">Culinary schools in Australia offer certificates III and IV, which take six months to two and a half years to complete full-time. Some also offer patisserie, bakery, Asian cooking, and culinary management courses.</p>
 
-    <p><strong>1. Nomi College</strong></p>
+    <p><strong>1.Nomi College</strong></p>
     
     <ul class="part">
-      <li>SIT40521 - Certificate IV in Kitchen Management </li>
-      <li>SIT50422 - Diploma of Hospitality Management</li>
+      <li>SIT40521 - Certificate IV in Kitchen Management  </li>
+      <li>SIT50422 -  Diploma of Hospitality Management</li>
       <li>Certificate IV in Kitchen Management + Diploma of Hospitality Management 
       </li>
     </ul>
@@ -239,7 +243,7 @@ export const hospitality_and_cookeryDummyData = {
     <p class="part">Interestingly, Australia's thriving tourism industry has broadened its culinary tastes, opening up a plethora of commercial cooking job opportunities for both local and international students. Moreover, the hotels and resorts industry in Australia is worth $1.3 billion and is expected to grow 13.3% by 2023
     </p>
     
-    <p class="part">Following the setbacks caused by the COVID-19 pandemic, 2023 represents a robust resurgence for Australia's tourism and hospitality sectors, with a year brimming with opportunities. The hospitality industry in Australia is rebounding and offering plenty of career opportunities to fill the sector's significant staff shortage. </p>
+    <p class="part">Following the setbacks caused by the COVID-19 pandemic, 2023 represents a robust resurgence for Australia's tourism and hospitality sectors, with a year brimming with opportunities. The hospitality industry in Australia is rebounding and offering plenty of career opportunities to fill the sector's significant staff shortage.  </p>
     
     <p class="part">Explore the most in-demand jobs in hospitality this year and use your skills to advance your career or travel.</p>
     
@@ -331,16 +335,16 @@ export const hospitality_and_cookeryDummyData = {
   },
   CookeryCoursesWhyPursueSection: {
     title: "Why pursue a cookery career in Australia?",
-    description: `Australia's culinary scene, which is rich in global flavors, ranks second only to Switzerland as a top choice for studying professional cookery and culinary arts. International students flock to Australian universities to gain practical experience in world-class hotels and restaurants.
+    description: `Australia's culinary scene, which is rich in global flavours, ranks second only to Switzerland as a top choice for studying professional cookery and culinary arts. International students flock to Australian universities to gain practical experience in world-class hotels and restaurants.
 
-   According to a Deloitte Access Economics report, Australia has a pressing need for over 38,000 chefs, prompting major hospitality players to invest heavily in recruiting skilled professionals from abroad. This demand emphasizes the importance of culinary education and opportunities in this thriving industry.
+    According to a Deloitte Access Economics report, Australia has a pressing need for over 38,000 chefs, prompting major hospitality players to invest heavily in recruiting skilled professionals from abroad. This demand emphasizes the importance of culinary education and opportunities in this thriving industry.
     `,
     data: [
       {
         text: "Vibrant Culinary Scene:",
         description: `The vibrant diversity of Australia's culinary landscape entices passionate chefs and food enthusiasts.
         <br/>
-        Explore a world of flavors, from authentic Asian delicacies to cutting-edge Australian fusion. Immerse yourself in world-class restaurants, learning cutting-edge culinary techniques from renowned chefs.`,
+        Explore a world of flavours, from authentic Asian delicacies to cutting-edge Australian fusion. Immerse yourself in world-class restaurants, learning cutting-edge culinary techniques from renowned chefs.`,
       },
       {
         text: "Acclaimed Culinary Institutions:",
@@ -361,11 +365,11 @@ export const hospitality_and_cookeryDummyData = {
         description: `The study experience in Australia is more than just a culinary education—it is a cultural journey.
 
         <br/>
-        Participate in a diverse community, embracing global flavors and traditions with your peers. Explore the incredible & vibrant mix of Australia’s city life and natural wonders, which provides a unique work-life balance.`,
+        Participate in a diverse community, embracing global flavours and traditions with your peers. Explore the incredible & vibrant mix of Australia’s city life and natural wonders, which provides a unique work-life balance.`,
       },
       {
         text: "Pathway to Entrepreneurship: ",
-        description: `With an inviting surroundings, Australia promotes entrepreneurial dreams.
+        description: `Australia promotes entrepreneurial dreams with its inviting surroundings.
 
         <br/>
         Investigate an active startup community that will help you launch your culinary ventures. Australia encourages and supports entrepreneurial initiatives, ranking 14th in the World Bank's Ease of Doing Business Index.`,

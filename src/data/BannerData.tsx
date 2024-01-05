@@ -71,7 +71,7 @@ export const HomeBannerData = [
   {
     id: 2,
     text: "Learn, Grow, and Excel Anywhere in Australia",
-    description: "Ignite your educational and career journey with expert guidance from our counselors.",
+    description: "Ignite your educational and career journey with expert guidance from our counsellors.",
     img: homeBannerTwo,
     btn: [
       {
@@ -123,7 +123,7 @@ export const NursingBannerData = [
   {
     id: 2,
     text: "Nursing in Australia",
-    description: `Australia has more than 50 internationally renowned nursing colleges, including top-ranked universities. Allowing you to achieve quality education, improved career opportunities, and a secure, well-paying lifestyle.`,
+    description: `Unlock a world of opportunity in nursing education with Australia's 50+ internationally renowned colleges and top-tier universities, ensuring not just academic excellence but also paving the way for enhanced career prospects and a secure, well-compensated lifestyle.`,
     img: NursingBannerTwo,
     btn: [{
       text: "contact us",
@@ -165,7 +165,7 @@ export const NursingMobileBannerData = [
   {
     id: 2,
     text: "Nursing in Australia",
-    description: `Australia has more than 50 internationally renowned nursing colleges, including top-ranked universities. Allowing you to achieve quality education, improved career opportunities, and a secure, well-paying lifestyle.`,
+    description: `Unlock a world of opportunity in nursing education with Australia's 50+ internationally renowned colleges and top-tier universities, ensuring not just academic excellence but also paving the way for enhanced career prospects and a secure, well-compensated lifestyle.`,
     img: NursingMobileBannerTwo,
     btn: [{
       text: "contact us",

@@ -11,13 +11,15 @@ function sectionOneOfTeaching() {
     <section className="py-9 w-full">
       <Container>
         <div className="df">
-          <AppTitle text={left?.title} heading class_name="text-center mb-3" />
+          {/* <AppTitle text={left?.title} heading class_name="text-center mb-3" /> */}
         </div>
         <LeftToRight
+          title={left?.title}
           tiny_mceEditor={left?.text}
           sideImg={right?.img}
           alt={left?.title}
           class_name="lg:gap-5"
+          heading
         />
       </Container>
     </section>
