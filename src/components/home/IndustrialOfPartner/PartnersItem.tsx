@@ -16,21 +16,22 @@ function PartnersItem({
 }: any) {
   return (
     <motion.div
-      className={`w-full h-[200px] p-5 rounded-2xl flex justify-end items-start flex-wrap gap-2 flex-col shadow hover:shadow-md  hover:bg-primary transition-all ease-in duration-500 relative ${
+      className={`w-full h-[200px] p-5 rounded-2xl flex justify-between items-start gap-2 flex-col shadow hover:shadow-md  hover:bg-primary transition-all ease-in duration-500 relative ${
         odd ? "bg-primary" : "bg-secondary"
       } ${class_name}`}
       {...rest}
     >
-      {/* <div className="w-full  flex justify-center items-center mb-4">
+      <div className="flex-1 ">
         <AppImg
           src={img}
           alt={partnersName}
-          width={100}
-          height={80}
-          style={{ width: "100", height: "80px", objectFit: "contain" }}
+          // width={100}
+          // height={80}
+          style={{ width: "auto", height: "50px", objectFit: "contain", }}
+          className="bg-white px-2 py-1 rounded"
         />
-      </div> */}
-      <div className="df">
+      </div>
+      <div className="w-full">
         <AppSubTitle
           text={partnersName}
           class_name="!text-[20px] font-medium mb-2 text-white leading-6"

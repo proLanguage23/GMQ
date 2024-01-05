@@ -206,7 +206,7 @@ import whyGMQ from '@/assets/whyGMQ.png'
 export const RPL_BannerData = {
   title: `Turning Experience Into Credentials - Your RPL Journey Starts Here!`,
   description:
-    "GMQ Global, in collaboration with accredited training organisations, provides you with an outstanding opportunity to turn your expertise into a nationally recognised certificate through RPL. Our complimentary skills evaluation and conversion of your knowledge into a valuable qualification that lay the foundation of your success.",
+    "GMQ Global, in collaboration with accredited training organisations, provides you with an outstanding opportunity to turn your expertise into a nationally recognised certificate through RPL. Our complimentary skills evaluation and conversion of your knowledge into a valuable qualification that lays the foundation for  your success.",
   link: [
     {
       id: 2,
@@ -2785,34 +2785,33 @@ export const RPL_FAQSDummyData = {
 }
 
 export const RPL_StepDummyData = {
-  title: `Get Certified in Few Simple Steps`,
+  title: `Get Certified in a Few Simple Steps`,
     data: [
       {
         id:"1",
         title: `Check your Skills`,
-        description: `Follow your passion and transform your career! Complete the assessment in just seconds, and we'll contact you to confirm your eligibility for an RPL qualification through our partner RTOs!`,
+        description: `Complete the assessment in just seconds, and we'll contact you to confirm your eligibility for an RPL qualification through our partner RTOs!`,
         images: CheckyOurSkillsIMG,
         imagesImage: CheckyOurSkillsIMGMobile
       },
       {
         id:"2",
         title: `Get Portfolio Guidance`,
-        description: `Our experienced evaluators can guide you in compiling the relevant documentation from your portfolio, such as your résumé, references, work samples, photographs, certificates, and overseas qualifications, which are required for authenticating your work experience.`,
+        description: `Compile the relevant documentation from your portfolio, such as your résumé, references, work samples, photographs, certificates, and overseas qualifications.`,
         images: GetPortfolioGuidanceIMG,
         imagesImage: GetPortfolioGuidanceIMGMobile
       },
       {
         id:"3",
         title: `Get a Skills Review`,
-        description: `Our partner RTO assessors will reach out to you in regard to the discussion of your skills and, if necessary, conduct a practical assessment. If any skill or knowledge gaps are discovered, we will walk you through the extra examinations required for continued improvement.`,
+        description: `Our partner RTO assessors will reach out to you in regard to the discussion of your skills and, if necessary, conduct a practical assessment.`,
         images: GetaSkillsReviewIMG,
         imagesImage: GetaSkillsReviewIMGMobile
       },
       {
         id:"4",
         title: `Get Certified`,
-        description: `Following the assessment, you will get a nationally recognised qualification from an institution affiliated with GMQ Global!. Thus, allowing you to seek a trade license, grow in your job, or even start your own business.
-        `,
+        description: `Following the assessment, you will get a nationally recognised qualification from an institution affiliated with GMQ Global.`,
         images: GetCertifiedIMG,
         imagesImage: GetCertifiedIMGMobile
       },
