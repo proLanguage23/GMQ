@@ -37,6 +37,7 @@ function HomeTopQualifications() {
 
   return (
     <>
+    {/* mobile view  */}
     <div className="py-9 md:hidden">
       <Container fullWidth>
         <div className="flex flex-col justify-center items-center gap-5">
