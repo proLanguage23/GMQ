@@ -12,6 +12,7 @@ import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
 import HomeTopQualifications from "@/components/home/HomeTopQualifications";
 import OurRenownIndustries from "@/components/home/OurRenownIndustries";
+import CommonForm from "@/components/contactForm/CommonForm";
 
 export default function Home() {
   const popUpData = {
@@ -35,6 +36,11 @@ export default function Home() {
       <HomeTestimonials />
       {/* <HomeRWL /> */}
       <HomeContactForm />
+      {/* <CommonForm
+        title="Help us in getting to know you better, fill it up!"
+        des="Choose GMQ Global for professional educational counseling. Our vast expertise offers efficient guidance towards your objectives. Fill out the form and get in touch with one of our student counselors—you'll be glad you did!
+"
+      /> */}
       <PopUpElement data={popUpData} />
     </>
   );

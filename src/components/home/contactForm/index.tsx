@@ -35,21 +35,31 @@ function HomeContactForm() {
           </div>
         </div>
       </Container> */}
-      <Container>
-      <div className="flex flex-col justify-center items-center">
-          <div className="md:w-2/3 border-b">
-            <AppH3Title text={right?.title} class_name="text-center" isAnimation />
+      <Container fullWidth>
+      <div className="grid md:grid-cols-2 grid-cols-1 justify-center items-start ">
+          <div className="md:pr-5 h-full ">
+            <AppH3Title text={right?.title} class_name="" isAnimation />
             <AppDescriptionWithDangerouslySetInnerHTML
               text={right?.description}
-              class_name=" mt-3 text-center md:p-0 p-3"
+              class_name=" mt-3 md:p-0 p-3"
               isAnimation
               animationSpeed={0.005}
             />
+            <Image
+              src={right?.secondaryImg}
+              alt={"logo"}
+              width={360}
+              quality={100}
+              // priority={true}
+              className="mx-auto mt-6 md:mt-16 hidden md:block"
+              loading="lazy"
+              blurDataURL="true"
+            />
           </div>
-          <div className="w-full">
+          <div className="w-full px-2">
           <AppDescriptionWithDangerouslySetInnerHTML
               text={left?.form}
-              class_name="h-[900px]"
+              class_name="h-[900px] md:-mt-5"
             />
           </div>
         </div>

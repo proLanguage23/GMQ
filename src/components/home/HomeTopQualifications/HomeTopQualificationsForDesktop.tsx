@@ -45,16 +45,16 @@ function HomeTopQualificationsForDesktop() {
             className={`w-full TopQualifications`}
           >
             <SwiperSlide>
-              <div className="w-full grid grid-cols-5 justify-center flex-wrap gap-2  mt-5 pb-9">
+              <div className="w-full grid grid-cols-5 justify-center flex-wrap gap-2  mt-5 pb-9 ">
                 {data?.slice(0, 5).map((item: any, key: any) => (
-                  <TopQualificationsItem key={key} {...item} />
+                  <TopQualificationsItem key={key} {...item} class_name="border " />
                 ))}
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="w-full grid grid-cols-5 justify-center flex-wrap gap-2 mt-5 pb-9">
                 {data?.slice(5, 10).map((item: any, key: any) => (
-                  <TopQualificationsItem key={key} {...item} />
+                  <TopQualificationsItem key={key} {...item} class_name="border" />
                 ))}
               </div>
             </SwiperSlide>

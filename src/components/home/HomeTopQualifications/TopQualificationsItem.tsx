@@ -9,7 +9,7 @@ import AppImg from "@/components/share/AppImg";
 import { contactFormPopUpData } from "@/data/ShareData";
 import React, { useState } from "react";
 
-function TopQualificationsItem({ img, title, textClass_name }: any) {
+function TopQualificationsItem({ img, title, textClass_name, class_name }: any) {
   const [modalShow, setModalShow] = useState(false);
 
   const handelModal = () => {
@@ -19,7 +19,7 @@ function TopQualificationsItem({ img, title, textClass_name }: any) {
   return (
     <>
       <div
-        className={`w-full p-2 bg-white rounded-[24px] flex flex-col shadow hover:shadow-md transition-all hover:!scale-[1.02] ease-in duration-200 h-[390px]`}
+        className={`w-full p-2 bg-white rounded-[24px] flex flex-col shadow hover:shadow-md transition-all hover:!scale-[1.02] ease-in duration-200 h-[390px] ${class_name}`}
       >
         <AppImg
           src={img}

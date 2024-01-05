@@ -11,7 +11,7 @@ import arrowImg from "@/assets/rpl/few-step/arrow.png";
 function RPL_StepItem({ id, title, description, images, imagesImage }: any) {
   return (
     <>
-      {/* <div className="border border-secondary  hover:shadow-md flex justify-between flex-col">
+      <div className="border border-secondary  hover:shadow-md flex justify-between flex-col">
         <div className="">
           <AppSubTitle
             text={title}
@@ -43,14 +43,6 @@ function RPL_StepItem({ id, title, description, images, imagesImage }: any) {
           ) : (
             <AppImg src={checkMark} width="35" class_name="rounded-full p-1" />
           )}
-        </div>
-      </div> */}
-      <div className="w-full flex justify-center items-center relative">
-        <div className="hidden md:block">
-          <AppImg src={images} />
-        </div>
-        <div className="block md:hidden">
-          <AppImg src={imagesImage} />
         </div>
       </div>
     </>
