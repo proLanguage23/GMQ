@@ -225,11 +225,11 @@ export const RPL_BannerData = {
 export const RPL_AboutData = {
   title: 'RPL with GMQ Global',
   description: [
-    `GMQ Global transforms careers by partnering with Registered Training Organisations (RTOs) to convert your unique experiences and abilities into nationally recognised qualifications through Recognition of Prior Learning (RPL). We analyze your capabilities and develop solutions to bridge knowledge gaps, helping you towards the proper career milestones.
+    `GMQ Global transforms careers by partnering with Registered Training Organisations (RTOs) to convert your unique experiences and abilities into nationally recognised qualifications through Recognition of Prior Learning (RPL). We analyse your capabilities and develop solutions to bridge knowledge gaps, helping you towards the proper career milestones.
     `,
     `Access a broad spectrum of industrial qualifications provided by our partnered RTO. Reach out to us and polish your career with RPL certificates. Demonstrating unparalleled possibilities such as expanded career avenues and elimination of superfluous training
     `,
-    `With our help, we believe your sector knowledge may be transformed into a coveted RPL qualification, opening doors to new jobs, increased income, and entrepreneurial endeavors. Get a quick RPL procedure and reliable steps.
+    `With our help, we believe your sector knowledge may be transformed into a coveted RPL qualification, opening doors to new jobs, increased income, and entrepreneurial endeavours.
     `,
     `Entrust GMQ Global in the process to kickstart your career the right way, as we believe, here is where your success story begins! `
   ],
@@ -2602,11 +2602,13 @@ export const RPL_Certificate_ProcessDummyData = {
           <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
             <p class="text-white text-center w-full ">1</p>
           </div>
-          <p class="font-bold text-lg text-slate-700 flex-1 text-left">Initial Assessment for Customized Pathways: 
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">
+          Initial Assessment for Customised Pathways:
           </p>
         </div>
         <div class="body">
-        <p class=" text-left">Begin your RPL journey with a customized assessment from one of our consultants, who will build a pathway that corresponds with your abilities and professional ambitions.
+        <p class=" text-left">
+        Begin your RPL journey with a customised assessment from one of our consultants, who will build a pathway that corresponds with your abilities and professional ambitions.
 
         </p>
         </div>
@@ -2617,12 +2619,13 @@ export const RPL_Certificate_ProcessDummyData = {
           <div class="w-[40px] h-[40px] rounded-full flex justify-content !items-center text-center bg-secondary">
             <p class="text-white text-center w-full ">2</p>
           </div>
-          <p class="font-bold text-lg text-slate-700 flex-1 text-left">Document Preparation and Verification: 
+          <p class="font-bold text-lg text-slate-700 flex-1 text-left">Document Preparation and Verification:
  
           </p>
         </div>
         <div class="body">
-        <p class=" text-left">Determine the evidence/documents needed to complete your RPL procedure. We assist you in developing a complete portfolio that highlights your skills.
+        <p class=" text-left">
+        Determine the evidence/documents needed to complete your RPL procedure. We assist you in developing a complete portfolio that highlights your skills.
         </p>
         </div>
       </div>
@@ -2637,7 +2640,7 @@ export const RPL_Certificate_ProcessDummyData = {
         </div>
         <div class="body">
         <p class=" text-left">
-        Gather necessary papers to create a strong portfolio highlighting your job history, references, and experience, which will be thoroughly assessed by our experts.
+        Gather necessary documents to create a strong portfolio highlighting your job history, references, and experience, which will be thoroughly assessed by our experts.
 
         </p>
         </div>
@@ -2649,7 +2652,7 @@ export const RPL_Certificate_ProcessDummyData = {
             <p class="text-white text-center w-full ">4</p>
           </div>
           <p class="font-bold text-lg text-slate-700 flex-1 text-left">
-          RTO Document Review and Competency Validation: 
+          RTO Document Review and Competency Validation:  
 
           </p>
         </div>
@@ -2667,7 +2670,7 @@ export const RPL_Certificate_ProcessDummyData = {
             <p class="text-white text-center w-full ">5</p>
           </div>
           <p class="font-bold text-lg text-slate-700 flex-1 text-left">
-          Issuance of Acknowledged Qualification: 
+          Issuance of Acknowledged Qualification:
           </p>
         </div>
         <div class="body">
@@ -2700,7 +2703,7 @@ export const RPL_Certificate_BenefitsDummyData = {
         </div>
         <div class="body">
         <p class=" text-left">
-        RPL is a practical & cost-effective option that recognises your existing skills and knowledge. Thus, saving time, energy, and definitely money on redundant training.
+        RPL is a practical & cost-effective option that recognises your existing skills and knowledge. Thus, saving time, energy, and money on redundant training.
 
         </p>
         </div>
@@ -2747,7 +2750,7 @@ export const RPL_Certificate_BenefitsDummyData = {
         </div>
         <div class="body">
         <p class=" text-left">
-        RPL assessments let you become more conscious about your skills & abilities, thus enabling you to set a mind set that lets you grow and conquer your passion.
+        RPL assessments let you become more conscious about your skills & abilities, thus enabling you to set a mindset that lets you grow and conquer your passion.
         </p>
         </div>
       </div>
