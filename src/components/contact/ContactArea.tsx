@@ -49,7 +49,7 @@ function ContactArea() {
               />
               <AppDescriptionWithDangerouslySetInnerHTML
                 text={left?.form}
-                class_name="h-full h-[820px]"
+                class_name="h-[820px]"
               />
             </div>
           </div>
