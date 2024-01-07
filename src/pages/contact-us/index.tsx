@@ -8,9 +8,9 @@ function ContactPage() {
     <div>
       <>
         <DynamicHead title="Contact-us - GMQ Global" />
-        <AppCourseBanner text={"contact us"} />
+        {/* <AppCourseBanner text={"contact us"} /> */}
         <ContactArea />
-        <ContactMap />
+        {/* <ContactMap /> */}
         {/* <ContactForm /> */}
       </>
     </div>

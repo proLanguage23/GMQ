@@ -30,7 +30,6 @@ function SzhsinMenuDesktop() {
     router.push(data);
   };
 
-
   return (
     <div className="md:block flex-1 px-2 hidden">
       <div className="flex justify-end items-center gap-2 w-full">
@@ -44,7 +43,11 @@ function SzhsinMenuDesktop() {
                 text={"Education Services"}
                 class_name="cursor-pointer py-4 !text-black"
               />
-              <div className={`transition-all ease-in duration-300 ${menuState?.state === "open" ? "rotate-180" : "rotate-0"}`}>
+              <div
+                className={`transition-all ease-in duration-300 ${
+                  menuState?.state === "open" ? "rotate-180" : "rotate-0"
+                }`}
+              >
                 <FaChevronDown />
               </div>
             </div>
@@ -57,8 +60,20 @@ function SzhsinMenuDesktop() {
             onClose={() => toggle(false)}
             arrow={true}
           >
-            <SubMenu label="Student Counselling" arrow={true} direction="bottom">
-              <SubMenu label="PR Pathway Courses" arrow={true}  direction="right">
+            <MenuItem className={"w-full !p-0"}>
+              <PageLink
+                text={"Student Counselling"}
+                href={"/services/education-counselling"}
+                isIcon={false}
+                class_name="w-full px-6 py-1 "
+              />
+            </MenuItem>
+
+              <SubMenu
+                label="PR Pathway Courses"
+                arrow={true}
+                direction="right"
+              >
                 <MenuItem className={"w-full !p-0"}>
                   <PageLink
                     text={"Nursing"}
@@ -126,7 +141,6 @@ function SzhsinMenuDesktop() {
                   />
                 </MenuItem>
               </SubMenu>
-            </SubMenu>
           </ControlledMenu>
         </div>
         <div className="3">

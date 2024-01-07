@@ -225,24 +225,24 @@ export const HomeFooterDummyData = {
         },
         {
           id: 35,
-          text: "terms and conditions",
+          text: "terms & conditions",
           href: "terms-condition",
         },
-        {
-          id: 36,
-          text: "Terms of Use",
-          href: "/terms-of-use",
-        },
+        // {
+        //   id: 36,
+        //   text: "Terms of Use",
+        //   href: "/terms-of-use",
+        // },
         {
           id: 37,
           text: "Privacy Policy",
           href: "/privacy-policy",
         },
-        {
-          id: 38,
-          text: "Refund Policy",
-          href: "#",
-        },
+        // {
+        //   id: 38,
+        //   text: "Refund Policy",
+        //   href: "#",
+        // },
       ],
     },
   ],

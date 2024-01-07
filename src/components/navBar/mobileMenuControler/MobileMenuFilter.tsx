@@ -48,7 +48,7 @@ function MobileMenuFilter({ menuDates, setMobileNavbarState }: any) {
               {item?.submenu ? (
                 <AppSubTitle
                   text={item?.text}
-                  class_name={`capitalize font-medium text-[18px] px-1 text-primary`}
+                  class_name={`capitalize font-medium text-[18px] px-1 text-primary `}
                 />
               ) : (
                 <AppBtn
@@ -81,7 +81,7 @@ function MobileMenuFilter({ menuDates, setMobileNavbarState }: any) {
                   return (
                     <motion.div
                       key={key}
-                      className="flex flex-col flex-wrap justify-between bg-slate-50 border rounded-xl pb-2"
+                      className="flex flex-col flex-wrap justify-between bg-slate-50 p-1 border rounded-xl"
                       initial={{ opacity: 0, x: -20 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{
@@ -89,7 +89,7 @@ function MobileMenuFilter({ menuDates, setMobileNavbarState }: any) {
                       }}
                     >
                       <div
-                        className="flex flex-wrap justify-between items-center border-b px-1"
+                        className="flex flex-wrap justify-between items-center px-1"
                         onClick={() => MegaSubMenuStateHandler(subItem?.text)}
                       >
                         {subItem?.megaMenu ? (
@@ -108,7 +108,7 @@ function MobileMenuFilter({ menuDates, setMobileNavbarState }: any) {
                         ) : (
                           <>
                             <div className="flex items-center flex-wrap  flex-1">
-                              <BsDot size={16} color="#000" />
+                              <AiOutlineLine size={14} color="#00AAAC" />
                               <AppBtn
                                 text={
                                   <PageLink
@@ -129,29 +129,42 @@ function MobileMenuFilter({ menuDates, setMobileNavbarState }: any) {
                       {subItem?.megaMenu &&
                         subItem?.text === MegaSubmenuState && (
                           <div className="">
-                            <div className="px-2 w-fit min-w-full bg-slate-100 rounded-md">
+                            <div className="px-2 w-fit min-w-full bg-slate-100 rounded-md border">
                               {subItem?.megaMenuData?.map(
                                 (megaItem: any, key: any) => (
                                   <motion.div
-                                    className="flex flex-col items-center flex-wrap border mt-1 rounded-lg bg-slate-50"
+                                    className="flex flex-col items-center flex-wrap mt-1 rounded-lg"
                                     key={key}
-                                    initial={{ opacity: 0, x: -50 }}
+                                    initial={{ opacity: 0, x: -10 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{
                                       delay: 0.08 * key,
                                       duration: 0.5,
                                     }}
                                   >
-                                    <div className="flex items-center flex-wrap w-full border-b">
-                                      <div className="flex items-center">
-                                        <BsDot size={16} color="#000" />
-                                        <AppSubTitle
-                                          text={megaItem?.text}
-                                          class_name="capitalize font-medium !text-[16px]  flex-1 hover:text-secondary"
+                                    <div className="flex items-center flex-wrap w-full">
+                                      <div className="flex items-center border-b w-full">
+                                        <AiOutlineLine
+                                          size={14}
+                                          color="#00AAAC"
+                                        />
+                                        <AppBtn
+                                          text={
+                                            <PageLink
+                                              href={megaItem?.href}
+                                              text={megaItem?.text}
+                                              isIcon={false}
+                                              class_name="capitalize font-medium text-[16px] p-1 flex-1 hover:text-secondary flex-1"
+                                            />
+                                          }
+                                          class_name="flex w-full text-left flex-1"
+                                          handleClick={() =>
+                                            setMobileNavbarState(false)
+                                          }
                                         />
                                       </div>
-                                      <div
-                                        className=" p-2 py-3 cursor-pointer flex-1 flex justify-end items-center"
+                                      {/* <div
+                                        className="cursor-pointer flex-1 flex justify-end items-center "
                                         onClick={() =>
                                           SupperMegaMenuStateHandler(
                                             megaItem?.text
@@ -162,7 +175,7 @@ function MobileMenuFilter({ menuDates, setMobileNavbarState }: any) {
                                           size={16}
                                           color="#00AAAC"
                                         />
-                                      </div>
+                                      </div> */}
                                     </div>
 
                                     <div className="w-full px-2 rounded-md">

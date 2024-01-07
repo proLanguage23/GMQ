@@ -1,7 +1,14 @@
 import { SkillsTestForm } from "@/components/rpl";
-import { AppBtn, AppModal, Container } from "@/components/share";
+import {
+  AppBtn,
+  AppDescriptionWithDangerouslySetInnerHTML,
+  AppModal,
+  Container,
+} from "@/components/share";
 import { HomeFooterDummyData } from "@/data/HomeFooterData";
+import { call } from "@/data/ShareData";
 import React, { useState } from "react";
+import { MdAddCall } from "react-icons/md";
 
 function TopHeader() {
   const [modalShow, setModalShow] = useState(false);
@@ -23,7 +30,16 @@ function TopHeader() {
               );
             })}
           </div>
-          <div className="flex sm:justify-end justify-center">
+          <div className="flex sm:justify-end justify-center items-center gap-1">
+            <div className="flex flex-wrap justify-center items-center bg-secondary rounded-full p-1">
+              <div className="p-1 rounded-full">
+                <MdAddCall size={18} color="#fff" />
+              </div>
+              <AppDescriptionWithDangerouslySetInnerHTML
+                text={call}
+                class_name="capitalize hover:opacity-95 text-[14px] text-white !w-fit pr-3"
+              />
+            </div>
             <AppBtn
               text={"FREE 60 second skills check"}
               class_name="capitalize border md:px-4 px-2 md:py-2 py-1 rounded-full bg-secondary text-white hover:opacity-95 text-[14px]"

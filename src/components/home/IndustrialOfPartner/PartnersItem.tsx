@@ -21,15 +21,16 @@ function PartnersItem({
       } ${class_name}`}
       {...rest}
     >
-      <div className="flex-1 ">
+      <div className="flex-1 flex justify-between items-start w-full">
         <AppImg
           src={img}
           alt={partnersName}
           // width={100}
           // height={80}
           style={{ width: "auto", height: "50px", objectFit: "contain", }}
-          className="bg-white px-2 py-1 rounded"
+          className="bg-white px-2 py-1 rounded max-w-[85%]"
         />
+
       </div>
       <div className="w-full">
         <AppSubTitle
@@ -41,14 +42,14 @@ function PartnersItem({
           class_name="!text-[16px] text-white"
         />
       </div>
-      {/* {subImg && (
+      {subImg && (
         <AppImg
           src={subImgIcon}
-          width={18}
-          class_name="absolute top-3 right-3"
+          width={25}
+          class_name="absolute top-3 right-3 bg-white p-1 rounded"
           isPlaceholder={false}
         />
-      )} */}
+      )}
     </motion.div>
   );
 }

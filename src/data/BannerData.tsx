@@ -58,8 +58,9 @@ export const HomeBannerData = [
   {
     id: 1,
     text: "Transform Experience into Recognition of Prior Learning",
-    description: `GMQ Global knows the secret recipe on how you can turn your knowledge into a valuable Australian qualification effortlessly.
+    description: `At GMQ Global, our exceptional team of experienced professionals is dedicated to guiding you through the Recognition of Prior Learning process, unlocking your potential and accelerating your career with our comprehensive program
     `,
+    // GMQ Global knows the secret recipe on how you can turn your knowledge into a valuable Australian qualification effortlessly. 
     img: homeBannerOne,
     btn: [
       {
@@ -86,7 +87,7 @@ export const HomeBannerMobileData = [
   {
     id: 1,
     text: "Transform Experience into Recognition of Prior Learning",
-    description: `GMQ Global knows the secret recipe on how you can turn your knowledge into a valuable Australian qualification effortlessly.
+    description: `At GMQ Global, our exceptional team of experienced professionals is dedicated to guiding you through the Recognition of Prior Learning process, unlocking your potential and accelerating your career with our comprehensive program
     `,
     img: homeBannerMobileOne,
     btn: [

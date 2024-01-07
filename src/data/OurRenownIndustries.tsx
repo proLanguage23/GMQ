@@ -12,37 +12,37 @@ export const OurRenownIndustriesData = {
         {
             id: '1',
             title: 'Automotive',
-            description: 'lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip',
+            description: 'The automotive industry thrives with abundant career opportunities, driven by high demand for skilled professionals.',
             img: RenownAutomotive
         },
         {
             id: '2',
             title: 'Building & Construction',
-            description: 'lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip',
+            description: `Australia's booming construction sector thrives with government-backed investments in key nationwide projects.`,
             img: RenownBuildingConstruction
         },
         {
             id: '3',
             title: 'Health',
-            description: 'lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip',
+            description: 'Enhancing skills in the health industry of Australia, makes it possible for professionals to get competitive pay, job safety, and much more.',
             img: RenownHealth
         },
         {
             id: '4',
             title: 'Commercial Cookery & Hospitality',
-            description: 'lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip',
+            description: `Hospitality and commercial cookery provide dynamic avenues with high demand and excellent possibilities in Australia's diversified community.`,
             img: RenownHospitality
         },
         {
             id: '5',
             title: 'Hair & Beauty',
-            description: 'lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip',
+            description: 'The great attraction of the well-established hairdressing industry is highlighted by the thriving demand for beauty and grooming.',
             img: RenownHairBeauty
         },
         {
             id: '6',
             title: 'Security',
-            description: 'lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip',
+            description: 'The security industry offers diverse, lucrative careers—police, corrections, customs, and border control. Setting the stage for an exciting professional path!',
             img: RenownSecurity
         },
     ]

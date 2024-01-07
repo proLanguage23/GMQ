@@ -16,73 +16,137 @@ export const NavbarDummyData = {
       submenu: true,
       subMenuData: [
         {
-          id: "subMenu1",
+          id: "submenu201",
           text: "Student Counselling",
+          href: "/services/education-counselling",
+          megaMenu: false,
+        },
+        {
+          id: "subMenu1",
+          text: "PR Pathway Courses",
           href: "#",
           megaMenu: true,
           megaMenuData: [
             {
-              id: "subMenu1",
-              text: "PR Pathway Courses",
-              href: "#",
-              SupperMegaMenu: true,
-              SupperMegaMenuData: [
-                {
-                  id: "megaMenu1",
-                  text: "Nursing",
-                  href: "/popular-courses/nursing",
-                },
-                {
-                  id: "megaMenu2",
-                  text: "Hospitality and Cookery",
-                  href: "/popular-courses/hospitality-and-cookery",
-                },
-                {
-                  id: "megaMenu3",
-                  text: "Teaching",
-                  href: "/popular-courses/teaching",
-                },
-                {
-                  id: "megaMenu4",
-                  text: "IT ",
-                  href: "/popular-courses/information-technology",
-                },
-                {
-                  id: "megaMenu4",
-                  text: "Trade Courses",
-                  href: "/popular-courses/trade-courses",
-                },
-              ],
+              id: "megaMenu1",
+              text: "Nursing",
+              href: "/popular-courses/nursing",
             },
-
             {
-              id: "subMenu1",
-              text: "Other Services",
-              href: "#",
-              SupperMegaMenu: true,
-              SupperMegaMenuData: [
-                {
-                  id: "subMenu2",
-                  text: "Professional Year",
-                  href: "/services/professional-year-program",
-                  megaMenu: false,
-                },
-                {
-                  id: "subMenu3",
-                  text: "PTE",
-                  href: "/services/pte",
-                  megaMenu: false,
-                },
-                {
-                  id: "subMenu3",
-                  text: "NAATI",
-                  href: "/services/naati",
-                  megaMenu: false,
-                },
-              ],
+              id: "megaMenu2",
+              text: "Hospitality and Cookery",
+              href: "/popular-courses/hospitality-and-cookery",
+            },
+            {
+              id: "megaMenu3",
+              text: "Teaching",
+              href: "/popular-courses/teaching",
+            },
+            {
+              id: "megaMenu4",
+              text: "IT ",
+              href: "/popular-courses/information-technology",
+            },
+            {
+              id: "megaMenu4",
+              text: "Trade Courses",
+              href: "/popular-courses/trade-courses",
             },
           ],
         },
+        {
+          id: "subMenu1",
+          text: "Other Services",
+          href: "#",
+          megaMenu: true,
+          megaMenuData: [
+            {
+              id: "subMenu2",
+              text: "Professional Year",
+              href: "/services/professional-year-program",
+              
+            },
+            {
+              id: "subMenu3",
+              text: "PTE",
+              href: "/services/pte",
+             
+            },
+            {
+              id: "subMenu3",
+              text: "NAATI",
+              href: "/services/naati",
+              
+            },
+          ],
+        },
+        // {
+        //   id: "subMenu1",
+        //   text: "Student Counselling",
+        //   href: "#",
+        //   megaMenu: true,
+        //   megaMenuData: [
+        //     {
+        //       id: "subMenu1",
+        //       text: "PR Pathway Courses",
+        //       href: "#",
+        //       SupperMegaMenu: true,
+        //       SupperMegaMenuData: [
+        //         {
+        //           id: "megaMenu1",
+        //           text: "Nursing",
+        //           href: "/popular-courses/nursing",
+        //         },
+        //         {
+        //           id: "megaMenu2",
+        //           text: "Hospitality and Cookery",
+        //           href: "/popular-courses/hospitality-and-cookery",
+        //         },
+        //         {
+        //           id: "megaMenu3",
+        //           text: "Teaching",
+        //           href: "/popular-courses/teaching",
+        //         },
+        //         {
+        //           id: "megaMenu4",
+        //           text: "IT ",
+        //           href: "/popular-courses/information-technology",
+        //         },
+        //         {
+        //           id: "megaMenu4",
+        //           text: "Trade Courses",
+        //           href: "/popular-courses/trade-courses",
+        //         },
+        //       ],
+        //     },
+        //     {
+        //       id: "subMenu1",
+        //       text: "Other Services",
+        //       href: "#",
+        //       SupperMegaMenu: true,
+        //       SupperMegaMenuData: [
+        //         {
+        //           id: "subMenu2",
+        //           text: "Professional Year",
+        //           href: "/services/professional-year-program",
+        //           megaMenu: false,
+        //         },
+        //         {
+        //           id: "subMenu3",
+        //           text: "PTE",
+        //           href: "/services/pte",
+        //           megaMenu: false,
+        //         },
+        //         {
+        //           id: "subMenu3",
+        //           text: "NAATI",
+        //           href: "/services/naati",
+        //           megaMenu: false,
+        //         },
+        //       ],
+        //     },
+        //   ],
+        // },
       ],
     },
     {
