@@ -86,7 +86,7 @@ export const HomeBannerData = [
 export const HomeBannerMobileData = [
   {
     id: 1,
-    text: "Transform Experience into Recognition of Prior Learning",
+    text: "Transform Experience into RPL",
     description: `At GMQ Global, our exceptional team of experienced professionals is dedicated to guiding you through the Recognition of Prior Learning process, unlocking your potential and accelerating your career with our comprehensive program
     `,
     img: homeBannerMobileOne,
