@@ -54,8 +54,8 @@ export const ContactDummyData = {
         asserts: <FaRegClock size={25} color="#fff" />,
         title: `Office Hours`,
         text: `
-        <p class="text-text">Saturday - Sunday : Closed</p>
         <p class="text-secondary">Monday - Friday : 10 am-6pm</p>
+        <p class="text-text">Saturday - Sunday : Closed</p>
         `,
       },
     ],
