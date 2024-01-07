@@ -13,7 +13,7 @@ export const HomeCoursesDummyData = {
     {
         id: 3,
         img: RPL_IMG,
-        title:'PRL',
+        title:'RPL',
         description:'Our team of experienced professionals is dedicated to guiding you through the RPL process, unlocking your potential and accelerating your career with our comprehensive program.',
         btn:{
             text:"learn more",
