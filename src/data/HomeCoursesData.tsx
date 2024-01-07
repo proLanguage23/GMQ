@@ -14,7 +14,7 @@ export const HomeCoursesDummyData = {
         id: 3,
         img: RPL_IMG,
         title:'PRL',
-        description:'Begin your RPL journey with a customized assessment from one of our consultants, who will build a pathway that corresponds with your abilities and professional ambitions.',
+        description:'Our team of experienced professionals is dedicated to guiding you through the RPL process, unlocking your potential and accelerating your career with our comprehensive program.',
         btn:{
             text:"learn more",
             href:'/rpl'
