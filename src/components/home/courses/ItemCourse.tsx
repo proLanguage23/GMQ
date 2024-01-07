@@ -43,13 +43,13 @@ function ItemCourse({
           <PageLink
             isIcon={false}
             {...btn}
-            class_name={`NewCommonBtnStyle bg-secondary hover:bg-transparent hover:text-white rounded-full  border-primary hover:border-white ${btn_Class_name}`}
+            class_name={`NewCommonBtnStyle bg-secondary hover:bg-transparent hover:text-white rounded-full hover:border-white ${btn_Class_name}`}
           />
         ) : (
           <AppBtn
             text={btn?.text}
             handleClick={handleClick}
-            class_name={`NewCommonBtnStyle bg-primary hover:bg-transparent hover:text-white rounded-full  border-primary hover:border-white ${btn_Class_name}`}
+            class_name={`NewCommonBtnStyle bg-primary hover:bg-transparent hover:text-white rounded-full  hover:border-white ${btn_Class_name}`}
           />
         )}
       </div>
