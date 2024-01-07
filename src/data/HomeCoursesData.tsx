@@ -13,7 +13,7 @@ export const HomeCoursesDummyData = {
     {
         id: 3,
         img: RPL_IMG,
-        title:'Recognition of Prior Learning',
+        title:'RPL',
         description:'Begin your RPL journey with a customized assessment from one of our consultants, who will build a pathway that corresponds with your abilities and professional ambitions.',
         btn:{
             text:"learn more",

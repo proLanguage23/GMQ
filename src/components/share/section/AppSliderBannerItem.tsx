@@ -25,7 +25,7 @@ function AppSliderBannerItem({
       >
         <Container>
           <div
-            className={`md:w-1/2 sm:w-2/3 w-full flex justify-center items-center md:h-[460px]  sm:h-[300px] h-auto py-5 sm:py-0 ${class_name}`}
+            className={`lg:w-[650px] md:1/2 sm:w-2/3 w-full flex justify-center items-center md:h-[460px]  sm:h-[300px] h-auto py-5 sm:py-0 ${class_name}`}
           >
             <div className="flex flex-col gap-1 pl-0 sm:pl-3 ms:pl-0">
               <AppH2Title

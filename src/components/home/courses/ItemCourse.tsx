@@ -25,14 +25,14 @@ function ItemCourse({
 
 
   return (
-    <ScrollYProgress class_name={`max-w-full w-[350px] lg:w-[26%] lg:min-w-[300px] md:w-[32%] md:min-w-[300px] sm:w-[49%] border p-2 relative z-0 h-[500px] !rounded-2xl flex flex-col justify-end overflow-hidden  group ${class_name}`}>
+    <ScrollYProgress class_name={`max-w-full w-[350px] lg:w-[24%] lg:min-w-[300px] md:w-[32%] md:min-w-[300px] sm:w-[49%] border p-2 relative z-0 h-[450px] !rounded-2xl flex flex-col justify-end overflow-hidden  group ${class_name}`}>
     <div
     >
       <PageLink
         href={btn?.href}
         text={title}
         isIcon={false}
-        class_name="mt-3 !justify-start block pb-2 text-[24px] font-medium text-white capitalize manropeFont !font-bold appShadow "
+        class_name="mt-3 !justify-start block pb-2 text-[24px] font-medium text-white capitalize manropeFont !font-bold appShadow"
       />
       <AppDescriptionWithDangerouslySetInnerHTML
         text={description}
