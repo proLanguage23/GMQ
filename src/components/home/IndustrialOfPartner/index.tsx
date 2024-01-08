@@ -119,9 +119,6 @@ function HomeIndustrialOfPartner() {
                 delay: 3000,
                 disableOnInteraction: false,
               }}
-              pagination={{
-                clickable: true,
-              }}
               breakpoints={{
                 1280: {
                   slidesPerView: 5,
@@ -141,7 +138,7 @@ function HomeIndustrialOfPartner() {
                 },
               }}
               centeredSlides={true}
-              modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
+              modules={[ Mousewheel, Keyboard, Autoplay]}
               className={`w-full IndustrialOfPartner`}
             >
               
@@ -150,7 +147,7 @@ function HomeIndustrialOfPartner() {
                   <PartnersItem
                     {...item}
                     custom={key}
-                    class_name="mb-16"
+                    class_name=""
                     odd={!(key % 2)}
                   />
                 </SwiperSlide>
