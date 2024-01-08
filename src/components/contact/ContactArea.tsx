@@ -16,7 +16,7 @@ function ContactArea() {
   const { title, text, data } = ContactSectionOne;
   return (
     <div className="overflow-hidden pt-9">
-      <div className="">
+      <Container fullWidth>
         <div className="grid md:grid-cols-2 grid-cols-1 justify-center gap-2">
           <div className=" w-full pt-14 md:px-9  rounded-r-lg">
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-1">
@@ -59,7 +59,7 @@ function ContactArea() {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }
