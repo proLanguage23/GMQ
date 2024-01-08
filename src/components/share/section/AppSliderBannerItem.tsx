@@ -39,7 +39,7 @@ function AppSliderBannerItem({
               {/* <AppDynamicTitle text={`<h3>${ExtraText}</h3>`} /> */}
               <AppSubTitle
                 text={description || ""}
-                class_name="text-white !text-left text-[22px] textShadowNormal line-clamp-5
+                class_name="text-white !text-left text-[22px] textShadowNormal line-clamp-4
               "
               />
               <div className="flex justify-start items-center gap-2 flex-wrap">
@@ -74,7 +74,7 @@ function AppSliderBannerItem({
               />
               <AppSubTitle
                 text={description || ""}
-                class_name="text-white !text-left !text-[16px] textShadowNormal line-clamp-5
+                class_name="text-white !text-left !text-[16px] textShadowNormal line-clamp-3
               "
               />
               <div className="flex justify-start items-center gap-2 flex-wrap">
