@@ -27,7 +27,7 @@ ${contactFormOfPTE}
 `;
 
 export const GeyYourSkillsRecognized = {
-    title: 'Get Your Skills Recognized',
+    title: 'Gain professional acknowledgement for your skills',
     description: `
     <a href="/popular-courses/hospitality-and-cookery">Hospitality & Cookery</a> |
     <a href="/popular-courses/information-technology">Information Technology</a>|

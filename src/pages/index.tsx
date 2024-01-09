@@ -18,7 +18,7 @@ export default function Home() {
   const popUpData = {
     type: "image",
     img : GetYourSkillsRecognizedImg,
-    text: 'Get Your Skills Recognized',
+    text: 'Gain professional acknowledgement for your skills',
     href: '/rpl/get-your-skills-recognized'
   }
   return (
