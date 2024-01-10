@@ -29,7 +29,6 @@ export default function App({ Component, pageProps, router }: AppProps) {
           font-family: ${manrope.style.fontFamily};
         }
       `}</style>
-
       <NextTopLoader showSpinner={false} color="#00aaac" />
       <AppScrollProgress />
       <TopHeader />

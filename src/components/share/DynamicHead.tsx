@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/next-script-for-ga */
 
 import Head from "next/head";
 
@@ -50,6 +51,7 @@ export default function DynamicHead({
         {/* organization description */}
         <meta property="og:url" content={DomainName} />{" "}
         {/* organization domain name */}
+
       </Head>
     </>
   );
