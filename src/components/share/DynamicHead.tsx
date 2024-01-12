@@ -51,6 +51,7 @@ export default function DynamicHead({
         {/* organization description */}
         <meta property="og:url" content={DomainName} />{" "}
         {/* organization domain name */}
+        <meta name="google-site-verification" content="brwVW6-s8SMtYXPcRnLL7cJMs49Ymb8fAf0o88s0Qr8" />
 
       </Head>
     </>
