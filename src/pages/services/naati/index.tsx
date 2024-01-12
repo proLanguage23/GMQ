@@ -18,7 +18,7 @@ function NAATI_PAGE() {
   }
   return (
     <>
-      <DynamicHead title="Best PTE Online Courses |  - GMQ Global" />
+      <DynamicHead title="NAATI - GMQ Global" />
       {/* <AppSliderBanner data={NAATIBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={NAATIBannerData} />

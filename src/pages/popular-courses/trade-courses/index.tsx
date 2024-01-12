@@ -18,7 +18,7 @@ function TradeCoursesPage() {
   }
   return (
     <>
-      <DynamicHead title="List of Top IT Courses in Global for International Students | Pathways to PR  - GMQ Global" />
+      <DynamicHead title="Trade Courses - GMQ Global" description="Trade Courses - GMQ Global" />
       {/* <AppSliderBanner data={TradeCoursesBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={TradeCoursesBannerData} />

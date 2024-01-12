@@ -23,7 +23,7 @@ function CookeryCoursesSectionOne() {
   return (
     <section className="py-9 bg-grayCustom/50 w-full">
       <Container>
-        <AppH2Title text={title} heading class_name="text-center capitalize" />
+        <AppTitle text={title} heading class_name="text-center capitalize" />
         <div className="flex justify-center flex-wrap gap-2 mt-9">
           <QualificationItemResult
             allRPL_QualificationItems={data}

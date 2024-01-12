@@ -10,11 +10,14 @@ import React from "react";
 function PTEFormPage() {
   return (
     <>
-      <DynamicHead />
+      <DynamicHead
+        title="Pearson Test of English From - GMQ Global"
+        description="Pearson Test of English From - GMQ Global"
+      />
       <Container>
         <div className="py-14">
           <div className="flex justify-center items-center flex-col">
-            <AppTitle text={` Pearson Test of English From`} />
+            <AppTitle heading text={` Pearson Test of English From`} />
             <AppDescriptionWithDangerouslySetInnerHTML
               text={
                 '<p class="text-center !mb-9">Hey, we’d like to know you better too! </p>'

@@ -5,7 +5,7 @@ import React from 'react'
 function TermsConditionPage() {
   return (
     <>
-      <DynamicHead title="Terms And Condition - GMQ Global" description="Terms And Condition - GMQ Global" />
+      <DynamicHead title="Terms & Condition - GMQ Global" description="Terms & Condition - GMQ Global" />
       <TermsConditionBody />
     </>
   )

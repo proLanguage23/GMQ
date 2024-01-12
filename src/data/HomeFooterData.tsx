@@ -226,7 +226,7 @@ export const HomeFooterDummyData = {
         {
           id: 35,
           text: "terms & conditions",
-          href: "terms-condition",
+          href: "/terms-condition",
         },
         // {
         //   id: 36,

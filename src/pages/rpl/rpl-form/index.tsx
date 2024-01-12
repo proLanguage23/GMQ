@@ -1,19 +1,37 @@
-import { AppDescriptionWithDangerouslySetInnerHTML, AppTitle, Container } from '@/components/share'
-import { contactFormOfRPL } from '@/data/ShareData'
-import React from 'react'
+import {
+  AppDescriptionWithDangerouslySetInnerHTML,
+  AppTitle,
+  Container,
+  DynamicHead,
+} from "@/components/share";
+import { contactFormOfRPL } from "@/data/ShareData";
+import React from "react";
 
 function RPLFormPage() {
   return (
-    <div className='py-16'>
+    <>
+      <DynamicHead
+        title="Recognition of Prior Learning From - GMQ GLOBAL"
+        description="Recognition of Prior Learning From - GMQ GLOBAL"
+      />
+      <div className="py-16">
         <Container>
-            <div className="flex justify-center items-center flex-col">
-              <AppTitle text={`Recognition of Prior Learning From`}/>
-                <AppDescriptionWithDangerouslySetInnerHTML text={'<p class="text-center !mb-9">Hey, we’d like to know you better too! </p>'} />
-                <AppDescriptionWithDangerouslySetInnerHTML text={contactFormOfRPL} class_name="h-[11300px]" />
-            </div>
+          <div className="flex justify-center items-center flex-col">
+            <AppTitle heading text={`Recognition of Prior Learning From`} />
+            <AppDescriptionWithDangerouslySetInnerHTML
+              text={
+                '<p class="text-center !mb-9">Hey, we’d like to know you better too! </p>'
+              }
+            />
+            <AppDescriptionWithDangerouslySetInnerHTML
+              text={contactFormOfRPL}
+              class_name="h-[11300px]"
+            />
+          </div>
         </Container>
-    </div>
-  )
+      </div>
+    </>
+  );
 }
 
-export default RPLFormPage
+export default RPLFormPage;

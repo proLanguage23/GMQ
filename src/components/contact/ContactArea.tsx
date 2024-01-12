@@ -50,7 +50,7 @@ function ContactArea() {
               <AppTitle
                 text={"Get In Touch"}
                 class_name="text-center pb-3 border-b "
-                isAnimation
+                heading
               />
               <AppDescriptionWithDangerouslySetInnerHTML
                 text={left?.form}

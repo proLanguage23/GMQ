@@ -28,8 +28,8 @@ function teaching() {
   return (
     <>
       <DynamicHead
-        title="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global"
-        description="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global"
+        title="Teaching - GMQ Global"
+        description="Teaching - GMQ Global"
       />
       <div className="hidden md:block">
         <AppSliderBanner data={teachingBannerData} />

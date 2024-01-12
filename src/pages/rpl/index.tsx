@@ -12,7 +12,7 @@ import React from "react";
 function RPL_Page() {
   return (
     <>
-      <DynamicHead title="RPL-GMQ Global" description="RPL-GMQ Global" />
+      <DynamicHead title="Recognition of prior learning-GMQ Global" description="Recognition of prior learning-GMQ Global" />
       <RPLBanner />
       <SkillsTest />
       <RPL_informationStep />
