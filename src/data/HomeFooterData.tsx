@@ -1,4 +1,6 @@
 import footerBG from '@/assets/footerBG.png'
+import f_flagOne from '@/assets/f_flagOne.png'
+import f_flagTwo from '@/assets/f_flagTwo.png'
 import {
   AiFillFacebook,
   AiFillLinkedin,
@@ -14,7 +16,9 @@ export const HomeFooterDummyData = {
   generalData:{
     whiteLogo,
     text: 'At GMQ (Get Me Qualified) here we empower students in Australia through innovative and ethical education consulting.',
-    abn: `ABN: ${ACN_Number}`
+    abn: `ABN: ${ACN_Number}`,
+    description: 'We acknowledge the Traditional Aboriginal Owners of Country throughout Victoria and pay our respects to them, their connections to land, sea, and community. We pay our respects to their Elders past and present and future Traditional Owners.',
+    F_logos: [f_flagOne, f_flagTwo]
   },
   footerLinkGP: [
     {
