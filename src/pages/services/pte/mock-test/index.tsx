@@ -13,7 +13,9 @@ import React from "react";
 
 import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
 import PopUpElement from "@/components/share/section/PopUpElement";
+import { useRouter } from "next/router";
 function MockTestPage() {
+  const router = useRouter()
   const popUpData = {
     type: "image",
     img : GetYourSkillsRecognizedImg,
@@ -25,6 +27,7 @@ function MockTestPage() {
       <DynamicHead
         title="Online Mock Test with Score | Practice Online Test |  - GMQ Global"
         description="Online Mock Test with Score | Practice Online Test |  - GMQ Global"
+        canonicalPath={router?.pathname}
       />
       <AppSliderBanner data={PTEMockTestBannerData} />
       <MockTestSectionOne />

@@ -13,8 +13,12 @@ import PopUpElement from "@/components/share/section/PopUpElement";
 import HomeTopQualifications from "@/components/home/HomeTopQualifications";
 import OurRenownIndustries from "@/components/home/OurRenownIndustries";
 import CommonForm from "@/components/contactForm/CommonForm";
+import { useRouter } from "next/router";
+import { useLayoutEffect } from "react";
 
 export default function Home() {
+  const router = useRouter()
+
   const popUpData = {
     type: "image",
     img : GetYourSkillsRecognizedImg,
@@ -23,7 +27,7 @@ export default function Home() {
   }
   return (
     <>
-      <DynamicHead title="GMQ Global - Professional Education Consultant in Australia" description="GMQ Global, your trusted partner and professional education consultant in Australia. Navigate the complexities of studying abroad with personalized assistance and comprehensive support services for academic success."  />
+      <DynamicHead title="GMQ Global - Professional Education Consultant in Australia" description="GMQ Global, your trusted partner and professional education consultant in Australia. Navigate the complexities of studying abroad with personalized assistance and comprehensive support services for academic success." canonicalPath={router?.pathname}  />
       <HomeBanner />
       <HomeCourses />
       {/* <ReferralJoinProgram /> */}

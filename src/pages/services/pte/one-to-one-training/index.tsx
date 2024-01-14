@@ -12,8 +12,10 @@ import { contactFormOfPTE } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
 import PopUpElement from "@/components/share/section/PopUpElement";
+import { useRouter } from "next/router";
 
 function OneToOneTrainingPage() {
+  const router = useRouter()
   const popUpData = {
     type: "image",
     img : GetYourSkillsRecognizedImg,
@@ -25,6 +27,7 @@ function OneToOneTrainingPage() {
       <DynamicHead
         title="Online PTE Training |  - GMQ Global"
         description="Online PTE Training |  - GMQ Global"
+        canonicalPath={router?.pathname}
       />
       <AppSliderBanner data={PTEOneToOneTrainingBannerData} />
       <OneToOneTrainingSectionOne />

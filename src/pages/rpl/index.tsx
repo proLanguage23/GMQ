@@ -6,13 +6,15 @@ import RPL_Benefits from "@/components/rpl/rpl_Benefits/RPL_Benefits";
 import RPL_FAQS from "@/components/rpl/rpl_FAQS/RPL_FAQS";
 import SkillsTest from "@/components/rpl/skillsTest";
 import { DynamicHead, VisitedForm } from "@/components/share";
+import { useRouter } from "next/router";
 // import { contactFormOfRPL } from "@/data/ShareData";
 import React from "react";
 
 function RPL_Page() {
+  const router = useRouter()
   return (
     <>
-      <DynamicHead title="Recognition of Prior Learning - GMQ Global" description="Recognition of prior learning-GMQ Global" />
+      <DynamicHead title="Recognition of Prior Learning - GMQ Global" description="Recognition of prior learning-GMQ Global"  canonicalPath={router?.pathname}/>
       <RPLBanner />
       <SkillsTest />
       <RPL_informationStep />

@@ -8,8 +8,10 @@ import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
+import { useRouter } from "next/router";
 
 function TradeCoursesPage() {
+  const router = useRouter()
   const popUpData = {
     type: "image",
     img : GetYourSkillsRecognizedImg,
@@ -18,7 +20,7 @@ function TradeCoursesPage() {
   }
   return (
     <>
-      <DynamicHead title="Best Trade Courses in Australia for International Students" description="Maximize skilled migration points with Trade Courses in Australia. GMQ Global guides your professional journey for potential permanent residency. Enroll now!" />
+      <DynamicHead title="Best Trade Courses in Australia for International Students" description="Maximize skilled migration points with Trade Courses in Australia. GMQ Global guides your professional journey for potential permanent residency. Enroll now!"  canonicalPath={router?.pathname}/>
       {/* <AppSliderBanner data={TradeCoursesBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={TradeCoursesBannerData} />

@@ -9,8 +9,9 @@ export default function DynamicHead({
   description,
   viewport,
   icon,
+  canonicalPath = '/'
 }: any) {
-  const [path, setPath] = useState('/')
+  const [path, setPath] = useState(canonicalPath)
   const staticText = "GMQ Global";
   const staticDescription = "GMQ ( Get Me Qualified)- empowering students in Australia through innovative education consulting.";
   const staticViewport = "width=device-width, initial-scale=1";
@@ -18,13 +19,7 @@ export default function DynamicHead({
   const pageTitle = "GMQ ( Get Me Qualified)- empowering students in Australia through innovative education consulting.";
   const DomainName = "www.gmqglobal.com.au";
   const gmq_global_logo = "/gmq_global_logo.jpg";
-  const router = useRouter()
-
-
-  useLayoutEffect(() => {
-    setPath(router?.pathname)
-  }, [router])
-
+  
   return (
     <>
       <Head>

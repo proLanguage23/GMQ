@@ -46,6 +46,7 @@ function GMQ_coursePage() {
       <DynamicHead
         title={`${pageData?.content?.title || "RPL"} | GMQ Global`}
         description={`${pageData?.content?.title || "RPL"} | GMQ Global`}
+        canonicalPath={router?.pathname}
       />
       <AppCourseBanner text={pageData?.content?.title} />
       <Courses data={pageData?.content?.link} />

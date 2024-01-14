@@ -8,8 +8,10 @@ import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
+import { useRouter } from "next/router";
 
 function ProfessionalYearProgramPage() {
+  const router = useRouter()
   const popUpData = {
     type: "image",
     img : GetYourSkillsRecognizedImg,
@@ -18,7 +20,7 @@ function ProfessionalYearProgramPage() {
   }
   return (
     <>
-      <DynamicHead title="Professional Year in Australia for International Students" description="Enhance your career prospects with a Professional Year in Australia for Engineering, IT, and Accounting graduates. Gain essential skills, a competitive edge, and five points for Global Permanent Residency." />
+      <DynamicHead title="Professional Year in Australia for International Students" description="Enhance your career prospects with a Professional Year in Australia for Engineering, IT, and Accounting graduates. Gain essential skills, a competitive edge, and five points for Global Permanent Residency."  canonicalPath={router?.pathname}/>
       {/* <AppSliderBanner data={ProfessionalYearProgramBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={ProfessionalYearProgramBannerData} />

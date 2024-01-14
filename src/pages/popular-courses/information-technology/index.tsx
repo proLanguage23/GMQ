@@ -9,8 +9,11 @@ import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
 import HomeContactForm from "@/components/home/contactForm";
+import { useRouter } from "next/router";
 
 function InformationTechnologyPage() {
+  const router = useRouter()
+  
   const popUpData = {
     type: "image",
     img : GetYourSkillsRecognizedImg,
@@ -19,7 +22,7 @@ function InformationTechnologyPage() {
   }
   return (
     <>
-      <DynamicHead title="Best IT Courses in Australia for International Students" description="Explore top-notch IT courses in Australia for international students, blending modern education with hands-on experience. Secure a global IT career with GMQ Global guidance." />
+      <DynamicHead title="Best IT Courses in Australia for International Students" description="Explore top-notch IT courses in Australia for international students, blending modern education with hands-on experience. Secure a global IT career with GMQ Global guidance."  canonicalPath={router?.pathname}/>
       {/* <AppSliderBanner data={informationTechnologyBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={informationTechnologyBannerData} />

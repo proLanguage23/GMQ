@@ -10,8 +10,10 @@ import { StudentServicesDummyData } from "@/data/StudentServicesData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
+import { useRouter } from "next/router";
 
 function StudentServicesPage() {
+  const router = useRouter()
   const { banner } = StudentServicesDummyData;
   const popUpData = {
     type: "image",
@@ -21,7 +23,7 @@ function StudentServicesPage() {
   }
   return (
     <>
-      <DynamicHead title="Student Services - GMQ Global" />
+      <DynamicHead title="Student Services - GMQ Global"  canonicalPath={router?.pathname}/>
       <AppBannerImg img={banner} text="Student Services - GMQ Global" />
       <StudentServicesSectionOne />
       <StudentServicesSectionTwo />

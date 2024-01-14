@@ -12,8 +12,10 @@ import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
 import PopUpElement from "@/components/share/section/PopUpElement";
 import { NursingCourseAboutSection } from "@/components/courses";
 import HomeContactForm from "@/components/home/contactForm";
+import { useRouter } from "next/router";
 
 function NursingPage() {
+  const router = useRouter()
   const popUpData = {
     type: "image",
     img: GetYourSkillsRecognizedImg,
@@ -25,6 +27,7 @@ function NursingPage() {
       <DynamicHead
         title="Study Nursing in Australia for International Students"
         description="Discover seamless pathways to study nursing in Australia with GMQ Global. Expert guidance for international students aspiring for PR in a high-demand healthcare sector."
+        canonicalPath={router?.pathname}
       />
       <div className="hidden md:block">
         <AppSliderBanner data={NursingBannerData} />

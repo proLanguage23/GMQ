@@ -8,8 +8,10 @@ import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from '@/assets/GetYourSkillsRecognized.png'
 import PopUpElement from "@/components/share/section/PopUpElement";
+import { useRouter } from "next/router";
 
 function NAATI_PAGE() {
+  const router = useRouter()
   const popUpData = {
     type: "image",
     img : GetYourSkillsRecognizedImg,
@@ -18,7 +20,7 @@ function NAATI_PAGE() {
   }
   return (
     <>
-      <DynamicHead title="Best NAATI Course in Australia for International Students" description="Achieve NAATI accreditation with GMQ Global's specialized assistance for international students. Excel in the exam, gain extra visa points, and pave a successful language career in Australia." />
+      <DynamicHead title="Best NAATI Course in Australia for International Students" description="Achieve NAATI accreditation with GMQ Global's specialized assistance for international students. Excel in the exam, gain extra visa points, and pave a successful language career in Australia."  canonicalPath={router?.pathname}/>
       {/* <AppSliderBanner data={NAATIBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={NAATIBannerData} />

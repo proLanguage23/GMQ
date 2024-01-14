@@ -5,14 +5,17 @@ import {
   DynamicHead,
 } from "@/components/share";
 import { contactFormOfPTE } from "@/data/ShareData";
+import { useRouter } from "next/router";
 import React from "react";
 
 function PTEFormPage() {
+  const router = useRouter()
   return (
     <>
       <DynamicHead
         title="Pearson Test of English From - GMQ Global"
         description="Pearson Test of English From - GMQ Global"
+        canonicalPath={router?.pathname}
       />
       <Container>
         <div className="py-14">

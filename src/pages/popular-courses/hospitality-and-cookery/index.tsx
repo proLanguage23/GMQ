@@ -16,8 +16,11 @@ import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
 import PopUpElement from "@/components/share/section/PopUpElement";
 import CookeryCoursesAboutSection from "@/components/courses/popular-courses/CookeryCourse/CookeryCoursesAboutSection";
 import { CookeryCoursesWhyPursueSection } from "@/components/courses";
+import { useRouter } from "next/router";
 
 function CookeryCoursesInAustraliaPage() {
+  const router = useRouter()
+
   const popUpData = {
     type: "image",
     img: GetYourSkillsRecognizedImg,
@@ -29,6 +32,7 @@ function CookeryCoursesInAustraliaPage() {
       <DynamicHead
         title="Hospitality & Cookery Course in Australia for International Students"
         description="Choose top-notch Hospitality & Cookery courses in Australia. Immerse yourself in global flavors and gain practical experience in world-class hotels and restaurants."
+        canonicalPath={router?.pathname}
       />
       <div className="hidden md:block">
         <AppSliderBanner data={CookeryCoursesInAustraliaBannerData} />

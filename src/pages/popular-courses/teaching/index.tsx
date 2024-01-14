@@ -18,7 +18,11 @@ import React from "react";
 
 import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
 import PopUpElement from "@/components/share/section/PopUpElement";
-function teaching() {
+import { useRouter } from "next/router";
+
+function Teaching() {
+  const router = useRouter()
+
   const popUpData = {
     type: "image",
     img: GetYourSkillsRecognizedImg,
@@ -30,6 +34,7 @@ function teaching() {
       <DynamicHead
         title="Best Teaching Courses in Australia for International Students"
         description="Explore transformative Teaching Courses in Australia for international students with GMQ Global. Elevate your career in education through industry-focused qualifications and expert guidance."
+        canonicalPath={router?.pathname}
       />
       <div className="hidden md:block">
         <AppSliderBanner data={teachingBannerData} />
@@ -49,4 +54,4 @@ function teaching() {
   );
 }
 
-export default teaching;
+export default Teaching;

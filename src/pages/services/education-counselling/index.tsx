@@ -15,8 +15,10 @@ import { contactFormOfHome } from "@/data/ShareData";
 import React from "react";
 import GetYourSkillsRecognizedImg from "@/assets/GetYourSkillsRecognized.png";
 import PopUpElement from "@/components/share/section/PopUpElement";
+import { useRouter } from "next/router";
 
 function EducationCounsellingPage() {
+  const router = useRouter()
   const popUpData = {
     type: "image",
     img: GetYourSkillsRecognizedImg,
@@ -28,6 +30,7 @@ function EducationCounsellingPage() {
       <DynamicHead
         title="Best Career Counselling in Melbourne, Sydney, Australia"
         description="Embark on a transformative academic journey with GMQ Global's experienced Education Counselors in Melbourne and Sydney, Australia. We are your trusted partner for seamless career counseling, visa compliance, and a world of educational opportunities."
+        canonicalPath={router?.pathname}
       />
 
       <div className="hidden md:block">

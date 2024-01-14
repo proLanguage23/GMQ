@@ -5,14 +5,17 @@ import {
   DynamicHead,
 } from "@/components/share";
 import { contactFormOfRPL } from "@/data/ShareData";
+import { useRouter } from "next/router";
 import React from "react";
 
 function RPLFormPage() {
+  const router = useRouter()
   return (
     <>
       <DynamicHead
         title="Recognition of Prior Learning From - GMQ GLOBAL"
         description="Recognition of Prior Learning From - GMQ GLOBAL"
+        canonicalPath={router?.pathname}
       />
       <div className="py-16">
         <Container>
