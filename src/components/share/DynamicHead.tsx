@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/next-script-for-ga */
 
 import Head from "next/head";
+import { useRouter } from "next/router";
+import { useLayoutEffect, useState } from "react";
 
 export default function DynamicHead({
   title,
@@ -8,6 +10,7 @@ export default function DynamicHead({
   viewport,
   icon,
 }: any) {
+  const [path, setPath] = useState('/')
   const staticText = "GMQ Global";
   const staticDescription = "GMQ ( Get Me Qualified)- empowering students in Australia through innovative education consulting.";
   const staticViewport = "width=device-width, initial-scale=1";
@@ -15,6 +18,12 @@ export default function DynamicHead({
   const pageTitle = "GMQ ( Get Me Qualified)- empowering students in Australia through innovative education consulting.";
   const DomainName = "www.gmqglobal.com.au";
   const gmq_global_logo = "/gmq_global_logo.jpg";
+  const router = useRouter()
+
+
+  useLayoutEffect(() => {
+    setPath(router?.pathname)
+  }, [router])
 
   return (
     <>
@@ -52,7 +61,7 @@ export default function DynamicHead({
         <meta property="og:url" content={DomainName} />{" "}
         {/* organization domain name */}
         <meta name="google-site-verification" content="brwVW6-s8SMtYXPcRnLL7cJMs49Ymb8fAf0o88s0Qr8" />
-
+        <link rel="canonical" href={`https://gmqglobal.com.au${path}`} /> 
       </Head>
     </>
   );
