@@ -23,7 +23,7 @@ export default function Home() {
   }
   return (
     <>
-      <DynamicHead />
+      <DynamicHead title="GMQ Global - Professional Education Consultant in Australia" description="GMQ Global, your trusted partner and professional education consultant in Australia. Navigate the complexities of studying abroad with personalized assistance and comprehensive support services for academic success."  />
       <HomeBanner />
       <HomeCourses />
       {/* <ReferralJoinProgram /> */}

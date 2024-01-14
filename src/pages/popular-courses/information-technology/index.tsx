@@ -19,7 +19,7 @@ function InformationTechnologyPage() {
   }
   return (
     <>
-      <DynamicHead title="Information Technology - GMQ Global" description="Information Technology - GMQ Global" />
+      <DynamicHead title="Best IT Courses in Australia for International Students" description="Explore top-notch IT courses in Australia for international students, blending modern education with hands-on experience. Secure a global IT career with GMQ Global guidance." />
       {/* <AppSliderBanner data={informationTechnologyBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={informationTechnologyBannerData} />

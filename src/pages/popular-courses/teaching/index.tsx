@@ -28,8 +28,8 @@ function teaching() {
   return (
     <>
       <DynamicHead
-        title="Teaching - GMQ Global"
-        description="Teaching - GMQ Global"
+        title="Best Teaching Courses in Australia for International Students"
+        description="Explore transformative Teaching Courses in Australia for international students with GMQ Global. Elevate your career in education through industry-focused qualifications and expert guidance."
       />
       <div className="hidden md:block">
         <AppSliderBanner data={teachingBannerData} />

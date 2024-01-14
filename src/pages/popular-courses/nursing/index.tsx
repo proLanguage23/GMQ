@@ -23,8 +23,8 @@ function NursingPage() {
   return (
     <>
       <DynamicHead
-        title="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global"
-        description="Study Nursing Course in Australia: Top Nursing Courses, Colleges, Universities, Fees | - GMQ Global"
+        title="Study Nursing in Australia for International Students"
+        description="Discover seamless pathways to study nursing in Australia with GMQ Global. Expert guidance for international students aspiring for PR in a high-demand healthcare sector."
       />
       <div className="hidden md:block">
         <AppSliderBanner data={NursingBannerData} />

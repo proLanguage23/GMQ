@@ -27,8 +27,8 @@ function CookeryCoursesInAustraliaPage() {
   return (
     <>
       <DynamicHead
-        title="Cookery Courses in Australia: Top Colleges &amp; Universities, Fees, Prospects | Cooking Courses - GMQ Global"
-        description="Cookery Courses in Australia: Top Colleges &amp; Universities, Fees, Prospects | Cooking Courses - GMQ Global"
+        title="Hospitality & Cookery Course in Australia for International Students"
+        description="Choose top-notch Hospitality & Cookery courses in Australia. Immerse yourself in global flavors and gain practical experience in world-class hotels and restaurants."
       />
       <div className="hidden md:block">
         <AppSliderBanner data={CookeryCoursesInAustraliaBannerData} />

@@ -18,7 +18,7 @@ function ProfessionalYearProgramPage() {
   }
   return (
     <>
-      <DynamicHead title="Professional Year Program global | IT, Accounting &amp; Engineering |  - GMQ Global" description="Professional Year Program global | IT, Accounting &amp; Engineering |  - GMQ Global" />
+      <DynamicHead title="Professional Year in Australia for International Students" description="Enhance your career prospects with a Professional Year in Australia for Engineering, IT, and Accounting graduates. Gain essential skills, a competitive edge, and five points for Global Permanent Residency." />
       {/* <AppSliderBanner data={ProfessionalYearProgramBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={ProfessionalYearProgramBannerData} />

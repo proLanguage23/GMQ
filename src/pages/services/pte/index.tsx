@@ -23,8 +23,8 @@ function PTE_Page() {
   return (
     <>
       <DynamicHead
-        title="Best PTE Online Courses |  - GMQ Global"
-        description="Best PTE Online Courses |  - GMQ Global"
+        title="Best PTE Coaching in Melbourne, Australia"
+        description="Achieve success in Australia with the best PTE coaching in Melbourne. Excel in reading, listening, writing, and speaking for a prosperous future."
       />
       {/* <AppSliderBanner data={PTEBannerData} /> */}
       <div className="hidden md:block">

@@ -18,7 +18,7 @@ function TradeCoursesPage() {
   }
   return (
     <>
-      <DynamicHead title="Trade Courses - GMQ Global" description="Trade Courses - GMQ Global" />
+      <DynamicHead title="Best Trade Courses in Australia for International Students" description="Maximize skilled migration points with Trade Courses in Australia. GMQ Global guides your professional journey for potential permanent residency. Enroll now!" />
       {/* <AppSliderBanner data={TradeCoursesBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={TradeCoursesBannerData} />

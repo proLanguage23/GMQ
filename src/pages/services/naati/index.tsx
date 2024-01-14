@@ -18,7 +18,7 @@ function NAATI_PAGE() {
   }
   return (
     <>
-      <DynamicHead title="NAATI - GMQ Global" />
+      <DynamicHead title="Best NAATI Course in Australia for International Students" description="Achieve NAATI accreditation with GMQ Global's specialized assistance for international students. Excel in the exam, gain extra visa points, and pave a successful language career in Australia." />
       {/* <AppSliderBanner data={NAATIBannerData} /> */}
       <div className="hidden md:block">
         <AppSliderBanner data={NAATIBannerData} />

@@ -26,8 +26,8 @@ function EducationCounsellingPage() {
   return (
     <>
       <DynamicHead
-        title="Education Counselling - GMQ Global"
-        description="Education Counselling - GMQ Global"
+        title="Best Career Counselling in Melbourne, Sydney, Australia"
+        description="Embark on a transformative academic journey with GMQ Global's experienced Education Counselors in Melbourne and Sydney, Australia. We are your trusted partner for seamless career counseling, visa compliance, and a world of educational opportunities."
       />
 
       <div className="hidden md:block">
