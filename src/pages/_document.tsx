@@ -38,7 +38,7 @@ export default function Document() {
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3MDJ7ZN" height="0" width="0" style="display: none; visibility: hidden;" />`,
           }}
         />
-        
+
         <noscript
           dangerouslySetInnerHTML={{
             __html: `<img height="1" width="1" style="display:none"
